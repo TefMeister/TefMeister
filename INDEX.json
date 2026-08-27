@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-08-27",
+
+  "about": {
+    "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
+    "account": "TefMeister",
+    "subject": "Flat-to-VR game modding: converting existing flat PC games to VR, plus the reusable knowledge produced along the way.",
+    "stated_goal": "The playable VR mods matter, but the durable goal is the knowledge, published so others can reuse it.",
+    "human_readme": "https://github.com/TefMeister/TefMeister"
+  },
+
+  "read_first": [
+    {
+      "if": "You are about to drive or automate one of these games",
+      "read": "https://github.com/TefMeister/ai-game-control-profiles",
+      "why": "Keys, menu routes, state detection and entry points, per game. Vendor-neutral. Its UNIVERSAL.md carries the method rules that prevent the most wasted work."
+    },
+    {
+      "if": "You are doing reverse-engineering or VR conversion work",
+      "read": "https://github.com/TefMeister/flat-to-vr-RE-toolkit",
+      "why": "The engine-agnostic PLAYBOOK, the tool catalogue, and tools/ (small utilities that already earned their place)."
+    },
+    {
+      "if": "You want what is known about an engine family",
+      "read": "https://github.com/TefMeister/flat-to-vr-cross-engine-research",
+      "why": "Cross-engine library. docs/engines/ has one page per engine family."
+    },
+    {
+      "if": "You are resuming work on a specific game",
+      "read": "that project's -engine-research/ENGINE-DOSSIER.md, then its -modding-notes",
+      "why": "The dossier is distilled current truth for that engine, including dead ends. The notes are the chronological ledger."
+    }
+  ],
+
+  "conventions": {
+    "repo_suffixes": {
+      "-mod": { "visibility": "public", "holds": "released builds only", "note": "Often empty. A project with no release yet has an empty -mod; this is expected, not a mistake." },
+      "-dev-archive": { "visibility": "public", "holds": "the messy working history: snapshots, probes, dead ends — AND, in practice, the live working source", "note": "IMPORTANT: this is where the actual mod source lives for most projects, despite the name suggesting otherwise. See source_of_truth below." },
+      "-modding-notes": { "visibility": "public", "holds": "readable field notes and the progress ledger" },
+      "-staging": { "visibility": "private", "holds": "unverified work-in-progress builds; the cross-machine handoff channel" },
+      "-engine-research": { "visibility": "public", "holds": "ENGINE-DOSSIER.md — distilled truth about that game's engine, including a dead-ends section" },
+      "-external-research": { "visibility": "public", "holds": "leads gathered from public sources by a research-only session; INDEX.md plus topics/" }
+    },
+
+    "source_of_truth": {
+      "rule": "Unless a project says otherwise below, the live mod source is in <project>-dev-archive, commonly under tools/ or a branch worktree — NOT in <project>-mod.",
+      "why_this_is_documented": "The naming genuinely misleads. -mod sounds like where the mod is, but it holds releases and is usually empty. A session looking for the Psychonauts source checked -mod (stale build, no source) and -staging (docs only) before finding it third, in -dev-archive/tools/."
+    },
+
+    "repo_creation_policy": {
+      "rule": "Create repos on a NEED-TO-CREATE basis, not six upfront.",
+      "changed": "2026-08-27",
+      "reason": "Pre-seeding six repos per project produced roughly 70 empty shells across 16 projects. Empty repos are cheap to keep but noisy to arrive at.",
+      "at_project_start": ["-dev-archive", "-engine-research"],
+      "add_when_earned": {
+        "-modding-notes": "when there is a ledger entry to write",
+        "-external-research": "when a research session actually has findings",
+        "-staging": "when there is a build to hand between machines",
+        "-mod": "when there is something to release"
+      },
+      "unchanged": "Naming, the standard README navigation block, CREDITS.md and CONTRIBUTING.md stay identical across every repo. Creating fewer repos must not mean an inconsistent look."
+    },
+
+    "one_writer_per_file": {
+      "rule": "Every file has exactly one kind of session that may edit it. Reading is unrestricted.",
+      "lanes": {
+        "modding": "curates -mod, -dev-archive, -modding-notes, -staging, -engine-research",
+        "research (/gr)": "curates that project's -external-research",
+        "sweep (/sr)": "curates flat-to-vr-cross-engine-research"
+      },
+      "cross_lane": "Contributions travel as new, uniquely-named files dropped in the receiving repo's inbox/ — never as edits to a file another lane curates."
+    }
+  },
+
+  "meta_repos": [
+    { "name": "ai-game-control-profiles", "visibility": "public", "url": "https://github.com/TefMeister/ai-game-control-profiles", "purpose": "How to OPERATE games programmatically: keys, menu routes, state detection, entry points. Machine-readable, vendor-neutral.", "licence": "CC-BY-4.0" },
+    { "name": "flat-to-vr-RE-toolkit", "visibility": "public", "url": "https://github.com/TefMeister/flat-to-vr-RE-toolkit", "purpose": "The engine-agnostic PLAYBOOK, a catalogue of tested third-party tools, and tools/ — our own battle-tested utilities." },
+    { "name": "flat-to-vr-cross-engine-research", "visibility": "public", "url": "https://github.com/TefMeister/flat-to-vr-cross-engine-research", "purpose": "Universal library of publicly-available flat-to-VR knowledge, organised by engine family.", "licence": "CC-BY-4.0" },
+    { "name": "TefMeister", "visibility": "public", "url": "https://github.com/TefMeister/TefMeister", "purpose": "Profile README (human-facing) and this INDEX.json (machine-facing)." },
+    { "name": "claude-memory", "visibility": "private", "purpose": "Cross-machine working state and preferences. Not public and not required to understand any of the above." }
+  ],
+
+  "projects": [
+    { "prefix": "psychonauts-vr", "game": "Psychonauts", "year": 2005, "developer": "Double Fine", "engine": "bespoke in-house", "renderer": "Direct3D 9", "injection": "proxy d3d9.dll", "stage": "core VR working in a real headset; automation harness and free camera added 2026-08-27", "source_of_truth": "psychonauts-vr-dev-archive/tools/proxy-d3d9/" },
+    { "prefix": "XIII2003-vr", "game": "XIII", "year": 2003, "developer": "Ubisoft Paris", "engine": "Unreal Engine 2", "renderer": "Direct3D 8", "injection": "proxy D3DDrv.dll (Unreal render device)", "stage": "framebuffer-in-VR head-look verified in a headset; external command automation working", "source_of_truth": "XIII2003-vr-dev-archive, branch milestone-1-vr-headlook" },
+    { "prefix": "the-evil-within-vr", "game": "The Evil Within", "year": 2014, "developer": "Tango Gameworks", "engine": "id Tech 5 (STEM)", "renderer": "Direct3D 11", "injection": "proxy winmm.dll + MinHook", "stage": "building the stereo 6DOF core; no headset output yet" },
+    { "prefix": "far-cry-2-vr", "game": "Far Cry 2", "year": 2008, "developer": "Ubisoft Montreal", "engine": "Dunia", "renderer": "Direct3D 9", "injection": "proxy winmm.dll", "stage": "VR bridge verified on real hardware; stereo override works in gameplay" },
+    { "prefix": "unreal-gold-vr", "game": "Unreal Gold", "year": 1998, "developer": "Epic MegaGames / Digital Extremes", "engine": "Unreal Engine 1 (OldUnreal 227k)", "renderer": "Direct3D 11", "injection": "native render device — no injection needed", "stage": "from-scratch render device renders the game and has been played flat" },
+    { "prefix": "manhunt-2003-vr", "game": "Manhunt", "year": 2003, "developer": "Rockstar North", "engine": "RenderWare", "stage": "windowed mode working; investigating anti-tamper tripwires" },
+    { "prefix": "doom-2016-vr", "game": "DOOM", "year": 2016, "developer": "id Software", "engine": "id Tech 6", "renderer": "OpenGL / Vulkan", "stage": "recon complete; an inherited stereo path exists in the binary but the console is double-gated" },
+    { "prefix": "arcade-controls-re2-vr", "game": "Resident Evil 2 (2019)", "year": 2019, "developer": "Capcom", "engine": "RE Engine", "platform_note": "gameplay-layer mod on top of praydog's REFramework", "stage": "SHIPPED on Nexus; project closed, kept as study material", "repos_note": "five repos, predates the -external-research convention" },
+    { "prefix": "visceral-re2-vr", "game": "Resident Evil 2 (2019)", "year": 2019, "developer": "Capcom", "engine": "RE Engine", "stage": "planned ground-up rebuild, successor to arcade-controls-re2-vr" },
+    { "prefix": "re-village-scope-vr", "game": "Resident Evil Village", "year": 2021, "developer": "Capcom", "engine": "RE Engine", "stage": "focused sub-project on the sniper scope" },
+    { "prefix": "enslaved-vr", "game": "Enslaved: Odyssey to the West", "year": 2013, "developer": "Ninja Theory", "engine": "Unreal Engine 3", "stage": "early" },
+    { "prefix": "mad-max-vr", "game": "Mad Max", "year": 2015, "developer": "Avalanche Studios", "engine": "Apex (Avalanche)", "stage": "early" },
+    { "prefix": "prince-of-persia-2008-vr", "game": "Prince of Persia", "year": 2008, "developer": "Ubisoft Montreal", "engine": "Anvil", "stage": "early" },
+    { "prefix": "alice-madness-returns-vr", "game": "Alice: Madness Returns", "year": 2011, "developer": "Spicy Horse", "engine": "Unreal Engine 3", "stage": "early" },
+    { "prefix": "alan-wake-vr", "game": "Alan Wake", "year": 2012, "developer": "Remedy Entertainment", "engine": "in-house", "stage": "early" },
+    { "prefix": "burnout-paradise-vr", "game": "Burnout Paradise", "year": 2008, "developer": "Criterion Games", "engine": "in-house", "stage": "PAUSED — the game requires a third-party publisher launcher/account to start, which is unavailable here. Not a technical blocker." }
+  ],
+
+  "notes_for_ai_readers": [
+    "Repo suffixes are consistent; presence is not. A missing suffix means that stage has not been reached yet, per the need-to-create policy above.",
+    "Prefer ai-game-control-profiles over inferring controls from these repos — the mod repos describe how a game was MODIFIED, not how to OPERATE it.",
+    "Every project's -engine-research/ENGINE-DOSSIER.md has a dead-ends section. Read it before proposing an approach; several plausible-looking routes have already been tried and refuted.",
+    "Claims in the notes carry dates. Where a later entry contradicts an earlier one, the later entry wins and usually says so explicitly."
+  ]
+}
