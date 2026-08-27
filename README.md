@@ -34,12 +34,24 @@ straight to what you need instead of digging through one giant repo:
 | `-mod` | The mod itself — releases only |
 | `-dev-archive` | Full messy in-progress history: snapshots, probes, dead ends |
 | `-modding-notes` | Readable field notes / progress ledger, one dated entry per session |
-| `-engine-research` | Distilled current truth: engine dossier + the reusable VR-RE playbook |
+| `-engine-research` | Distilled current truth: the engine dossier (the shared VR-RE playbook it follows lives in the toolkit, linked below) |
 | `-external-research` | Public-research leads (prior art, techniques) gathered separately from hands-on modding |
 | `-staging` | 🔒 private — unverified work-in-progress, not for browsing |
 
 A `-mod` repo's release notes always carry a disclaimer of what the mod is/isn't,
 plus a motion-sickness caution while a project is unfinished.
+
+Since 2026-08-26 the whole account also runs on a **one-writer-per-file rule**. Several of my
+sessions can work a project at the same time — hands-on modding, per-game public research, and a
+cross-project research sweep — so every file has exactly one session type that curates it, and
+anything one lane finds for another travels as a dated, create-only file in the receiving repo's
+`inbox/` folder; the owning session folds it into the curated docs and deletes it. So if you see
+an `inbox/` folder with files in it, that's knowledge in transit between sessions, not clutter.
+Two things gained single canonical homes the same day: the full playbook text now lives only in
+[flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit) (each project's
+`PLAYBOOK.md` is a pointer to it), and cross-game engine knowledge is unified in the library's
+[per-engine family pages](https://github.com/TefMeister/flat-to-vr-cross-engine-research/tree/main/docs/engines)
+— one page per engine family, linking every sibling project's dossier.
 
 ## Projects
 
@@ -56,16 +68,16 @@ plus a motion-sickness caution while a project is unfinished.
 | **Mad Max** (2015) | Avalanche/Apex Engine | Early — repos scaffolded, work just starting | [mod](https://github.com/TefMeister/mad-max-vr-mod) · [notes](https://github.com/TefMeister/mad-max-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/mad-max-vr-dev-archive) · [engine](https://github.com/TefMeister/mad-max-vr-engine-research) · [research](https://github.com/TefMeister/mad-max-vr-external-research) |
 | **Prince of Persia** (2008) | Proprietary Ubisoft Montreal engine | Early — repos scaffolded, work just starting | [mod](https://github.com/TefMeister/prince-of-persia-2008-vr-mod) · [notes](https://github.com/TefMeister/prince-of-persia-2008-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/prince-of-persia-2008-vr-dev-archive) · [engine](https://github.com/TefMeister/prince-of-persia-2008-vr-engine-research) · [research](https://github.com/TefMeister/prince-of-persia-2008-vr-external-research) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | Early — repos scaffolded, work just starting | [mod](https://github.com/TefMeister/alice-madness-returns-vr-mod) · [notes](https://github.com/TefMeister/alice-madness-returns-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/alice-madness-returns-vr-dev-archive) · [engine](https://github.com/TefMeister/alice-madness-returns-vr-engine-research) · [research](https://github.com/TefMeister/alice-madness-returns-vr-external-research) |
-| **Burnout Paradise** (Remastered) | Criterion in-house engine (D3D11) | Early — repos scaffolded; the active front, first-look reverse-engineering starting now | [mod](https://github.com/TefMeister/burnout-paradise-vr-mod) · [notes](https://github.com/TefMeister/burnout-paradise-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/burnout-paradise-vr-dev-archive) · [engine](https://github.com/TefMeister/burnout-paradise-vr-engine-research) · [research](https://github.com/TefMeister/burnout-paradise-vr-external-research) |
+| **Burnout Paradise** (Remastered) | Criterion in-house engine (D3D11) | ⏸️ Paused — the game is gated behind a third-party launcher; parked until that's worked out | [mod](https://github.com/TefMeister/burnout-paradise-vr-mod) · [notes](https://github.com/TefMeister/burnout-paradise-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/burnout-paradise-vr-dev-archive) · [engine](https://github.com/TefMeister/burnout-paradise-vr-engine-research) · [research](https://github.com/TefMeister/burnout-paradise-vr-external-research) |
 | **Alan Wake** (2010) | Proprietary Remedy engine (pre-Northlight) | Early — repos scaffolded, work just starting | [mod](https://github.com/TefMeister/alan-wake-vr-mod) · [notes](https://github.com/TefMeister/alan-wake-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/alan-wake-vr-dev-archive) · [engine](https://github.com/TefMeister/alan-wake-vr-engine-research) · [research](https://github.com/TefMeister/alan-wake-vr-external-research) |
-| **Manhunt** (2003) | RenderWare (D3D8) | Early — DRM-remnant bug root-caused, windowed mode queued next | [mod](https://github.com/TefMeister/manhunt-2003-vr-mod) · [notes](https://github.com/TefMeister/manhunt-2003-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/manhunt-2003-vr-dev-archive) · [engine](https://github.com/TefMeister/manhunt-2003-vr-engine-research) · [research](https://github.com/TefMeister/manhunt-2003-vr-external-research) |
+| **Manhunt** (2003) | RenderWare (D3D8) | Windowed mode confirmed working in live tests; DRM-remnant tripwires now being defused one by one | [mod](https://github.com/TefMeister/manhunt-2003-vr-mod) · [notes](https://github.com/TefMeister/manhunt-2003-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/manhunt-2003-vr-dev-archive) · [engine](https://github.com/TefMeister/manhunt-2003-vr-engine-research) · [research](https://github.com/TefMeister/manhunt-2003-vr-external-research) |
 | **DOOM** (2016) | id Tech 6 | Early — repos scaffolded, work just starting | [mod](https://github.com/TefMeister/doom-2016-vr-mod) · [notes](https://github.com/TefMeister/doom-2016-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/doom-2016-vr-dev-archive) · [engine](https://github.com/TefMeister/doom-2016-vr-engine-research) · [research](https://github.com/TefMeister/doom-2016-vr-external-research) |
 | **Arcade Controls for RE2 VR** *(closed)* | RE Engine (via REFramework) | Shipped on Nexus through v1.5.0; **superseded by Visceral — RE2 VR**, kept as frozen study material | [mod](https://github.com/TefMeister/arcade-controls-re2-vr-mod) · [notes](https://github.com/TefMeister/arcade-controls-re2-vr-modding-notes) · [dev-archive](https://github.com/TefMeister/arcade-controls-re2-vr-dev-archive) · [engine](https://github.com/TefMeister/arcade-controls-re2-vr-engine-research) |
 
 ## Shared knowledge (applies across every project, and to games with no project yet)
 
-- **[flat-to-vr-cross-engine-research](https://github.com/TefMeister/flat-to-vr-cross-engine-research)** — a public, engine-agnostic library of *publicly-available* flat→VR modding knowledge: an engine landscape index, generic-driver options (vorpX, geo-11), engine-agnostic core patterns, and worked case studies. Every source credited in its `ATTRIBUTION.md`.
-- **[flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit)** — battle-tested tools, skills, and the reusable VR reverse-engineering playbook used to start every project above.
+- **[flat-to-vr-cross-engine-research](https://github.com/TefMeister/flat-to-vr-cross-engine-research)** — a public, engine-agnostic library of *publicly-available* flat→VR modding knowledge: an engine landscape index, [per-engine family pages](https://github.com/TefMeister/flat-to-vr-cross-engine-research/tree/main/docs/engines) tying my sibling projects on the same engine together, generic-driver options (vorpX, geo-11), engine-agnostic core patterns, and worked case studies. Every source credited in its `ATTRIBUTION.md`.
+- **[flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit)** — battle-tested tools, skills, and the canonical copy of the reusable VR reverse-engineering playbook every project above follows.
 
 ---
 
