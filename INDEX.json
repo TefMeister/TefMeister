@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-08-30",
+  "updated": "2026-09-01",
 
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
@@ -72,7 +72,7 @@
 
   "projects": [
     { "repo": "psychonauts-vr", "game": "Psychonauts", "year": 2005, "developer": "Double Fine", "engine": "bespoke in-house", "renderer": "Direct3D 9", "injection": "proxy d3d9.dll", "stage": "core VR working in a real headset; automation harness and free camera added 2026-08-27; black-void culling fix verified on-monitor 2026-08-28", "source_of_truth": "psychonauts-vr/dev-archive/tools/proxy-d3d9/" },
-    { "repo": "XIII2003-vr", "game": "XIII", "year": 2003, "developer": "Ubisoft Paris", "engine": "Unreal Engine 2", "renderer": "Direct3D 8", "injection": "proxy D3DDrv.dll (Unreal render device)", "stage": "framebuffer-in-VR head-look verified in a headset; external command automation and closed-loop driving working" },
+    { "repo": "XIII2003-vr", "game": "XIII", "year": 2003, "developer": "Ubisoft Paris", "engine": "Unreal Engine 2", "renderer": "Direct3D 8", "injection": "proxy D3DDrv.dll (Unreal render device)", "stage": "framebuffer-in-VR head-look verified in a headset; external command automation and closed-loop driving working", "warning": "As of 2026-09-01 the proxy SOURCE is in no repository - zero source files across this repo's whole history and none in staging. The only known copy is an unversioned folder on the home PC. Milestone 2 cannot be implemented until it is committed." },
     { "repo": "the-evil-within-vr", "game": "The Evil Within", "year": 2014, "developer": "Tango Gameworks", "engine": "id Tech 5 (STEM)", "renderer": "Direct3D 11", "injection": "proxy winmm.dll + MinHook", "stage": "building the stereo 6DOF core; no headset output yet" },
     { "repo": "far-cry-2-vr", "game": "Far Cry 2", "year": 2008, "developer": "Ubisoft Montreal", "engine": "Dunia", "renderer": "Direct3D 9", "injection": "proxy winmm.dll", "stage": "VR bridge verified on real hardware; stereo override works in gameplay" },
     { "repo": "unreal-gold-vr", "game": "Unreal Gold", "year": 1998, "developer": "Epic MegaGames / Digital Extremes", "engine": "Unreal Engine 1 (OldUnreal 227k)", "renderer": "Direct3D 11", "injection": "native render device — no injection needed", "stage": "from-scratch render device renders the game and has been played flat" },
@@ -81,12 +81,12 @@
     { "repo": "arcade-controls-re2-vr", "game": "Resident Evil 2 (2019)", "year": 2019, "developer": "Capcom", "engine": "RE Engine", "platform_note": "gameplay-layer mod on top of praydog's REFramework", "stage": "SHIPPED on Nexus; project closed, kept as frozen study material" },
     { "repo": "visceral-re2-vr", "game": "Resident Evil 2 (2019)", "year": 2019, "developer": "Capcom", "engine": "RE Engine", "stage": "active ground-up rebuild, successor to arcade-controls-re2-vr; v0.1.0 (body & posture) released 2026-08-30 on this repo's Releases page" },
     { "repo": "re-village-scope-vr", "game": "Resident Evil Village", "year": 2021, "developer": "Capcom", "engine": "RE Engine", "stage": "active sub-project: a real mirror-fed sniper scope; display, grading, and clip-plane solved as of 2026-08-30" },
-    { "repo": "enslaved-vr", "game": "Enslaved: Odyssey to the West", "year": 2013, "developer": "Ninja Theory", "engine": "Unreal Engine 3", "stage": "early" },
-    { "repo": "mad-max-vr", "game": "Mad Max", "year": 2015, "developer": "Avalanche Studios", "engine": "Apex (Avalanche)", "stage": "early" },
+    { "repo": "enslaved-vr", "game": "Enslaved: Odyssey to the West", "year": 2013, "developer": "Ninja Theory", "engine": "Unreal Engine 3", "renderer": "Direct3D 9", "stage": "camera delivery solved statically 2026-09-01 - the game ships its UE3 .usf sources, so the shared view-projection is known to sit at vertex register c0, with the camera position at c4" },
+    { "repo": "mad-max-vr", "game": "Mad Max", "year": 2015, "developer": "Avalanche Studios", "engine": "Apex (Avalanche)", "renderer": "Direct3D 11", "stage": "Denuvo blocks debugging, but the shader bundle ships with reflection intact - 1363 shaders read off disk 2026-09-01, per-object WorldViewProjMatrix located" },
     { "repo": "prince-of-persia-2008-vr", "game": "Prince of Persia", "year": 2008, "developer": "Ubisoft Montreal", "engine": "Anvil", "stage": "early" },
     { "repo": "alice-madness-returns-vr", "game": "Alice: Madness Returns", "year": 2011, "developer": "Spicy Horse", "engine": "Unreal Engine 3", "stage": "early" },
     { "repo": "alan-wake-vr", "game": "Alan Wake", "year": 2012, "developer": "Remedy Entertainment", "engine": "in-house", "stage": "early" },
-    { "repo": "burnout-paradise-vr", "game": "Burnout Paradise", "year": 2008, "developer": "Criterion Games", "engine": "in-house", "stage": "PAUSED — the game requires a third-party publisher launcher/account to start, which is unavailable here. Not a technical blocker." }
+    { "repo": "burnout-paradise-vr", "game": "Burnout Paradise", "year": 2008, "developer": "Criterion Games", "engine": "in-house", "stage": "PAUSED. Two blockers, not one: it needs a third-party publisher launcher/account, AND (verified 2026-09-01) the game is not installed on the dev machine at all - that folder holds only our own proxy DLL, so static work is impossible there too." }
   ],
 
   "notes_for_ai_readers": [
