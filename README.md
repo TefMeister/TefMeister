@@ -67,7 +67,7 @@ clutter. The full playbook text lives only in
 | **RE Village — VR scope** | RE Engine (native REFramework plugin) | Real mirror-fed sniper scope on the rifle's glass; display, auto-grading and clip-plane solved, zeroing next | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 (NTEngine, D3D9) | Early — repos scaffolded, work just starting | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Mad Max** (2015) | Avalanche/Apex Engine | Early — repos scaffolded, work just starting | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
-| **Prince of Persia** (2008) | Proprietary Ubisoft Montreal engine | Early — repos scaffolded, work just starting | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
+| **Prince of Persia** (2008) | Scimitar (Ubisoft Montreal; became Anvil) | `.forge` archives decoded end to end (2026-09-02); the camera system is data and a debug first-person camera is authored in it — its entry path is the open question | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | Early — repos scaffolded, work just starting | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Burnout Paradise** (Remastered) | Criterion in-house engine (D3D11) | ⏸️ Paused — the game is gated behind a third-party launcher; parked until that's worked out | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 | **Alan Wake** (2010) | Proprietary Remedy engine (pre-Northlight) | Early — repos scaffolded, work just starting | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
