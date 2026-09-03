@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-01",
+  "updated": "2026-09-03",
 
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
@@ -49,6 +49,24 @@
     },
 
     "history_note": "Each folder was its own repo until 2026-08-30. Full per-file history is preserved and reachable through the folder's subtree join commit (git log the merge parents). The old <prefix>-<suffix> repo names redirect only where a repo was renamed (each game's -mod became the game repo).",
+
+    "session_lanes": {
+      "note": "Five kinds of session, each typed as a slash-command. They are designed to run at the same time; one_writer_per_file below is what keeps them from colliding.",
+      "lanes": {
+        "/lm (live modding)": "the only lane that may launch a game, attach a debugger or drive VR",
+        "/pd (parallel development)": "advances every project as far as it can with no game running",
+        "/gr (game research)": "public-research sweep; curates each game repo external-research/",
+        "/sr (sweep research)": "cross-project research; curates flat-to-vr-cross-engine-research",
+        "/gs (github sweep)": "read-only hygiene audit of the whole estate; curates nothing"
+      },
+      "background_agents": {
+        "allowed_in": ["/gr", "/sr", "/pd"],
+        "never_in": ["/lm", "/gs"],
+        "set": "2026-09-03, by the account owner",
+        "rationale": "The three sweep lanes are breadth-first over many projects and leave their output as reviewable commits. /lm drives a live game, which no agent may do. /gs is an audit whose value is that the session performed each check itself, so a second-hand summary would defeat it.",
+        "still_applies": "Even where allowed, agents must be few and each must have a job the owner could name without asking; ad-hoc fan-out is not the intent."
+      }
+    },
 
     "one_writer_per_file": {
       "rule": "Every file has exactly one kind of session that may edit it. Reading is unrestricted.",
