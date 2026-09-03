@@ -62,6 +62,7 @@
       "background_agents": {
         "allowed_in": ["/gr", "/sr", "/pd"],
         "never_in": ["/lm", "/gs"],
+        "never_in_includes": "the standing /gate-watch background watcher, which is otherwise permitted everywhere (owner ruling, 2026-09-03): those two lanes run fully inline.",
         "set": "2026-09-03, by the account owner",
         "rationale": "The three sweep lanes are breadth-first over many projects and leave their output as reviewable commits. /lm drives a live game, which no agent may do. /gs is an audit whose value is that the session performed each check itself, so a second-hand summary would defeat it.",
         "still_applies": "Even where allowed, agents must be few and each must have a job the owner could name without asking; ad-hoc fan-out is not the intent."
