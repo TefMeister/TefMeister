@@ -54,25 +54,47 @@ clutter. The full playbook text lives only in
 [per-engine family pages](https://github.com/TefMeister/flat-to-vr-cross-engine-research/tree/main/docs/engines)
 — one page per engine family, linking every sibling project's dossier.
 
+## Where things stand (2026-09-10)
+
+**In one evening, eight of these were worn back to back in a real headset** — the first time the
+whole queue was cleared in one sitting. **XIII** rendered true stereo in VR for the first time, over
+Virtual Desktop's 32-bit OpenXR runtime. **Unreal Gold** fused, and the world came out life-size.
+**Alice: Madness Returns** got live head tracking, position and rotation. **Far Cry 2** got per-eye
+stereo parity and head rotation. **Resident Evil 2** carried head and controller poses across the
+bridge for the first time. Two did not go well and that is written down too: **Psychonauts**'
+camera-follow build went badly glitchy within seconds and does not ship, and **Enslaved** could not
+be worn at all because the proxy has no side-by-side output mode yet.
+
+The useful part was not the wins. Twice in one evening, on two unrelated engines, the same lesson
+landed: **rotating the picture after the engine has already culled leaves nothing behind the
+player** — head rotation has to reach the game's *own* camera, not just the matrix I intercept.
+And twice, a driver that logged only where nothing could read it cost whole launches, so every
+driver I write now states its VR verdict to a file.
+
+One caveat worth stating plainly, because it applies to nearly every line in the table below:
+almost all of it is **one wearer, one machine, often one launch**. The notes say so each time.
+"It fused once" is a much smaller claim than "it is comfortable", and I try not to let the first
+quietly become the second.
+
 ## Projects
 
 | Game | Engine | Status | Repo |
 | --- | --- | --- | --- |
-| **Psychonauts** (2005) | Bespoke Double Fine engine (D3D9, Lua) | Core VR (stereo + 6DOF head tracking) **working in a real headset**; active dev | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
-| **XIII** (2003) | Unreal Engine 2 (D3D8) | Milestone 1 (VR head-look) **verified in a real headset**; native stereo in progress | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
-| **Far Cry 2** (2008) | Dunia Engine (D3D9) | VR bridge **confirmed working on real headset hardware**; head tracking next | [far-cry-2-vr](https://github.com/TefMeister/far-cry-2-vr) |
-| **Unreal Gold** (1998) | Unreal Engine 1 (OldUnreal 227k) | From-scratch native D3D11 render device; world rendering playtested; stereo next | [unreal-gold-vr](https://github.com/TefMeister/unreal-gold-vr) |
-| **The Evil Within** (2014) | id Tech 5 "STEM" (D3D11) | Pre-release — building the stereo 6DOF core, no headset output yet | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
-| **Visceral — RE2 VR** | RE Engine (via praydog's REFramework) | Active ground-up rebuild; **v0.1.0 (body & posture) released 2026-08-30** | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
-| **RE Village — VR scope** | RE Engine (native REFramework plugin) | Real mirror-fed sniper scope on the rifle's glass; display, auto-grading and clip-plane solved, zeroing next | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
-| **Enslaved: Odyssey to the West** | Unreal Engine 3 (NTEngine, D3D9) | Early — repos scaffolded, work just starting | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
-| **Mad Max** (2015) | Avalanche/Apex Engine | Early — repos scaffolded, work just starting | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
-| **Prince of Persia** (2008) | Scimitar (Ubisoft Montreal; became Anvil) | `.forge` archives decoded end to end (2026-09-02); the camera system is data and a debug first-person camera is authored in it — its entry path is the open question | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **Alice: Madness Returns** (2011) | Unreal Engine 3 | Early — repos scaffolded, work just starting | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
-| **Burnout Paradise** (Remastered) | Criterion in-house engine (D3D11) | ⏸️ Paused — the game is gated behind a third-party launcher; parked until that's worked out | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
-| **Alan Wake** (2010) | Proprietary Remedy engine (pre-Northlight) | Early — repos scaffolded, work just starting | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
-| **Manhunt** (2003) | RenderWare (D3D8) | Windowed mode confirmed working in live tests; DRM-remnant tripwires now being defused one by one | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
-| **DOOM** (2016) | id Tech 6 | Early — repos scaffolded, work just starting | [doom-2016-vr](https://github.com/TefMeister/doom-2016-vr) |
+| **XIII** (2003) | Unreal Engine 2 (D3D8) | 🎉 **True stereo working in a real headset** (2026-09-10, over Virtual Desktop's 32-bit OpenXR) — eyes line up in gameplay, head-look correct in yaw. HUD depth, a spin-when-poseless fallback, shadows and head roll still to fix | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
+| **Unreal Gold** (1998) | Unreal Engine 1 (OldUnreal 227k) | **It fuses, and the world is life-size** (2026-09-10). From-scratch native D3D11 render device; stereo also proven numerically on a monitor first. Left: the HUD and sprites are drawn once across the window instead of once per eye | [unreal-gold-vr](https://github.com/TefMeister/unreal-gold-vr) |
+| **Psychonauts** (2005) | Bespoke Double Fine engine (D3D9, Lua) | Core VR (stereo + 6DOF head tracking) **working in a real headset** since 2026-08-18, but the camera-follow build **failed its first wear** (2026-09-10) and does not ship — being diagnosed | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
+| **Alice: Madness Returns** (2011) | Unreal Engine 3 (D3D9) | **Head tracking live in the headset**, position and rotation (2026-09-10). Stereo edit and per-eye maths done; what is left is calibrating world scale | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
+| **Far Cry 2** (2008) | Dunia Engine (D3D9) | **Stereo parity and head rotation both work in the headset** (2026-09-10). Two defects found: the engine still culls for the mouse camera, so nothing renders behind you; and the weapon doubles at a real IPD | [far-cry-2-vr](https://github.com/TefMeister/far-cry-2-vr) |
+| **Visceral — RE2 VR** | RE Engine (via praydog's REFramework) | Active rebuild; **v0.1.0 (body & posture) released 2026-08-30**. First VR run of the native plugin (2026-09-10) carried head + controller poses for the first time; the weapon dock and the head hider are both blocked on two static bugs now identified | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
+| **RE Village — VR scope** | RE Engine (native REFramework plugin) | A real mirror-fed sniper scope, live scene content on the rifle's glass. A headset run (2026-09-10) cleared the multipass worry — it recovers by itself. Clip plane still passes through the rifle | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
+| **DOOM** (2016) | id Tech 6 (OpenGL / Vulkan) | **The engine's own projection matrix has been read and proved**, and the view position is obtainable unattended (2026-09-10). Moves from "we cannot see the camera" to "now write to it" | [doom-2016-vr](https://github.com/TefMeister/doom-2016-vr) |
+| **Mad Max** (2015) | Avalanche/Apex Engine (D3D11) | **The world moves** — the per-object write site is confirmed as the transform that positions the frame (2026-09-10). Denuvo blocks debugger attach, but the shipped shaders kept their reflection data, which is why that wall never blocked us | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
+| **Manhunt** (2003) | RenderWare (D3D8) | **The game is drivable unattended** (2026-09-10) via a synthesised DirectInput mouse. Windowed mode needs no code patch — it is a registry value | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
+| **Alan Wake** (2010) | Remedy in-house, pre-Northlight (D3D9) | The proxy finally **owns the real device** — for weeks it only ever saw a throwaway probe one. Stereo edit wired in, both hook races closed. Needs a new idea rather than another probe | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
+| **Prince of Persia** (2008) | Scimitar (Ubisoft Montreal; became Anvil) | `.forge` archives decoded end to end; the camera system is *data*, and a shipped debug first-person camera rule has been repointed at a camera that follows the player. Deployed, awaiting a walk-and-turn test | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
+| **Enslaved: Odyssey to the West** | Unreal Engine 3 (D3D9) | Camera delivery solved statically from the game's own shipped shader sources. **Not wearable yet for a small, known reason:** the proxy has no side-by-side output mode | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
+| **The Evil Within** (2014) | id Tech 5 "STEM" (D3D11) | Pre-release — building the stereo 6DOF core. The rotation now reaches the draws it was missing; whether it is *correct* is the open question | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
+| **Burnout Paradise** (Remastered) | Criterion in-house engine (D3D11) | ⏸ Paused on two blockers: a third-party publisher launcher, and the game is not installed on either machine — so even static work is impossible | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 | **Arcade Controls for RE2 VR** *(closed)* | RE Engine (via REFramework) | Shipped on Nexus through v1.5.0; **superseded by Visceral — RE2 VR**, kept as frozen study material | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 ## Shared knowledge (applies across every project, and to games with no project yet)

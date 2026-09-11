@@ -1,284 +1,301 @@
 {
-  "schema_version": "2.0",
-  "updated": "2026-09-04",
-  "about": {
-    "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
-    "account": "TefMeister",
-    "subject": "Flat-to-VR game modding: converting existing flat PC games to VR, plus the reusable knowledge produced along the way.",
-    "stated_goal": "The playable VR mods matter, but the durable goal is the knowledge, published so others can reuse it.",
-    "human_readme": "https://github.com/TefMeister/TefMeister",
-    "layout_change": "2026-08-30: consolidated from six repos per game (101 repos) to ONE public repo per game plus one private staging monorepo (22 repos). Each former repo is now a folder inside its game repo, with full git history preserved behind a subtree join commit."
+ "schema_version": "2.0",
+ "updated": "2026-09-11",
+ "about": {
+  "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
+  "account": "TefMeister",
+  "subject": "Flat-to-VR game modding: converting existing flat PC games to VR, plus the reusable knowledge produced along the way.",
+  "stated_goal": "The playable VR mods matter, but the durable goal is the knowledge, published so others can reuse it.",
+  "human_readme": "https://github.com/TefMeister/TefMeister",
+  "layout_change": "2026-08-30: consolidated from six repos per game (101 repos) to ONE public repo per game plus one private staging monorepo (22 repos). Each former repo is now a folder inside its game repo, with full git history preserved behind a subtree join commit."
+ },
+ "headline": {
+  "date": "2026-09-10",
+  "what": "In one evening, eight of these mods were worn back to back in a real headset — the first time the estate's whole headset queue was cleared in a single sitting.",
+  "results": [
+   "XIII (Unreal Engine 2): TRUE STEREO WORKS IN VR for the first time, over Virtual Desktop's 32-bit OpenXR runtime.",
+   "Unreal Gold (Unreal Engine 1): the picture FUSES and the world is life-size at StereoIPD=1.0.",
+   "Alice: Madness Returns (Unreal Engine 3): head tracking live in the headset, position and rotation.",
+   "Far Cry 2 (Dunia): per-eye stereo parity and head rotation both work.",
+   "Resident Evil 2 / Visceral (RE Engine): the pose bridge carried head and controller poses for the first time.",
+   "RE Village scope (RE Engine): the multipass worry turned out to be a startup stumble that recovers.",
+   "Psychonauts: the camera-follow build FAILED and does not ship. Enslaved could not be worn at all — no side-by-side output mode exists yet."
+  ],
+  "cross_cutting_lesson": "Seen twice in one evening, on two unrelated engines: ROTATING THE PICTURE AFTER THE ENGINE HAS ALREADY CULLED leaves nothing behind the player. Head yaw has to reach the game's own camera, not just the view matrix we intercept. Second lesson, also twice: a VR driver that logs only to OutputDebugString, or to a console that prints nothing, costs whole launches — every driver should write its VR init verdict to a file.",
+  "caveat": "Almost every result above is n=1 wearer on one machine. They are reported as such in each project's notes, and “it fused once” is not the same claim as “it is comfortable”."
+ },
+ "read_first": [
+  {
+   "if": "You are about to drive or automate one of these games",
+   "read": "https://github.com/TefMeister/ai-game-control-profiles",
+   "why": "Keys, menu routes, state detection and entry points, per game. Vendor-neutral. Its UNIVERSAL.md carries the method rules that prevent the most wasted work."
   },
-  "read_first": [
-    {
-      "if": "You are about to drive or automate one of these games",
-      "read": "https://github.com/TefMeister/ai-game-control-profiles",
-      "why": "Keys, menu routes, state detection and entry points, per game. Vendor-neutral. Its UNIVERSAL.md carries the method rules that prevent the most wasted work."
-    },
-    {
-      "if": "You are doing reverse-engineering or VR conversion work",
-      "read": "https://github.com/TefMeister/flat-to-vr-RE-toolkit",
-      "why": "The engine-agnostic PLAYBOOK, the tool catalogue, and tools/ (small utilities that already earned their place)."
-    },
-    {
-      "if": "You want what is known about an engine family",
-      "read": "https://github.com/TefMeister/flat-to-vr-cross-engine-research",
-      "why": "Cross-engine library. docs/engines/ has one page per engine family."
-    },
-    {
-      "if": "You are resuming work on a specific game",
-      "read": "that game repo's engine-research/ENGINE-DOSSIER.md, then its modding-notes/ folder",
-      "why": "The dossier is distilled current truth for that engine, including dead ends. The notes are the chronological ledger."
-    }
-  ],
-  "conventions": {
-    "game_repo_folders": {
-      "mod/": {
-        "holds": "release packaging and player-facing docs; the releases themselves are GitHub Releases on the game repo",
-        "note": "Often sparse. A project with no release yet has a near-empty mod/; this is expected, not a mistake."
-      },
-      "dev-archive/": {
-        "holds": "the live working mod source AND the messy dev history: snapshots, probes, recon evidence, dead ends",
-        "note": "This is where the actual mod source lives, commonly under dev-archive/tools/."
-      },
-      "modding-notes/": {
-        "holds": "readable field notes and the dated progress ledger"
-      },
-      "engine-research/": {
-        "holds": "ENGINE-DOSSIER.md — distilled truth about that game's engine, including a dead-ends section"
-      },
-      "external-research/": {
-        "holds": "leads gathered from public sources by a research-only session; INDEX.md plus topics/"
-      }
-    },
-    "staging": {
-      "repo": "staging (private)",
-      "holds": "unverified work-in-progress for every project, one folder per game (staging/<prefix>/); the cross-machine handoff channel"
-    },
-    "history_note": "Each folder was its own repo until 2026-08-30. Full per-file history is preserved and reachable through the folder's subtree join commit (git log the merge parents). The old <prefix>-<suffix> repo names redirect only where a repo was renamed (each game's -mod became the game repo).",
-    "session_lanes": {
-      "note": "Five kinds of session, each typed as a slash-command. They are designed to run at the same time; one_writer_per_file below is what keeps them from colliding.",
-      "lanes": {
-        "/lm (live modding)": "the only lane that may launch a game, attach a debugger or drive VR",
-        "/pd (parallel development)": "advances every project as far as it can with no game running",
-        "/gr (game research)": "public-research sweep; curates each game repo external-research/",
-        "/sr (sweep research)": "cross-project research; curates flat-to-vr-cross-engine-research",
-        "/gs (github sweep)": "read-only hygiene audit of the whole estate; curates nothing"
-      },
-      "background_agents": {
-        "allowed_in": [
-          "/gr",
-          "/sr",
-          "/pd"
-        ],
-        "never_in": [
-          "/lm",
-          "/gs"
-        ],
-        "never_in_includes": "the standing /gate-watch background watcher, which is otherwise permitted everywhere (owner ruling, 2026-09-03): those two lanes run fully inline.",
-        "set": "2026-09-03, by the account owner",
-        "rationale": "The three sweep lanes are breadth-first over many projects and leave their output as reviewable commits. /lm drives a live game, which no agent may do. /gs is an audit whose value is that the session performed each check itself, so a second-hand summary would defeat it.",
-        "still_applies": "Even where allowed, agents must be few and each must have a job the owner could name without asking; ad-hoc fan-out is not the intent."
-      }
-    },
-    "one_writer_per_file": {
-      "rule": "Every file has exactly one kind of session that may edit it. Reading is unrestricted.",
-      "lanes": {
-        "modding": "curates mod/, dev-archive/, modding-notes/, engine-research/ and the staging repo",
-        "research (/gr)": "curates that game repo's external-research/",
-        "sweep (/sr)": "curates flat-to-vr-cross-engine-research"
-      },
-      "cross_lane": "Contributions travel as new, uniquely-named files dropped in the receiving lane's inbox/ folder — never as edits to a file another lane curates."
-    }
+  {
+   "if": "You are doing reverse-engineering or VR conversion work",
+   "read": "https://github.com/TefMeister/flat-to-vr-RE-toolkit",
+   "why": "The engine-agnostic PLAYBOOK, the tool catalogue, and tools/ (small utilities that already earned their place)."
   },
-  "meta_repos": [
-    {
-      "name": "ai-game-control-profiles",
-      "visibility": "public",
-      "url": "https://github.com/TefMeister/ai-game-control-profiles",
-      "purpose": "How to OPERATE games programmatically: keys, menu routes, state detection, entry points. Machine-readable, vendor-neutral.",
-      "licence": "CC-BY-4.0"
-    },
-    {
-      "name": "flat-to-vr-RE-toolkit",
-      "visibility": "public",
-      "url": "https://github.com/TefMeister/flat-to-vr-RE-toolkit",
-      "purpose": "The engine-agnostic PLAYBOOK, a catalogue of tested third-party tools, and tools/ — our own battle-tested utilities."
-    },
-    {
-      "name": "flat-to-vr-cross-engine-research",
-      "visibility": "public",
-      "url": "https://github.com/TefMeister/flat-to-vr-cross-engine-research",
-      "purpose": "Universal library of publicly-available flat-to-VR knowledge, organised by engine family.",
-      "licence": "CC-BY-4.0"
-    },
-    {
-      "name": "TefMeister",
-      "visibility": "public",
-      "url": "https://github.com/TefMeister/TefMeister",
-      "purpose": "Profile README (human-facing) and this INDEX.json (machine-facing)."
-    },
-    {
-      "name": "staging",
-      "visibility": "private",
-      "purpose": "Work-in-progress for every game project, one folder per game. Not public."
-    },
-    {
-      "name": "claude-memory",
-      "visibility": "private",
-      "purpose": "Cross-machine working state and preferences. Not public and not required to understand any of the above."
-    }
-  ],
-  "projects": [
-    {
-      "repo": "psychonauts-vr",
-      "game": "Psychonauts",
-      "year": 2005,
-      "developer": "Double Fine",
-      "engine": "bespoke in-house",
-      "renderer": "Direct3D 9",
-      "injection": "proxy d3d9.dll",
-      "stage": "core VR working in a real headset [verified-live 2026-08-18, Quest 3]; automation harness and free camera added 2026-08-27; black-void culling fix measured on-monitor with a synthetic head pose, not yet re-checked in a headset [measured 2026-08-28]",
-      "source_of_truth": "psychonauts-vr/dev-archive/tools/proxy-d3d9/"
-    },
-    {
-      "repo": "XIII2003-vr",
-      "game": "XIII",
-      "year": 2003,
-      "developer": "Ubisoft Paris",
-      "engine": "Unreal Engine 2",
-      "renderer": "Direct3D 8",
-      "injection": "proxy D3DDrv.dll (Unreal render device)",
-      "stage": "framebuffer-in-VR head-look verified in a real Quest 3 [verified-live 2026-08-23]; external command automation and closed-loop driving working [verified-live 2026-08-23]",
-      "warning": "As of 2026-09-01 the proxy SOURCE is in no repository [measured 2026-09-01, n=59 commits searched] - zero source files across this repo's whole history and none in staging. The only known copy is an unversioned folder on the home PC. Milestone 2 cannot be implemented until it is committed."
-    },
-    {
-      "repo": "the-evil-within-vr",
-      "game": "The Evil Within",
-      "year": 2014,
-      "developer": "Tango Gameworks",
-      "engine": "id Tech 5 (STEM)",
-      "renderer": "Direct3D 11",
-      "injection": "proxy winmm.dll + MinHook",
-      "stage": "building the stereo 6DOF core; no headset output yet"
-    },
-    {
-      "repo": "far-cry-2-vr",
-      "game": "Far Cry 2",
-      "year": 2008,
-      "developer": "Ubisoft Montreal",
-      "engine": "Dunia",
-      "renderer": "Direct3D 9",
-      "injection": "proxy winmm.dll",
-      "stage": "VR bridge verified on real hardware [verified-live 2026-08-23, Quest 3]; stereo override works in gameplay [verified-live 2026-08-21]; head tracking is built and the maths checks out but has NEVER been run - no headset on the dev machine [compile-verified 2026-09-01]"
-    },
-    {
-      "repo": "unreal-gold-vr",
-      "game": "Unreal Gold",
-      "year": 1998,
-      "developer": "Epic MegaGames / Digital Extremes",
-      "engine": "Unreal Engine 1 (OldUnreal 227k)",
-      "renderer": "Direct3D 11",
-      "injection": "native render device — no injection needed",
-      "stage": "from-scratch render device renders the game and has been played flat [verified-live 2026-08-23]"
-    },
-    {
-      "repo": "manhunt-2003-vr",
-      "game": "Manhunt",
-      "year": 2003,
-      "developer": "Rockstar North",
-      "engine": "RenderWare",
-      "stage": "windowed mode is NOT working yet - ten live tests established that overriding D3DPRESENT_PARAMETERS alone is not enough, because RenderWare manages its own video-mode state and crashes when it disagrees [verified-live 2026-08-30, n=10 tests]. The mode index turns out to be a plain registry value, so no code patch is needed [inferred-static 2026-09-01]; nothing has been run since. Also defusing anti-tamper tripwires one by one"
-    },
-    {
-      "repo": "doom-2016-vr",
-      "game": "DOOM",
-      "year": 2016,
-      "developer": "id Software",
-      "engine": "id Tech 6",
-      "renderer": "OpenGL / Vulkan",
-      "stage": "live camera control: the view basis sits at a static global, and writing origin +/- 32*left renders depth-correct stereo parallax [verified-live 2026-09-01, n=1 pair], so per-eye rendering does NOT depend on reviving the engine's dormant stereo path. That inherited path is present in both exes but ships NO mode cvar, so opening the double-gated console would hand over its parameters and not its on-switch [inferred-static 2026-09-01]"
-    },
-    {
-      "repo": "arcade-controls-re2-vr",
-      "game": "Resident Evil 2 (2019)",
-      "year": 2019,
-      "developer": "Capcom",
-      "engine": "RE Engine",
-      "platform_note": "gameplay-layer mod on top of praydog's REFramework",
-      "stage": "SHIPPED on Nexus; project closed, kept as frozen study material"
-    },
-    {
-      "repo": "visceral-re2-vr",
-      "game": "Resident Evil 2 (2019)",
-      "year": 2019,
-      "developer": "Capcom",
-      "engine": "RE Engine",
-      "stage": "active ground-up rebuild, successor to arcade-controls-re2-vr; v0.1.0 (body & posture) released 2026-08-30 on this repo's Releases page; since 2026-09-04 new features are built as a native REFramework C++ plugin (dev-archive/plugin/) with Lua kept only as a thin VR-pose shim"
-    },
-    {
-      "repo": "re-village-scope-vr",
-      "game": "Resident Evil Village",
-      "year": 2021,
-      "developer": "Capcom",
-      "engine": "RE Engine",
-      "stage": "active sub-project: a real mirror-fed sniper scope. Display is solved and user-verified - live scene content on the scope glass [verified-live 2026-08-29]. Grading is BUILT AND DEPLOYED BUT NOT YET RUN [compile-verified 2026-08-30]. The clip plane is NOT solved: it passes through the rifle, so aiming accuracy and dodging the clipped half are structurally in tension [verified-live 2026-08-29]"
-    },
-    {
-      "repo": "enslaved-vr",
-      "game": "Enslaved: Odyssey to the West",
-      "year": 2013,
-      "developer": "Ninja Theory",
-      "engine": "Unreal Engine 3",
-      "renderer": "Direct3D 9",
-      "stage": "camera delivery solved statically 2026-09-01 - the game ships its UE3 .usf sources, so the shared view-projection is known to sit at vertex register c0, with the camera position at c4 [inferred-static 2026-09-01, n=3 independent checks]. Nothing has been run"
-    },
-    {
-      "repo": "mad-max-vr",
-      "game": "Mad Max",
-      "year": 2015,
-      "developer": "Avalanche Studios",
-      "engine": "Apex (Avalanche)",
-      "renderer": "Direct3D 11",
-      "stage": "Denuvo blocks debugging, but the shader bundle ships with reflection intact - 1363 shaders read off disk with their reflection chunks intact, and the per-object WorldViewProjMatrix located [measured 2026-09-01, n=1363 shaders]"
-    },
-    {
-      "repo": "prince-of-persia-2008-vr",
-      "game": "Prince of Persia",
-      "year": 2008,
-      "developer": "Ubisoft Montreal",
-      "engine": "Scimitar (the pre-2009 name of Anvil)",
-      "stage": "static recon only, never modded live beyond a working d3d9 proxy [verified-live 2026-08-25]. The .forge archive format is decoded end to end - container, LZO2A chunks, typed datablocks - by a from-scratch reader in dev-archive/tools/forge [verified-numerically 2026-09-02, 33,401 datafiles]. The camera system is authored as data (876 CameraRule, one CameraGraph), and a shipped CameraRule 'CR_Debug_1stPerson' is conditioned on the CGST_DebugModeFPSCamera state - the debug first-person camera exists in the data; what enters that state is still unknown [verified-numerically 2026-09-02]"
-    },
-    {
-      "repo": "alice-madness-returns-vr",
-      "game": "Alice: Madness Returns",
-      "year": 2011,
-      "developer": "Spicy Horse",
-      "engine": "Unreal Engine 3",
-      "stage": "early"
-    },
-    {
-      "repo": "alan-wake-vr",
-      "game": "Alan Wake",
-      "year": 2012,
-      "developer": "Remedy Entertainment",
-      "engine": "in-house",
-      "stage": "early"
-    },
-    {
-      "repo": "burnout-paradise-vr",
-      "game": "Burnout Paradise",
-      "year": 2008,
-      "developer": "Criterion Games",
-      "engine": "in-house",
-      "stage": "PAUSED. Two blockers, not one: it needs a third-party publisher launcher/account, AND the game is not installed on the dev machine at all [inferred-static 2026-09-01] - that folder holds only our own proxy DLL, so static work is impossible there too."
-    }
-  ],
-  "notes_for_ai_readers": [
-    "Folder presence varies: a missing folder means that stage has not been reached yet.",
-    "Prefer ai-game-control-profiles over inferring controls from these repos — the game repos describe how a game was MODIFIED, not how to OPERATE it.",
-    "Every game repo's engine-research/ENGINE-DOSSIER.md has a dead-ends section. Read it before proposing an approach; several plausible-looking routes have already been tried and refuted.",
-    "Claims in the notes carry dates. Where a later entry contradicts an earlier one, the later entry wins and usually says so explicitly."
-  ]
+  {
+   "if": "You want what is known about an engine family",
+   "read": "https://github.com/TefMeister/flat-to-vr-cross-engine-research",
+   "why": "Cross-engine library. docs/engines/ has one page per engine family."
+  },
+  {
+   "if": "You are resuming work on a specific game",
+   "read": "that game repo's engine-research/ENGINE-DOSSIER.md, then its modding-notes/ folder",
+   "why": "The dossier is distilled current truth for that engine, including dead ends. The notes are the chronological ledger."
+  }
+ ],
+ "conventions": {
+  "game_repo_folders": {
+   "mod/": {
+    "holds": "release packaging and player-facing docs; the releases themselves are GitHub Releases on the game repo",
+    "note": "Often sparse. A project with no release yet has a near-empty mod/; this is expected, not a mistake."
+   },
+   "dev-archive/": {
+    "holds": "the live working mod source AND the messy dev history: snapshots, probes, recon evidence, dead ends",
+    "note": "This is where the actual mod source lives, commonly under dev-archive/tools/."
+   },
+   "modding-notes/": {
+    "holds": "readable field notes and the dated progress ledger"
+   },
+   "engine-research/": {
+    "holds": "ENGINE-DOSSIER.md — distilled truth about that game's engine, including a dead-ends section"
+   },
+   "external-research/": {
+    "holds": "leads gathered from public sources by a research-only session; INDEX.md plus topics/"
+   }
+  },
+  "staging": {
+   "repo": "staging (private)",
+   "holds": "unverified work-in-progress for every project, one folder per game (staging/<prefix>/); the cross-machine handoff channel"
+  },
+  "history_note": "Each folder was its own repo until 2026-08-30. Full per-file history is preserved and reachable through the folder's subtree join commit (git log the merge parents). The old <prefix>-<suffix> repo names redirect only where a repo was renamed (each game's -mod became the game repo).",
+  "session_lanes": {
+   "note": "Five kinds of session, each typed as a slash-command. They are designed to run at the same time; one_writer_per_file below is what keeps them from colliding.",
+   "lanes": {
+    "/lm (live modding)": "the only lane that may launch a game, attach a debugger or drive VR",
+    "/pd (parallel development)": "advances every project as far as it can with no game running",
+    "/gr (game research)": "public-research sweep; curates each game repo external-research/",
+    "/sr (sweep research)": "cross-project research; curates flat-to-vr-cross-engine-research",
+    "/gs (github sweep)": "read-only hygiene audit of the whole estate; curates nothing"
+   },
+   "background_agents": {
+    "allowed_in": [
+     "/gr",
+     "/sr",
+     "/pd"
+    ],
+    "never_in": [
+     "/lm",
+     "/gs"
+    ],
+    "never_in_includes": "the standing /gate-watch background watcher, which is otherwise permitted everywhere (owner ruling, 2026-09-03): those two lanes run fully inline.",
+    "set": "2026-09-03, by the account owner",
+    "rationale": "The three sweep lanes are breadth-first over many projects and leave their output as reviewable commits. /lm drives a live game, which no agent may do. /gs is an audit whose value is that the session performed each check itself, so a second-hand summary would defeat it.",
+    "still_applies": "Even where allowed, agents must be few and each must have a job the owner could name without asking; ad-hoc fan-out is not the intent."
+   }
+  },
+  "one_writer_per_file": {
+   "rule": "Every file has exactly one kind of session that may edit it. Reading is unrestricted.",
+   "lanes": {
+    "modding": "curates mod/, dev-archive/, modding-notes/, engine-research/ and the staging repo",
+    "research (/gr)": "curates that game repo's external-research/",
+    "sweep (/sr)": "curates flat-to-vr-cross-engine-research"
+   },
+   "cross_lane": "Contributions travel as new, uniquely-named files dropped in the receiving lane's inbox/ folder — never as edits to a file another lane curates."
+  }
+ },
+ "meta_repos": [
+  {
+   "name": "ai-game-control-profiles",
+   "visibility": "public",
+   "url": "https://github.com/TefMeister/ai-game-control-profiles",
+   "purpose": "How to OPERATE games programmatically: keys, menu routes, state detection, entry points. Machine-readable, vendor-neutral.",
+   "licence": "CC-BY-4.0"
+  },
+  {
+   "name": "flat-to-vr-RE-toolkit",
+   "visibility": "public",
+   "url": "https://github.com/TefMeister/flat-to-vr-RE-toolkit",
+   "purpose": "The engine-agnostic PLAYBOOK, a catalogue of tested third-party tools, and tools/ — our own battle-tested utilities."
+  },
+  {
+   "name": "flat-to-vr-cross-engine-research",
+   "visibility": "public",
+   "url": "https://github.com/TefMeister/flat-to-vr-cross-engine-research",
+   "purpose": "Universal library of publicly-available flat-to-VR knowledge, organised by engine family.",
+   "licence": "CC-BY-4.0"
+  },
+  {
+   "name": "TefMeister",
+   "visibility": "public",
+   "url": "https://github.com/TefMeister/TefMeister",
+   "purpose": "Profile README (human-facing) and this INDEX.json (machine-facing)."
+  },
+  {
+   "name": "staging",
+   "visibility": "private",
+   "purpose": "Work-in-progress for every game project, one folder per game. Not public."
+  },
+  {
+   "name": "claude-memory",
+   "visibility": "private",
+   "purpose": "Cross-machine working state and preferences. Not public and not required to understand any of the above."
+  }
+ ],
+ "projects": [
+  {
+   "repo": "psychonauts-vr",
+   "game": "Psychonauts",
+   "year": 2005,
+   "developer": "Double Fine",
+   "engine": "bespoke in-house",
+   "renderer": "Direct3D 9",
+   "injection": "proxy d3d9.dll",
+   "stage": "core VR (stereo + 6DOF head tracking) working in a real headset [verified-live 2026-08-18, Quest 3]; automation harness and free camera added 2026-08-27. FIRST WEAR of the camera-follow build 2026-09-10 FAILED and it does not ship: the world went “crazy glitchy” within seconds of enabling camfollow, and the main menu still shows the black void [reported 2026-09-10, n=1 wearer]. Diagnosing that before any re-wear; the void now has a testable two-gate model (frustum culling varies with yaw, a PVS gate keys on position)",
+   "source_of_truth": "psychonauts-vr/dev-archive/tools/proxy-d3d9/"
+  },
+  {
+   "repo": "XIII2003-vr",
+   "game": "XIII",
+   "year": 2003,
+   "developer": "Ubisoft Paris",
+   "engine": "Unreal Engine 2",
+   "renderer": "Direct3D 8",
+   "injection": "proxy D3DDrv.dll (Unreal render device)",
+   "stage": "🎉 TRUE STEREO WORKS IN A REAL HEADSET over OpenXR (Virtual Desktop's 32-bit VDXR runtime) [verified-live 2026-09-10, n=3 launches] — the eyes line up in gameplay and head-look is correct in yaw. The patched D3D8 render device renders the world twice from the engine's own cached World/View/Projection. Open, all static: the HUD and menu receive the per-eye offset instead of sitting at a fixed depth, a placeholder yaw makes the view spin when no headset pose is present, character shadows read as detached, and roll/pitch are missing so a tilted head tilts the world",
+   "warning": "As of 2026-09-01 the proxy SOURCE is in no repository [measured 2026-09-01, n=59 commits searched] - zero source files across this repo's whole history and none in staging. The only known copy is an unversioned folder on the home PC. Milestone 2 cannot be implemented until it is committed."
+  },
+  {
+   "repo": "the-evil-within-vr",
+   "game": "The Evil Within",
+   "year": 2014,
+   "developer": "Tango Gameworks",
+   "engine": "id Tech 5 (STEM)",
+   "renderer": "Direct3D 11",
+   "injection": "proxy winmm.dll + MinHook",
+   "stage": "building the stereo 6DOF core on a branch; no headset output yet. The dynamic constant-buffer path now actually reaches the draws it was missing — 194,814 draws per window are patched where the count was 0 [measured 2026-09-08] — but whether the rotation is CORRECT is NOT established, only that it lands. A virtual pad drives menus end to end [verified-live 2026-09-08]; whether it drives gameplay is untested"
+  },
+  {
+   "repo": "far-cry-2-vr",
+   "game": "Far Cry 2",
+   "year": 2008,
+   "developer": "Ubisoft Montreal",
+   "engine": "Dunia",
+   "renderer": "Direct3D 9",
+   "injection": "proxy winmm.dll",
+   "stage": "FIRST HEADSET RUN 2026-09-10 [verified-live, n=1]: alternate-eye-rendering stereo parity works (equal frames submitted per eye) and head rotation works with correct handedness. Two real defects fell out, both static: the engine still culls for the original mouse camera, so nothing behind you is drawn until you turn with the mouse; and the first-person weapon gets the world's stereo separation, so it doubles at a realistic IPD. ~16% of uploads also fail the camera-position solve and get rotation without the positional offset"
+  },
+  {
+   "repo": "unreal-gold-vr",
+   "game": "Unreal Gold",
+   "year": 1998,
+   "developer": "Epic MegaGames / Digital Extremes",
+   "engine": "Unreal Engine 1 (OldUnreal 227k)",
+   "renderer": "Direct3D 11",
+   "injection": "native render device — no injection needed",
+   "stage": "from-scratch native D3D11 render device for the OldUnreal 227k patch. TWO HEADSET RUNS 2026-09-10: IT FUSES in Virtual Desktop's half-side-by-side format, and the world is LIFE-SIZE at StereoIPD=1.0 with the weapon correctly sized [reported 2026-09-10, n=1 wearer]. Stereo was also proven numerically on a monitor first — per-depth-band eye-to-eye shifts, swap-eyes and stereo-off all behaved as a real stereo pair must [verified-live 2026-09-09, 80,156 frames, no driver error]. One real defect left: DrawTile() maps a tile's pixel rect straight to full-window clip space, so the HUD, explosions and projectile sprites are drawn once across the whole window instead of once per eye"
+  },
+  {
+   "repo": "manhunt-2003-vr",
+   "game": "Manhunt",
+   "year": 2003,
+   "developer": "Rockstar North",
+   "engine": "RenderWare",
+   "stage": "THE GAME IS DRIVABLE UNATTENDED as of 2026-09-10 — a synthesised DirectInput mouse plus hooking every enumerated device moves the frontend, and two of our own earlier measurements turned out to be the broken part rather than the game [verified-live 2026-09-10]. Both blocking rows cleared; the project moves from “we cannot drive this game” to “we can, now go play it”. Windowed mode needs no code patch — the mode index is a plain registry value [inferred-static 2026-09-01]; RenderWare manages its own video-mode state and crashes if you override D3DPRESENT_PARAMETERS alone [verified-live 2026-08-30, n=10 tests]"
+  },
+  {
+   "repo": "doom-2016-vr",
+   "game": "DOOM",
+   "year": 2016,
+   "developer": "id Software",
+   "engine": "id Tech 6",
+   "renderer": "OpenGL / Vulkan",
+   "stage": "BOTH BLOCKING ROWS FELL IN ONE LAUNCH on 2026-09-10: the view position is obtainable unattended, and the ENGINE'S OWN PROJECTION MATRIX has been read and proved rather than reconstructed [verified-live 2026-09-10]. Earlier: the view basis sits at a static global and writing origin +/- 32*left renders depth-correct stereo parallax [verified-live 2026-09-01, n=1 pair], so per-eye rendering does NOT depend on reviving the engine's dormant stereo path. The project moves from “we cannot see the camera” to “we can see it — now write to it”"
+  },
+  {
+   "repo": "arcade-controls-re2-vr",
+   "game": "Resident Evil 2 (2019)",
+   "year": 2019,
+   "developer": "Capcom",
+   "engine": "RE Engine",
+   "platform_note": "gameplay-layer mod on top of praydog's REFramework",
+   "stage": "SHIPPED on Nexus through v1.5.0; project closed and kept as frozen study material. Superseded by visceral-re2-vr, which mines it as a reference implementation"
+  },
+  {
+   "repo": "visceral-re2-vr",
+   "game": "Resident Evil 2 (2019)",
+   "year": 2019,
+   "developer": "Capcom",
+   "engine": "RE Engine",
+   "stage": "active ground-up rebuild, successor to arcade-controls-re2-vr; v0.1.0 (body & posture) released 2026-08-30 on this repo's Releases page. Since 2026-09-04 new features are a native REFramework C++ plugin, with Lua kept only as a thin VR-pose shim. FIRST VR RUN OF THE PLUGIN 2026-09-10: the bridge carried head AND controller poses for the first time ever (hmd=1 ctl=1) over OpenXR [verified-live 2026-09-10]. Two static defects found: the Lua shim never writes the grip transform slots, so the weapon dock never fires; and the camera read comes back CONSTANT, which kills both view re-basing and the head hider. HD hands and skin-seam work continues — pass 2 judged “much better” in VR [verified-live 2026-09-06]"
+  },
+  {
+   "repo": "re-village-scope-vr",
+   "game": "Resident Evil Village",
+   "year": 2021,
+   "developer": "Capcom",
+   "engine": "RE Engine",
+   "stage": "active sub-project: a real mirror-fed sniper scope. Display is solved and user-verified — live scene content on the scope glass [verified-live 2026-08-29]. HEADSET RUN 2026-09-10 answered the open question: the “multipass textures are not set up correctly” fallback is a STARTUP STUMBLE THAT RECOVERS, not a persistent state [verified-live 2026-09-10, n=2 logs] — so the scope's image swing has another cause, and a mirror-camera exemption is the next thing to build. The clip plane is still not solved: it passes through the rifle, putting aiming accuracy and dodging the clipped half in structural tension [verified-live 2026-08-29]"
+  },
+  {
+   "repo": "enslaved-vr",
+   "game": "Enslaved: Odyssey to the West",
+   "year": 2013,
+   "developer": "Ninja Theory",
+   "engine": "Unreal Engine 3",
+   "renderer": "Direct3D 9",
+   "stage": "camera delivery solved statically — the game ships its UE3 .usf shader sources, so the shared view-projection is known to sit at vertex register c0 with the camera position at c4 [inferred-static 2026-09-01, n=3 independent checks]; ProcessEvent is located and the UObject route is open. NOT WEARABLE YET, and the reason is known and small: the proxy has no side-by-side output mode at all (wiggle, left-only and right-only), so the next step is adding one [verified-live 2026-09-10]"
+  },
+  {
+   "repo": "mad-max-vr",
+   "game": "Mad Max",
+   "year": 2015,
+   "developer": "Avalanche Studios",
+   "engine": "Apex (Avalanche)",
+   "renderer": "Direct3D 11",
+   "stage": "THE WORLD MOVES as of 2026-09-10 — the per-object constant-buffer write site IS the transform that positions the frame on screen, measured rather than assumed [verified-live 2026-09-10]. Denuvo blocks debugger attach, but the shipped shader bundle carries its reflection chunks intact: 1,363 shaders read off disk with the per-object WorldViewProjMatrix located [measured 2026-09-01, n=1363 shaders], which is why the anti-debug wall has not been a blocker"
+  },
+  {
+   "repo": "prince-of-persia-2008-vr",
+   "game": "Prince of Persia",
+   "year": 2008,
+   "developer": "Ubisoft Montreal",
+   "engine": "Scimitar (the pre-2009 name of Anvil)",
+   "stage": "static recon plus a working d3d9 proxy [verified-live 2026-08-25]. The .forge archive format is decoded end to end — container, LZO2A chunks, typed datablocks — by a from-scratch reader in dev-archive/tools/forge [verified-numerically 2026-09-02, 33,401 datafiles]. The camera system is authored as DATA (876 CameraRule entries, one CameraGraph) and a shipped rule CR_Debug_1stPerson is conditioned on a debug first-person state [verified-numerically 2026-09-02]. That rule has now been repointed in a regenerated archive to install a camera that follows the player instead of one that flies itself; deployed, awaiting a walk-and-turn test"
+  },
+  {
+   "repo": "alice-madness-returns-vr",
+   "game": "Alice: Madness Returns",
+   "year": 2011,
+   "developer": "Spicy Horse",
+   "engine": "Unreal Engine 3",
+   "stage": "FIRST HEADSET RUN 2026-09-10: HEAD TRACKING IS LIVE, position AND rotation, fed from a SteamVR pose per frame [verified-live 2026-09-10, n=1]. The per-eye maths is a transpose of Alan Wake's; the stereo edit, the head offset on all three axes and head rotation (by pre-multiplying rather than rebuilding the view matrix) are all built and verified live. Every stereo hotkey lives on the numpad. What is left is calibration — world scale is still 50 units/metre by feel rather than by measurement",
+   "renderer": "Direct3D 9"
+  },
+  {
+   "repo": "alan-wake-vr",
+   "game": "Alan Wake",
+   "year": 2012,
+   "developer": "Remedy Entertainment",
+   "engine": "Remedy in-house (pre-Northlight)",
+   "stage": "the proxy now owns the REAL device. For weeks it only ever saw a throwaway probe device, because the system d3d9.dll was loaded by full path and never released, so the game's second LoadLibraryA got the system copy; one FreeLibrary on detach fixed it [verified-live 2026-09-04, n=1 launch] — the same fix ReShade needed in this exact game in 2019. The stereo edit is wired in and both hook races are closed: rather than racing for a vtable slot, the proxy hands back its own IDirect3D9 [verified-live 2026-09-08]. Handedness is answered (left-handed). This project now needs a NEW IDEA rather than another probe",
+   "renderer": "Direct3D 9"
+  },
+  {
+   "repo": "burnout-paradise-vr",
+   "game": "Burnout Paradise",
+   "year": 2008,
+   "developer": "Criterion Games",
+   "engine": "in-house",
+   "stage": "⏸ PAUSED on two blockers, not one: it needs a third-party publisher launcher/account, AND the game is not installed on either machine [inferred-static 2026-09-01] — that folder holds only our own proxy DLL, so even static work is impossible. A planned ScyllaHide anti-debug step is also dead three ways over (ABI-incompatible with the x64dbg build in use, upstream dormant since 2023, and the downgrade that would fix it would break the automation bridge every project depends on) [verified-live 2026-09-07]"
+  }
+ ],
+ "notes_for_ai_readers": [
+  "Folder presence varies: a missing folder means that stage has not been reached yet.",
+  "Prefer ai-game-control-profiles over inferring controls from these repos — the game repos describe how a game was MODIFIED, not how to OPERATE it.",
+  "Every game repo's engine-research/ENGINE-DOSSIER.md has a dead-ends section. Read it before proposing an approach; several plausible-looking routes have already been tried and refuted.",
+  "Claims in the notes carry dates. Where a later entry contradicts an earlier one, the later entry wins and usually says so explicitly."
+ ]
 }
