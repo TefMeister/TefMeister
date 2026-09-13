@@ -354,6 +354,15 @@
       "engine": "Foundation",
       "renderer": "Direct3D 11 (Direct3D 9 option)",
       "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: unprotected 32-bit Foundation-engine exe (2022 patch build) naming both Direct3D 11 and Direct3D 9, with an Epic Online Services SDK shipped beside it. Not launched yet."
+    },
+    {
+      "repo": "witcher-2-vr",
+      "game": "The Witcher 2: Assassins of Kings",
+      "year": 2011,
+      "developer": "CD Projekt Red",
+      "engine": "REDengine",
+      "renderer": "Direct3D 9",
+      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit Direct3D 9 REDengine exe (2013 patch build) behind the Steam DRM wrapper, with its game scripts shipped in the install and a DebugConsole string in the exe. Not launched yet. Public REDengine research and the Cyberpunk 2077 VR work are queued for /gr."
     }
   ],
   "notes_for_ai_readers": [
