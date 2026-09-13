@@ -345,6 +345,15 @@
       "engine": "Titanium",
       "renderer": "Direct3D 9",
       "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit Direct3D 9; the game code sits in an unprotected engine DLL behind a Steam-wrapped launcher stub, both rebuilt 2025-08-14. Not launched yet."
+    },
+    {
+      "repo": "tomb-raider-2013-vr",
+      "game": "Tomb Raider",
+      "year": 2013,
+      "developer": "Crystal Dynamics",
+      "engine": "Foundation",
+      "renderer": "Direct3D 11 (Direct3D 9 option)",
+      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: unprotected 32-bit Foundation-engine exe (2022 patch build) naming both Direct3D 11 and Direct3D 9, with an Epic Online Services SDK shipped beside it. Not launched yet."
     }
   ],
   "notes_for_ai_readers": [

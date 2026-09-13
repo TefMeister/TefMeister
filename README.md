@@ -100,6 +100,7 @@ quietly become the second.
 | **Hard Reset** (2011) | Road Hog Engine (Direct3D 9) | 🆕 New 2026-09-13: repo created, first static look done. Small, unprotected 32-bit D3D9 exe | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Portal** (2007) | Source (Direct3D 9 (Vulkan option shipped)) | 🆕 New 2026-09-13: repo created, first static look done. Valve's own leftover VR-mode code is still inside the game, worth checking first | [portal-vr](https://github.com/TefMeister/portal-vr) |
 | **Prototype** (2009) | Titanium (Direct3D 9) | 🆕 New 2026-09-13: repo created, first static look done. 32-bit D3D9; game code in an unprotected DLL | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
+| **Tomb Raider** (2013) | Foundation (Direct3D 11 (Direct3D 9 option)) | 🆕 New 2026-09-13: repo created, first static look done. Unprotected 32-bit exe with both D3D11 and D3D9 paths | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
 | **Arcade Controls for RE2 VR** *(closed)* | RE Engine (via REFramework) | Shipped on Nexus through v1.5.0; **superseded by Visceral — RE2 VR**, kept as frozen study material | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 ## Shared knowledge (applies across every project, and to games with no project yet)
