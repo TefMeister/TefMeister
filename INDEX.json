@@ -363,6 +363,15 @@
       "engine": "REDengine",
       "renderer": "Direct3D 9",
       "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit Direct3D 9 REDengine exe (2013 patch build) behind the Steam DRM wrapper, with its game scripts shipped in the install and a DebugConsole string in the exe. Not launched yet. Public REDengine research and the Cyberpunk 2077 VR work are queued for /gr."
+    },
+    {
+      "repo": "metro-exodus-vr",
+      "game": "Metro Exodus Enhanced Edition",
+      "year": 2021,
+      "developer": "4A Games",
+      "engine": "4A Engine",
+      "renderer": "Direct3D 12 (ray tracing always on)",
+      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 64-bit Direct3D 12 4A Engine exe behind the Steam DRM wrapper, with about 350 console-variable names and leftover VR code names (-vr_profile, vr_hand_speed, oculus_touch_presets) still inside, likely from 4A's Arktika.1 [hypothesis]. Not launched yet. 4A Engine and Arktika.1 VR research queued for /gr."
     }
   ],
   "notes_for_ai_readers": [

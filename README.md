@@ -102,6 +102,7 @@ quietly become the second.
 | **Prototype** (2009) | Titanium (Direct3D 9) | 🆕 New 2026-09-13: repo created, first static look done. 32-bit D3D9; game code in an unprotected DLL | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Tomb Raider** (2013) | Foundation (Direct3D 11 (Direct3D 9 option)) | 🆕 New 2026-09-13: repo created, first static look done. Unprotected 32-bit exe with both D3D11 and D3D9 paths | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
 | **The Witcher 2: Assassins of Kings** (2011) | REDengine (Direct3D 9) | 🆕 New 2026-09-13: repo created, first static look done. 32-bit D3D9 REDengine; game scripts ship with it, and there is lots of public REDengine research to study | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
+| **Metro Exodus Enhanced Edition** (2021) | 4A Engine (Direct3D 12) | 🆕 New 2026-09-13: repo created, first static look done. 64-bit D3D12 with ray tracing always on; leftover VR code from 4A's own VR game is still inside the exe | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **Arcade Controls for RE2 VR** *(closed)* | RE Engine (via REFramework) | Shipped on Nexus through v1.5.0; **superseded by Visceral — RE2 VR**, kept as frozen study material | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 ## Shared knowledge (applies across every project, and to games with no project yet)
