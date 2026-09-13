@@ -300,6 +300,51 @@
       "developer": "Criterion Games",
       "engine": "in-house",
       "stage": "⏸ PAUSED on two blockers, not one: it needs a third-party publisher launcher/account, AND the game is not installed on either machine [inferred-static 2026-09-01] — that folder holds only our own proxy DLL, so even static work is impossible. A planned ScyllaHide anti-debug step is also dead three ways over (ABI-incompatible with the x64dbg build in use, upstream dormant since 2023, and the downgrade that would fix it would break the automation bridge every project depends on) [verified-live 2026-09-07]"
+    },
+    {
+      "repo": "dead-space-2-vr",
+      "game": "Dead Space 2",
+      "year": 2011,
+      "developer": "Visceral Games",
+      "engine": "Visceral Games' in-house engine",
+      "renderer": "Direct3D 9",
+      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit Direct3D 9 exe with the Steam DRM wrapper, an EA-era product-activation layer and what looks like a packer. Not launched yet; whether EA activation blocks launch (the Burnout Paradise lesson) is the first thing to check."
+    },
+    {
+      "repo": "death-stranding-vr",
+      "game": "Death Stranding Director's Cut",
+      "year": 2022,
+      "developer": "Kojima Productions",
+      "engine": "Decima",
+      "renderer": "Direct3D 12",
+      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 64-bit Direct3D 12 exe on Decima, no protection layer seen. The first D3D12 project on the account. Not launched yet."
+    },
+    {
+      "repo": "hard-reset-vr",
+      "game": "Hard Reset",
+      "year": 2011,
+      "developer": "Flying Wild Hog",
+      "engine": "Road Hog Engine",
+      "renderer": "Direct3D 9",
+      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: small unprotected 32-bit Direct3D 9 exe. Not launched yet."
+    },
+    {
+      "repo": "portal-vr",
+      "game": "Portal",
+      "year": 2007,
+      "developer": "Valve",
+      "engine": "Source",
+      "renderer": "Direct3D 9 (Vulkan option shipped)",
+      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit updated Source branch, D3D9 with a Vulkan option. Valve's leftover OpenVR mode code is still present in engine.dll and client.dll, though sourcevr.dll does not ship. Not launched yet."
+    },
+    {
+      "repo": "prototype-vr",
+      "game": "Prototype",
+      "year": 2009,
+      "developer": "Radical Entertainment",
+      "engine": "Titanium",
+      "renderer": "Direct3D 9",
+      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit Direct3D 9; the game code sits in an unprotected engine DLL behind a Steam-wrapped launcher stub, both rebuilt 2025-08-14. Not launched yet."
     }
   ],
   "notes_for_ai_readers": [
