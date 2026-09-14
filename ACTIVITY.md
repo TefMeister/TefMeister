@@ -1,0 +1,112 @@
+# 📰 Recent Activity
+
+[← Back to the front page](README.md)
+
+A short, dated line for every working session, newest first. It includes the days when nothing
+advanced, because dead ends and corrections are part of how this work really goes. For the full
+story of any project, open its repo and read `modding-notes/`.
+
+**Key:** 🏆 breakthrough · ⭐ promising find · 🎮 hands-on test · 🔄 correction · ⚠️ something went
+wrong · 🔧 tooling · 📋 housekeeping
+
+---
+
+## 2026-09-14
+
+### Hard Reset
+- 🎮 **First launch, with TefMeister at the keyboard.** The developer console works (Ctrl + ~). The
+  old 3D switch does *something* on a modern graphics card, which I had just predicted it would not.
+  But it looks like a mix-up of the game's images, not two views. A test of whether the game will
+  use an edited shader file is set up and waiting for the next start.
+- 🔄 **A hope withdrawn the same day, and something better found in its place.** The game's
+  built-in "stereo" settings drive NVIDIA's retired 3D Vision, not a VR-style renderer of its own.
+  But unlocking the data archives showed the shaders ship as **readable source**, naming the
+  camera's matrices outright.
+- ⭐ **First look:** eye-separation settings, a real console and an embedded scripting language that
+  can run a file off the disk, all in the shipped game.
+
+### Prototype
+- 🏆 **The camera is found.** Register `c0`, left-handed, 16:9, near plane 0.3, far 7500, **80.00°**,
+  with textbook-standard depth maths.
+- 🔄 **A correction to my own claim from four hours earlier.** I had argued from one small shader
+  sample that the camera was fused and head tracking would be harder. The live run shows it is not.
+  Withdrawn.
+
+### Dead Space 2
+- 🏆 **The per-eye maths is derived**, and tested 59 ways. It needs two numbers changed, not one. My
+  first attempt used one, and the test caught it straight away.
+- 🏆 **The camera is found.** Register `c4`, left-handed, exactly 16:9, X axis mirrored. It was
+  picked out from two rivals because it was the only one that moved during a zoom.
+- 🏆 **A way into the game, proven.** An earlier start-up crash is explained: the game asked for a
+  graphics function our file did not provide. The theory that the copy protection was rejecting us
+  is **disproved**.
+- ⚠️ **An instrument that could never have worked.** Something else, almost certainly the Steam
+  overlay, held the spot it needed, so a whole playthrough was logged for nothing. Fixed.
+- 🔄 **Engine lineage corrected** to RenderWare, the same framework as Manhunt on this account.
+
+### Tomb Raider (2013)
+- ⭐ **117 shaders live inside the executable with their descriptions intact**, so the camera is
+  readable with nothing running. One of them is a per-eye `StereoOffset`, left over from the 3D-TV
+  era.
+
+### The Witcher 2
+- ⭐ **A debug console, a debug menu and a free camera** are all in the shipped game, and its memory
+  addresses stay put between runs.
+
+### Portal
+- ⭐ **Valve's own VR mode still ships**: 36 VR settings, head-relative aiming, the HUD in the world,
+  and the VR toggle in the menu. Exactly one file is missing: the part that talks to the headset.
+
+### Across the account
+- 🔍 **A hidden bug flagged in three other projects.** Psychonauts, Alan Wake and Prince of Persia
+  use the same risky file shape that broke Dead Space 2. They work today only because those games
+  don't ask for the missing part.
+- 🔧 **The front page is now checked by a tool**, which warns when this list falls behind the work.
+  The tool immediately caught a bug in its own test.
+- 📋 **This page was split off the front page**, so the front page stays a quick look at where each
+  mod stands.
+- 📋 **Six install checks.** Four games were already on the development PC. The Witcher 2 and Tomb
+  Raider were downloaded the same day.
+
+---
+
+## 2026-09-13
+
+- 📦 **Four early releases, all clearly labelled as unfinished:** XIII `v0.3.0-alpha`, Far Cry 2
+  `v0.2.0-alpha`, Psychonauts `v0.1.8-alpha` and Unreal Gold's first `v0.1.0-alpha`. Each release
+  note lists what does *not* work first.
+- 🎮 **RE Village: the scope is zeroed** in the headset, and TefMeister confirmed the values are
+  accurate.
+- 🔄 **Alice: Madness Returns: we were chasing the wrong matrix.** The sliding shadows are better
+  explained by a shadow matrix built from the game's unedited camera.
+- 🆕 **Three new projects started:** Hard Reset, Death Stranding and Metro Exodus.
+
+## 2026-09-12
+
+- 🔧 **DOOM (2016): the arrow keys are fixed.** Windows itself reports those keys the wrong way, which
+  is how the bug got in. The fix has not been run in the game yet.
+
+## 2026-09-11
+
+- 🏆 **Manhunt: he walks.** The character moved under automation for the first time. The keys were
+  right all along; the way they were being sent was wrong.
+- 🔄 **Visceral RE2: the grip bug is fixed, and that morning's diagnosis of it was wrong.** The
+  values were never being sent at all.
+
+## 2026-09-10
+
+- 🎮 **Eight games worn back to back in a real headset in one evening**, the first time the whole queue
+  was cleared in one sitting. **XIII** showed true stereo in VR for the first time. **Unreal Gold**
+  fused, and the world came out life-size. **Alice** got live head tracking. **Far Cry 2** got
+  matching stereo and head rotation. **Resident Evil 2** carried head and controller poses across for
+  the first time.
+- ⚠️ **Two did not go well.** Psychonauts' camera-follow build went badly glitchy within seconds and
+  was not shipped. Enslaved could not be worn at all, because the side-by-side output mode doesn't
+  exist yet.
+- 💡 **The lesson landed twice that evening:** turning the picture *after* the game has already
+  decided what to draw leaves nothing behind the player. Head rotation has to reach the game's own
+  camera.
+
+A caveat that applies to nearly everything above: most of it is **one person, one machine, often
+one launch**. "It fused once" is a much smaller claim than "it is comfortable", and I try not to let
+the first quietly become the second.
