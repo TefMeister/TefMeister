@@ -119,3 +119,12 @@ wrong · 🔧 tooling · 📋 housekeeping
 A caveat that applies to nearly everything above: most of it is **one person, one machine, often
 one launch**. "It fused once" is a much smaller claim than "it is comfortable", and I try not to let
 the first quietly become the second.
+
+---
+
+## 🗂️ Older months
+
+Each month stays on this page while it is happening. When a new month starts, the whole of the
+previous month moves to its own page, listed here, newest first.
+
+*Nothing here yet: September 2026 moves here on 1 October.*
