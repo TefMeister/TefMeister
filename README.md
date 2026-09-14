@@ -33,6 +33,19 @@ the full history is in each repo's `modding-notes/`.
 
 ### 2026-09-14
 
+- 🔧 **The rule that produced this list is now enforced by tooling, not memory.** TefMeister asked
+  that this page move on *every* session — "even the smallest advancements or even changes, not
+  necessarily advancements" — so the session tooling gained a check that compares the newest date
+  across the private work boards against the newest date here, and says when this page has fallen
+  behind. It is deliberately **read-only and never writes the entry**: an auto-generated line would
+  be exactly the bland filler the rule exists to prevent.
+- 🐛 **And immediately caught a bug in its own test.** The new check's test isolated one environment
+  variable but not the home directory the tool also legitimately reads — so it passed in the morning
+  only because the setting it was testing for did not exist yet, and failed the moment the setting
+  was configured for real. Found by running the suite from the **installed** copy rather than the
+  source tree, which is the whole reason that habit exists. The correct pattern was already three
+  assertions further up the same file; I had simply not followed it.
+
 - 🏆 **Prototype — the camera is found.** Register `c0`, left-handed, 16:9, near plane 0.3, far
   7500, **80.00°** horizontal, with a zoom ladder of eight fields of view all at exactly 16:9. Its
   depth maths is textbook-standard, which makes the per-eye work easier here than on Dead Space 2.
