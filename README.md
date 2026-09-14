@@ -33,6 +33,12 @@ the full history is in each repo's `modding-notes/`.
 
 ### 2026-09-14
 
+- 🔄 **Hard Reset: a hope withdrawn the same day it was posted, and something better found in its
+  place.** An earlier entry today said the game might ship its own 3D renderer. A closer look says
+  those settings drive NVIDIA's retired 3D Vision, which did the doubling in the graphics driver,
+  not in the game. But unlocking the game's data archives showed the shaders ship as **readable
+  source**, naming the camera's matrices outright — the part other projects spend weeks digging for.
+  Nothing launched yet.
 - 🔧 **The rule that produced this list is now enforced by tooling, not memory.** TefMeister asked
   that this page move on *every* session — "even the smallest advancements or even changes, not
   necessarily advancements" — so the session tooling gained a check that compares the newest date
@@ -173,7 +179,7 @@ quietly become the second.
 | **Burnout Paradise** (Remastered) | Criterion in-house engine (D3D11) | ⏸ Paused on two blockers: a third-party publisher launcher, and the game is not installed on either machine — so even static work is impossible | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 | **Dead Space 2** (2011) | **RenderWare**-derived framework, custom renderer (Direct3D 9) | 🏆 **The camera is found** (2026-09-14) — register `c4`, left-handed, 16:9, near plane 0.1 — and a way into the game is proven. Its activation layer does **not** object to modding. Left: where the view transform lives, and a depth term that is not the textbook form | [dead-space-2-vr](https://github.com/TefMeister/dead-space-2-vr) |
 | **Death Stranding Director's Cut** (2022) | Decima (Direct3D 12) | 🆕 New 2026-09-13: repo created, first static look done. 64-bit Direct3D 12, the account's first D3D12 project | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
-| **Hard Reset** (2011) | Road Hog Engine (Direct3D 9) | ⭐ **The game appears to ship its own stereo renderer** (2026-09-14) — eye separation and convergence as console settings, beside a real console and a scripting language that can run a file off the disk. Unverified: that era's 3D was often the driver's doing, not the game's | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
+| **Hard Reset** (2011) | Road Hog Engine (Direct3D 9) | ⭐ **The game ships its shaders as readable source** (2026-09-14), naming its own camera matrices, and compiles them itself. Its built-in "stereo" settings turned out, on a closer read, to be NVIDIA's retired 3D Vision rather than the game's own — so no free VR renderer, but a very open door. Not launched yet | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Portal** (2007) | Source (Direct3D 9, Vulkan option shipped) | ⭐ **Valve's VR mode is not a leftover fragment — the whole client half still ships** (2026-09-14): 36 VR settings, head-relative aiming, HUD-in-world, and the VR toggle still in the options menu. **Exactly one file is missing** — the module that talks to the headset | [portal-vr](https://github.com/TefMeister/portal-vr) |
 | **Prototype** (2009) | Titanium (Direct3D 9) | 🏆 **The camera is found** (2026-09-14) — register `c0`, left-handed, 16:9, near 0.3, far 7500, 80.00° — with textbook-standard depth maths. The game also ships **readable shader source** naming its own constants. Left: where the view transform lives | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Tomb Raider** (2013) | Foundation / `cdc` (deferred Direct3D 11, loaded at runtime) | ⭐ **117 shaders live inside the executable with their descriptions intact** (2026-09-14), so the camera's internals are readable off the disk — and one of them is a per-eye **`StereoOffset`** left from the 3D-TV era. Watch out for: deferred lighting, and an Epic Online sign-in welded into start-up | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
