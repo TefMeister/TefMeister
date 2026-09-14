@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -9,21 +9,7 @@
     "human_readme": "https://github.com/TefMeister/TefMeister",
     "layout_change": "2026-08-30: consolidated from six repos per game (101 repos) to ONE public repo per game plus one private staging monorepo (22 repos). Each former repo is now a folder inside its game repo, with full git history preserved behind a subtree join commit."
   },
-  "headline": {
-    "date": "2026-09-10",
-    "what": "In one evening, eight of these mods were worn back to back in a real headset — the first time the estate's whole headset queue was cleared in a single sitting.",
-    "results": [
-      "XIII (Unreal Engine 2): TRUE STEREO WORKS IN VR for the first time, over Virtual Desktop's 32-bit OpenXR runtime.",
-      "Unreal Gold (Unreal Engine 1): the picture FUSES and the world is life-size at StereoIPD=1.0.",
-      "Alice: Madness Returns (Unreal Engine 3): head tracking live in the headset, position and rotation.",
-      "Far Cry 2 (Dunia): per-eye stereo parity and head rotation both work.",
-      "Resident Evil 2 / Visceral (RE Engine): the pose bridge carried head and controller poses for the first time.",
-      "RE Village scope (RE Engine): the multipass worry turned out to be a startup stumble that recovers.",
-      "Psychonauts: the camera-follow build FAILED and does not ship. Enslaved could not be worn at all — no side-by-side output mode exists yet."
-    ],
-    "cross_cutting_lesson": "Seen twice in one evening, on two unrelated engines: ROTATING THE PICTURE AFTER THE ENGINE HAS ALREADY CULLED leaves nothing behind the player. Head yaw has to reach the game's own camera, not just the view matrix we intercept. Second lesson, also twice: a VR driver that logs only to OutputDebugString, or to a console that prints nothing, costs whole launches — every driver should write its VR init verdict to a file.",
-    "caveat": "Almost every result above is n=1 wearer on one machine. They are reported as such in each project's notes, and “it fused once” is not the same claim as “it is comfortable”."
-  },
+  "headline": "2026-09-14: two cameras found in one day. Dead Space 2's projection is at constant register c4 and Prototype's at c0, both left-handed, both read live through a d3d9 proxy built, self-tested and deployed the same day. Six of the eight projects started on 2026-09-13 were advanced; four of them by static reading alone. The day also produced two corrections to this file's own earlier claims and one account-wide latent bug found in three other projects' proxies.",
   "read_first": [
     {
       "if": "You are about to drive or automate one of these games",
@@ -306,9 +292,10 @@
       "game": "Dead Space 2",
       "year": 2011,
       "developer": "Visceral Games",
-      "engine": "Visceral Games' in-house engine",
+      "engine": "EA RenderWare Studio framework, custom renderer",
       "renderer": "Direct3D 9",
-      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit Direct3D 9 exe with the Steam DRM wrapper, an EA-era product-activation layer and what looks like a packer. Not launched yet; whether EA activation blocks launch (the Burnout Paradise lesson) is the first thing to check."
+      "stage": "2026-09-14: THE CAMERA IS FOUND [verified-live 2026-09-14, n=1 session]. The projection arrives as a dedicated four-register vertex-shader constant write at c4, layout R, LEFT-handed (clip.w=+view.z), aspect exactly -16/9 (X axis mirrored), near plane 0.1000, 54.43 degrees horizontal. It is a PURE projection, not a view-projection, so the view transform lives elsewhere. Identified among three candidates by being the one that ANIMATES - a field-of-view sweep walked 60.00 to 70.00 degrees across 21 log entries, all at c4. A d3d9 proxy injection route is PROVEN: the activation layer does not object to an unsigned foreign DLL [disproved 2026-09-14 that it does]. Root cause of an earlier launch-blocking crash named rather than guessed: the game calls D3DPERF_GetStatus and a proxy exporting only Direct3DCreate9 resolved it to NULL. WARNING: the depth term is not the textbook form (m[10]=0.990097), so stereo maths must re-derive from the real matrix; and the device is PUREDEVICE, so constant read-back cannot work here.",
+      "engine_note": "Lineage corrected 2026-09-14: recorded as 'Visceral's own in-house engine' until the binary's exported symbols showed the RWS/rw namespaces and embedded RenderWare SDK documentation. Confirmed at framework level, open at renderer level. Links this project to manhunt-2003-vr, also RenderWare."
     },
     {
       "repo": "death-stranding-vr",
@@ -326,7 +313,7 @@
       "developer": "Flying Wild Hog",
       "engine": "Road Hog Engine",
       "renderer": "Direct3D 9",
-      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: small unprotected 32-bit Direct3D 9 exe. Not launched yet."
+      "stage": "2026-09-14: the game appears to ship ITS OWN STEREO RENDERER [inferred-static 2026-09-14] - r_stereo_enable, r_stereo_eye_separation, r_stereo_convergence with matching menu text, beside a real console (CConsole, a CVar registry, 891 cvars extracted) and embedded Squirrel 2.2.2 with a command to run a script file from data/scripts/debug. If that survived into the retail build it is the cheapest foothold on the account. WARNING unverified: 2011-era stereo was often driver-side (3D Vision), in which case the controls do nothing on a modern machine. Module base is fixed (ASLR off) and the exe imports D3DXGetShaderConstantTable, so shaders carry named constants."
     },
     {
       "repo": "portal-vr",
@@ -335,7 +322,7 @@
       "developer": "Valve",
       "engine": "Source",
       "renderer": "Direct3D 9 (Vulkan option shipped)",
-      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit updated Source branch, D3D9 with a Vulkan option. Valve's leftover OpenVR mode code is still present in engine.dll and client.dll, though sourcevr.dll does not ship. Not launched yet."
+      "stage": "2026-09-14: Valve's own VR mode is not a leftover fragment - the whole CLIENT half still ships [inferred-static 2026-09-14]. client.dll (linked 2025-05-27) carries CClientVirtualReality, the build path src/game/client/client_virtualreality.cpp, and 36 vr_* cvars covering head-relative aiming, HUD-in-world placement, view-model handling and the near-plane multiplier. GameUI.dll still has the VR Mode menu toggle. Exactly ONE thing is missing: sourcevr.dll, the module that talks to OpenVR, which is absent from the whole machine. The engine also expects it to be SIGNED. ASLR is ON here, unlike the other Direct3D 9 projects."
     },
     {
       "repo": "prototype-vr",
@@ -344,16 +331,16 @@
       "developer": "Radical Entertainment",
       "engine": "Titanium",
       "renderer": "Direct3D 9",
-      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit Direct3D 9; the game code sits in an unprotected engine DLL behind a Steam-wrapped launcher stub, both rebuilt 2025-08-14. Not launched yet."
+      "stage": "2026-09-14: THE CAMERA IS FOUND [verified-live 2026-09-14, n=1 session]. Register c0, four registers, layout R, LEFT-handed, aspect exactly 16/9, X not mirrored, near plane 0.300000, far plane 7500, 80.00 degrees horizontal, with a zoom ladder of eight fields of view all at exactly 16:9. The depth term FITS the textbook left-handed form, unlike Dead Space 2's, so per-eye maths can use the standard formulae. The game also ships READABLE HLSL SOURCE in shaders.rcf naming its own constants (p3dWorldViewProjectionMatrix). CORRECTION: that source implied a fused world-view-projection, but the gameplay matrix at c0 is a PURE projection - registers are assigned per shader and the shipped file is a 10 KB sample. Open: where the view transform lives (the c0+5 upload, the most frequent of all, is unread)."
     },
     {
       "repo": "tomb-raider-2013-vr",
       "game": "Tomb Raider",
       "year": 2013,
       "developer": "Crystal Dynamics",
-      "engine": "Foundation",
-      "renderer": "Direct3D 11 (Direct3D 9 option)",
-      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: unprotected 32-bit Foundation-engine exe (2022 patch build) naming both Direct3D 11 and Direct3D 9, with an Epic Online Services SDK shipped beside it. Not launched yet."
+      "engine": "Crystal Dynamics Foundation (internally 'cdc')",
+      "renderer": "deferred Direct3D 11, resolved at runtime",
+      "stage": "2026-09-14: the .shad section holds 117 DXBC shaders WITH THEIR REFLECTION DATA INTACT [inferred-static 2026-09-14], so the camera constant buffer is readable off disk with names and byte offsets. SceneBuffer (1360 bytes, 31 shaders): View +0, ScreenMatrix +64, __CameraPosition +160, CameraDirection +176, DepthToWorld +240, PrevViewProject +912, InverseProjection +1280, and StereoOffset +1344 - a per-eye shift term left from the 3D-Vision era. WARNING: that the constant exists proves the shaders have a stereo term, not that anything still fills it. CORRECTION: d3d11/dxgi/d3d9/nvapi are named in the exe as STRINGS ONLY - the import table contains no graphics API at all, so the renderer is resolved dynamically, the same shape as alan-wake-vr. Two real complications: deferred shading (depth reconstruction must move with any per-eye shift) and EOSSDK as a hard static import."
     },
     {
       "repo": "witcher-2-vr",
@@ -362,7 +349,7 @@
       "developer": "CD Projekt Red",
       "engine": "REDengine",
       "renderer": "Direct3D 9",
-      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 32-bit Direct3D 9 REDengine exe (2013 patch build) behind the Steam DRM wrapper, with its game scripts shipped in the install and a DebugConsole string in the exe. Not launched yet. Public REDengine research and the Cyberpunk 2077 VR work are queued for /gr."
+      "stage": "2026-09-14: CDebugConsole is a real class, not a stray string, and beside it sit CGameDebugMenu and CFreeCamera [inferred-static 2026-09-14]. The camera is a named registered object (CCamera, CCameraComponent, CCameraPlanesParameters, CStaticCamera, plus cutscene, quest and animation camera families). Config ships as plain text in bin/config - about 30 named [Rendering] switches, Fullscreen among them, so windowed mode needs no code patch; [Engine] CustomRenderingSettings ships at 0 and is worth flipping. No stereo/VR key appears in the shipped section. Module base is FIXED (ASLR off) and d3d9 is a STATIC import, so a proxy DLL is an available route. WARNING: d3dx9_39 does NOT include D3DXGetShaderConstantTable, so no free route to named shader constants here. How any of the three debug facilities opens is unknown - debug classes routinely survive into retail builds with their entry points removed."
     },
     {
       "repo": "metro-exodus-vr",
