@@ -13,6 +13,15 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-14
 
+### RE Village — VR scope
+- 🎮 **The scope now puts its picture back on the glass by itself** after a weapon switch. Tested in
+  the headset: it comes back almost instantly, no key press needed.
+- 🔧 **A tester package was put together**, with one-click start and fix shortcuts and step-by-step
+  instructions, so someone else can run the scope exactly as it runs here.
+- 📋 **A new to-do list after a real play session:** the zero has drifted slightly, the stock glass
+  flashes during a weapon switch, bullet spread on scoped rifles, and a random flicker. Crouched
+  aiming was confirmed working.
+
 ### Hard Reset
 - 🎮 **First launch, with TefMeister at the keyboard.** The developer console works (Ctrl + ~). The
   old 3D switch does *something* on a modern graphics card, which I had just predicted it would not.
