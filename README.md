@@ -24,6 +24,69 @@ landscape notes) applies even to games with no dedicated project.
 
 ---
 
+## Recent activity
+
+Newest first. **Every session adds a line here, whether it advanced anything or not** — a quiet
+day, a dead end and a correction are all part of the picture, and a page that only moves on good
+news is not an honest record of how this work actually goes. Older entries roll off the bottom;
+the full history is in each repo's `modding-notes/`.
+
+### 2026-09-14
+
+- 🏆 **Prototype — the camera is found.** Register `c0`, left-handed, 16:9, near plane 0.3, far
+  7500, **80.00°** horizontal, with a zoom ladder of eight fields of view all at exactly 16:9. Its
+  depth maths is textbook-standard, which makes the per-eye work easier here than on Dead Space 2.
+- ⚠️ **Prototype — and a correction to my own claim from four hours earlier.** I had read the game's
+  shipped shader source, seen a *fused* world-view-projection, and argued head tracking would be
+  harder as a result. The live run shows the gameplay camera is a **pure projection**, not fused. I
+  had already written down that this engine assigns registers per shader and that the file I read was
+  a 10 KB sample — and then reasoned as though the sample spoke for the engine. Withdrawn.
+- 🔧 **The camera instrument now identifies the camera itself.** Prototype's engine produced dozens
+  of false matches where Dead Space 2 produced three; the only reliable discriminator was the ratio
+  matching the display's aspect. That test had been a line of prose asking a human to divide. It now
+  runs in the tool, marks rather than filters, and still catches Dead Space 2's mirrored-X camera.
+- 🏆 **Dead Space 2 — the camera is found.** Register `c4`, left-handed, exactly 16:9, X axis
+  mirrored, near plane 0.1. Told apart from two rival candidates by the fact that it *animates*: a
+  field-of-view sweep walked 60.00° → 70.00° across 21 log entries, all at `c4`, while the others sat
+  still. Its depth term is **not** the textbook form, and that is flagged rather than explained.
+- 🏆 **Dead Space 2 — a way into the game, proven.** A proxy that exported one graphics function
+  stopped the game launching entirely; the root cause is named rather than guessed — the game calls
+  `D3DPERF_GetStatus` six seconds into start-up, and an unresolved call to nothing is exactly the
+  crash seen. Exporting all seventeen fixed it. The rival theory, that the DRM was rejecting an
+  unsigned file, is **disproved**: an unsigned file of ours runs the game fine.
+- ⚠️ **Dead Space 2 — the same day, an instrument that could never have worked.** A vtable patch
+  stood down on every launch because something else (almost certainly the Steam overlay) already held
+  the slot — and standing down happens *before* the moment it was waiting for. A playthrough was
+  spent on a log that could not have contained the answer. Fixed by wrapping rather than patching.
+- 🔍 **An account-wide latent bug, found and flagged.** Three other projects — Psychonauts, Alan
+  Wake, Prince of Persia — ship graphics proxies with the same one-function shape that broke Dead
+  Space 2. They work today because those games happen not to ask; if one ever did, it would fail as
+  an unexplained start-up crash. Notes filed to all three and to the shared library.
+- ✏️ **Dead Space 2 — engine lineage corrected.** Recorded as "Visceral's own in-house engine"; the
+  binary's own exported symbols say it is built on **RenderWare**. That matters because Manhunt on
+  this account is also RenderWare — a link the old wording discouraged anyone from looking for.
+  (The renderer itself is still custom; only the framework is confirmed.)
+- ⭐ **Tomb Raider (2013) — the shaders are inside the executable**, 117 of them with their
+  descriptions intact, so the camera's internals are readable **off the disk with nothing running**:
+  view matrix, inverse projection, camera position and direction, all by name and offset. And among
+  them sits a slot called **`StereoOffset`** — a per-eye shift, left over from the 3D-TV era.
+  Whether anything still fills it is the first thing to check.
+- ⭐ **The Witcher 2 — a debug console, a debug menu and a free-camera class** are all named in the
+  binary, its settings ship as plain text (so windowed mode needs no patch at all), and its memory
+  addresses stay put between runs. Friendlier than the first look suggested.
+- ⭐ **Portal — Valve's own VR mode is not a fragment, it is the whole client half.** The shipped
+  game still contains 36 VR settings, head-relative aiming, the HUD-in-world handling, and the VR
+  toggle in the options menu. Exactly one file is missing: the module that talks to the headset.
+- ⭐ **Hard Reset — the game appears to ship its own stereo renderer.** Eye separation and
+  convergence exist as console settings, alongside a real console and an embedded scripting language
+  that can run a file straight off the disk. If that survived into the retail build it is the
+  cheapest way in on the whole account. Unverified — that era's 3D was often done by the driver.
+- 📋 **Six install checks, and two honest negatives.** Of the six games looked at, four were already
+  on the development machine; The Witcher 2 and Tomb Raider were not, so their work was re-tagged
+  rather than planned around. Both were downloaded later the same day and studied.
+
+---
+
 ## How this is organized
 
 **One repo per game.** Consolidated on 2026-08-30 from the earlier
@@ -95,13 +158,13 @@ quietly become the second.
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 (D3D9) | Camera delivery solved statically from the game's own shipped shader sources. **Not wearable yet for a small, known reason:** the proxy has no side-by-side output mode | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **The Evil Within** (2014) | id Tech 5 "STEM" (D3D11) | Pre-release — building the stereo 6DOF core. The rotation now reaches the draws it was missing; whether it is *correct* is the open question | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **Burnout Paradise** (Remastered) | Criterion in-house engine (D3D11) | ⏸ Paused on two blockers: a third-party publisher launcher, and the game is not installed on either machine — so even static work is impossible | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
-| **Dead Space 2** (2011) | Visceral Games' in-house engine (Direct3D 9) | 🆕 New 2026-09-13: repo created, first static look done. 32-bit, D3D9; an EA activation layer to check before anything else | [dead-space-2-vr](https://github.com/TefMeister/dead-space-2-vr) |
+| **Dead Space 2** (2011) | **RenderWare**-derived framework, custom renderer (Direct3D 9) | 🏆 **The camera is found** (2026-09-14) — register `c4`, left-handed, 16:9, near plane 0.1 — and a way into the game is proven. Its activation layer does **not** object to modding. Left: where the view transform lives, and a depth term that is not the textbook form | [dead-space-2-vr](https://github.com/TefMeister/dead-space-2-vr) |
 | **Death Stranding Director's Cut** (2022) | Decima (Direct3D 12) | 🆕 New 2026-09-13: repo created, first static look done. 64-bit Direct3D 12, the account's first D3D12 project | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
-| **Hard Reset** (2011) | Road Hog Engine (Direct3D 9) | 🆕 New 2026-09-13: repo created, first static look done. Small, unprotected 32-bit D3D9 exe | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
-| **Portal** (2007) | Source (Direct3D 9 (Vulkan option shipped)) | 🆕 New 2026-09-13: repo created, first static look done. Valve's own leftover VR-mode code is still inside the game, worth checking first | [portal-vr](https://github.com/TefMeister/portal-vr) |
-| **Prototype** (2009) | Titanium (Direct3D 9) | 🆕 New 2026-09-13: repo created, first static look done. 32-bit D3D9; game code in an unprotected DLL | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
-| **Tomb Raider** (2013) | Foundation (Direct3D 11 (Direct3D 9 option)) | 🆕 New 2026-09-13: repo created, first static look done. Unprotected 32-bit exe with both D3D11 and D3D9 paths | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
-| **The Witcher 2: Assassins of Kings** (2011) | REDengine (Direct3D 9) | 🆕 New 2026-09-13: repo created, first static look done. 32-bit D3D9 REDengine; game scripts ship with it, and there is lots of public REDengine research to study | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
+| **Hard Reset** (2011) | Road Hog Engine (Direct3D 9) | ⭐ **The game appears to ship its own stereo renderer** (2026-09-14) — eye separation and convergence as console settings, beside a real console and a scripting language that can run a file off the disk. Unverified: that era's 3D was often the driver's doing, not the game's | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
+| **Portal** (2007) | Source (Direct3D 9, Vulkan option shipped) | ⭐ **Valve's VR mode is not a leftover fragment — the whole client half still ships** (2026-09-14): 36 VR settings, head-relative aiming, HUD-in-world, and the VR toggle still in the options menu. **Exactly one file is missing** — the module that talks to the headset | [portal-vr](https://github.com/TefMeister/portal-vr) |
+| **Prototype** (2009) | Titanium (Direct3D 9) | 🏆 **The camera is found** (2026-09-14) — register `c0`, left-handed, 16:9, near 0.3, far 7500, 80.00° — with textbook-standard depth maths. The game also ships **readable shader source** naming its own constants. Left: where the view transform lives | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
+| **Tomb Raider** (2013) | Foundation / `cdc` (deferred Direct3D 11, loaded at runtime) | ⭐ **117 shaders live inside the executable with their descriptions intact** (2026-09-14), so the camera's internals are readable off the disk — and one of them is a per-eye **`StereoOffset`** left from the 3D-TV era. Watch out for: deferred lighting, and an Epic Online sign-in welded into start-up | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
+| **The Witcher 2: Assassins of Kings** (2011) | REDengine (Direct3D 9) | ⭐ **A debug console, a debug menu and a free-camera class are all in the shipped binary** (2026-09-14); settings are plain text so windowed mode needs no patch, and addresses stay put between runs. How any of the three opens is the open question | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus Enhanced Edition** (2021) | 4A Engine (Direct3D 12) | 🆕 New 2026-09-13: repo created, first static look done. 64-bit D3D12 with ray tracing always on; leftover VR code from 4A's own VR game is still inside the exe | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **Arcade Controls for RE2 VR** *(closed)* | RE Engine (via REFramework) | Shipped on Nexus through v1.5.0; **superseded by Visceral — RE2 VR**, kept as frozen study material | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
