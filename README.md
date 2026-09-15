@@ -58,6 +58,12 @@ A quick look at where each mod stands, newest state only. The full story is in e
 | **The Witcher 2** (2011) | REDengine | 🔍 Debug console, menu and free camera found. Next: how to open them | 09-14 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Death Stranding Director's Cut** (2022) | Decima | 🔍 First look only | 09-13 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
 | **Metro Exodus Enhanced Edition** (2021) | 4A Engine | 🔍 First look only; leftover VR code from 4A's own VR game is inside | 09-13 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
+| **Heavy Rain** (2010) | Quantic Dream engine | 🔍 First look only; code is behind the Steam DRM wrapper | 09-15 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
+| **Prey** (2017) | CryEngine | 🔍 First look only; CryEngine's leftover headset settings are still inside | 09-15 | [prey-2017-vr](https://github.com/TefMeister/prey-2017-vr) |
+| **Borderlands GOTY Enhanced** (2009) | Unreal Engine 3 | 🔍 First look only; same engine and graphics tech as Alice and Enslaved | 09-15 | [borderlands-goty-vr](https://github.com/TefMeister/borderlands-goty-vr) |
+| **Far Cry 3: Blood Dragon** (2013) | Dunia | 🔍 First look only; same engine as Far Cry 2. Likely needs Ubisoft Connect | 09-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
+| **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 Repo made; game still downloading | 09-15 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
+| **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Repo made; game still downloading | 09-15 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 | **Burnout Paradise** (Remastered) | Criterion engine | ⏸ Paused: needs a third-party launcher, and not installed | 09-01 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
