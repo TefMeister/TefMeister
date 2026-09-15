@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -359,6 +359,60 @@
       "engine": "4A Engine",
       "renderer": "Direct3D 12 (ray tracing always on)",
       "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 64-bit Direct3D 12 4A Engine exe behind the Steam DRM wrapper, with about 350 console-variable names and leftover VR code names (-vr_profile, vr_hand_speed, oculus_touch_presets) still inside, likely from 4A's Arktika.1 [hypothesis]. Not launched yet. 4A Engine and Arktika.1 VR research queued for /gr."
+    },
+    {
+      "repo": "heavy-rain-vr",
+      "game": "Heavy Rain",
+      "year": 2010,
+      "developer": "Quantic Dream",
+      "engine": "Quantic Dream engine",
+      "renderer": "Direct3D 11",
+      "stage": "NEW 2026-09-15. Repo created; first static look only: 64-bit Direct3D 11 exe behind the Steam DRM wrapper [inferred-static 2026-09-15]. Mostly fixed cinematic cameras, so a big 3D screen is the likely first VR shape [hypothesis]. Not launched yet."
+    },
+    {
+      "repo": "prey-2017-vr",
+      "game": "Prey",
+      "year": 2017,
+      "developer": "Arkane Studios",
+      "engine": "CryEngine (Arkane fork)",
+      "renderer": "Direct3D 11",
+      "stage": "NEW 2026-09-15. Repo created; first static look only: Arkane's CryEngine fork, 64-bit, no Steam DRM wrapper or Denuvo string. CryEngine's leftover headset console variables (hmd_rotatepitch/roll/yaw) are still in the build [inferred-static 2026-09-15]; whether they do anything is unknown. Not launched yet."
+    },
+    {
+      "repo": "borderlands-goty-vr",
+      "game": "Borderlands GOTY Enhanced",
+      "year": 2009,
+      "developer": "Gearbox Software",
+      "engine": "Unreal Engine 3",
+      "renderer": "Direct3D 9",
+      "stage": "NEW 2026-09-15. Repo created; first static look only: 64-bit Unreal Engine 3 on Direct3D 9 (static import, proxy-friendly), behind the Steam DRM wrapper [inferred-static 2026-09-15]. Alice and Enslaved are UE3 projects on this account, so their camera work applies. Not launched yet."
+    },
+    {
+      "repo": "far-cry-3-blood-dragon-vr",
+      "game": "Far Cry 3: Blood Dragon",
+      "year": 2013,
+      "developer": "Ubisoft Montreal",
+      "engine": "Dunia",
+      "renderer": "Direct3D 9 and Direct3D 11 (two builds)",
+      "stage": "NEW 2026-09-15. Repo created; first static look only: 32-bit Dunia (the DLL still calls itself the Far Cry 2 library) with separate Direct3D 9 and Direct3D 11 builds [inferred-static 2026-09-15]. WARNING: very probably needs Ubisoft Connect to start [hypothesis]. The Far Cry 2 project's Direct3D 9 camera method is the first thing to try. Not launched yet."
+    },
+    {
+      "repo": "deus-ex-mankind-divided-vr",
+      "game": "Deus Ex: Mankind Divided",
+      "year": 2016,
+      "developer": "Eidos-Montréal",
+      "engine": "Dawn Engine",
+      "renderer": "Direct3D 11 / Direct3D 12",
+      "stage": "NEW 2026-09-15. Repo created; nothing on disk yet (still downloading on the home PC). Dawn Engine, Direct3D 11/12 [reported]. First static look waits on the download."
+    },
+    {
+      "repo": "bulletstorm-vr",
+      "game": "Bulletstorm: Full Clip Edition",
+      "year": 2011,
+      "developer": "People Can Fly",
+      "engine": "Unreal Engine 3",
+      "renderer": "Direct3D 11",
+      "stage": "NEW 2026-09-15. Repo created; nothing on disk yet (still downloading on the home PC). Unreal Engine 3 [reported]. First static look waits on the download."
     }
   ],
   "notes_for_ai_readers": [
