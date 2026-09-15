@@ -11,6 +11,22 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-15
+
+### The lanes plugin (tooling)
+- 🔧 **Its last two known bugs are closed (0.6.2).** The counter for "sessions run with the
+  background helper" had been counting from a date, so two sessions from the morning *before* the
+  helper existed were being counted as helper runs. It now counts from the exact minute the helper
+  shipped, and a test proves the earlier ones are left out. The plugin's own test lane also has
+  proper instructions for checking that helper live.
+- 📋 **Where it stands:** 33 of the 50 clean two-window runs it needs before going public, and the
+  helper's own bar (20 runs) is already past. Zero open bugs.
+
+### Mod ideas
+- 📋 Nine ideas filed from the phone dump — five for RE2, one each for RE7 and all the RE games, one
+  for every game (casings that stay on the floor), and one for the plugin itself: tell newcomers
+  which games are already being converted, so nobody does the same one twice.
+
 ## 2026-09-14
 
 ### RE Village — VR scope
