@@ -46,6 +46,9 @@ wrong · 🔧 tooling · 📋 housekeeping
   the opposite way from what the maths assumed, and the glass shows the picture upside down by itself.
   The two together are exactly the half-turn the wearer picked. The mod can now build that orientation
   directly, so its warning about a mirrored picture means something again. One look confirms it.
+- ✋ **One hand hiding the other controller:** the VR menu's own hand-position slider most likely never
+  reaches the hands, so the mod now has a one-line command that sets how much higher you hold a
+  controller than its hand is drawn. Waiting for a headset test.
 
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
