@@ -28,6 +28,9 @@ wrong · 🔧 tooling · 📋 housekeeping
   that follows the rig, and one word (`rerig`) rebuilds the scope after a reload.
 - ⏱️ **The one-second flash of the plain lens when switching away from the rifle** now has a switch to
   try: the scope waits until the rifle is actually put away before handing the lens back. Off until tested.
+- 🔭 **Different zoom for each scope needs the mod to know which scope is fitted**, and the game files do
+  not say: both scopes share one rifle model. The mod now writes a short fingerprint of the rifle to its
+  log each time the scope picture attaches, so one quick look with each scope will tell them apart.
 
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
