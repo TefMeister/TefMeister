@@ -35,6 +35,9 @@ wrong · 🔧 tooling · 📋 housekeeping
   check on the mod's own maths showed two of its three offsets cannot affect the picture at all, so the
   set-up now pulls it in to the rifle, and one height knob is left to try against the branches and
   clothing that show up in the scope.
+- 🎯 **Bullets straying from the crosshair when scoped:** the game's files do not name the spread value, so
+  the mod can now list, on one command, every setting the game itself calls spread, recoil or accuracy,
+  with the rifle's live numbers. Two runs, aiming and not aiming, should point at the one to pin.
 
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
