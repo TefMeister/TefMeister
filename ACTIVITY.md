@@ -23,6 +23,9 @@ wrong · 🔧 tooling · 📋 housekeeping
   guard, and a switch to the picture buffer that is ours alone. All off by default, nothing run yet.
 - 🔧 **The dev PC now carries the home PC's build**, and a descriptor file that only existed in one game
   folder is now in the repo.
+- 🔁 **The "security camera" after a save reload has a fix waiting for a test.** The picture stayed behind
+  because the scope kept reading a buffer the new rig no longer drew into; it now drops back to the one
+  that follows the rig, and one word (`rerig`) rebuilds the scope after a reload.
 
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
