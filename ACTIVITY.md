@@ -31,6 +31,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 - 🔭 **Different zoom for each scope needs the mod to know which scope is fitted**, and the game files do
   not say: both scopes share one rifle model. The mod now writes a short fingerprint of the rifle to its
   log each time the scope picture attaches, so one quick look with each scope will tell them apart.
+- 📍 **The invisible object that carries the scope's mirror was parked over a metre from the rifle.** A
+  check on the mod's own maths showed two of its three offsets cannot affect the picture at all, so the
+  set-up now pulls it in to the rifle, and one height knob is left to try against the branches and
+  clothing that show up in the scope.
 
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
