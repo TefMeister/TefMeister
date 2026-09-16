@@ -38,6 +38,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 - 🎯 **Bullets straying from the crosshair when scoped:** the game's files do not name the spread value, so
   the mod can now list, on one command, every setting the game itself calls spread, recoil or accuracy,
   with the rifle's live numbers. Two runs, aiming and not aiming, should point at the one to pin.
+- 👀 **The slight shake in the scope picture has a likely cause and a switch to try.** The headset draws
+  from the left eye one frame and the right eye the next, and the mirror's viewpoint hops with it, so a
+  picture aimed in a fixed direction lands on a slightly different spot every frame. The mod can now aim
+  at the point the rifle is pointing at instead, from whichever eye drew the frame. Off until tested.
 
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
