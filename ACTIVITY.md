@@ -56,6 +56,9 @@ wrong · 🔧 tooling · 📋 housekeeping
 - 🔄 **Correction:** this session said nobody was recompiling The Darkness. Wrong — a project
   exists and has shown a working build. The search behind that claim returned dark-mode browser
   extensions, and a useless result was read as a negative one. Tefa caught it.
+- 🏆 **Our own build of The Darkness now runs — later the same day.** It started as a skeleton that crashed instantly, looking for one missing piece of its own code after another. Rather than hunt them one crash at a time, a helper worked out *why*: the game was built without the internal labels the toolkit relies on to find that code. It then found 235 of the missing pieces in one pass — one of them predicted before a crash independently confirmed it. After that the game played its intro logos, reached **The Darkness** title screen, and carried on into the opening sequence.
+- ⚠️ **Not claiming more than that.** A character name card appeared, but the game’s trailer also plays automatically when left idle at the menu, so it is not yet certain the 3D engine is drawing. The helper found a built-in switch that jumps straight into the first level, which will settle it.
+- 🔧 **Tested hands-off while Tefa worked on the same PC**, photographing only the game’s own window so their work was never interrupted. One run ended with focus on a different window and it could not be told why, so no further runs were made — Tefa’s other program drives a real engraving machine.
 
 ### Housekeeping
 - 🔄 **Correction to this page:** Deus Ex: Mankind Divided and Bulletstorm were listed as
