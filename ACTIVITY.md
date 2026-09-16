@@ -13,6 +13,17 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-16
 
+### RE Village — VR scope
+- 🔎 **The one-frame flicker, read from the code (no game running).** Tefa's frame-by-frame video was
+  looked at again: for that one frame the scope shows a *different picture*, not the same one with the
+  rifle in it. The plugin's high-range picture comes from a buffer the engine hands out from a shared
+  pool, and that kind of buffer has shown nothing at all before — the leading suspect is that another
+  part of the renderer sometimes draws into it. Three switches were built to prove or disprove it in one
+  headset session: a change detector that logs every such frame, a "show the last good frame again"
+  guard, and a switch to the picture buffer that is ours alone. All off by default, nothing run yet.
+- 🔧 **The dev PC now carries the home PC's build**, and a descriptor file that only existed in one game
+  folder is now in the repo.
+
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
   refuses to start on.** A newly-bought second-hand DVD drive was flashed with the firmware that lets
