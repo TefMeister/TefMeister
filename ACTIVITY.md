@@ -31,6 +31,16 @@ wrong · 🔧 tooling · 📋 housekeeping
   confirms the old processor, not the graphics card, is the limit. No more time will be spent tuning
   graphics on that machine.
 
+### The Darkness (2007) (new project)
+- ⭐ **A second Xbox 360 disc copied perfectly, and the game files extracted.** Two promising leads:
+  the engine reads plain-text settings (the whole retail config is three lines, so it very likely
+  understands many more), and a **debug** configuration file shipped on the retail disc. Both are
+  unproven until the game's main program is unpacked — it is compressed and encrypted, which was
+  confirmed by a control test rather than assumed.
+- 🔄 **Correction:** this session said nobody was recompiling The Darkness. Wrong — a project
+  exists and has shown a working build. The search behind that claim returned dark-mode browser
+  extensions, and a useless result was read as a negative one. Tefa caught it.
+
 ### Housekeeping
 - 🔄 **Correction to this page:** Deus Ex: Mankind Divided and Bulletstorm were listed as
   "still downloading". They are not — and neither are the other four of that batch. **All six are
