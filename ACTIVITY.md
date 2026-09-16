@@ -49,6 +49,9 @@ wrong · 🔧 tooling · 📋 housekeeping
 - ✋ **One hand hiding the other controller:** the VR menu's own hand-position slider most likely never
   reaches the hands, so the mod now has a one-line command that sets how much higher you hold a
   controller than its hand is drawn. Waiting for a headset test.
+- 🧾 **Board tidy-up:** the last no-game item, a rifle with no scope until you buy one from the Duke, turns
+  out to hinge on one question the new rifle fingerprint already answers in the game, so it now waits
+  for that test. Nothing on RE Village is left to do without the game on this PC.
 
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
