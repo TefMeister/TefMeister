@@ -83,6 +83,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 - 🏆 **Proven that night: the look stick turns the camera.** Pictures taken a split second either side of each nudge, with do-nothing checks in between, showed the view swinging left when pushed right, right when pushed left, and up when pushed up — and not moving at all when nothing was pressed. The first attempt wrongly said it didn’t work: the on-screen “Use to look around” text never moves, and it fooled the measurement. **Every flat-screen step before VR is now done** — in a headset, your head does that looking.
 
   ![The Darkness opening car chase, rendered live in our own build](https://raw.githubusercontent.com/TefMeister/the-darkness-vr/main/dev-archive/milestone-captures/2026-09-16-first-3d-car-tunnel.png)
+- ⭐ **Found the two places VR plugs in.** Reading the toolkit’s code turned up one spot where every finished frame passes on its way to the screen — where frames can go to a headset instead — and a second, earlier spot where the game sets up its camera. **Both are needed, and that is the part that is easy to get wrong:** a frame at the first spot is already a flat picture, so sending it to both eyes gives no depth. Real 3D needs each eye drawn from a slightly different position, which is what the second spot allows. Neither place has any VR code in it yet. The same code runs every Xbox 360 port on this toolkit, so this also answers the question for Condemned 2.
 
 ### Housekeeping
 - 🔄 **Correction to this page:** Deus Ex: Mankind Divided and Bulletstorm were listed as
