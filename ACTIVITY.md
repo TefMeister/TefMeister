@@ -26,6 +26,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 - 🔁 **The "security camera" after a save reload has a fix waiting for a test.** The picture stayed behind
   because the scope kept reading a buffer the new rig no longer drew into; it now drops back to the one
   that follows the rig, and one word (`rerig`) rebuilds the scope after a reload.
+- ⏱️ **The one-second flash of the plain lens when switching away from the rifle** now has a switch to
+  try: the scope waits until the rifle is actually put away before handing the lens back. Off until tested.
 
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
