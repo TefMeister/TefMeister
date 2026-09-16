@@ -11,6 +11,32 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-16
+
+### Condemned 2: Bloodshot (new project)
+- 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
+  refuses to start on.** A newly-bought second-hand DVD drive was flashed with the firmware that lets
+  a PC read Xbox 360 discs, the disc was copied with zero read errors, and the game files extracted.
+  The published PC recompilation then failed with a Windows message that blames a missing file and
+  means nothing of the sort — the real cause was that the release needs a processor feature from 2013
+  and this machine is from 2012.
+- ⭐ **Rebuilt from source instead, and it works.** Built the project the way its own settings ask
+  for, the dependence on that 2013 feature drops from 6,214 uses to 39, and the 39 left are never
+  reached. Seven separate obstacles had to be cleared along the way; three of them turned out to be
+  genuine gaps in the upstream projects rather than local problems, and are written up to be sent back.
+- 🔄 **Correction:** this session told Tefa to install Microsoft's compiler as an administrator.
+  They did not need to — it was already on the machine, in a non-default folder that the check
+  did not look in.
+- 🔍 **Still slow, and now we know why.** Lowering every graphics setting barely helped, which
+  confirms the old processor, not the graphics card, is the limit. No more time will be spent tuning
+  graphics on that machine.
+
+### Housekeeping
+- 🔄 **Correction to this page:** Deus Ex: Mankind Divided and Bulletstorm were listed as
+  "still downloading". They are not — and neither are the other four of that batch. **All six are
+  fully installed on the dev PC**, which also corrects a note claiming none of them were. Tefa spotted
+  the wrong lines.
+
 ## 2026-09-15
 
 ### The lanes plugin (tooling)
