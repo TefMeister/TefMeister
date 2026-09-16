@@ -42,6 +42,10 @@ wrong · 🔧 tooling · 📋 housekeeping
   from the left eye one frame and the right eye the next, and the mirror's viewpoint hops with it, so a
   picture aimed in a fixed direction lands on a slightly different spot every frame. The mod can now aim
   at the point the rifle is pointing at instead, from whichever eye drew the frame. Off until tested.
+- 🧭 **Why the scope picture needed a half-turn is now understood:** the rifle's own sideways axis points
+  the opposite way from what the maths assumed, and the glass shows the picture upside down by itself.
+  The two together are exactly the half-turn the wearer picked. The mod can now build that orientation
+  directly, so its warning about a mirrored picture means something again. One look confirms it.
 
 ### Condemned 2: Bloodshot (new project)
 - 🏆 **A 2008 Xbox 360 game is now running on the dev PC, on hardware the official PC build
