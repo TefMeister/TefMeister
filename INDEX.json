@@ -421,7 +421,7 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "NEW 2026-09-17. Blender-only so far: our own pixel-style 3D models and stop-motion animations (lantern, handgun, jackhammer, crowbar), each animation also as a _static version for adding hands later. Not in the game yet; GZDoomVR exposes the weapon hand's position to mods but not the off hand [inferred-static]. Ashes 2063 is a free standalone download from ModDB (linked in the README, 2026-09-17).",
+      "stage": "NEW 2026-09-17. Blender-only so far: our own pixel-style 3D models and stop-motion animations (lantern, handgun, jackhammer, crowbar, revolver; the revolver's animations are timed tic-for-tic from the game's own weapon file), each animation also as a _static version for adding hands later. Not in the game yet; GZDoomVR exposes the weapon hand's position to mods but not the off hand [inferred-static]. Ashes 2063 is a free standalone download from ModDB (linked in the README, 2026-09-17).",
       "source_of_truth": "ashes-2063-weapons/kit/"
     }
   ],
