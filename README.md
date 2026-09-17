@@ -39,7 +39,7 @@ A quick look at where each mod stands, newest state only. The full story is in e
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **XIII** (2003) | Unreal Engine 2 | 🎮 True stereo in a headset. Early release `v0.3.0-alpha` out | 09-13 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
-| **Unreal Gold** (1998) | Unreal Engine 1 | 🎮 Fuses at life-size. Early release `v0.1.0-alpha` out, now with free game + patch links; HUD not yet per eye | 09-17 | [unreal-gold-vr](https://github.com/TefMeister/unreal-gold-vr) |
+| **Unreal Gold** (1998) | Unreal Engine 1 | ⏸ Paused: a VR mod already exists (Unreal Revived); our early release stays up | 09-17 | [unreal-gold-vr](https://github.com/TefMeister/unreal-gold-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🎮 Stereo and head tracking work. Early release `v0.1.8-alpha` out; camera-follow still broken | 09-13 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Far Cry 2** (2008) | Dunia | 🎮 Stereo and head rotation work. Early release `v0.2.0-alpha` out; nothing drawn behind you yet | 09-13 | [far-cry-2-vr](https://github.com/TefMeister/far-cry-2-vr) |
 | **RE Village — VR scope** | RE Engine | 🔎 Working, zeroed sniper scope; the one-frame flicker read from the code, three test knobs built (untested) | 09-16 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
@@ -47,7 +47,7 @@ A quick look at where each mod stands, newest state only. The full story is in e
 | **Visceral — RE2 VR** | RE Engine | 🎮 `v0.1.0` released. Head and controllers reach the game; grip bug fixed, camera bug next | 09-11 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Dead Space 2** (2011) | RenderWare-based | 🔧 Camera found and the per-eye maths derived. Next: two pictures on screen | 09-14 | [dead-space-2-vr](https://github.com/TefMeister/dead-space-2-vr) |
 | **Prototype** (2009) | Titanium | 🔧 Camera found, with textbook depth maths. Next: where the view is set | 09-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
-| **DOOM** (2016) | id Tech 6 | 🔧 Camera maths read and proved. Arrow-key fix written, not yet run. Next: writing to the camera | 09-12 | [doom-2016-vr](https://github.com/TefMeister/doom-2016-vr) |
+| **DOOM** (2016) | id Tech 6 | ⏸ Paused: a DOOM VR mod already exists (KHARVOX); any later work would build on it | 09-17 | [doom-2016-vr](https://github.com/TefMeister/doom-2016-vr) |
 | **Manhunt** (2003) | RenderWare | 🔧 The game can be driven by automation, and the character now walks | 09-11 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 The world moves under our control, but the HUD moves with it | 09-10 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Camera solved. Can't be worn until side-by-side output exists | 09-10 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
@@ -63,7 +63,7 @@ A quick look at where each mod stands, newest state only. The full story is in e
 | **The Darkness** (2007) | Starbreeze engine | ⭐ **Plays in 3D; the exact spot to give each eye its own camera is found and checked.** Next: trying it live. **Tefa’s top VR want** | 09-16 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Running on PC from a self-built recompile — the official build needs a 2013+ CPU, ours does not. Three fixes written up for upstream | 09-16 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | 🔍 First look only; code is behind the Steam DRM wrapper | 09-15 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
-| **Prey** (2017) | CryEngine | 🔍 First look only; CryEngine's leftover headset settings are still inside | 09-15 | [prey-2017-vr](https://github.com/TefMeister/prey-2017-vr) |
+| **Prey** (2017) | CryEngine | ⏸ Paused: fholger is making a Prey VR mod; we would build on top of his once it is out | 09-17 | [prey-2017-vr](https://github.com/TefMeister/prey-2017-vr) |
 | **Borderlands GOTY Enhanced** (2009) | Unreal Engine 3 | 🔍 First look only; same engine and graphics tech as Alice and Enslaved | 09-15 | [borderlands-goty-vr](https://github.com/TefMeister/borderlands-goty-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🔍 First look only; same engine as Far Cry 2. Likely needs Ubisoft Connect | 09-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 Installed on the dev PC (42 GB); no static look yet | 09-16 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |

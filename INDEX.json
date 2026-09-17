@@ -187,7 +187,7 @@
       "engine": "Unreal Engine 1 (OldUnreal 227k)",
       "renderer": "Direct3D 11",
       "injection": "native render device — no injection needed",
-      "stage": "from-scratch native D3D11 render device for the OldUnreal 227k patch. TWO HEADSET RUNS 2026-09-10: IT FUSES in Virtual Desktop's half-side-by-side format, and the world is LIFE-SIZE at StereoIPD=1.0 with the weapon correctly sized [reported 2026-09-10, n=1 wearer]. Stereo was also proven numerically on a monitor first — per-depth-band eye-to-eye shifts, swap-eyes and stereo-off all behaved as a real stereo pair must [verified-live 2026-09-09, 80,156 frames, no driver error]. One real defect left: DrawTile() maps a tile's pixel rect straight to full-window clip space, so the HUD, explosions and projectile sprites are drawn once across the whole window instead of once per eye Unreal Gold itself is free from OldUnreal's full-game installer; the mod needs patch v227k_15 (both linked from mod/README.md, 2026-09-17).",
+      "stage": "PAUSED 2026-09-17 (user decision): a VR mod for Unreal already exists, Unreal Revived (https://www.moddb.com/mods/unreal-revived). Any later work would build on it, with Unreal Revived required; our v0.1.0-alpha stays published. Before the pause: from-scratch native D3D11 render device for the OldUnreal 227k patch. TWO HEADSET RUNS 2026-09-10: IT FUSES in Virtual Desktop's half-side-by-side format, and the world is LIFE-SIZE at StereoIPD=1.0 with the weapon correctly sized [reported 2026-09-10, n=1 wearer]. Stereo was also proven numerically on a monitor first — per-depth-band eye-to-eye shifts, swap-eyes and stereo-off all behaved as a real stereo pair must [verified-live 2026-09-09, 80,156 frames, no driver error]. One real defect left: DrawTile() maps a tile's pixel rect straight to full-window clip space, so the HUD, explosions and projectile sprites are drawn once across the whole window instead of once per eye Unreal Gold itself is free from OldUnreal's full-game installer; the mod needs patch v227k_15 (both linked from mod/README.md, 2026-09-17).",
       "latest_release": "v0.1.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
     },
@@ -206,7 +206,7 @@
       "developer": "id Software",
       "engine": "id Tech 6",
       "renderer": "OpenGL / Vulkan",
-      "stage": "BOTH BLOCKING ROWS FELL IN ONE LAUNCH on 2026-09-10: the view position is obtainable unattended, and the ENGINE'S OWN PROJECTION MATRIX has been read and proved rather than reconstructed [verified-live 2026-09-10]. Earlier: the view basis sits at a static global and writing origin +/- 32*left renders depth-correct stereo parallax [verified-live 2026-09-01, n=1 pair], so per-eye rendering does NOT depend on reviving the engine's dormant stereo path. The project moves from “we cannot see the camera” to “we can see it — now write to it”"
+      "stage": "PAUSED 2026-09-17 (user decision): a DOOM (2016) VR mod already exists, KHARVOX by CactusVRStudios (https://github.com/CactusVRStudios/KHARVOX/releases, v0.9 beta). Any later work would build on it, with KHARVOX required. Before the pause: BOTH BLOCKING ROWS FELL IN ONE LAUNCH on 2026-09-10: the view position is obtainable unattended, and the ENGINE'S OWN PROJECTION MATRIX has been read and proved rather than reconstructed [verified-live 2026-09-10]. Earlier: the view basis sits at a static global and writing origin +/- 32*left renders depth-correct stereo parallax [verified-live 2026-09-01, n=1 pair], so per-eye rendering does NOT depend on reviving the engine's dormant stereo path. The project moves from “we cannot see the camera” to “we can see it — now write to it”"
     },
     {
       "repo": "arcade-controls-re2-vr",
@@ -376,7 +376,7 @@
       "developer": "Arkane Studios",
       "engine": "CryEngine (Arkane fork)",
       "renderer": "Direct3D 11",
-      "stage": "NEW 2026-09-15. Repo created; first static look only: Arkane's CryEngine fork, 64-bit, no Steam DRM wrapper or Denuvo string. CryEngine's leftover headset console variables (hmd_rotatepitch/roll/yaw) are still in the build [inferred-static 2026-09-15]; whether they do anything is unknown. Not launched yet."
+      "stage": "PAUSED 2026-09-17 (user decision): fholger (Crysis VR, Far Cry VR) is making a Prey VR mod, still in development (https://www.patreon.com/fholger/posts/prey-2017-vr-165375021). Parked until it is released; any work of ours would then build on it, with his mod required. Before the pause: NEW 2026-09-15. Repo created; first static look only: Arkane's CryEngine fork, 64-bit, no Steam DRM wrapper or Denuvo string. CryEngine's leftover headset console variables (hmd_rotatepitch/roll/yaw) are still in the build [inferred-static 2026-09-15]; whether they do anything is unknown. Not launched yet."
     },
     {
       "repo": "borderlands-goty-vr",
