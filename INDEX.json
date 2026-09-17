@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -231,7 +231,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "active sub-project: a real mirror-fed sniper scope, working and zeroed in the headset (14.4 up / 9.5 right) [verified-live 2026-09-13, n=1 wearer]. The current front is the one-frame flicker: the scope glass shows a different render for a single frame, read from the code as a pooled HDR buffer another pass sometimes writes [hypothesis 2026-09-16], with three knobs built to decide it (measure spikes, hide the spike, sample the path-bound 8-bit copy) and one-click helpers deployed so they can be switched inside a wear. None of them has been run yet [compile-verified 2026-09-17]. The clip plane is still not solved: it passes through the rifle, putting aiming accuracy and dodging the clipped half in structural tension [verified-live 2026-08-29]"
+      "stage": "active sub-project: a real mirror-fed sniper scope, working and zeroed in the headset (14.4 up / 9.5 right) [verified-live 2026-09-13, n=1 wearer]. All nine 2026-09-16 builds were run in the headset on 2026-09-17: the weapon-switch glass flash fix works and is now the default [verified-live 2026-09-17, n=11 switches]; the save-reload fallback turned out to demote the scope's source to 8-bit on every bring-up (black sky, golden colours) and is switched off [verified-live 2026-09-17, n=1 wearer; log n=3 launches]; the flicker measure reads zero in VR, and the flicker was counted on the 8-bit source, so the pooled-HDR-buffer reading is out [verified-live 2026-09-17, n=1 wearer]; the directly built frame, the per-eye aim and the hand-height write did not work as built. The current front is static: keep the player's body and the ground out of the scope picture, and find why the measure is blind. The clip plane is still not solved: it passes through the rifle, putting aiming accuracy and dodging the clipped half in structural tension [verified-live 2026-08-29]"
     },
     {
       "repo": "enslaved-vr",
