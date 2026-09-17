@@ -231,7 +231,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "active sub-project: a real mirror-fed sniper scope. Display is solved and user-verified — live scene content on the scope glass [verified-live 2026-08-29]. HEADSET RUN 2026-09-10 answered the open question: the “multipass textures are not set up correctly” fallback is a STARTUP STUMBLE THAT RECOVERS, not a persistent state [verified-live 2026-09-10, n=2 logs] — so the scope's image swing has another cause, and a mirror-camera exemption is the next thing to build. The clip plane is still not solved: it passes through the rifle, putting aiming accuracy and dodging the clipped half in structural tension [verified-live 2026-08-29]"
+      "stage": "active sub-project: a real mirror-fed sniper scope, working and zeroed in the headset (14.4 up / 9.5 right) [verified-live 2026-09-13, n=1 wearer]. The current front is the one-frame flicker: the scope glass shows a different render for a single frame, read from the code as a pooled HDR buffer another pass sometimes writes [hypothesis 2026-09-16], with three knobs built to decide it (measure spikes, hide the spike, sample the path-bound 8-bit copy) and one-click helpers deployed so they can be switched inside a wear. None of them has been run yet [compile-verified 2026-09-17]. The clip plane is still not solved: it passes through the rifle, putting aiming accuracy and dodging the clipped half in structural tension [verified-live 2026-08-29]"
     },
     {
       "repo": "enslaved-vr",
