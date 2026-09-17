@@ -187,7 +187,7 @@
       "engine": "Unreal Engine 1 (OldUnreal 227k)",
       "renderer": "Direct3D 11",
       "injection": "native render device — no injection needed",
-      "stage": "from-scratch native D3D11 render device for the OldUnreal 227k patch. TWO HEADSET RUNS 2026-09-10: IT FUSES in Virtual Desktop's half-side-by-side format, and the world is LIFE-SIZE at StereoIPD=1.0 with the weapon correctly sized [reported 2026-09-10, n=1 wearer]. Stereo was also proven numerically on a monitor first — per-depth-band eye-to-eye shifts, swap-eyes and stereo-off all behaved as a real stereo pair must [verified-live 2026-09-09, 80,156 frames, no driver error]. One real defect left: DrawTile() maps a tile's pixel rect straight to full-window clip space, so the HUD, explosions and projectile sprites are drawn once across the whole window instead of once per eye",
+      "stage": "from-scratch native D3D11 render device for the OldUnreal 227k patch. TWO HEADSET RUNS 2026-09-10: IT FUSES in Virtual Desktop's half-side-by-side format, and the world is LIFE-SIZE at StereoIPD=1.0 with the weapon correctly sized [reported 2026-09-10, n=1 wearer]. Stereo was also proven numerically on a monitor first — per-depth-band eye-to-eye shifts, swap-eyes and stereo-off all behaved as a real stereo pair must [verified-live 2026-09-09, 80,156 frames, no driver error]. One real defect left: DrawTile() maps a tile's pixel rect straight to full-window clip space, so the HUD, explosions and projectile sprites are drawn once across the whole window instead of once per eye Unreal Gold itself is free from OldUnreal's full-game installer; the mod needs patch v227k_15 (both linked from mod/README.md, 2026-09-17).",
       "latest_release": "v0.1.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
     },
@@ -421,7 +421,7 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "NEW 2026-09-17. Blender-only so far: our own pixel-style 3D models and stop-motion animations (lantern, handgun, jackhammer, crowbar), each animation also as a _static version for adding hands later. Not in the game yet; GZDoomVR exposes the weapon hand's position to mods but not the off hand [inferred-static].",
+      "stage": "NEW 2026-09-17. Blender-only so far: our own pixel-style 3D models and stop-motion animations (lantern, handgun, jackhammer, crowbar), each animation also as a _static version for adding hands later. Not in the game yet; GZDoomVR exposes the weapon hand's position to mods but not the off hand [inferred-static]. Ashes 2063 is a free standalone download from ModDB (linked in the README, 2026-09-17).",
       "source_of_truth": "ashes-2063-weapons/kit/"
     }
   ],
