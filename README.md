@@ -66,6 +66,7 @@ A quick look at where each mod stands, newest state only. The full story is in e
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🔍 First look only; same engine as Far Cry 2. Likely needs Ubisoft Connect | 09-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 Installed on the dev PC (42 GB); no static look yet | 09-16 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Installed on the dev PC (11 GB); no static look yet | 09-16 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
+| **Ashes 2063** (2018) | GZDoom | 🔧 Pixel-style 3D weapons built in Blender with choppy stop-motion animations; not in the game yet | 09-17 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Burnout Paradise** (Remastered) | Criterion engine | ⏸ Paused: needs a third-party launcher, and not installed | 09-01 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 

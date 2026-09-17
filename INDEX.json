@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-15",
+  "updated": "2026-09-17",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -413,6 +413,16 @@
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 11",
       "stage": "NEW 2026-09-15. Repo created; nothing on disk yet (still downloading on the home PC). Unreal Engine 3 [reported]. First static look waits on the download."
+    },
+    {
+      "repo": "ashes-2063-weapons",
+      "game": "Ashes 2063",
+      "year": 2018,
+      "developer": "Vostyok (GZDoom total conversion)",
+      "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
+      "renderer": "OpenGL",
+      "stage": "NEW 2026-09-17. Blender-only so far: our own pixel-style 3D models and stop-motion animations (lantern, handgun, jackhammer, crowbar), each animation also as a _static version for adding hands later. Not in the game yet; GZDoomVR exposes the weapon hand's position to mods but not the off hand [inferred-static].",
+      "source_of_truth": "ashes-2063-weapons/kit/"
     }
   ],
   "notes_for_ai_readers": [
