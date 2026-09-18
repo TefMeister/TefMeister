@@ -13,6 +13,19 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### RE Village scope — the change that broke the sky is fixed, and it was two right ideas in the wrong order
+
+🔄 A change made two days ago demoted the scope picture to a lower-quality source every single
+time the scope was set up — which is what turned the sky black and the colours golden in the
+headset test the night before. The cause turned out to be small and a little embarrassing: the
+code already knew how to tell a genuine problem from an ordinary start-up, six lines further
+down. The rescue simply ran first and threw the good picture away before that check could speak.
+
+Two right pieces of code in the wrong order. It is fixed, and given a test that was itself proved
+able to fail before it was trusted. Found on the way: a fix confirmed in the headset the day
+before had only ever been typed into the home PC's settings by hand, so the development PC was
+still running without it. It is baked into the mod now, which is where a confirmed fix belongs.
+
 ### Lanes plugin — the setup walk-through learns to look before it asks
 - 🔧 **The dev PC's toolbox went from 14 to 20 of 22 tools**, adding a decompiler that reads a game's
   code with nothing running, a link into Blender for building 3D props, and a syntax checker for game
