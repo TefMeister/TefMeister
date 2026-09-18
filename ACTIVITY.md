@@ -36,6 +36,19 @@ draw text perfectly well - so the shortcut still does not land in a level. But t
 turned out to have a **checkpoint selector** all along, which needs nothing fixed at all. That is the
 way in, and it was there the whole time.
 
+Later the same session the picture got sharper still. That locked door turns out not to be locked
+at all - it is **empty**. The check the game runs before opening its developer menu does nothing
+whatsoever; it was left as a hollow shell when the game shipped. That is oddly good news: it means
+no setting will ever open it, and one small, precisely aimed change to our own build will open all
+of it at once - free camera, walk-through-walls, level jumps.
+
+The missing lettering file was found too, packed inside one of the game's own archive files. And
+the disc copy was checked against the original, file by file: 498 files, not one missing, not one
+the wrong size. The rip was never the problem.
+
+One prediction was wrong and is written down as wrong: a second way of skipping to the menu was
+expected to dodge the lettering problem, and it failed in exactly the same place.
+
 Nothing moved on the stereo picture itself. That remains the very next job.
 
 
