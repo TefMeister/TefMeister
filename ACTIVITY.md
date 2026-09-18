@@ -13,6 +13,28 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### A measurement that reads zero, and why that was not an answer
+
+⭐ The scope picture flickers in the headset — the wearer counted about a dozen in two minutes — and
+the tool built to measure it reported, across 23,400 frames, exactly nothing. Reading the code found
+no fault for the third time.
+
+The real problem turned out to be the reading itself. "Zero" was being produced by two completely
+different faults that look identical: the measurement never arriving back from the graphics card, and
+the measurement arriving correctly and genuinely being zero. The first is a plumbing mistake in our
+code; the second would mean the scope picture is not changing between frames at all, which is a much
+stranger and more interesting problem. No amount of staring at the code separates those.
+
+So now the tool fills the result slot with an impossible value before asking the graphics card to
+write the real one. If that impossible value is still sitting there afterwards, the answer never
+arrived. If it has gone and the answer really is zero, the answer really is zero. One start of the
+game now settles which — where before it settled nothing.
+
+⚠️ Worth recording honestly: the new switch was built, tested and installed with no way to actually
+switch it on — half a change had been applied and everything downstream still looked healthy. It was
+spotted by hand, which is luck rather than process, so there is now an automatic check that every
+switch of this kind is wired end to end. It immediately proved it catches exactly that mistake.
+
 ### Ethan's clothing in the scope: why it cannot simply be masked out
 
 ⭐ The loudest complaint from the last headset night was that Ethan's own clothing keeps getting in
