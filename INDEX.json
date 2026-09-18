@@ -432,6 +432,17 @@
       "engine": "Unreal Engine 5 [reported]",
       "renderer": "DirectX 12 [reported]",
       "stage": "NEW 2026-09-18. The only Unreal project on the account, and therefore the cheapest VR target on it: UE4/UE5 has praydog’s UEVR, so the months of camera reverse engineering every other project here needs may be a starting point rather than a destination. Nothing built and nothing run — the game has never been launched for this project and the dossier deliberately carries no [verified-live] line at all. Plan: study two existing published UEVR profiles for this game (jbusfield’s, and CharlotteLiu’s mod built on it), then write our own depending on neither, so nothing we release needs somebody else’s mod installed. A modified UEVR fork (PureDark’s AFW) was suggested as a foundation and is [not judged] — nothing about it has been examined here, so the plan assumes plain upstream UEVR until a research pass has looked. Anti-tamper unchecked. Board gate starts at PD: profile study, the fork judgement, install check and anti-tamper all need nothing running."
+    },
+    {
+      "repo": "the-darkness-vr",
+      "game": "The Darkness",
+      "year": 2007,
+      "developer": "Starbreeze Studios",
+      "engine": "Starbreeze in-house (Riddick lineage)",
+      "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
+      "injection": "our own static recompilation of the Xbox 360 disc - there has never been a PC version",
+      "stage": "Our own build runs and plays real-time 3D: the opening car chase renders live and the right stick turns the camera [verified-live 2026-09-16]. The per-eye injection point for stereo is found and checked numerically, and how to attach the probe is settled [verified-numerically 2026-09-18]; proving it in the running game is the next step. A full developer menu and free camera exist in the retail data but are gated by cheat() and did not open live [verified-live 2026-09-18, n=1]. Tefa's stated top VR want.",
+      "updated": "2026-09-18"
     }
   ],
   "notes_for_ai_readers": [
