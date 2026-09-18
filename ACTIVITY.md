@@ -13,6 +13,29 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### The Darkness: the stereo bug was looking in the wrong place
+
+🔧 Yesterday's stereo work left one bug: two characters' heads were lit red in one eye and dark
+in the other. The cause turned out to be a mismatch of bookkeeping. The sideways nudge that makes each
+eye was being applied to the picture-taking step alone, but the game works out where each light falls
+on screen separately, on the processor, using a camera that never heard about the nudge. So the scene
+was drawn from one place and lit as if from another.
+
+The fix was to move the nudge earlier - into the camera itself, rather than the picture-taking - so
+everything downstream agrees. The bug did not come back.
+
+⚠️ Honest caveat, and it is written down as one: the check ran at a different moment in the scene
+than the one that showed the bug, so it is encouraging rather than proven. A similar "looks fine"
+claim was retracted yesterday for exactly that reason, so this one is tagged as unfinished.
+
+That change also settled an open question: this camera really is the thing that decides what you see,
+which means it is where head tracking will eventually plug in.
+
+🚧 And it moved the next job to the front of the queue. To measure anything about a stereo pair,
+the world has to hold still for the instant between the two eyes - otherwise, in a moving car, you
+cannot tell whether the picture shifted because the eye moved or because the car did.
+
+
 ### RE Village: the scope picture is not taken from where the rifle is
 
 ⭐ When you crouch, the scope picture goes half under the ground. That was written down as
