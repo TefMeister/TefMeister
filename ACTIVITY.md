@@ -13,6 +13,32 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### The Darkness: a hidden developer menu, and an alarm bell that was killing every test
+
+⭐ The Darkness ships with a **built-in developer menu** - a free-flying camera, walk-through-walls,
+god mode, and a page of jump-straight-to-any-level buttons. All of it is sitting in the retail game
+files, untouched since 2007. A free camera is close to the most useful thing this project could be
+handed, because moving a camera independently of the player is exactly what a headset needs.
+
+⚠ It did not open. Every way in is behind a single locked door in the game's own code, and the two
+switches that looked like the key turned out not to be. Finding out what that door actually checks
+is now the most valuable question on the project.
+
+🔧 Separately, a setting that should drop the game straight into a level - skipping ninety
+seconds of logos and menus on every single test - was killing the game instantly, with nothing
+written down anywhere to say why. Under a debugger it turned out the game was hitting one of its own
+internal alarm bells, a leftover from when it was being developed. On the real Xbox that alarm is
+ignored and the game carries on; our version was treating it as fatal. Fixed, so it behaves like the
+console did.
+
+Past that, the game asks for a lettering file that is nowhere on the disc - even though the menus
+draw text perfectly well - so the shortcut still does not land in a level. But the game's own menu
+turned out to have a **checkpoint selector** all along, which needs nothing fixed at all. That is the
+way in, and it was there the whole time.
+
+Nothing moved on the stereo picture itself. That remains the very next job.
+
+
 ### A measurement that reads zero, and why that was not an answer
 
 ⭐ The scope picture flickers in the headset — the wearer counted about a dozen in two minutes — and
