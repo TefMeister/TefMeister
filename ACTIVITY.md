@@ -13,6 +13,35 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### RE Village: the reading that should have shown the rifle shaking was quietly smoothing it out
+
+⭐ The rifle in the scope mod shakes, and the scope makes it look worse. The obvious next step was
+to look at how the rifle is held — but that part belongs to another mod and cannot be read from here.
+The real hold-up was somewhere much closer.
+
+There has been a number in the log for weeks that looks like it measures movement. It does not. It
+compares where the rifle is pointing now with where it was pointing a second ago — so anything that
+wobbles and comes back reads as no movement at all. Which is exactly what a shake is. A half-degree
+shake was showing up as a fiftieth of that.
+
+⚠️ Worse, that number is used to decide whether the rifle was being held still before another check
+is trusted. A shaking rifle could pass as perfectly still there, and that check's own note says
+getting it wrong costs a day of chasing the wrong thing.
+
+🔧 The log now keeps two things instead of one: how far the aim actually travelled, and how far it
+ended up. Those are nearly the same when you are aiming and wildly different when you are shaking, so
+one number tells the two apart. It also reports what you actually see, because a telescope multiplies
+angles — at six times magnification a tenth of a degree of wobble arrives at your eye as six tenths.
+**The picture looking far shakier than the rifle is normal, not a second problem.**
+
+⚙️ And it says honestly what it cannot answer. It can see the rifle, but not what the headset does
+to the image after the game has finished drawing it. So the reading splits the question in two rather
+than settling it: either the shake is already there before we get the rifle, or it is added after us.
+Those are different problems with different owners, and guessing between them is what the last two
+attempts at this did.
+
+Not run yet — it rides along with any start of the game rather than needing one.
+
 ### The Darkness: the first true left-eye / right-eye picture
 
 🏆 The Darkness produced its first real stereo pair tonight: the same moment in the back of the
