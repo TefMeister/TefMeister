@@ -13,6 +13,32 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### The Darkness: the trick that gives each eye its own view works
+
+🏆 Until today, everything about how to give each eye its own picture in The Darkness was worked
+out on paper, by reading the game's code. Tonight it ran in the real game.
+
+Two checks had to pass first. The game draws its view twice every frame, and the numbers that
+describe that view had to stay put while the camera turned - if they moved with the camera, the whole
+plan would have been built on sand. They stayed put, exactly. And the check was a real one: the
+picture visibly swung round while it was being measured. An earlier attempt was thrown away because
+the stick was pushed too gently to turn anything, so "nothing changed" meant nothing at all.
+
+Then the shift itself: nudge the viewpoint sideways, which is all one eye of a stereo pair really is.
+It landed to the exact amount asked for, six hundred times over, on the one view it was aimed at and
+not the other, with the game looking completely normal. Pushed deliberately far, the 3D world
+distorts wildly while the on-screen text and buttons sit perfectly still - which is exactly the right
+thing to happen, and the clearest sign it is reaching the world and nothing else.
+
+One safeguard in the plan turned out to be useless and was corrected: it was meant to protect the
+on-screen display from being shifted, but the display never passes through that part of the game at
+all, so it was guarding an empty room.
+
+Still to come: both eyes at once rather than one nudged eye, and nothing has been seen in a headset
+yet. But the hard part - the exact spot to change, and proof it does what it should - is now real
+rather than theoretical.
+
+
 ### The Darkness: a hidden developer menu, and an alarm bell that was killing every test
 
 ⭐ The Darkness ships with a **built-in developer menu** - a free-flying camera, walk-through-walls,

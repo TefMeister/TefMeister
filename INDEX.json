@@ -441,7 +441,7 @@
       "engine": "Starbreeze in-house (Riddick lineage)",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 disc - there has never been a PC version",
-      "stage": "Our own build runs and plays real-time 3D: the opening car chase renders live and the right stick turns the camera [verified-live 2026-09-16]. The per-eye injection point for stereo is found and checked numerically, and how to attach the probe is settled [verified-numerically 2026-09-18]; proving it in the running game is the next step. A full developer menu and free camera exist in the retail data but are gated by cheat() and did not open live [verified-live 2026-09-18, n=1]. Tefa's stated top VR want.",
+      "stage": "Our own build runs and plays real-time 3D [verified-live 2026-09-16]. The per-eye stereo injection point is now PROVED IN THE RUNNING GAME [verified-live 2026-09-18]: the projection is unchanged by camera turns, and a requested eye offset lands exactly, on one viewport only, with the game rendering normally. Next is a real left/right pair; nothing seen in a headset yet. A full developer menu and free camera exist in the retail data behind an empty cheat() stub, so they need one small code hook rather than any configuration [verified-numerically 2026-09-18]. Tefa's stated top VR want.",
       "updated": "2026-09-18"
     }
   ],
