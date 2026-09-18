@@ -13,6 +13,29 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### Ethan's clothing in the scope: why it cannot simply be masked out
+
+⭐ The loudest complaint from the last headset night was that Ethan's own clothing keeps getting in
+the way of the sniper picture. The obvious wish is to leave him out of the scope view only — visible
+to the player, absent from the glass. Reading the game's own renderer today showed **that is not
+something this engine can be asked for**: every switch it offers for "draw this or not" is about
+shadows and reflections of the whole world, and the scope picture is produced by a mirror that has no
+settings at all. There is no way to say "everywhere except in there".
+
+So the answer is timing instead. The game turns out to keep its own flag for *the sniper scope is
+raised*, and it can be told to stop drawing the body, piece by piece. Put together, the body goes
+away for exactly as long as you are looking down the scope and comes back the moment you lower it —
+better than the existing option in the VR menu, which hides the body for the whole session and
+forgets the setting every time the game starts.
+
+It is written, it passes its own checks, and it is installed — but it has not been run once, and one
+thing is still a genuine gamble: whether the mirror obeys "do not draw this" at all. A single
+flat-screen start answers that.
+
+⚠️ Three smaller problems turned up on the way and were fixed: this PC was quietly a whole step
+behind the other one and nobody had noticed, one self-check had the *other* computer's folder written
+into it so it had never once run here, and two more looked broken when they were fine all along.
+
 ### The development PC can now test VR without a headset
 
 🔧 The dev machine here has no headset, so anything involving two eyes has always had to wait for
