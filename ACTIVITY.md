@@ -13,6 +13,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### RE Village: the second of stock glass was a timer nobody had ever timed
+
+⏱️ Put the sniper rifle away, take it out again, and for about a second you looked at the game’s own dark glass with its orange reticle before our picture came back. The cause was not a hard problem — the mod simply waited a fixed one second before putting our picture on, a number written down once as a guess and never once checked against how quickly it could actually have been done. Shrinking the guess would only have made a smaller guess, and going too early fails silently and costs four seconds instead of one. So it now puts the picture back at the first possible moment, keeps trying until it sticks, and writes into the log exactly how many milliseconds it needed — the first real measurement of this. It also stops the mod doing pointless work when you switch straight back and the picture never came off in the first place. Built, tested 45 ways, deliberately broken nine ways to prove the test bites, and installed — but not yet seen with the game running.
+
 ### The Darkness: holding the world still, and cracking the game open
 
 🔓 A side result that changes everything after it: the game's program file turned out to be locked
