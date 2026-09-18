@@ -13,6 +13,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### Ashes 2063: a rifle you hold with both hands, and why it shot crooked
+
+🔫 Hold a long gun with both hands in VR and it should fire along the barrel. It did not: the shot followed whichever way the rear controller happened to be tilted, so the gun looked two-handed and shot one-handed — and the further apart the hands, the worse it got, which is exactly the guns this is for. Most of the groundwork turned out to be done already: the engine has been telling the mod where both hands are since last week, so the rifle could already be drawn along the line between them. Only the aiming was left. That is now written, with two safety checks so it quietly leaves aiming alone whenever the spare hand is not actually on the gun — holding the lantern, or just down by your side. The angle sums were checked 36 ways and then deliberately broken ten ways to prove the checks bite, including the sneaky one where up and down are swapped and the gun simply shoots high. The building and the wearing wait for the PC with the headset.
+
 ### RE Village: the second of stock glass was a timer nobody had ever timed
 
 ⏱️ Put the sniper rifle away, take it out again, and for about a second you looked at the game’s own dark glass with its orange reticle before our picture came back. The cause was not a hard problem — the mod simply waited a fixed one second before putting our picture on, a number written down once as a guess and never once checked against how quickly it could actually have been done. Shrinking the guess would only have made a smaller guess, and going too early fails silently and costs four seconds instead of one. So it now puts the picture back at the first possible moment, keeps trying until it sticks, and writes into the log exactly how many milliseconds it needed — the first real measurement of this. It also stops the mod doing pointless work when you switch straight back and the picture never came off in the first place. Built, tested 45 ways, deliberately broken nine ways to prove the test bites, and installed — but not yet seen with the game running.
