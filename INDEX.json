@@ -423,6 +423,15 @@
       "renderer": "OpenGL",
       "stage": "NEW 2026-09-17. Blender-only so far: our own pixel-style 3D models and stop-motion animations (lantern, handgun, jackhammer, crowbar, revolver; all animations timed tic-for-tic from the game's own weapon files; fire-rate table for every weapon in NOTES.md). Revolver 3D model verified working in game on a flat screen (fires, full reload; 2026-09-17); VR build confirmed in the headset: right hand position, points straight (2026-09-17, openvr_weaponRotate=-50 in the test config). Own GZDoomVR patch (off hand exposed to mods, stop-motion weapon hand) works in the headset: a lantern follows the left hand and lights the world (2026-09-17); fourth and fifth passes 2026-09-17 turn and resize the lantern from the player's drawing, move the GAME's own room light (LanternGlow, spawned at the player's chest) onto the lantern every tic, and switch off the engine's eye-distance light fade (MAPINFO nolightfade) which was brightening whatever the player stood next to whatever the lantern was doing [inferred-static]; that whole set was worn and accepted the same day ('for now, this is really good'), leaving one open question: the lantern or its light appears to lag when the player walks [reported 2026-09-17, n=1]; stop-motion hand still being judged (engine/ in the repo), each animation also as a _static version for adding hands later. Not in the game yet; GZDoomVR exposes the weapon hand's position to mods but not the off hand [inferred-static]. Ashes 2063 is a free standalone download from ModDB (linked in the README, 2026-09-17).",
       "source_of_truth": "ashes-2063-weapons/kit/"
+    },
+    {
+      "repo": "silent-hill-2-remake-vr",
+      "game": "Silent Hill 2 (2024 remake)",
+      "year": 2024,
+      "developer": "Bloober Team (published by Konami); remake of Team Silent’s 2001 original",
+      "engine": "Unreal Engine 5 [reported]",
+      "renderer": "DirectX 12 [reported]",
+      "stage": "NEW 2026-09-18. The only Unreal project on the account, and therefore the cheapest VR target on it: UE4/UE5 has praydog’s UEVR, so the months of camera reverse engineering every other project here needs may be a starting point rather than a destination. Nothing built and nothing run — the game has never been launched for this project and the dossier deliberately carries no [verified-live] line at all. Plan: study two existing published UEVR profiles for this game (jbusfield’s, and CharlotteLiu’s mod built on it), then write our own depending on neither, so nothing we release needs somebody else’s mod installed. A modified UEVR fork (PureDark’s AFW) was suggested as a foundation and is [not judged] — nothing about it has been examined here, so the plan assumes plain upstream UEVR until a research pass has looked. Anti-tamper unchecked. Board gate starts at PD: profile study, the fork judgement, install check and anti-tamper all need nothing running."
     }
   ],
   "notes_for_ai_readers": [
