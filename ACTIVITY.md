@@ -13,6 +13,18 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### Lanes plugin — the setup walk-through learns to look before it asks
+- 🔧 **The dev PC's toolbox went from 14 to 20 of 22 tools**, adding a decompiler that reads a game's
+  code with nothing running, a link into Blender for building 3D props, and a syntax checker for game
+  script files.
+- ⚠️ **The tool that reports what is missing was wrong about two things, in the same way:** it tested
+  one fixed folder and called anything installed elsewhere absent. 7-Zip was on another drive; SteamVR
+  was installed all along, in a Steam library the check never looked in. A false "missing" is worse
+  than no check, because it sends setup off to reinstall what the machine already has.
+- 🔄 **Fixed, and then widened by Tefa's own suggestion:** a setup walk-through should find out what
+  already works before asking anyone to do anything. It now asks Blender directly whether the link
+  answers, and says so instead of walking a returning user through steps they finished long ago.
+
 ### Silent Hill 2 (2024 remake) — new project
 - ⭐ **A new game joins the list, and it is not like the others: it runs on Unreal Engine 5.** Every
   other game here uses an engine that has to be taken apart from scratch before a headset sees
