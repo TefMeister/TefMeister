@@ -231,7 +231,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Working zeroed VR sniper scope. BLOCKER as of 2026-09-18: with no headset connected the scope picture renders black on the home PC, reproduced over five launches and on the previous build, so it is not a regression; leading hypothesis is that the mirror source is only allocated when REFramework is in VR, which would mean the picture has never worked flat. Confirmed the same day: the player-body hide has a live trigger (IsAimSniperRifle), weapon spread is NOT a weapon field, the settings-permanence fix works, and the home PC runs it at 160-207 fps flat.",
+      "stage": "Working zeroed VR sniper scope. 2026-09-18: a black scope picture on the home PC was traced to a BOOT MIS-LATCH -- the mirror latch grabs a 1920x1080 game buffer ~1 ms after REFramework init, minutes before the rig exists; the real source is always padded (1088/728/1448). Fixed in-session by fn rtex_1280 + numpad . + bringup and the live picture returned [verified-live]. The proper fix (tighten the height window / gate the latch on the rig) is an open static row. Also confirmed the same night: avg=0.0000 is a broken readback and the flicker measure has never computed anything; framevneg 1 is the right way up under framev 2; the player-body hide has a live IsAimSniperRifle trigger; weapon spread is NOT a weapon field.",
       "updated": "2026-09-18"
     },
     {
