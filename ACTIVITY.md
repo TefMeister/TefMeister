@@ -11,6 +11,36 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-18
+
+### Silent Hill 2 (2024 remake) — new project
+- ⭐ **A new game joins the list, and it is not like the others: it runs on Unreal Engine 5.** Every
+  other game here uses an engine that has to be taken apart from scratch before a headset sees
+  anything. Unreal has a general-purpose VR tool already — praydog's UEVR — which understands how
+  Unreal hands out cameras and pictures. So the part that usually takes months may be the *starting
+  point* here.
+- 📋 **The repo is open, and honest about being empty.** Nothing has been built, and the game has
+  never been launched for this project. The notes deliberately contain no confirmed findings at all,
+  and say so at the top, so nobody later mistakes a plan for a result.
+- 🔎 **First job needs no game running:** read the two VR profiles other people have already published
+  for this game, and write down what each of them had to *discover* — then build our own that needs
+  none of their files installed. That last part is what makes it something we can share.
+- ⚠️ **One suggested shortcut is parked until it is checked.** A modified version of UEVR was proposed
+  as the foundation; nothing is known about it here, so the plan stands on plain UEVR until somebody
+  has actually looked. Whether the game's copy protection interferes is also unchecked.
+- 🎯 **What it is meant to become:** a harder, quieter *Silent Hill 2* in a headset — fewer enemies
+  that can really kill you, no radio warning you they are coming, and everything you carry hanging off
+  your body instead of sitting in a menu, with the torch stowed above your head so putting it away
+  still lights the fog.
+
+### Housekeeping
+- 📋 **Three ideas typed in from a phone were filed**, two of them the Silent Hill 2 ones above. The
+  third asked whether several games can be worked on at once from different stores — the answer is
+  mostly yes already, and the real limit turns out to be which window is on top, not how fast the PC
+  is.
+
+---
+
 ## 2026-09-16
 
 ### RE Village — VR scope
