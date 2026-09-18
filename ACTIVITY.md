@@ -13,6 +13,33 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### The Darkness: holding the world still, and cracking the game open
+
+🔓 A side result that changes everything after it: the game's program file turned out to be locked
+but not squashed, which means about eighty lines of code will open it up. Forty-five thousand pieces
+of readable text came out, along with a full map of the game's twenty-one thousand internal parts.
+The engine even names itself in there: Starbreeze's "XReality". Every future question about how this
+game works just got much cheaper to answer.
+
+⏱️ The main job was holding the world still. To show a proper stereo pair, both eyes must see the
+same instant — otherwise, in a moving car, everything has shifted between them. It turns out the whole
+game takes its sense of time from a single clock, so holding that one clock for the second eye holds
+everything: people, physics, the car. That is now built, and the clock really is being held — exactly
+half the frames, by about one frame's worth each time.
+
+⚠️ What has not been checked is the part you would actually see: whether the world visibly stops.
+That is written down as the next job rather than assumed.
+
+📏 And the missing number arrived. One step in this game's world is about an inch, worked out from
+seventeen numbers the original designers left in the game's own settings — how tall a person is, how
+long a running stride is, how high a step can be. Which means the gap between your two eyes should be
+about two and a half of those units, roughly twice what had been guessed.
+
+One thing worth knowing before the headset: at a true eye gap, your own hands and gun sit only a few
+inches from your face, and that is genuinely hard for eyes to merge. It is a known problem with
+first-person arms in VR rather than a fault, and there are standard ways round it.
+
+
 ### The Darkness: the stereo bug was looking in the wrong place
 
 🔧 Yesterday's stereo work left one bug: two characters' heads were lit red in one eye and dark
