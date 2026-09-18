@@ -13,6 +13,29 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### The Darkness: the first true left-eye / right-eye picture
+
+🏆 The Darkness produced its first real stereo pair tonight: the same moment in the back of the
+car, drawn once for the left eye and once for the right. Measured, not just eyeballed: Jackie's hands
+sit about 190 pixels apart between the two views, the seats in front about 47, and the on-screen
+prompt exactly zero - near things shift a lot, far things a little, flat things not at all, which is
+precisely what two eyes do.
+
+🧭 That settled the big design question. Each eye will get a genuine picture of its own, drawn by
+the game, rather than one picture stretched into two by guesswork. The reason is this particular
+game: hands, guns and tentacles are in your face the whole way through, and faked depth falls apart
+worst on exactly the things closest to you.
+
+🔄 Two corrections, both caught the same evening. I had assumed the game sets up its view once
+per frame; it does it three times, so my first attempt was swapping eyes in the middle of a picture.
+And a check that said "the lighting is unaffected" was built on those scrambled eye labels, so it
+could never have failed - redone properly, two characters' heads turn out lit red in one eye and
+dark in the other. That is now the first real bug of the stereo work, written down as open.
+
+Still ahead: freezing the world for the instant between the two eyes, showing the pair side by side,
+and the headset itself.
+
+
 ### RE Village: why the scope picture was upside down, and why the button that should fix it did nothing
 
 ⭐ Two complaints from the last headset session looked separate. In one of the scope's two picture
