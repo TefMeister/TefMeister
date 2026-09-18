@@ -13,6 +13,34 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### RE Village: the scope's settings file was quietly saving experiments as permanent
+
+⚠️ The scope has a set of temporary switches you can flip while playing, to try something out for
+one session. It also has a settings file that remembers your real choices for next time. Today it
+turned out that pressing any of the tuning buttons wrote whatever temporary switch happened to be
+flipped into that file, as if you had chosen it. It had already happened once, in the headset on the
+17th: a setting nobody had chosen became the default and had to be undone by hand.
+
+Nothing looked wrong at the time, which is the worst part — the switch was already flipped, so the
+picture did not change. The bill only arrived at the next start, with nothing left on screen to
+explain it. The settings file now keeps what you actually started with, and says in the log whenever
+it refuses to make a temporary switch permanent.
+
+🔧 Two smaller things went with it. Twenty-one of those switches are now buttons inside the
+headset, so trying one no longer means taking the headset off, walking to the desk and typing. And
+the game's log, which used to be wiped every time the game started — losing two of three test runs on
+the 17th — now gets copied and kept.
+
+⚙️ There is a lesson worth keeping from how this was checked. The new safeguard came with a set of
+tests, and the tests passed. Then each piece was deliberately broken one at a time to see whether the
+tests would notice. Four of the five breaks were caught. The fifth — quietly unplugging the one wire
+that joins the two halves — sailed through every single check with the original fault fully back. The
+tests were checking both ends and not the join, while looking thorough. That gap is closed now, but
+the habit is the point: a test that has never been made to fail has not been shown to work.
+
+None of this has been run in the game yet. It is installed and waiting, and it rides along with any
+start rather than needing one of its own.
+
 ### The Darkness: the trick that gives each eye its own view works
 
 🏆 Until today, everything about how to give each eye its own picture in The Darkness was worked
