@@ -13,6 +13,38 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### RE Village: the scope picture is not taken from where the rifle is
+
+⭐ When you crouch, the scope picture goes half under the ground. That was written down as
+"something is cutting the picture off". It is not. Nothing cuts it off — **the picture is being taken
+from a point that has sunk below the floor**, so the game draws the world from underneath.
+
+The scope works by pointing a mirror at the world. A mirror does not show you the view from where it
+hangs; it shows the view from the same distance on the *other* side of it — which is why a mirror on
+the floor shows you the ceiling. So the scope's picture comes from a point below the mirror, as far
+below as your head is above.
+
+⚙️ And here is the part that had been hiding in plain sight. There are three sliders for where the
+mirror sits. Two of them slide it along its own surface, which changes nothing about the view at all.
+The third moves it up and down — and **every centimetre it moves the mirror down takes the viewpoint
+two centimetres down.** It had been used all along as if it were a framing control. It is not: it is
+the only one of the three that moves the viewpoint, and it does it at double speed.
+
+Put numbers on it and the whole complaint falls out. Standing, there is about eighty centimetres of
+room below you before the viewpoint reaches the floor. The setting that is currently in use spends
+half of that. Crouching spends most of what is left. What remains is about ten centimetres — the
+picture is being taken from around your ankles, and a little further puts it through the floor.
+
+Each of the three facts behind this had been written down separately days ago. None of them says
+anything on its own. Together they answer the question.
+
+⚠️ Nothing was changed to "fix" it. Whether what you saw really is this, or genuinely something
+cutting the picture off, is still a guess until someone looks — and quietly clamping a control on a
+guess is how a setting turns into a mystery nobody can explain later. Instead the log now simply
+prints how far above the floor the viewpoint is, as a number. Negative means underground.
+
+Not run yet — it rides along with any start of the game.
+
 ### RE Village: the reading that should have shown the rifle shaking was quietly smoothing it out
 
 ⭐ The rifle in the scope mod shakes, and the scope makes it look worse. The obvious next step was
