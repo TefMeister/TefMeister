@@ -13,6 +13,36 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### RE Village: why the scope picture was upside down, and why the button that should fix it did nothing
+
+⭐ Two complaints from the last headset session looked separate. In one of the scope's two picture
+modes everything was upside down; and the button meant to flip the picture the right way up did
+nothing at all when pressed. They turn out to be the same fault, and finding that needed no game
+running at all — just reading the code carefully.
+
+That one button's setting is used in two different places on the way to your eye. Once when the
+picture is built, and once again when it is handed to the glass of the scope. In the older mode only
+the second one uses it, so the button works. In the newer mode both do — and two flips cancel each
+other out. So the picture is locked to one orientation, and the button that should have corrected it
+is the very thing holding it there.
+
+⚙️ The honest half: it is now proved that the button cannot help, and that proof does not depend on
+anything unknown. But whether the locked orientation is the right way up or the wrong way up depends
+on something only the game itself can tell us. There were two reasonable answers and no way to choose
+between them by reading. So nothing was guessed. Instead there is a new switch that breaks the
+connection, with two settings that are proved to be exact opposites — so one of them is the right way
+up, whichever answer the game gives. Two clicks in the headset settles it, instead of a session spent
+finding out a guess was wrong.
+
+A second thing worth keeping, and it is the same lesson as this morning from the other direction. The
+test that proves all this works out the answer using a small copy of the rule, written inside the test
+itself. If the real code changed, that test would carry on passing while describing something that no
+longer exists. So it now also reads the three real places in the code and checks they still say what
+it thinks they say. Then each of those was deliberately broken, one at a time, to be sure the test
+noticed. All five were caught.
+
+Not run yet — installed and waiting for the next start of the game.
+
 ### RE Village: the scope's settings file was quietly saving experiments as permanent
 
 ⚠️ The scope has a set of temporary switches you can flip while playing, to try something out for
