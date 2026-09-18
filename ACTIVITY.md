@@ -13,6 +13,26 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-18
 
+### The development PC can now test VR without a headset
+
+🔧 The dev machine here has no headset, so anything involving two eyes has always had to wait for
+the other PC. That changed today. A desktop OpenXR runtime — originally by **fholger**, extended by
+**elliotttate** and then by **webhead2oo9** — pretends to be a headset and draws both eye views into
+an ordinary window, reproducing the measured lens shape, panel resolution and eye separation of ten
+real headsets. So a stereo error that only shows up on one particular headset can now be reproduced
+at a desk.
+
+Alongside it we wrote `openxr-probe`, a one-command check that opens a real VR session, submits
+thirty genuine frames and answers with nothing but an exit code. Its first run: two stereo views at
+1280×1400 an eye, correctly asymmetric and mirrored field of view, 64.0 mm between the eyes, 16.6 ms
+a frame — pass. The idea of making a probe's answer an exit code is webhead2oo9's, from the probe he
+wrote for BetterVR; ours is a fresh implementation of the same idea in Python, and he is credited in
+the toolkit's `CREDITS.md`.
+
+The honest limit: this covers VR output that goes through OpenXR. A mod that builds its own stereo
+inside the game's renderer still needs a real headset. Which is the main reason the plan from here
+is to target OpenXR for new work.
+
 ### RE Village scope — the change that broke the sky is fixed, and it was two right ideas in the wrong order
 
 🔄 A change made two days ago demoted the scope picture to a lower-quality source every single
