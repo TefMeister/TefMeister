@@ -442,8 +442,19 @@
       "engine": "Starbreeze in-house (Riddick lineage)",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 disc - there has never been a PC version",
-      "stage": "Our own build plays real-time 3D [verified-live 2026-09-16] and produces a measured left/right stereo pair [verified-live 2026-09-18]. DECIDED 2026-09-18: geometry stereo, one eye per guest frame with the world held still for the second eye; depth reprojection is the named fallback. The eye offset lives in the camera (which is also where head tracking will go), and the world-freeze is built - the guest clock pin is verified engaging, though its on-screen effect is not yet confirmed. One world unit is about an inch, so half an IPD is 1.25 units. default.xex unpacks in 80 lines of Python, giving 45,101 readable strings and a 21,414-function index; the engine is Starbreeze XReality. Next: prove the freeze visually, side-by-side composition at the presenter, then OpenXR. Nothing seen in a headset yet. Tefa's stated top VR want.",
-      "updated": "2026-09-18"
+      "stage": "Our own build plays real-time 3D [verified-live 2026-09-16] and produces a measured left/right stereo pair [verified-live 2026-09-18]. DECIDED 2026-09-18: geometry stereo, one eye per guest frame with the world held still for the second eye; depth reprojection is the named fallback. The eye offset lives in the camera (which is also where head tracking will go), and the world-freeze is built - the guest clock pin is verified engaging, though its on-screen effect is not yet confirmed. One world unit is about an inch, so half an IPD is 1.25 units. default.xex unpacks in 80 lines of Python, giving 45,101 readable strings and a 21,414-function index; the engine is Starbreeze XReality. Next: prove the freeze visually, side-by-side composition at the presenter, then OpenXR. Nothing seen in a headset yet. Tefa's stated top VR want. The whole game and our port are now packed into one verified transfer set for the faster test machine - 499 game files hashed on both sides and identical [verified-numerically 2026-09-19], with fingerprint lists and a setup guide travelling alongside so the far end can prove the copy arrived whole rather than assume it.",
+      "updated": "2026-09-19"
+    },
+    {
+      "repo": "condemned-2-vr",
+      "game": "Condemned 2: Bloodshot",
+      "year": 2008,
+      "developer": "Monolith Productions",
+      "engine": "Lithtech Jupiter EX",
+      "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
+      "injection": "our own static recompilation of the Xbox 360 disc - there has never been a PC version",
+      "stage": "Our own self-built recompile reaches real-time gameplay and shuts down cleanly on the older dev PC [verified-live 2026-09-16, n=1], at a frame rate that machine's age makes meaningless. The official prebuilt release needs AVX2 and has never started there, leaving no log at all [verified-live 2026-09-16]. The disc was read on a Kreon-flashed drive with zero errors and extracted with xdvdfs. Packed and byte-verified for the faster machine on 2026-09-19 (92 files, identical on both sides) to answer the two open questions: does the prebuilt release run, and what frame rate does the game hold on decent hardware - the number the stereo design rests on, since stereo draws every frame twice. Shares the ReXGlue SDK with the-darkness-vr, so stereo solved on one lands on the other; this is the better test bed of the two because it already runs. Nothing seen in a headset yet.",
+      "updated": "2026-09-19"
     }
   ],
   "notes_for_ai_readers": [

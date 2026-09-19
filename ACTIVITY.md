@@ -11,6 +11,36 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-19
+
+### The Darkness and Condemned 2: moving two games to the machine that can actually judge them
+
+📦 Both of these games are our own recompiles of Xbox 360 discs — neither ever had a PC release — and both
+have been developed on an old, slow machine where the frame rate means nothing. That has become the thing holding
+everything up, because stereo draws every frame twice: whatever a machine manages, halve it. So today both were
+packed up to move to faster hardware. Not just copied — every single file was fingerprinted on both sides and
+compared, 499 files for one game and 92 for the other, all identical. A file that arrives half-downloaded looks
+exactly like a game bug, and that is days of hunting nobody should have to do. Each folder travels with a
+plain-English setup guide and its fingerprint list, so the far end can prove the copy arrived whole instead of
+assuming it. The one thing that cannot be packed is a folder shortcut — those never survive a copy — so the guide
+spells out how to remake it, because nothing runs until it exists.
+
+🔄 One correction worth recording: a note here briefly said Condemned 2 had never run on any of our machines.
+It has, since 16 September, and the logs prove it — badly, on old hardware, but properly. What has never run is the
+*official* prebuilt build, which needs a newer processor than the development machine has. The difference matters,
+because it changes what the next test is for: not "does it work" but "how fast is it really".
+
+### Housekeeping: the to-do boards had been hiding most of their own work
+
+🔧 Every project here keeps a short list of what is left to do, tagged by what each job needs — nothing running,
+a monitor, or the headset. A small tool reads those lists so the question "is there anything I can do without
+setting up the game?" can be answered without a person going through them. Today that tool turned out to stop
+reading a list the moment any entry wrapped onto a second line. On one board it could see one job out of eighteen.
+Three other boards were affected, and the failure was completely silent — it reported no error, just a shorter
+list. Every board has been rewritten so each job sits on a single line, and a check now confirms all thirty-four
+read correctly. Two entries that were already finished had been sitting in a list as though they were outstanding;
+those moved out too, since a to-do list that overstates itself is worse than none.
+
 ## 2026-09-18
 
 ### Ashes 2063: a rifle you hold with both hands, and why it shot crooked
