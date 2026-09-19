@@ -13,6 +13,31 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-19
 
+### Silent Hill 2: running in VR on day one, and a look under the bonnet of everyone else's work
+
+🎮 A new project, and it moved faster than any other game here ever has. Within one sitting the game runs,
+sits in a small window so it can be driven unattended, and the general-purpose Unreal VR injector hooks it and
+opens a proper stereo session — a separate picture for each eye, at full resolution. Everywhere else on this
+account that point takes weeks of reverse engineering; here it took an afternoon, because this is the one game
+built on an engine the injector already understands.
+
+⚠️ It crashed the first time, and the crash turned out to explain itself rather than hide: the game had shipped
+set to maximum quality with ray tracing switched on, and the development machine is a long way below what this
+game asks for. The error read like something fatal and was really just the game being given two minutes to do a
+job that needed longer. Turning everything down and allowing more time fixed it outright.
+
+🔍 The other half of the day went on reading the existing community VR profile end to end — not to use it, but
+to learn what its authors had discovered. It is about fifty thousand lines of script, and the interesting part is
+that most of it is not about this game at all: it is a general toolkit carried between several different games.
+Its own comments are the most useful thing in it. They record that a thorough version of one routine was too slow
+to run every frame, that a piece of maths turns a thirty-sixth of a degree of real hand movement into a fifth of a
+degree of error which then has to be smoothed away, and that one graphical fix "causes a performance hit … a better
+way to do this should be found". That is the jank, described by the people who wrote it.
+
+🔄 Three things written down earlier the same day were wrong and were withdrawn rather than quietly edited —
+the profile's size, how it drives the body, and whether it wrote its own posing maths. The conclusion survived the
+correction and came out better argued, which is the only reason to check your own work.
+
 ### The Darkness and Condemned 2: moving two games to the machine that can actually judge them
 
 📦 Both of these games are our own recompiles of Xbox 360 discs — neither ever had a PC release — and both

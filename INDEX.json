@@ -430,9 +430,10 @@
       "game": "Silent Hill 2 (2024 remake)",
       "year": 2024,
       "developer": "Bloober Team (published by Konami); remake of Team Silent’s 2001 original",
-      "engine": "Unreal Engine 5 [reported]",
+      "engine": "Unreal Engine 5.1.1",
       "renderer": "DirectX 12 [reported]",
-      "stage": "NEW 2026-09-18. The only Unreal project on the account, and therefore the cheapest VR target on it: UE4/UE5 has praydog’s UEVR, so the months of camera reverse engineering every other project here needs may be a starting point rather than a destination. Nothing built and nothing run — the game has never been launched for this project and the dossier deliberately carries no [verified-live] line at all. Plan: study two existing published UEVR profiles for this game (jbusfield’s, and CharlotteLiu’s mod built on it), then write our own depending on neither, so nothing we release needs somebody else’s mod installed. A modified UEVR fork (PureDark’s AFW) was suggested as a foundation and is [not judged] — nothing about it has been examined here, so the plan assumes plain upstream UEVR until a research pass has looked. Anti-tamper unchecked. Board gate starts at PD: profile study, the fork judgement, install check and anti-tamper all need nothing running."
+      "stage": "First live session 2026-09-19: the game runs, is forced to a measured 1280x720 window, and UEVR injects and opens a stereo OpenXR session (1668x1856 per eye) [verified-live 2026-09-19, n=1]. Engine confirmed as UE 5.1.1 twice independently. Anti-tamper audited statically and the executable is clean [measured 2026-09-19] - no packer, empty TLS callbacks, CFG not enforced - though the game reportedly shipped with Denuvo, so a future patch is the risk rather than the present state. The existing community profile was mapped in full: 49,718 lines of Lua, mostly a shared cross-game framework, driving Unreal's own two-bone IK solver across the script boundary per arm per frame on a poseable puppet of the whole clothed body - its own comments record the precision loss and the performance workarounds. Our mod is therefore being built as a native C++ UEVR plugin with Lua only filling gaps, which is also what makes using the game's own interaction hand animations feasible. PureDark's AFW build is an optional comfort add-on, never a dependency. Nothing seen in a headset yet; the dev PC has none.",
+      "updated": "2026-09-19"
     },
     {
       "repo": "the-darkness-vr",
