@@ -231,7 +231,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Working VR sniper scope; the rifle is accurate from the hip with no aim button [verified-live 2026-09-21]. Open: a steady LEFT miss when two-handed. 2026-09-21 /pd: the zero is built on the rifle's own axes, so it turns with the rifle's roll -- proven on the shipped code (59/59); a -22 deg roll moves the crosshair about 7 deg. Every shot line now logs roll and the zero as the wearer sees it, and the plugin keeps its own log file. Built and installed, not run; one two-group wear decides it. Dossier 9ca.",
+      "stage": "Working VR sniper scope; the rifle is accurate from the hip with no aim button [verified-live 2026-09-21]. Two open faults, both now instrumented, built and installed, not run: (1) a steady LEFT miss two-handed -- the zero is built on the rifle's own axes and turns with its roll, proven on the shipped code (dossier 9ca); (2) distance-follow's 0.50 m reading -- our own ray (re8scope/ray.lua) skips contacts under 1 m and our own objects and names what it hit (dossier 9cb). One two-group headset wear decides both.",
       "updated": "2026-09-21"
     },
     {
