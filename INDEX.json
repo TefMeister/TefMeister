@@ -231,7 +231,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Working VR sniper scope; accurate from the hip with no aim button [verified-live 2026-09-21]. 2026-09-21 live test: the roll idea (9ca) is disproved; the two-handed miss is a muzzle snap just before the shot, and the bullet followed it -- fix (bullet takes the axis from 2 ticks earlier, self-logging) built, not yet installed (9cc). Our own distance ray works live (9cb), so distance-follow is next for the one-handed close-range offset. A grey-blue wash on the glass is back and undiagnosed.",
+      "stage": "Working VR sniper scope; accurate from the hip, and two-handed shots fixed live 2026-09-21 (bullet takes the scope axis from 3 ticks before the shot, dossier 9cd). Found the same day: distance-follow never reached the picture (the exact map is directions-only) -- fixed and installed, needs a re-zero (9ce). Scope picture now 1920x1080 by default for performance, with the 1920 latch window tightened to the padded height; not yet run. Open: a zero that may shift between launches and an intermittent grey-blue wash, both new on 2026-09-21.",
       "updated": "2026-09-21"
     },
     {
