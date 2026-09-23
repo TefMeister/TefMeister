@@ -305,7 +305,7 @@
       "developer": "Kojima Productions",
       "engine": "Decima",
       "renderer": "Direct3D 12",
-      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 64-bit Direct3D 12 exe on Decima, no protection layer seen. The first D3D12 project on the account. Not launched yet."
+      "stage": "Paused 2026-09-23: Luke Ross's R.E.A.L. VR supports Death Stranding Director's Cut and is playable [reported]; we watch it"
     },
     {
       "repo": "hard-reset-vr",
@@ -323,7 +323,7 @@
       "developer": "Valve",
       "engine": "Source",
       "renderer": "Direct3D 9 (Vulkan option shipped)",
-      "stage": "2026-09-14: Valve's own VR mode is not a leftover fragment - the whole CLIENT half still ships [inferred-static 2026-09-14]. client.dll (linked 2025-05-27) carries CClientVirtualReality, the build path src/game/client/client_virtualreality.cpp, and 36 vr_* cvars covering head-relative aiming, HUD-in-world placement, view-model handling and the near-plane multiplier. GameUI.dll still has the VR Mode menu toggle. Exactly ONE thing is missing: sourcevr.dll, the module that talks to OpenVR, which is absent from the whole machine. The engine also expects it to be SIGNED. ASLR is ON here, unlike the other Direct3D 9 projects."
+      "stage": "Paused 2026-09-23: BowmanFox's Portal 1 VR mod is playable with 6DoF and motion controls [reported]; we watch it"
     },
     {
       "repo": "prototype-vr",
@@ -341,7 +341,7 @@
       "developer": "Crystal Dynamics",
       "engine": "Crystal Dynamics Foundation (internally 'cdc')",
       "renderer": "deferred Direct3D 11, resolved at runtime",
-      "stage": "Camera readable from the game files including a leftover per-eye slot; Deus Ex: Human Revolution, a sister Crystal-engine game, was made VR by switching on its own built-in 3D mode [reported 2026-09-23]"
+      "stage": "Paused 2026-09-23: farmerarmor's TombRaiderVR is an experimental native-stereo VR mod, headset-tested [reported]; we watch it and may later build on it"
     },
     {
       "repo": "witcher-2-vr",
@@ -386,7 +386,7 @@
       "developer": "Gearbox Software",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 9",
-      "stage": "First look only; the Enhanced edition draws with D3D11. A working, headset-tested VR mod for this exact edition already exists (Mastersellz's BL1GOTYVR) [reported 2026-09-23], so the project's purpose needs deciding"
+      "stage": "Paused 2026-09-23: Mastersellz's BL1GOTYVR is a working, headset-tested VR mod for this exact edition [reported]; we watch it and may later build our own spin on it"
     },
     {
       "repo": "far-cry-3-blood-dragon-vr",
