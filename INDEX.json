@@ -175,7 +175,7 @@
       "engine": "Dunia",
       "renderer": "Direct3D 9",
       "injection": "proxy winmm.dll",
-      "stage": "Stereo and head rotation work, early release v0.2.0-alpha out; public notes on two other Far Cry 2 VR projects now point at the view-behind-you culling and the weapon separation [reported 2026-09-23]",
+      "stage": "Paused 2026-09-23: phunkaeg's FarCry2-vr is reported working in a headset but unreleased [reported]; our v0.2.0-alpha stays up and we watch theirs",
       "latest_release": "v0.2.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
     },
@@ -295,7 +295,7 @@
       "developer": "Visceral Games",
       "engine": "EA RenderWare Studio framework, custom renderer",
       "renderer": "Direct3D 9",
-      "stage": "2026-09-14: THE CAMERA IS FOUND [verified-live 2026-09-14, n=1 session]. The projection arrives as a dedicated four-register vertex-shader constant write at c4, layout R, LEFT-handed (clip.w=+view.z), aspect exactly -16/9 (X axis mirrored), near plane 0.1000, 54.43 degrees horizontal. It is a PURE projection, not a view-projection, so the view transform lives elsewhere. Identified among three candidates by being the one that ANIMATES - a field-of-view sweep walked 60.00 to 70.00 degrees across 21 log entries, all at c4. A d3d9 proxy injection route is PROVEN: the activation layer does not object to an unsigned foreign DLL [disproved 2026-09-14 that it does]. Root cause of an earlier launch-blocking crash named rather than guessed: the game calls D3DPERF_GetStatus and a proxy exporting only Direct3DCreate9 resolved it to NULL. WARNING: the depth term is not the textbook form (m[10]=0.990097), so stereo maths must re-derive from the real matrix; and the device is PUREDEVICE, so constant read-back cannot work here.",
+      "stage": "Paused 2026-09-23: chortdev's Dead Space trilogy VR mod is actively developed, with Dead Space 2 planned for about mid-2027 [reported]; we watch it",
       "engine_note": "Lineage corrected 2026-09-14: recorded as 'Visceral's own in-house engine' until the binary's exported symbols showed the RWS/rw namespaces and embedded RenderWare SDK documentation. Confirmed at framework level, open at renderer level. Links this project to manhunt-2003-vr, also RenderWare."
     },
     {
