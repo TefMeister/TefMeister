@@ -422,7 +422,7 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "v0.1.0 released 2026-09-23: revolver, gloved-hand pistol, two-handed shotgun and hand-held lantern as 3D models in VR, with our GZDoomVR build; flat load check clean [verified-live 2026-09-23, n=1], headset wear of the release pending. Next: one weapon at a time, tuned together in Blender",
+      "stage": "v0.1.1 released 2026-09-23 and confirmed on an untouched Ashes 1.51 pack [verified-live 2026-09-23, n=1]: revolver, gloved-hand pistol, two-handed shotgun and lantern as 3D models in VR, with its own GZDoomVR build. Next: one weapon at a time, tuned together in Blender",
       "source_of_truth": "ashes-2063-weapons/kit/",
       "updated": "2026-09-20"
     },
