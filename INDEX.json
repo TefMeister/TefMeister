@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -175,7 +175,7 @@
       "engine": "Dunia",
       "renderer": "Direct3D 9",
       "injection": "proxy winmm.dll",
-      "stage": "FIRST HEADSET RUN 2026-09-10 [verified-live, n=1]: alternate-eye-rendering stereo parity works (equal frames submitted per eye) and head rotation works with correct handedness. Two real defects fell out, both static: the engine still culls for the original mouse camera, so nothing behind you is drawn until you turn with the mouse; and the first-person weapon gets the world's stereo separation, so it doubles at a realistic IPD. ~16% of uploads also fail the camera-position solve and get rotation without the positional offset",
+      "stage": "Stereo and head rotation work, early release v0.2.0-alpha out; public notes on two other Far Cry 2 VR projects now point at the view-behind-you culling and the weapon separation [reported 2026-09-23]",
       "latest_release": "v0.2.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
     },
@@ -250,7 +250,7 @@
       "developer": "Avalanche Studios",
       "engine": "Apex (Avalanche)",
       "renderer": "Direct3D 11",
-      "stage": "THE WORLD MOVES as of 2026-09-10 — the per-object constant-buffer write site IS the transform that positions the frame on screen, measured rather than assumed [verified-live 2026-09-10]. Denuvo blocks debugger attach, but the shipped shader bundle carries its reflection chunks intact: 1,363 shaders read off disk with the per-object WorldViewProjMatrix located [measured 2026-09-01, n=1363 shaders], which is why the anti-debug wall has not been a blocker"
+      "stage": "The world moves under our control but the HUD moves with it; a native per-eye VR mod on theHunter: Call of the Wild (sibling Apex engine) is now a map to follow [reported 2026-09-23]"
     },
     {
       "repo": "prince-of-persia-2008-vr",
@@ -341,7 +341,7 @@
       "developer": "Crystal Dynamics",
       "engine": "Crystal Dynamics Foundation (internally 'cdc')",
       "renderer": "deferred Direct3D 11, resolved at runtime",
-      "stage": "2026-09-14: the .shad section holds 117 DXBC shaders WITH THEIR REFLECTION DATA INTACT [inferred-static 2026-09-14], so the camera constant buffer is readable off disk with names and byte offsets. SceneBuffer (1360 bytes, 31 shaders): View +0, ScreenMatrix +64, __CameraPosition +160, CameraDirection +176, DepthToWorld +240, PrevViewProject +912, InverseProjection +1280, and StereoOffset +1344 - a per-eye shift term left from the 3D-Vision era. WARNING: that the constant exists proves the shaders have a stereo term, not that anything still fills it. CORRECTION: d3d11/dxgi/d3d9/nvapi are named in the exe as STRINGS ONLY - the import table contains no graphics API at all, so the renderer is resolved dynamically, the same shape as alan-wake-vr. Two real complications: deferred shading (depth reconstruction must move with any per-eye shift) and EOSSDK as a hard static import."
+      "stage": "Camera readable from the game files including a leftover per-eye slot; Deus Ex: Human Revolution, a sister Crystal-engine game, was made VR by switching on its own built-in 3D mode [reported 2026-09-23]"
     },
     {
       "repo": "witcher-2-vr",
@@ -386,7 +386,7 @@
       "developer": "Gearbox Software",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 9",
-      "stage": "NEW 2026-09-15. Repo created; first static look only: 64-bit Unreal Engine 3 on Direct3D 9 (static import, proxy-friendly), behind the Steam DRM wrapper [inferred-static 2026-09-15]. Alice and Enslaved are UE3 projects on this account, so their camera work applies. Not launched yet."
+      "stage": "First look only; the Enhanced edition draws with D3D11. A working, headset-tested VR mod for this exact edition already exists (Mastersellz's BL1GOTYVR) [reported 2026-09-23], so the project's purpose needs deciding"
     },
     {
       "repo": "far-cry-3-blood-dragon-vr",
@@ -413,7 +413,7 @@
       "developer": "People Can Fly",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 11",
-      "stage": "NEW 2026-09-15. Repo created; nothing on disk yet (still downloading on the home PC). Unreal Engine 3 [reported]. First static look waits on the download."
+      "stage": "Installed on the dev PC, no static look yet; BL1GOTYVR on Borderlands Enhanced (also UE3, D3D11, 64-bit) now maps the likely hook points [reported 2026-09-23]"
     },
     {
       "repo": "ashes-2063-weapons",
@@ -455,7 +455,7 @@
       "engine": "Lithtech Jupiter EX",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "Our own self-built recompile reaches real-time gameplay and shuts down cleanly on the older dev PC [verified-live 2026-09-16, n=1], at a frame rate that machine's age makes meaningless. The official prebuilt release needs AVX2 and has never started there, leaving no log at all [verified-live 2026-09-16]. Now set up on the faster machine to answer the two open questions: does the prebuilt release run, and what frame rate does the game hold on decent hardware - the number the stereo design rests on, since stereo draws every frame twice. Shares the ReXGlue SDK with the-darkness-vr, so stereo solved on one lands on the other; this is the better test bed of the two because it already runs. Nothing seen in a headset yet. 2026-09-21: the official prebuilt release starts on the home PC (AVX2), and our build holds ~190-340 fps in gameplay there.",
+      "stage": "Running on PC from a self-built recompile, over 190 fps on the home PC; three public VR mods on the same LithTech Jupiter EX family found as prior art for the two-eyes work [reported 2026-09-23]",
       "updated": "2026-09-20"
     }
   ],
