@@ -109,6 +109,7 @@ clutter. The full playbook text lives only in
 ## Shared knowledge (applies across every project, and to games with no project yet)
 
 - **[flat-to-vr-cross-engine-research](https://github.com/TefMeister/flat-to-vr-cross-engine-research)** — a public, engine-agnostic library of *publicly-available* flat→VR modding knowledge: an engine landscape index, [per-engine family pages](https://github.com/TefMeister/flat-to-vr-cross-engine-research/tree/main/docs/engines) tying my sibling projects on the same engine together, generic-driver options (vorpX, geo-11), engine-agnostic core patterns, and worked case studies. Every source credited in its `ATTRIBUTION.md`.
+- **[lanes-plugin](https://github.com/TefMeister/lanes-plugin)** — the Claude Code plugin every project here is worked with: several sessions at once without them treading on each other, a shared work board, and one naming rule (nobody's name is written down unless they choose one). Public since 2026-09-24, early version, still being built.
 - **[flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit)** — battle-tested tools, skills, and the canonical copy of the reusable VR reverse-engineering playbook every project above follows.
 
 ---
