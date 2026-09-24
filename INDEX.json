@@ -422,7 +422,7 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "v0.1.1 released 2026-09-23 and confirmed on an untouched Ashes 1.51 pack [verified-live 2026-09-23, n=1]. Now rebuilding each weapon in cubes with Tefa in Blender: the cube shotgun's gloved hands were shaped cube by cube, its proportions corrected, and its shot, pump and reload animated tic for tic from the game (built 2026-09-24; flat check passed the same day, not yet worn)",
+      "stage": "v0.1.1 released 2026-09-23 and confirmed on an untouched Ashes 1.51 pack [verified-live 2026-09-23, n=1]. Now rebuilding each weapon in cubes with Tefa in Blender: the cube shotgun's gloved hands were shaped cube by cube, its proportions corrected, and its shot, pump and reload animated tic for tic from the game (built and worn 2026-09-24: looks good but too toy-like; bulk and weathering next, done together in Blender)",
       "source_of_truth": "ashes-2063-weapons/kit/",
       "updated": "2026-09-20"
     },
