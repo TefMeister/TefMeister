@@ -128,6 +128,13 @@
       "name": "claude-memory",
       "visibility": "private",
       "purpose": "Cross-machine working state and preferences. Not public and not required to understand any of the above."
+    },
+    {
+      "name": "lanes-plugin",
+      "visibility": "public",
+      "url": "https://github.com/TefMeister/lanes-plugin",
+      "purpose": "The Claude Code plugin these projects are worked with: named session lanes, a shared work board, claim guards, and a naming rule that keeps personal names out of everything written. Early version (0.22.0, public 2026-09-24), still being built.",
+      "licence": "MIT"
     }
   ],
   "projects": [
