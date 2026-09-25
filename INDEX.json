@@ -238,7 +238,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Working VR sniper scope, accurate and zeroed (flicker gone 2026-09-22). 2026-09-25: starts in under a second when the rifle is drawn; zeroed by two shots in the headset and the zero now holds over a restart. Next: surviving save loads, zoom per scope.",
+      "stage": "Working VR sniper scope, accurate and zeroed. 2026-09-25: starts in under a second, two-shot zero survives a relaunch (worn); then a clean reinstall was done after lights switching with head direction and a dark indoor picture were reported — unmodified DLSS loader installed, our mod packaged on D: and waiting for a headset check, then a layer-by-layer bisect.",
       "updated": "2026-09-24"
     },
     {
