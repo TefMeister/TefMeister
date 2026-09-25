@@ -11,6 +11,107 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-26
+
+### Silent Hill 2
+
+🧹 Reset the home PC's copy to a clean install. The VR injector and four add-on mods were moved out, not
+deleted, and Steam's check found every game file intact. Next: study the two community VR profiles, then
+start our own from zero.
+
+### The tools behind the work
+
+🔧 The lanes plugin now files new ideas by itself, calls each PC PC1, PC2 and so on instead of its real
+name, and has a new banner and a clearer front page. A gap that let two safety checks be skipped is closed.
+
+### This page
+
+📋 Paused games now say only who is making their VR mod. This log had fallen a week behind; every session
+now starts with a warning when that happens.
+
+## 2026-09-25
+
+### RE Village scope
+
+⭐ The lights now follow the scope's aim. A real camera was put on the rifle and it renders, but its picture
+is still flat blue, so the next step is pointing it properly.
+
+### RE2 Visceral
+
+🎮 Firing works again after the aim changes. A running shake was traced to an old framework build, and DLSS
+works again. A pistol glitch is next, found by rebuilding a clean install one piece at a time.
+
+## 2026-09-24
+
+### RE2 Visceral
+
+🎮 Claire's torso no longer lurches forward when you aim. It was measured from a recording made inside the
+headset, because the VR view cannot be captured on the desktop.
+
+### RE Village scope
+
+🎮 A flat test passed: the scope starts by itself and flips cleanly with two presses.
+
+### Ashes 2063
+
+🎮 The first cube rifle, jackhammer and flamethrower were built with both gloved hands. The shotgun was worn
+and felt too toy-like, so it goes back to Blender.
+
+## 2026-09-23
+
+### Every project
+
+🔍 A research sweep checked every game against phunkaeg's VR Modding Playbook, and fresh mod ideas were
+copied into each game's repo.
+
+⏸ Games someone else is already making VR were paused and put on a watch list: Far Cry 2, Dead Space 2,
+Portal, Tomb Raider, Death Stranding and Borderlands.
+
+### Ashes 2063
+
+🏆 `v0.1.1` released: revolver, pistol, shotgun and lantern. An unmodded Ashes pack is all a player needs.
+
+## 2026-09-22
+
+### RE Village scope
+
+🏆 The scope flicker was found and is gone, confirmed in the headset. An upside-down picture turned out to be
+a saved setting from stray button presses, not a bug. The two-handed grip is settled.
+
+### Ashes 2063
+
+🔧 The shotgun hands lost their sleeves: a black glove only.
+
+## 2026-09-21
+
+### RE Village scope
+
+🎮 The stepped jitter when turning your head is gone. A repaired measure counted the flicker for the first
+time. The two-handed drift was parked for later.
+
+### The Darkness and Condemned 2
+
+🎮 Frame rates measured on the fast home PC: well over 180 a second, plenty of room for two eyes.
+
+## 2026-09-20
+
+### RE Village scope
+
+🔄 A fix for bullet scatter worked and changed nothing, because the bullet was already fired by then. A
+safety check of mine also crashed the game once. Both are written down, and the lesson became a rule.
+
+### Ashes 2063
+
+🎮 Two-handed long guns now aim along the line between your hands, and the shotgun got gloved hands.
+
+### RE2 Visceral
+
+🔍 Studied what the RE4 Remake VR mod can teach this one.
+
+### The board
+
+🔧 The headset tag was split in two: plugged in with nobody needed, or someone wearing it.
+
 ## 2026-09-19
 
 ### Silent Hill 2: running in VR on day one, and a look under the bonnet of everyone else's work
