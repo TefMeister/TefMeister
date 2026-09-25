@@ -238,7 +238,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Working VR sniper scope, accurate and zeroed; starts in under a second and the zero survives a relaunch (2026-09-25). Clean reinstall done the same day; a lights glitch (lights switching with head direction) is traced to the scope's mirror: the world is lit as if seen from the scope's camera (lights follow the rifle's aim), and the mirror's own settings do not fix it (light-weight mode crashes); the render layer order shows the scope's two views drawn before the eyes, and a live reorder (Output.setLayerIndex) is built and installed, awaiting one headset test.",
+      "stage": "Working VR sniper scope, accurate and zeroed; starts in under a second and the zero survives a relaunch (2026-09-25). Clean reinstall done the same day; a lights glitch (lights switching with head direction) is traced to the scope's mirror: the world is lit as if seen from the scope's camera (lights follow the rifle's aim), and the mirror's own settings do not fix it (light-weight mode crashes); FIXED 2026-09-25 evening: the scope's two Scene layers now get a priority after both eyes (AUTO-ORDER, layers.lua), worn and confirmed; what remains is a faint copy of the scope picture leaking into both eyes (proven by pointing the scope at one candle), not DLSS/fog/flare/bloom/SSR; the scope's layers sharing the eyes' camera objects is the leading cause.",
       "updated": "2026-09-24"
     },
     {
