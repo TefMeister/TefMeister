@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -440,8 +440,8 @@
       "developer": "Bloober Team (published by Konami); remake of Team Silent’s 2001 original",
       "engine": "Unreal Engine 5.1.1",
       "renderer": "DirectX 12 [reported]",
-      "stage": "First live session 2026-09-19: the game runs, is forced to a measured 1280x720 window, and UEVR injects and opens a stereo OpenXR session (1668x1856 per eye) [verified-live 2026-09-19, n=1]. Engine confirmed as UE 5.1.1 twice independently. Anti-tamper audited statically and the executable is clean [measured 2026-09-19] - no packer, empty TLS callbacks, CFG not enforced - though the game reportedly shipped with Denuvo, so a future patch is the risk rather than the present state. The existing community profile was mapped in full: 49,718 lines of Lua, mostly a shared cross-game framework, driving Unreal's own two-bone IK solver across the script boundary per arm per frame on a poseable puppet of the whole clothed body - its own comments record the precision loss and the performance workarounds. Our mod is therefore being built as a native C++ UEVR plugin with Lua only filling gaps, which is also what makes using the game's own interaction hand animations feasible. PureDark's AFW build is an optional comfort add-on, never a dependency. Nothing seen in a headset yet; the dev PC has none.",
-      "updated": "2026-09-19"
+      "stage": "First live session 2026-09-19: the game runs, is forced to a measured 1280x720 window, and UEVR injects and opens a stereo OpenXR session (1668x1856 per eye) [verified-live 2026-09-19, n=1]. Engine confirmed as UE 5.1.1 twice independently. Anti-tamper audited statically and the executable is clean [measured 2026-09-19] - no packer, empty TLS callbacks, CFG not enforced - though the game reportedly shipped with Denuvo, so a future patch is the risk rather than the present state. The existing community profile was mapped in full: 49,718 lines of Lua, mostly a shared cross-game framework, driving Unreal's own two-bone IK solver across the script boundary per arm per frame on a poseable puppet of the whole clothed body - its own comments record the precision loss and the performance workarounds. Our mod is therefore being built as a native C++ UEVR plugin with Lua only filling gaps, which is also what makes using the game's own interaction hand animations feasible. PureDark's AFW build is an optional comfort add-on, never a dependency. Nothing seen in a headset yet; the dev PC has none. 2026-09-26: the home PC's copy was reset to a clean install (UEVR and all mods moved out, Steam verify clean).",
+      "updated": "2026-09-26"
     },
     {
       "repo": "the-darkness-vr",
