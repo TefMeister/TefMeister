@@ -238,7 +238,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Working VR sniper scope, accurate and zeroed (flicker gone 2026-09-22). Flat-tested 2026-09-24: auto-start on draw, eye pose with the rig, two-press flip. 2026-09-25: quick auto-start built and installed, the scope expected about 1 s after the draw instead of about 10; flat check next.",
+      "stage": "Working VR sniper scope, accurate and zeroed (flicker gone 2026-09-22). Flat-tested 2026-09-24: auto-start on draw, eye pose with the rig, two-press flip. 2026-09-25: quick auto-start passed flat, the scope up in under a second after the draw instead of about 10; headset look next.",
       "updated": "2026-09-24"
     },
     {
