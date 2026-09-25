@@ -68,7 +68,7 @@ A quick look at where each mod stands, newest state only. The full story is in e
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🔍 First look: same engine as Far Cry 2. | 09-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 Installed; no look inside yet. | 09-16 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on mapping likely hook points from a VR mod on a similar game. | 09-23 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🎮 Worked on a clean install, to build our own VR profile from zero. | 09-26 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on studying the two community VR profiles for using the game's own hand animations. | 09-26 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Worked on the cube rifle, jackhammer and flamethrower with gloved hands. | 09-24 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Burnout Paradise** (Remastered) | Criterion engine | ⏸ Paused: needs a third-party launcher, and not installed | 09-01 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |

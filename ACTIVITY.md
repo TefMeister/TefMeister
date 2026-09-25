@@ -19,6 +19,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 deleted, and Steam's check found every game file intact. Next: study the two community VR profiles, then
 start our own from zero.
 
+🔍 Then read both community VR profiles for one question: do they use the game's own push, pull and lever
+animations as your arms? Neither does. One treats those moments as a cutscene; the other replaces them with
+hand-built grabs. So the idea is new, and the next step is looking at those animations from James's eyes.
+
 ### The tools behind the work
 
 🔧 The lanes plugin now files new ideas by itself, calls each PC PC1, PC2 and so on instead of its real
