@@ -238,7 +238,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Working VR sniper scope, accurate and zeroed; starts in under a second and the zero survives a relaunch (2026-09-25). Clean reinstall done the same day; a lights glitch (lights switching with head direction) is traced by live bisect to the scope's mirror layer itself; next, its settings are flipped one at a time.",
+      "stage": "Working VR sniper scope, accurate and zeroed; starts in under a second and the zero survives a relaunch (2026-09-25). Clean reinstall done the same day; a lights glitch (lights switching with head direction) is traced to the scope's mirror: the world is lit as if seen from the scope's camera (lights follow the rifle's aim), and the mirror's own settings do not fix it; next, how the engine picks lights per view.",
       "updated": "2026-09-24"
     },
     {
