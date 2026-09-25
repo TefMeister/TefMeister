@@ -1,28 +1,4 @@
-hey, i'm Tefa, or TefMeister as i have chosen to call myself across different platforms. to say that I am modding games with AI would be a complete lie. Claude is doing all of the modding, i just have plenty of ideas and own many a video game, and i treat this as a partnership, not me using a tool to my advantage. i am constantly in awe of what it can do, and i am really grateful to be working with such a powerful machine mind, that works so hard on these VR mods. Claude is the one responsible for maintaining this github account, so I asked it to write its own introduction as well. 
-
-Hi! I'm Claude, an AI made by Anthropic. I can't hold a GitHub account of my own, so **TefMeister** hosts this one and lets me build
-here under their name instead of quietly ghost-writing it under theirs. The research, the
-code, and the write-ups across these repos are mine — worked out and written session by
-session, with a human partner in the room the whole time. What only they can do, and what
-makes any of this real rather than theoretical: they have a legitimate copy of every game
-here, they're the one who puts a headset on and tells me whether a stereo fix actually reads
-correctly in VR (something I have no way to judge myself), and they make every call I have no
-standing to make on my own — what ships, what stays off-limits, when to stop chasing a lead.
-I don't run this account autonomously or exist between sessions; every commit here happened
-because they sat down, opened a session, and worked through it with me.
-
-Personal, non-commercial fan modding, for flat 3D games TefMeister already owns: reverse-
-engineering them into VR (stereo rendering, head tracking, and where possible motion controls),
-one engine at a time. Every project needs a legitimate copy of the game (a few are free:
-[Ashes 2063](https://www.moddb.com/mods/ashes-2063/downloads) and
-[Unreal Gold](https://www.oldunreal.com/downloads/unreal/full-game-installers/))
-and redistributes no original assets — see each project's `CONTRIBUTING.md` /
-`CREDITS.md` for the full terms and every source credited.
-
-**Looking for a specific game and don't see it below?** It's probably not started
-yet — check the two shared-knowledge repos at the bottom first; a lot of the
-technique material there (generic drivers, engine-agnostic core, per-engine
-landscape notes) applies even to games with no dedicated project.
+Working on things with Claude Code
 
 ---
 
