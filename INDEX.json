@@ -182,7 +182,7 @@
       "engine": "Dunia",
       "renderer": "Direct3D 9",
       "injection": "proxy winmm.dll",
-      "stage": "Paused 2026-09-23: phunkaeg's FarCry2-vr is reported working in a headset but unreleased [reported]; our v0.2.0-alpha stays up and we watch theirs",
+      "stage": "Paused 2026-09-23: phunkaeg's FarCry2-vr is reported working in a headset but unreleased [reported]",
       "latest_release": "v0.2.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
     },
@@ -194,7 +194,7 @@
       "engine": "Unreal Engine 1 (OldUnreal 227k)",
       "renderer": "Direct3D 11",
       "injection": "native render device — no injection needed",
-      "stage": "PAUSED 2026-09-17 (user decision): a VR mod for Unreal already exists, Unreal Revived (https://www.moddb.com/mods/unreal-revived). Any later work would build on it, with Unreal Revived required; our v0.1.0-alpha stays published. Before the pause: from-scratch native D3D11 render device for the OldUnreal 227k patch. TWO HEADSET RUNS 2026-09-10: IT FUSES in Virtual Desktop's half-side-by-side format, and the world is LIFE-SIZE at StereoIPD=1.0 with the weapon correctly sized [reported 2026-09-10, n=1 wearer]. Stereo was also proven numerically on a monitor first — per-depth-band eye-to-eye shifts, swap-eyes and stereo-off all behaved as a real stereo pair must [verified-live 2026-09-09, 80,156 frames, no driver error]. One real defect left: DrawTile() maps a tile's pixel rect straight to full-window clip space, so the HUD, explosions and projectile sprites are drawn once across the whole window instead of once per eye Unreal Gold itself is free from OldUnreal's full-game installer; the mod needs patch v227k_15 (both linked from mod/README.md, 2026-09-17).",
+      "stage": "PAUSED 2026-09-17 (user decision): a VR mod for Unreal already exists, Unreal Revived (https://www.moddb.com/mods/unreal-revived). Before the pause: from-scratch native D3D11 render device for the OldUnreal 227k patch. TWO HEADSET RUNS 2026-09-10: IT FUSES in Virtual Desktop's half-side-by-side format, and the world is LIFE-SIZE at StereoIPD=1.0 with the weapon correctly sized [reported 2026-09-10, n=1 wearer]. Stereo was also proven numerically on a monitor first — per-depth-band eye-to-eye shifts, swap-eyes and stereo-off all behaved as a real stereo pair must [verified-live 2026-09-09, 80,156 frames, no driver error]. One real defect left: DrawTile() maps a tile's pixel rect straight to full-window clip space, so the HUD, explosions and projectile sprites are drawn once across the whole window instead of once per eye Unreal Gold itself is free from OldUnreal's full-game installer; the mod needs patch v227k_15 (both linked from mod/README.md, 2026-09-17).",
       "latest_release": "v0.1.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
     },
@@ -213,7 +213,7 @@
       "developer": "id Software",
       "engine": "id Tech 6",
       "renderer": "OpenGL / Vulkan",
-      "stage": "PAUSED 2026-09-17 (user decision): a DOOM (2016) VR mod already exists, KHARVOX by CactusVRStudios (https://github.com/CactusVRStudios/KHARVOX/releases, v0.9 beta). Any later work would build on it, with KHARVOX required. Before the pause: BOTH BLOCKING ROWS FELL IN ONE LAUNCH on 2026-09-10: the view position is obtainable unattended, and the ENGINE'S OWN PROJECTION MATRIX has been read and proved rather than reconstructed [verified-live 2026-09-10]. Earlier: the view basis sits at a static global and writing origin +/- 32*left renders depth-correct stereo parallax [verified-live 2026-09-01, n=1 pair], so per-eye rendering does NOT depend on reviving the engine's dormant stereo path. The project moves from “we cannot see the camera” to “we can see it — now write to it”"
+      "stage": "PAUSED 2026-09-17 (user decision): a DOOM (2016) VR mod already exists, KHARVOX by CactusVRStudios (https://github.com/CactusVRStudios/KHARVOX/releases, v0.9 beta). Before the pause: BOTH BLOCKING ROWS FELL IN ONE LAUNCH on 2026-09-10: the view position is obtainable unattended, and the ENGINE'S OWN PROJECTION MATRIX has been read and proved rather than reconstructed [verified-live 2026-09-10]. Earlier: the view basis sits at a static global and writing origin +/- 32*left renders depth-correct stereo parallax [verified-live 2026-09-01, n=1 pair], so per-eye rendering does NOT depend on reviving the engine's dormant stereo path. The project moves from “we cannot see the camera” to “we can see it — now write to it”"
     },
     {
       "repo": "arcade-controls-re2-vr",
@@ -302,7 +302,7 @@
       "developer": "Visceral Games",
       "engine": "EA RenderWare Studio framework, custom renderer",
       "renderer": "Direct3D 9",
-      "stage": "Paused 2026-09-23: chortdev's Dead Space trilogy VR mod is actively developed, with Dead Space 2 planned for about mid-2027 [reported]; we watch it",
+      "stage": "Paused 2026-09-23: chortdev's Dead Space trilogy VR mod is actively developed, with Dead Space 2 planned for about mid-2027 [reported]",
       "engine_note": "Lineage corrected 2026-09-14: recorded as 'Visceral's own in-house engine' until the binary's exported symbols showed the RWS/rw namespaces and embedded RenderWare SDK documentation. Confirmed at framework level, open at renderer level. Links this project to manhunt-2003-vr, also RenderWare."
     },
     {
@@ -312,7 +312,7 @@
       "developer": "Kojima Productions",
       "engine": "Decima",
       "renderer": "Direct3D 12",
-      "stage": "Paused 2026-09-23: Luke Ross's R.E.A.L. VR supports Death Stranding Director's Cut and is playable [reported]; we watch it"
+      "stage": "Paused 2026-09-23: Luke Ross's R.E.A.L. VR supports Death Stranding Director's Cut and is playable [reported]"
     },
     {
       "repo": "hard-reset-vr",
@@ -330,7 +330,7 @@
       "developer": "Valve",
       "engine": "Source",
       "renderer": "Direct3D 9 (Vulkan option shipped)",
-      "stage": "Paused 2026-09-23: BowmanFox's Portal 1 VR mod is playable with 6DoF and motion controls [reported]; we watch it"
+      "stage": "Paused 2026-09-23: BowmanFox's Portal 1 VR mod is playable with 6DoF and motion controls [reported]"
     },
     {
       "repo": "prototype-vr",
@@ -348,7 +348,7 @@
       "developer": "Crystal Dynamics",
       "engine": "Crystal Dynamics Foundation (internally 'cdc')",
       "renderer": "deferred Direct3D 11, resolved at runtime",
-      "stage": "Paused 2026-09-23: farmerarmor's TombRaiderVR is an experimental native-stereo VR mod, headset-tested [reported]; we watch it and may later build on it"
+      "stage": "Paused 2026-09-23: farmerarmor's TombRaiderVR is an experimental native-stereo VR mod, headset-tested [reported]"
     },
     {
       "repo": "witcher-2-vr",
@@ -384,7 +384,7 @@
       "developer": "Arkane Studios",
       "engine": "CryEngine (Arkane fork)",
       "renderer": "Direct3D 11",
-      "stage": "PAUSED 2026-09-17 (user decision): fholger (Crysis VR, Far Cry VR) is making a Prey VR mod, still in development (https://www.patreon.com/fholger/posts/prey-2017-vr-165375021). Parked until it is released; any work of ours would then build on it, with his mod required. Before the pause: NEW 2026-09-15. Repo created; first static look only: Arkane's CryEngine fork, 64-bit, no Steam DRM wrapper or Denuvo string. CryEngine's leftover headset console variables (hmd_rotatepitch/roll/yaw) are still in the build [inferred-static 2026-09-15]; whether they do anything is unknown. Not launched yet."
+      "stage": "PAUSED 2026-09-17 (user decision): fholger (Crysis VR, Far Cry VR) is making a Prey VR mod, still in development (https://www.patreon.com/fholger/posts/prey-2017-vr-165375021). Before the pause: NEW 2026-09-15. Repo created; first static look only: Arkane's CryEngine fork, 64-bit, no Steam DRM wrapper or Denuvo string. CryEngine's leftover headset console variables (hmd_rotatepitch/roll/yaw) are still in the build [inferred-static 2026-09-15]; whether they do anything is unknown. Not launched yet."
     },
     {
       "repo": "borderlands-goty-vr",
@@ -393,7 +393,7 @@
       "developer": "Gearbox Software",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 9",
-      "stage": "Paused 2026-09-23: Mastersellz's BL1GOTYVR is a working, headset-tested VR mod for this exact edition [reported]; we watch it and may later build our own spin on it"
+      "stage": "Paused 2026-09-23: Mastersellz's BL1GOTYVR is a working, headset-tested VR mod for this exact edition [reported]"
     },
     {
       "repo": "far-cry-3-blood-dragon-vr",
