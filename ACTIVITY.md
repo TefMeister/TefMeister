@@ -15,6 +15,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ### RE Village VR scope
 
+🔧 The static across the top of the rifle camera's picture was the game's own film-grain effect, copied onto our
+camera. Found by saving the picture to disk and switching effects off one group at a time; it is now left off and the
+picture is clean. Outdoors is still far too bright; that is next.
+
 🏆 The rifle camera's big slowdown (26 fps) was our own script: it searched the whole level for the rifle
 every frame. Found with a new per-stage frame timer, fixed by remembering the rifle; the scope now runs at
 150–160 fps with the camera following the rifle. The barrel is hidden by a near plane that follows the
