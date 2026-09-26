@@ -19,6 +19,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ### RE Village VR scope
 
+🏆 The rifle camera works in VR: correct picture and colours, shots land where the rifle points. Tefa: "it really feels so so good now!" Next: a little more brightness, and shots land slightly low.
+
 🎮 First headset tests of the rifle camera: in VR the picture it copies turns out to be the frozen desktop window, not the scope view. Next: finding where the scope view goes in VR.
 
 🏆 The rifle camera now shows its finished picture on the scope glass, in the game's own colours, with no white-out. Tefa: "it looks fantastic!" Next: centring the picture on the lens, then a look in the headset.
