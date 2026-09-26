@@ -15,6 +15,9 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ### RE Village VR scope
 
+🎮 Tested the finished-picture route: it finds the right picture, but the game reuses that memory for the main view
+before the frame ends, so it has to be copied earlier. Tefa spotted the rifle camera's picture was upside down; fixed.
+
 🔧 Built the route that takes the rifle camera's finished picture from its last render stage, the way praydog's
 VR mod does; it should fix the washed-out outdoors. Built and installed; not tested yet.
 
