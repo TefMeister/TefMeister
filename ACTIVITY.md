@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-26: Visceral — RE2 VR
 
-🔍 The shake hunt began: the game went back to a clean start and our pieces go back in one at a time, with a headset check after each. Claire's dirty hands turned out not to be a texture at all: the dirt is painted on live from a small shared pattern, so an HD pattern of her own is the plan.
+🏆 The running shake is found: it came from an old REFramework build, and happened even on a freshly reinstalled game with nothing of ours in it. A fresh build is smooth with DLSS working, and our game files on top of it stay smooth. The pistol jumping sideways after a shot turned out to happen only while the left hand grips the gun. Claire's dirty hands turned out to be painted on live by the game, so an HD grime pattern of her own is the plan. Every change is now kept as its own numbered build.
 
 ## 2026-09-26
 
