@@ -78,7 +78,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 Public since 2026-09-24; early version, still being built. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 Added the Inspector, which looks over every piece of code Claude writes. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## How the game repos are organized
 
