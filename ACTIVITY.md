@@ -15,6 +15,11 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ### RE Village VR scope
 
+🏆 The rifle camera's big slowdown (26 fps) was our own script: it searched the whole level for the rifle
+every frame. Found with a new per-stage frame timer, fixed by remembering the rifle; the scope now runs at
+150–160 fps with the camera following the rifle. The barrel is hidden by a near plane that follows the
+muzzle. Still open: a band of speckle at the top of the picture, and outdoors it is far too bright.
+
 🔧 The scope's new rifle camera showed only a flat blue sky last night. Built two switches to test why:
 one lets the camera follow the rifle, the other moves it there by hand every frame and writes down where
 it really is.
