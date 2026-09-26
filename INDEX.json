@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -230,8 +230,8 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Rebuilding on a fresh DLSS REFramework after the running shake was traced to an old build (2026-09-26); our game files are back and smooth, the rest goes back one piece at a time. Open: the pistol jumping sideways while the left hand grips it.",
-      "updated": "2026-09-26"
+      "stage": "Hunting the pistol swing (2026-09-27): it survived every file change, so the game was cleaned to stock with a fresh DLSS REFramework, and a posture-only rebuild waits to be tested.",
+      "updated": "2026-09-27"
     },
     {
       "repo": "re-village-scope-vr",
