@@ -13,6 +13,12 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-26
 
+### RE Village VR scope
+
+🔧 The scope's new rifle camera showed only a flat blue sky last night. Built two switches to test why:
+one lets the camera follow the rifle, the other moves it there by hand every frame and writes down where
+it really is. Ready for one flat-screen run.
+
 ### Silent Hill 2
 
 🧹 Reset the home PC's copy to a clean install. The VR injector and four add-on mods were moved out, not
