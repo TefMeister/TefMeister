@@ -18,7 +18,7 @@ A quick look at where each mod stands, newest state only. The full story is in e
 | **Unreal Gold** (1998) | Unreal Engine 1 | ⏸ Paused: a VR mod already exists (Unreal Revived) | 09-26 | [unreal-gold-vr](https://github.com/TefMeister/unreal-gold-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on making the camera follow the player; stereo and head tracking already work. | 09-13 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Far Cry 2** (2008) | Dunia | ⏸ Paused: another Far Cry 2 VR mod is in the works | 09-26 | [far-cry-2-vr](https://github.com/TefMeister/far-cry-2-vr) |
-| **RE Village — VR scope** | RE Engine | 🔧 Worked on a real camera on the rifle for the scope picture. | 09-25 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
+| **RE Village — VR scope** | RE Engine | 🔧 Worked on why the rifle's own camera shows only sky. | 09-26 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Worked on shadows that slide when you turn your head. | 09-13 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🎮 Worked on the aim-walk body posture. | 09-25 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Dead Space 2** (2011) | RenderWare-based | ⏸ Paused: chortdev is making a Dead Space trilogy VR mod | 09-26 | [dead-space-2-vr](https://github.com/TefMeister/dead-space-2-vr) |
