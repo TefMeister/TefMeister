@@ -15,6 +15,9 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ### RE Village VR scope
 
+🔧 Built the route that takes the rifle camera's finished picture from its last render stage, the way praydog's
+VR mod does; it should fix the washed-out outdoors. Built and installed; not tested yet.
+
 🔄 Tried four ways to fix the rifle camera's washed-out outdoor picture; none worked, but they showed the picture
 arrives before the game's own colour grading. The fix is to take the finished picture instead, as praydog's VR mod does.
 🔧 Test launches now watch the screen and press each button the moment it appears: about 30 s from closed to playing.
