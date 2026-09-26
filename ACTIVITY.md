@@ -15,6 +15,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ### RE Village VR scope
 
+🔧 Built a copy of the rifle camera's finished picture taken the moment it is drawn, before the game reuses that memory, plus a switch to test why the scope picture slides. Not tested yet.
+
 🎮 Tested the finished-picture route: it finds the right picture, but the game reuses that memory for the main view
 before the frame ends, so it has to be copied earlier. Tefa spotted the rifle camera's picture was upside down; fixed.
 
