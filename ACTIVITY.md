@@ -19,6 +19,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ### RE Village VR scope
 
+🏆 The rifle camera now shows its finished picture on the scope glass, in the game's own colours, with no white-out. Tefa: "it looks fantastic!" Next: centring the picture on the lens, then a look in the headset.
+
 🔧 Built a copy of the rifle camera's finished picture taken the moment it is drawn, before the game reuses that memory, plus a switch to test why the scope picture slides. Not tested yet.
 
 🎮 Tested the finished-picture route: it finds the right picture, but the game reuses that memory for the main view
