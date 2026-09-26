@@ -15,6 +15,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ### RE Village VR scope
 
+🔄 Tried four ways to fix the rifle camera's washed-out outdoor picture; none worked, but they showed the picture
+arrives before the game's own colour grading. The fix is to take the finished picture instead, as praydog's VR mod does.
+🔧 Test launches now watch the screen and press each button the moment it appears: about 30 s from closed to playing.
+
 🔧 The static across the top of the rifle camera's picture was the game's own film-grain effect, copied onto our
 camera. Found by saving the picture to disk and switching effects off one group at a time; it is now left off and the
 picture is clean. Outdoors is still far too bright; that is next.
