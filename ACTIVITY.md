@@ -17,7 +17,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🔧 The scope's new rifle camera showed only a flat blue sky last night. Built two switches to test why:
 one lets the camera follow the rifle, the other moves it there by hand every frame and writes down where
-it really is. Ready for one flat-screen run.
+it really is.
+
+🎮 Ran it on the flat screen. The camera really was stuck at the centre of the map. Moving it onto
+the rifle worked, but the scope picture did not change, so something else is also in the way.
 
 ### Silent Hill 2
 
