@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-27: Visceral — RE2 VR
+
+🎮 The pistol swing survived every file we took out, down to a game holding nothing but praydog's own framework, so something of ours must be persisting elsewhere. The game was cleaned back to stock with a fresh framework download, and a rebuild holding only the relaxed aim-walk posture is ready to test next. Every change is now saved as a numbered version on GitHub, so both PCs test the same builds.
+
 ## 2026-09-26: Visceral — RE2 VR
 
 🏆 The running shake is found: it came from an old REFramework build, and happened even on a freshly reinstalled game with nothing of ours in it. A fresh build is smooth with DLSS working, and our game files on top of it stay smooth. The pistol jumping sideways after a shot turned out to happen only while the left hand grips the gun. Claire's dirty hands turned out to be painted on live by the game, so an HD grime pattern of her own is the plan. Every change is now kept as its own numbered build.
