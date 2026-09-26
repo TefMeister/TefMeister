@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-26: Visceral — RE2 VR
+
+🔍 The shake hunt began: the game went back to a clean start and our pieces go back in one at a time, with a headset check after each. Claire's dirty hands turned out not to be a texture at all: the dirt is painted on live from a small shared pattern, so an HD pattern of her own is the plan.
+
 ## 2026-09-26
 
 ### RE Village VR scope
