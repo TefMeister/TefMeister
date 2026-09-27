@@ -240,7 +240,7 @@
       "developer": "Capcom",
       "engine": "RE Engine",
       "stage": "Working VR sniper scope; the rifle camera works in the headset (2026-09-26). Shots land exactly on the cross at every distance (2026-09-27). v1.0.0 released 2026-09-27: complete VR sniper scope on stock praydog REFramework (true colours, steady two-handed grip, clean sound). Confirmed working with both OpenXR and SteamVR (2026-09-27).",
-      "updated": "2026-09-27"
+      "updated": "2026-09-28"
     },
     {
       "repo": "enslaved-vr",

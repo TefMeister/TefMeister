@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: RE Village — VR scope
+
+📋 Andyalpa is now in the credits, for the picture-in-picture scope idea that started the whole project.
+
 ## 2026-09-27: RE Village — VR scope
 
 ⭐ Looked into why the picture inside the scope turns golden and too bright outdoors. Our own code does not add the gold. The likely cause is that the rifle camera misses the game's cold outdoor colour grading. A short headset test with existing keys will tell which.
