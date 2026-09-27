@@ -19,6 +19,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🔄 Tried it in the headset: darkening the rifle camera made the picture darker but still golden, so that idea is closed. Next is the trick that beat the same golden look in August, taking the picture before its bright parts are cut off.
 
+⭐ That August trick turned out not to fit: the rifle camera has no uncut copy to grab. What it is missing is the game's colour grading, the part that gives the outdoors its cold look. A switch that copies the game's grading onto the rifle camera is built and ready for a headset try.
+
 ## 2026-09-27: Visceral — RE2 VR
 
 🎮 After a full delete and reinstall of the game, the two-handed pistol no longer swings aside after a shot. Something left over from earlier installs was causing it. The clean game is fingerprinted so any change can be spotted.
