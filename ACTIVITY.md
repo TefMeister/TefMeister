@@ -17,6 +17,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🎮 The test confirmed it: taking the aim from a little earlier brought the far shots in to the same small miss as the near ones. The small miss that is left comes from the bullet starting a few centimetres away from the scope's camera, and a fix for it is built and waiting for a test. The scope also survived loading a save while playing.
 
+🏆 The fix worked: shots now land right on the cross from about one metre out to fifty. The bullet leaves from the muzzle, 6 cm below the scope, and each shot is now angled so it meets the scope's centre at whatever you are aiming at. Tefa: "it's so good! so accurate".
+
 ## 2026-09-27: Visceral — RE2 VR
 
 🎮 The pistol swing survived every file we took out, down to a game holding nothing but praydog's own framework, so something of ours must be persisting elsewhere. The game was cleaned back to stock with a fresh framework download, and a rebuild holding only the relaxed aim-walk posture is ready to test next. Every change is now saved as a numbered version on GitHub, so both PCs test the same builds.
