@@ -31,6 +31,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🏆🏆🏆 The VR scope is complete. The last loose ends went tonight: the weapon-handling clicks the game played when lowering, readying or aiming the rifle are silenced (the bolt and reload sounds stay), and the brightness is set. In Tefa's words: the brightness is perfect, the sounds are perfect, the hand stays on the gun, the scope points where the bullets land, and the picture is crisp.
 
+🎮 Clean-install test passed: a fresh game, praydog's newest DLSS REFramework, DLSS 310.9.1 and the mod package worked together first time, with no batch files. A short scope freeze after taking a hit is fixed too.
+
 ## 2026-09-27: Visceral — RE2 VR
 
 🎮 After a full delete and reinstall of the game, the two-handed pistol no longer swings aside after a shot. Something left over from earlier installs was causing it. The clean game is fingerprinted so any change can be spotted.
