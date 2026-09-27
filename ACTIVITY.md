@@ -13,6 +13,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-28: RE Village — VR scope
 
+📦 The VR scope is finished, the first project to get there. v1.0.0 is up on Nexus Mods as well as GitHub.
+
 📋 Andyalpa is now in the credits, for the picture-in-picture scope idea that started the whole project.
 
 ## 2026-09-27: RE Village — VR scope
