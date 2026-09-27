@@ -15,6 +15,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ⭐ Looked into why the picture inside the scope turns golden and too bright outdoors. Our own code does not add the gold. The likely cause is that the rifle camera misses the game's cold outdoor colour grading. A short headset test with existing keys will tell which.
 
+🎮 The headset test settled it: the golden look is already baked into the rifle camera's picture before our code sees it, because its bright parts are cut off. The fix is to darken that camera before the cut-off. The switch for that had a bug where whole numbers became zero; it is fixed and ready to try.
+
 ## 2026-09-27: Visceral — RE2 VR
 
 🎮 After a full delete and reinstall of the game, the two-handed pistol no longer swings aside after a shot. Something left over from earlier installs was causing it. The clean game is fingerprinted so any change can be spotted.
