@@ -239,7 +239,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Working VR sniper scope; the rifle camera works in the headset (2026-09-26). Shots land exactly on the cross at every distance (2026-09-27). Still tuning: colours a little dark, near objects cut off.",
+      "stage": "Working VR sniper scope; the rifle camera works in the headset (2026-09-26). Shots land exactly on the cross at every distance (2026-09-27). Still tuning: the scope picture is golden and too bright outdoors, near objects cut off.",
       "updated": "2026-09-26"
     },
     {
