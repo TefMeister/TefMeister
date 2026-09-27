@@ -43,6 +43,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ⭐ Round 10 and 11 cracked it: the last-save scene is now the one background from launch, and switching to the Story menu is seamless. Left: the falling rain only shows after pressing Story.
 
+🔍 Six rounds hunting the missing title rain ruled out the lamps, the Story menu's effect and its screen; it is parked with one idea left to try.
+
 ## 2026-09-27: RE Village — VR scope
 
 🔍 The one saved crash report turned out to be from an older build, with none of our code involved, so there is nothing to fix. For the rifle shots landing slightly low, a likely cause was found: each bullet takes the rifle's aim from a split second before the trigger, a fix made for the old mirror scope. A headset test will tell.
