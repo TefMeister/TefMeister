@@ -20,7 +20,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **XIII** (2003) | Unreal Engine 2 | 🎮 Worked on true stereo in a headset; early release `v0.3.0-alpha` is out. | 09-13 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on making the camera follow the player; stereo and head tracking already work. | 09-13 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Worked on shadows that slide when you turn your head. | 09-13 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
-| **Visceral — RE2 VR** | RE Engine | 🎮 Worked on adding mod pieces back into a test copy of the game, now on OpenXR. | 09-27 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
+| **Visceral — RE2 VR** | RE Engine | 🎮 Traced the pistol swing to the relaxed walk poses. | 09-27 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Worked on the cube rifle, jackhammer and flamethrower with gloved hands. | 09-24 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 
 ### 🔍 Early RE work
