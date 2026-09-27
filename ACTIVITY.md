@@ -31,6 +31,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ⭐ The gun swing was tracked down, step by step, to our relaxed walking poses. The shot's kick is made to sit on top of raised arms, and our walks hold the arms lowered, so the kick threw the gun aside. A new mix, legs from the relaxed walk and arms from the game's own aiming walk, is ready to test.
 
+🎮 That mix still threw the gun, so it waits for a deeper look. Then work started on making the last-save scene the only title background: it now shows from launch, but pressing Story still fades to black and backing out brings the old view back. Nine rounds taught how the title screen really works; the next attempt is written down.
+
 ## 2026-09-27: RE Village — VR scope
 
 🔍 The one saved crash report turned out to be from an older build, with none of our code involved, so there is nothing to fix. For the rifle shots landing slightly low, a likely cause was found: each bullet takes the rifle's aim from a split second before the trigger, a fix made for the old mirror scope. A headset test will tell.
