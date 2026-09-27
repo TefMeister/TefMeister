@@ -29,7 +29,6 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **RE Village — VR scope** | RE Engine | 🎮 Released v1.0.0; works with OpenXR and SteamVR, credits updated. | 09-28 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Prototype** (2009) | Titanium | 🔧 Worked on finding where the game sets its camera view. | 09-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔧 Worked on driving the game by automation; the character now walks. | 09-11 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the world moves. | 09-23 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
@@ -67,6 +66,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
+| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.0.0 is out on GitHub and Nexus Mods, for OpenXR and SteamVR. | 09-28 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 All dates are 2026. Almost everything above is **one person, one machine, often one launch**, and
