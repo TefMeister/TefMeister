@@ -33,6 +33,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🎮 Clean-install test passed: a fresh game, praydog's newest DLSS REFramework, DLSS 310.9.1 and the mod package worked together first time, with no batch files. A short scope freeze after taking a hit is fixed too.
 
+📦 **Released: RE Village VR Scope v1.0.0.** A working VR sniper scope for Resident Evil Village: true colours, a steady two-handed grip, clean sound, and a scope that keeps working through hits, knockdowns and weapon switches. It installs on top of praydog's REFramework with no batch files, and the instructions list every version it was tested with.
+
 ## 2026-09-27: Visceral — RE2 VR
 
 🎮 After a full delete and reinstall of the game, the two-handed pistol no longer swings aside after a shot. Something left over from earlier installs was causing it. The clean game is fingerprinted so any change can be spotted.
