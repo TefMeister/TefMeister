@@ -23,6 +23,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🔄 Tried in the headset: the scope stayed golden with the game's grading copied on, so that idea is closed too. Five ideas were ruled out today. The next try starts from one odd reading that suggests the lens may be showing a different picture than the one being measured.
 
+🏆 Evening, in the headset: the gold was the rifle camera's own glow effect plus its brightest colours being cut off. With the glow off and the rifle camera darker, the scope's colours now largely match the world. The sky is still too bright; that is next.
+
 ## 2026-09-27: Visceral — RE2 VR
 
 🎮 After a full delete and reinstall of the game, the two-handed pistol no longer swings aside after a shot. Something left over from earlier installs was causing it. The clean game is fingerprinted so any change can be spotted.
