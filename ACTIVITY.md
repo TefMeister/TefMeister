@@ -29,6 +29,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🎮 The left hand now stays in one grip on the rifle, fingers included, instead of jumping between the game's holding animations. The faint weapon clicks those animations still play were traced to the game lowering and readying the rifle by its angle; silencing them is next.
 
+🏆🏆🏆 The VR scope is complete. The last loose ends went tonight: the weapon-handling clicks the game played when lowering, readying or aiming the rifle are silenced (the bolt and reload sounds stay), and the brightness is set. In Tefa's words: the brightness is perfect, the sounds are perfect, the hand stays on the gun, the scope points where the bullets land, and the picture is crisp.
+
 ## 2026-09-27: Visceral — RE2 VR
 
 🎮 After a full delete and reinstall of the game, the two-handed pistol no longer swings aside after a shot. Something left over from earlier installs was causing it. The clean game is fingerprinted so any change can be spotted.
