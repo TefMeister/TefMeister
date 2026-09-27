@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-27: RE Village — VR scope
+
+🔍 The one saved crash report turned out to be from an older build, with none of our code involved, so there is nothing to fix. For the rifle shots landing slightly low, a likely cause was found: each bullet takes the rifle's aim from a split second before the trigger, a fix made for the old mirror scope. A headset test will tell.
+
 ## 2026-09-27: Visceral — RE2 VR
 
 🎮 The pistol swing survived every file we took out, down to a game holding nothing but praydog's own framework, so something of ours must be persisting elsewhere. The game was cleaned back to stock with a fresh framework download, and a rebuild holding only the relaxed aim-walk posture is ready to test next. Every change is now saved as a numbered version on GitHub, so both PCs test the same builds.
