@@ -25,6 +25,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🏆 Evening, in the headset: the gold was the rifle camera's own glow effect plus its brightest colours being cut off. With the glow off and the rifle camera darker, the scope's colours now largely match the world. The sky is still too bright; that is next.
 
+🏆🏆 The golden scope picture is beaten, after five weeks. The last piece was our own: a script meant to keep the rifle camera matching the main view kept switching its glow back on and undoing the darker setting, nine frames out of ten. Tefa's frame-by-frame video showed it. The scope now shows the world in its real colours.
+
 ## 2026-09-27: Visceral — RE2 VR
 
 🎮 After a full delete and reinstall of the game, the two-handed pistol no longer swings aside after a shot. Something left over from earlier installs was causing it. The clean game is fingerprinted so any change can be spotted.
