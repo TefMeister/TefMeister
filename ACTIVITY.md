@@ -45,6 +45,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🔍 Six rounds hunting the missing title rain ruled out the lamps, the Story menu's effect and its screen; it is parked with one idea left to try.
 
+🔧 Started the big job of rebuilding Andyalpa's RE2VRMODRELOADED natively in C++ inside Visceral, using his hand poses and sounds: his mod is fully mapped, and our plugin's oversized main file was split into eight tidy files, ready for the new code.
+
 ## 2026-09-27: RE Village — VR scope
 
 🔍 The one saved crash report turned out to be from an older build, with none of our code involved, so there is nothing to fix. For the rifle shots landing slightly low, a likely cause was found: each bullet takes the rifle's aim from a split second before the trigger, a fix made for the old mirror scope. A headset test will tell.
