@@ -15,6 +15,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🎮 After a full delete and reinstall of the game, the two-handed pistol no longer swings aside after a shot. Something left over from earlier installs was causing it. The clean game is fingerprinted so any change can be spotted.
 
+📋 Mod pieces now go back into a separate test copy of the game, one at a time, starting with the walking poses. The test copy now uses OpenXR only, Tefa's choice for every RE game.
+
 ## 2026-09-27: RE Village — VR scope
 
 🔍 The one saved crash report turned out to be from an older build, with none of our code involved, so there is nothing to fix. For the rifle shots landing slightly low, a likely cause was found: each bullet takes the rifle's aim from a split second before the trigger, a fix made for the old mirror scope. A headset test will tell.
