@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: Silent Hill 2 bone names checked
+
+⭐ A small read-only script read James's real skeleton from the running game: 388 bones, and every arm, hand and head name our plan relies on is there. A prediction made from another mod's saved settings, that the upper arms would be bones 56 and 126, came true. Attaching the VR tool with no headset connected froze the game, so that is now written down as a trap.
+
 ## 2026-09-28: Burnout set up together
 
 🎮 The player played Burnout from launch to the city once while Menu-o-matiC recorded, marking each screen. The recording showed what guessing had missed: "Press Any Button" appears a moment after the title, and pressing Enter before it does nothing. The route now replays from a closed game to driving, twice in a row, every screen matched.
