@@ -181,7 +181,7 @@
       "engine": "id Tech 5 (STEM)",
       "renderer": "Direct3D 11",
       "injection": "proxy winmm.dll + MinHook",
-      "stage": "building the stereo 6DOF core on a branch; no headset output yet. The dynamic constant-buffer path now actually reaches the draws it was missing — 194,814 draws per window are patched where the count was 0 [measured 2026-09-08] — but whether the rotation is CORRECT is NOT established, only that it lands. A virtual pad drives menus end to end [verified-live 2026-09-08]; whether it drives gameplay is untested"
+      "stage": "stereo-6dof-core merged into main 2026-09-28 (byte-identical build); the dynamic cb0 rotation read is the next flat test"
     },
     {
       "repo": "far-cry-2-vr",
@@ -303,7 +303,7 @@
       "year": 2008,
       "developer": "Criterion Games",
       "engine": "in-house",
-      "stage": "⏸ PAUSED on two blockers, not one: it needs a third-party publisher launcher/account, AND the game is not installed on either machine [inferred-static 2026-09-01] — that folder holds only our own proxy DLL, so even static work is impossible. A planned ScyllaHide anti-debug step is also dead three ways over (ABI-incompatible with the x64dbg build in use, upstream dormant since 2023, and the downgrade that would fix it would break the automation bridge every project depends on) [verified-live 2026-09-07]"
+      "stage": "world camera found and logged live on the dev PC (2026-09-28): a packed ViewProjectionModified in b0, turns with the car; a 1 m test shift moves the whole world with correct depth, only the car's sun shadow stays behind. Not VR yet"
     },
     {
       "repo": "dead-space-2-vr",
@@ -322,7 +322,7 @@
       "developer": "Kojima Productions",
       "engine": "Decima",
       "renderer": "Direct3D 12",
-      "stage": "Paused 2026-09-23: Luke Ross's R.E.A.L. VR supports Death Stranding Director's Cut and is playable [reported]"
+      "stage": "un-paused 2026-09-28: Tefa wants our own version with 6DoF VR hands and a visible body, beyond R.E.A.L. VR. No new work yet"
     },
     {
       "repo": "hard-reset-vr",
@@ -331,7 +331,7 @@
       "developer": "Flying Wild Hog",
       "engine": "Road Hog Engine",
       "renderer": "Direct3D 9",
-      "stage": "2026-09-14: the game appears to ship ITS OWN STEREO RENDERER [inferred-static 2026-09-14] - r_stereo_enable, r_stereo_eye_separation, r_stereo_convergence with matching menu text, beside a real console (CConsole, a CVar registry, 891 cvars extracted) and embedded Squirrel 2.2.2 with a command to run a script file from data/scripts/debug. If that survived into the retail build it is the cheapest foothold on the account. WARNING unverified: 2011-era stereo was often driver-side (3D Vision), in which case the controls do nothing on a modern machine. Module base is fixed (ASLR off) and the exe imports D3DXGetShaderConstantTable, so shaders carry named constants."
+      "stage": "console works (2026-09-14); static 2026-09-28: r_stereo cvars drive NVIDIA 3D Vision through a run-time-loaded NVAPI"
     },
     {
       "repo": "portal-vr",
@@ -358,7 +358,7 @@
       "developer": "Crystal Dynamics",
       "engine": "Crystal Dynamics Foundation (internally 'cdc')",
       "renderer": "deferred Direct3D 11, resolved at runtime",
-      "stage": "Paused 2026-09-23: farmerarmor's TombRaiderVR is an experimental native-stereo VR mod, headset-tested [reported]"
+      "stage": "un-paused 2026-09-28 (existing VR mods judged not up to our standard); static: StereoOffset unread by the exe's 117 shaders, but NVIDIA 3D Vision and AMD HD3D stereo paths are in the exe. Never launched on the dev PC"
     },
     {
       "repo": "witcher-2-vr",
@@ -367,7 +367,7 @@
       "developer": "CD Projekt Red",
       "engine": "REDengine",
       "renderer": "Direct3D 9",
-      "stage": "2026-09-14: CDebugConsole is a real class, not a stray string, and beside it sit CGameDebugMenu and CFreeCamera [inferred-static 2026-09-14]. The camera is a named registered object (CCamera, CCameraComponent, CCameraPlanesParameters, CStaticCamera, plus cutscene, quest and animation camera families). Config ships as plain text in bin/config - about 30 named [Rendering] switches, Fullscreen among them, so windowed mode needs no code patch; [Engine] CustomRenderingSettings ships at 0 and is worth flipping. No stereo/VR key appears in the shipped section. Module base is FIXED (ASLR off) and d3d9 is a STATIC import, so a proxy DLL is an available route. WARNING: d3dx9_39 does NOT include D3DXGetShaderConstantTable, so no free route to named shader constants here. How any of the three debug facilities opens is unknown - debug classes routinely survive into retail builds with their entry points removed."
+      "stage": "static 2026-09-28: base_scripts unpacked (460 plain-text scripts); the camera is script-reachable and a FreeCamera console command exists; console key not yet bound"
     },
     {
       "repo": "metro-exodus-vr",
@@ -385,7 +385,7 @@
       "developer": "Quantic Dream",
       "engine": "Quantic Dream engine",
       "renderer": "Direct3D 11",
-      "stage": "NEW 2026-09-15. Repo created; first static look only: 64-bit Direct3D 11 exe behind the Steam DRM wrapper [inferred-static 2026-09-15]. Mostly fixed cinematic cameras, so a big 3D screen is the likely first VR shape [hypothesis]. Not launched yet."
+      "stage": "runs with our proxy (2026-09-17); static 2026-09-28: a developer settings table with DebugMenu and Cheat, and a built-in free camera, found in the exe"
     },
     {
       "repo": "prey-2017-vr",
@@ -412,7 +412,7 @@
       "developer": "Ubisoft Montreal",
       "engine": "Dunia",
       "renderer": "Direct3D 9 and Direct3D 11 (two builds)",
-      "stage": "NEW 2026-09-15. Repo created; first static look only: 32-bit Dunia (the DLL still calls itself the Far Cry 2 library) with separate Direct3D 9 and Direct3D 11 builds [inferred-static 2026-09-15]. WARNING: very probably needs Ubisoft Connect to start [hypothesis]. The Far Cry 2 project's Direct3D 9 camera method is the first thing to try. Not launched yet."
+      "stage": "static: same shader-parameter names as Far Cry 2 (2026-09-28); shaders compile at run time; not yet run with our file"
     },
     {
       "repo": "deus-ex-mankind-divided-vr",
@@ -430,7 +430,7 @@
       "developer": "People Can Fly",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 11",
-      "stage": "Installed on the dev PC, no static look yet; BL1GOTYVR on Borderlands Enhanced (also UE3, D3D11, 64-bit) now maps the likely hook points [reported 2026-09-23]"
+      "stage": "runs with our proxy (home PC, 2026-09-17); the shipped PDB names the camera path (ULocalPlayer::CalcSceneView) and the console is compiled in (2026-09-28, static)"
     },
     {
       "repo": "ashes-2063-weapons",
