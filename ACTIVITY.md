@@ -11,6 +11,20 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: Burnout Paradise
+
+🏆 Found the camera the game draws its world with, and watched it turn with the car. It is stored in an unusual packed form, which explains why an older 3D tool only managed the sky and particles.
+
+🎮 First camera edit: one key moves the whole view a metre to the side, the way a second eye would see it, and the picture keeps its depth. Only the car's shadow stays behind; that is the next fix.
+
+## 2026-09-28: A pass over eight more games
+
+🔍 Tomb Raider is back on the list: its old NVIDIA and AMD 3D modes are still inside the game. Bulletstorm's own symbol file names the camera code. Blood Dragon uses Far Cry 2's camera names. Hard Reset's hidden stereo setting drives NVIDIA's 3D Vision.
+
+⭐ Heavy Rain hides a developer debug menu and a free camera. The Witcher 2's scripts are plain text and already include a free-camera command.
+
+📋 The Evil Within's finished work is merged into its main copy. Death Stranding is off pause, for a version with VR hands and a body.
+
 ## 2026-09-28: Dr.BeGonE
 
 🔧 New project: VR Super Infinite OCCLUSION DRIFT BeGonE 3000XXL Turbo, Dr.BeGonE for short. It cures occlusion drift by letting you hold two-handed weapons with the left controller just above the right, so the headset always sees both. The guide and all our code will be free for anyone to use, and each game gets a download once every long weapon in it passes testing. Resident Evil Village comes first, where the grip already works in the headset.
