@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: Dr.BeGonE
+
+🔧 New project: VR Super Infinite OCCLUSION DRIFT BeGonE 3000XXL Turbo, Dr.BeGonE for short. It cures occlusion drift by letting you hold two-handed weapons with the left controller just above the right, so the headset always sees both. The guide and all our code will be free for anyone to use, and each game gets a download once every long weapon in it passes testing. Resident Evil Village comes first, where the grip already works in the headset.
+
 ## 2026-09-28: The Darkness
 
 🏆 The first run of the two-eyes-in-one-picture build worked. It proved that holding the world still between the two eyes really works on screen.
