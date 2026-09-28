@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: Menu-o-matiC
+
+🔧 New tool: Menu-o-matiC gets a game from launch through its menus by itself, from a route recorded once. A replay looks at nothing; it compares small patches of the screen by numbers and only asks for a look when something unexpected appears. Tried on Notepad: the recorded route replayed, and a route one letter off was caught. It is also the new `/lanes:menu` command (Lanes 0.29.0).
+
 ## 2026-09-28: Burnout Paradise
 
 🏆 Found the camera the game draws its world with, and watched it turn with the car. It is stored in an unusual packed form, which explains why an older 3D tool only managed the sky and particles.
