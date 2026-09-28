@@ -80,6 +80,17 @@ Tools for working with Claude Code itself, not tied to any one game.
 | --- | --- | --- | --- |
 | **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 Public since 2026-09-24; early version, still being built. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
+## 🩺 Dr.BeGonE — VR Super Infinite OCCLUSION DRIFT BeGonE 3000XXL Turbo
+
+A cure for occlusion drift. Hold a two-handed VR weapon with the left controller just above the right one, so the
+headset can always see both, and the aim stops drifting by itself. It is an add-on for games that already have a
+VR mod, not a VR mod of its own. The repo holds the guide, all our code for anyone to use, and a download per game
+once that game passes testing with every long weapon.
+
+| Game | Needs | Where it stands | Updated | Repo |
+| --- | --- | --- | --- | --- |
+| **Resident Evil Village** | REFramework (built-in VR) | 🔧 Set up the project; the grip works in the headset and is next to be split out on its own. | 09-28 | [VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo](https://github.com/TefMeister/VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo) |
+
 ## How the game repos are organized
 
 **One repo per game.** Consolidated on 2026-08-30 from the earlier

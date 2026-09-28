@@ -135,6 +135,15 @@
       "url": "https://github.com/TefMeister/lanes-plugin",
       "purpose": "The Claude Code plugin these projects are worked with: named session lanes, a shared work board, claim guards, a naming rule that keeps personal names out of everything written, and an ideas inbox that sessions file automatically. Early version (0.23.1, public 2026-09-24), still being built.",
       "licence": "MIT"
+    },
+    {
+      "name": "VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo",
+      "short_name": "Dr.BeGonE",
+      "visibility": "public",
+      "url": "https://github.com/TefMeister/VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo",
+      "purpose": "Cure for VR occlusion drift: two-handed weapons held with the left controller above the right, so tracking never drops. Engine-independent guide, all our per-game code, and tested drop-in add-ons for existing VR mods. First game: RE Village (REFramework).",
+      "stage": "set up 2026-09-28; Village grip worn 2026-09-22, next to be split out of the scope mod; no download yet",
+      "licence": "MIT"
     }
   ],
   "projects": [
