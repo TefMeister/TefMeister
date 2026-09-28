@@ -91,6 +91,16 @@ for modders and separate game-specific mods for gamers: 🩺 Dr.BeGonE has a cur
 | --- | --- | --- | --- | --- |
 | **Resident Evil Village** | REFramework (built-in VR) | 🔧 Set up the project; the grip works in the headset and is next to be split out on its own. | 09-28 | [VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo](https://github.com/TefMeister/VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo) |
 
+## 🤖 Automated navigation and movement
+
+Tools that let a game get itself from launch to gameplay, so testing a mod does not start with the same menus
+by hand every time.
+
+| Tool | How it works | Where it stands | Updated | Where it lives |
+| --- | --- | --- | --- | --- |
+| **Menu-o-matiC** | Records the way through a game's menus once, as key presses plus small screen checkpoints, then replays it by itself. A replay looks at nothing: each checkpoint is a small patch of the screen compared by numbers. Only when something unexpected appears does it save a small picture for someone to look at. Plain Python, usable by anyone; also the `/lanes:menu` command in the Lanes plugin. | 🔧 Built and tested on Notepad; its first game route is next. | 09-28 | [flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/menu-o-matic) |
+| **Move-o-matiC** | The idea for walking and driving the same way: plan a path from one picture, walk it smoothly while the next small picture is read. | ⏸ Parked until a game really needs it. | 09-28 | idea only |
+
 ## How the game repos are organized
 
 **One repo per game.** Consolidated on 2026-08-30 from the earlier

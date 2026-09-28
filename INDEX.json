@@ -144,6 +144,14 @@
       "purpose": "Cure for VR occlusion drift: two-handed weapons held with the left controller above the right, so tracking never drops. Engine-independent guide, all our per-game code, and tested drop-in add-ons for existing VR mods. First game: RE Village (REFramework).",
       "stage": "set up 2026-09-28; Village grip worn 2026-09-22, next to be split out of the scope mod; no download yet",
       "licence": "MIT"
+    },
+    {
+      "name": "menu-o-matic",
+      "kind": "tool inside flat-to-vr-RE-toolkit",
+      "visibility": "public",
+      "url": "https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/menu-o-matic",
+      "purpose": "Replays recorded game menu routes (key presses plus 32x32 grey fingerprints of small screen patches) with no model tokens; records new routes by reading only the patch a key changed. Also /lanes:menu in the Lanes plugin (0.29.0).",
+      "stage": "built 2026-09-28; 23 offline checks; tried live on Notepad; first game route not yet recorded"
     }
   ],
   "projects": [
