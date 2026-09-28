@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: Silent Hill 2 frame rate in the headset
+
+🎮 First tuning pass with the headset connected. Turning settings down one at a time took a heavy apartment room from 48 to 72 fps; shorter, softer shadows gave the most. Outside in the fog it already holds 72. Dark rooms are the hard part, and simpler object detail made no difference, because the cost is lighting and pixels. Next: settings that change by themselves per place, 72 first.
+
 ## 2026-09-28: Silent Hill 2 bone names checked
 
 ⭐ A small read-only script read James's real skeleton from the running game: 388 bones, and every arm, hand and head name our plan relies on is there. A prediction made from another mod's saved settings, that the upper arms would be bones 56 and 126, came true. Attaching the VR tool with no headset connected froze the game, so that is now written down as a trap.
