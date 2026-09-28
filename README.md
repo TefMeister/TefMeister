@@ -98,7 +98,7 @@ by hand every time.
 
 | Tool | How it works | Where it stands | Updated | Where it lives |
 | --- | --- | --- | --- | --- |
-| **Menu‑o‑matiC** | Records the way through a game's menus once, as key presses plus small screen checkpoints, then replays it by itself. A replay looks at nothing: each checkpoint is a small patch of the screen compared by numbers. Only when something unexpected appears does it save a small picture for someone to look at. Plain Python, usable by anyone; also the `/lanes:menu` command in the Lanes plugin. | 🔧 Built and tested on Notepad; its first game route is next. | 09-28 | [flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/menu-o-matic) |
+| **Menu‑o‑matiC** | Records the way through a game's menus once, as key presses plus small screen checkpoints, then replays it by itself. A replay looks at nothing: each checkpoint is a small patch of the screen compared by numbers. Only when something unexpected appears does it save a small picture for someone to look at. Plain Python, usable by anyone; also the `/lanes:menu` command in the Lanes plugin. | 🎮 Works on its first game: Burnout Paradise goes from a closed game to driving in 2½ minutes, without looking at the screen once. | 09-28 | [flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/menu-o-matic) |
 | **Move‑o‑matiC** | The idea for walking and driving the same way: plan a path from one picture, walk it smoothly while the next small picture is read. | ⏸ Parked until a game really needs it. | 09-28 | idea only |
 
 ## How the game repos are organized
