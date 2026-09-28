@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: Village scope packed for Fluffy Mod Manager
+
+🔧 The finished Village scope was packed so Fluffy Mod Manager can install and remove it with one tick. It still needs a hand test before it becomes a second download. The Lanes plugin also stopped warning about an older build when going back to it was on purpose.
+
 ## 2026-09-29: Silent Hill 2 frame rate in the headset
 
 🎮 First tuning pass with the headset connected. Turning settings down one at a time took a heavy apartment room from 48 to 72 fps; shorter, softer shadows gave the most. Outside in the fog it already holds 72. Dark rooms are the hard part, and simpler object detail made no difference, because the cost is lighting and pixels. Next: settings that change by themselves per place, 72 first.
