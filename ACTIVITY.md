@@ -11,6 +11,12 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: Move-o-matiC
+
+🔄 Driving Burnout by guesswork did not work: the car needs the throttle held, and the on-screen map fades a second after stopping. Lesson taken: every game is now set up together with the player first.
+
+🔧 Built that setup: the tool records the player's own key presses and timing, checks that each input reaches the game, and turns marked moments into checkpoints. Move-o-matiC then repeats the route by itself. Tried on Notepad.
+
 ## 2026-09-28: Menu-o-matiC on a real game
 
 🎮 Menu-o-matiC drove Burnout Paradise by itself: from a closed game through the title screen, the menus, the car and paint screens to driving in the city, in two and a half minutes, without looking at the screen once. The title screen ignored the first key press while it was still fading in, so the tool now presses again when a screen is slow to come.
