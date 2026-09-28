@@ -11,6 +11,12 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: The Darkness
+
+🏆 The first run of the two-eyes-in-one-picture build worked. It proved that holding the world still between the two eyes really works on screen.
+
+⚠️ It also showed why the eyes sometimes come out the same: the game moves its camera on a separate track from drawing the picture, and the two are not in step. Fixing that is the next job.
+
 ## 2026-09-28: RE Village — VR scope
 
 📦 The VR scope is finished, the first project to get there. v1.0.0 is up on Nexus Mods as well as GitHub.

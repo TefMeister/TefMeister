@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -452,8 +452,8 @@
       "engine": "Starbreeze in-house (Riddick lineage)",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "Our own build plays real-time 3D [verified-live 2026-09-16] and produces a measured left/right stereo pair [verified-live 2026-09-18]. DECIDED 2026-09-18: geometry stereo, one eye per guest frame with the world held still for the second eye; depth reprojection is the named fallback. The eye offset lives in the camera (which is also where head tracking will go), and the world-freeze is built - the guest clock pin is verified engaging, though its on-screen effect is not yet confirmed. One world unit is about an inch, so half an IPD is 1.25 units. default.xex unpacks in 80 lines of Python, giving 45,101 readable strings and a 21,414-function index; the engine is Starbreeze XReality. Next: prove the freeze visually, side-by-side composition at the presenter, then OpenXR. Nothing seen in a headset yet. Tefa's stated top VR want. The game and our port are now set up on the faster test machine, so the real frame rate can be measured there [verified-live 2026-09-20]. Home-PC frame rate measured 2026-09-21: ~180-285 fps in the opening car scene (two measures disagree; both far above what stereo needs).",
-      "updated": "2026-09-20"
+      "stage": "Our own build plays real-time 3D [verified-live 2026-09-16] and produces a measured left/right stereo pair [verified-live 2026-09-18]. DECIDED 2026-09-18: geometry stereo, one eye per guest frame with the world held still for the second eye; depth reprojection is the named fallback. The eye offset lives in the camera (which is also where head tracking will go), and the world-freeze is built - the guest clock pin is verified engaging, though its on-screen effect is not yet confirmed. One world unit is about an inch, so half an IPD is 1.25 units. default.xex unpacks in 80 lines of Python, giving 45,101 readable strings and a 21,414-function index; the engine is Starbreeze XReality. Side-by-side composition built, and the freeze proven on screen [measured 2026-09-28, n=2 runs each way]. New blocker: the camera is built on a different thread from the frame end and not one-to-one, so the eye sometimes repeats [measured 2026-09-28, n=1]. Next: tie the eye to the drawn frame, then OpenXR. Nothing seen in a headset yet. Tefa's stated top VR want. The game and our port are now set up on the faster test machine, so the real frame rate can be measured there [verified-live 2026-09-20]. Home-PC frame rate measured 2026-09-21: ~180-285 fps in the opening car scene (two measures disagree; both far above what stereo needs).",
+      "updated": "2026-09-28"
     },
     {
       "repo": "condemned-2-vr",

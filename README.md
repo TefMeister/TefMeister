@@ -39,7 +39,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Hard Reset** (2011) | Road Hog Engine | 🔍 Worked on loading an edited shader. | 09-14 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔍 Worked on finding the debug console and free camera. | 09-14 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus Enhanced Edition** (2021) | 4A Engine | 🔍 First look: leftover VR code from 4A's own VR game is inside. | 09-13 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
-| **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the stereo pair; the world now holds still between the two eyes. | 09-21 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
+| **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Worked on running it on the fast PC, at well over 190 frames a second. | 09-23 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | 🔍 First look: the code sits behind Steam's protection layer. | 09-15 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🔍 First look: same engine as Far Cry 2. | 09-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
