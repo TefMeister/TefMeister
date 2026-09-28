@@ -80,12 +80,12 @@ Tools for working with Claude Code itself, not tied to any one game.
 | --- | --- | --- | --- |
 | **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 Public since 2026-09-24; early version, still being built. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
-## 🩺 Dr.BeGonE — VR Super Infinite OCCLUSION DRIFT BeGonE 3000XXL Turbo
+## 🎯 VR Weapon Mod Kit
 
-A cure for occlusion drift. Hold a two-handed VR weapon with the left controller just above the right one, so the
-headset can always see both, and the aim stops drifting by itself. It is an add-on for games that already have a
-VR mod, not a VR mod of its own. The repo holds the guide, all our code for anyone to use, and a download per game
-once that game passes testing with every long weapon.
+### VR Super Infinite OCCLUSION DRIFT BeGonE 3000XXL Turbo
+
+An occlusion drift removal kit for two-handed weapon aiming in virtual reality, or Dr.BeGonE for short. A toolkit
+for modders and separate game-specific mods for gamers: 🩺 Dr.BeGonE has a cure for everyone!
 
 | Game | Needs | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
