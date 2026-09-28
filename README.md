@@ -45,7 +45,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🔍 Worked on comparing its camera with Far Cry 2's. | 09-28 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 Installed; no look inside yet. | 09-16 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on finding the camera code with the game's own symbol file. | 09-28 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on studying the two community VR profiles for using the game's own hand animations. | 09-26 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Checked James's arm and hand bone names in the running game. | 09-28 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Tomb Raider** (2013) | Foundation | 🔍 Taken off pause; worked on the game's old built-in 3D modes. | 09-28 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
 | **Death Stranding Director's Cut** (2022) | Decima | 🔍 Taken off pause, for our own version with VR hands and a body. | 09-28 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
 | **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on the game's camera: it is found, and moving it sideways already works. | 09-28 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
