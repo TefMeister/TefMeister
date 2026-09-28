@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: Burnout set up together
+
+🎮 The player played Burnout from launch to the city once while Menu-o-matiC recorded, marking each screen. The recording showed what guessing had missed: "Press Any Button" appears a moment after the title, and pressing Enter before it does nothing. The route now replays from a closed game to driving, twice in a row, every screen matched.
+
 ## 2026-09-28: State-o-matiC
 
 🔧 New tool: State-o-matiC tells whether a game is in a menu, loading, a cutscene or gameplay. On its first run it watched Burnout from launch to the city: it caught both loading screens by how hard the game read its disk, and the idle cinematic camera by its black bars. Menus with a moving car behind them fooled it, so those screens get taught during setup.
