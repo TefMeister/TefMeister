@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: State-o-matiC
+
+🔧 New tool: State-o-matiC tells whether a game is in a menu, loading, a cutscene or gameplay. On its first run it watched Burnout from launch to the city: it caught both loading screens by how hard the game read its disk, and the idle cinematic camera by its black bars. Menus with a moving car behind them fooled it, so those screens get taught during setup.
+
 ## 2026-09-28: Move-o-matiC
 
 🔄 Driving Burnout by guesswork did not work: the car needs the throttle held, and the on-screen map fades a second after stopping. Lesson taken: every game is now set up together with the player first.
