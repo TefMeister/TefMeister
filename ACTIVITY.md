@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-28: Menu-o-matiC on a real game
+
+🎮 Menu-o-matiC drove Burnout Paradise by itself: from a closed game through the title screen, the menus, the car and paint screens to driving in the city, in two and a half minutes, without looking at the screen once. The title screen ignored the first key press while it was still fading in, so the tool now presses again when a screen is slow to come.
+
 ## 2026-09-28: Menu-o-matiC
 
 🔧 New tool: Menu-o-matiC gets a game from launch through its menus by itself, from a route recorded once. A replay looks at nothing; it compares small patches of the screen by numbers and only asks for a look when something unexpected appears. Tried on Notepad: the recorded route replayed, and a route one letter off was caught. It is also the new `/lanes:menu` command (Lanes 0.29.0).
