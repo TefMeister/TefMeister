@@ -35,17 +35,20 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on the camera, which is now solved. | 09-10 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🔧 Worked on stereo inside the game's own graphics device. | 09-09 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a first-person camera that follows the player. | 09-09 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Evil Within** (2014) | id Tech 5 | 🔧 Worked on stereo and head tracking. | 09-09 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
-| **Hard Reset** (2011) | Road Hog Engine | 🔍 Worked on loading an edited shader. | 09-14 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
-| **The Witcher 2** (2011) | REDengine | 🔍 Worked on finding the debug console and free camera. | 09-14 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
+| **The Evil Within** (2014) | id Tech 5 | 🔧 Worked on tidying the code: the finished branch is merged. | 09-28 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
+| **Hard Reset** (2011) | Road Hog Engine | 🔍 Worked on the game's old NVIDIA 3D mode. | 09-28 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
+| **The Witcher 2** (2011) | REDengine | ⭐ Worked on the game's scripts, which already include a free camera. | 09-28 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus Enhanced Edition** (2021) | 4A Engine | 🔍 First look: leftover VR code from 4A's own VR game is inside. | 09-13 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Worked on running it on the fast PC, at well over 190 frames a second. | 09-23 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
-| **Heavy Rain** (2010) | Quantic Dream engine | 🔍 First look: the code sits behind Steam's protection layer. | 09-15 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
-| **Far Cry 3: Blood Dragon** (2013) | Dunia | 🔍 First look: same engine as Far Cry 2. | 09-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
+| **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Worked on a hidden debug menu and free camera found in the game. | 09-28 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
+| **Far Cry 3: Blood Dragon** (2013) | Dunia | 🔍 Worked on comparing its camera with Far Cry 2's. | 09-28 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 Installed; no look inside yet. | 09-16 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
-| **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on mapping likely hook points from a VR mod on a similar game. | 09-23 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
+| **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on finding the camera code with the game's own symbol file. | 09-28 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on studying the two community VR profiles for using the game's own hand animations. | 09-26 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Tomb Raider** (2013) | Foundation | 🔍 Taken off pause; worked on the game's old built-in 3D modes. | 09-28 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
+| **Death Stranding Director's Cut** (2022) | Decima | 🔍 Taken off pause, for our own version with VR hands and a body. | 09-28 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
+| **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on the game's camera: it is found, and moving it sideways already works. | 09-28 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 
 ### ⏸ Paused
 
@@ -56,11 +59,8 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Dead Space 2** (2011) | RenderWare-based | ⏸ Paused: chortdev is making a Dead Space trilogy VR mod | 09-26 | [dead-space-2-vr](https://github.com/TefMeister/dead-space-2-vr) |
 | **DOOM** (2016) | id Tech 6 | ⏸ Paused: a DOOM VR mod already exists (KHARVOX) | 09-26 | [doom-2016-vr](https://github.com/TefMeister/doom-2016-vr) |
 | **Portal** (2007) | Source | ⏸ Paused: a Portal VR mod already exists (BowmanFox's portal1vr) | 09-26 | [portal-vr](https://github.com/TefMeister/portal-vr) |
-| **Tomb Raider** (2013) | Foundation | ⏸ Paused: a Tomb Raider VR mod already exists (farmerarmor's TombRaiderVR) | 09-26 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
-| **Death Stranding Director's Cut** (2022) | Decima | ⏸ Paused: Luke Ross's R.E.A.L. VR already supports it | 09-26 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
 | **Prey** (2017) | CryEngine | ⏸ Paused: fholger is making a Prey VR mod | 09-26 | [prey-2017-vr](https://github.com/TefMeister/prey-2017-vr) |
 | **Borderlands GOTY Enhanced** (2009) | Unreal Engine 3 | ⏸ Paused: a VR mod already exists (Mastersellz's BL1GOTYVR) | 09-26 | [borderlands-goty-vr](https://github.com/TefMeister/borderlands-goty-vr) |
-| **Burnout Paradise** (Remastered) | Criterion engine | ⏸ Paused: needs a third-party launcher, and not installed | 09-01 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 
 ### 📦 Finished
 
