@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: Manhunt's menus play themselves
+
+🔧 The player recorded Manhunt's menus on the keyboard. The tool learned three things for it: pressing keys the way this old game listens, clicking its launcher's Play button, and closing it cleanly. It now goes from a closed game to playing in about 25 seconds.
+
 ## 2026-09-29: Menu-o-matiC maps the menus; Prototype's camera traced
 
 🔧 🔍 On the player's idea, Menu-o-matiC now keeps a set of routes per game, each with a start and an end: to gameplay, to the key bindings page (pictured, read once, and remembered), and back out through the game's own menu. In Prototype, the most common camera number turned out to be each object's full camera view, and the camera itself was traced in the game's code, down to a spare slot that looks made for head tracking. 🏆 Tried live the same afternoon: writing into that slot turned the view on the spot and stepped it sideways with correct depth, with no rebuild. Next: a small built-in writer that does it every frame.
