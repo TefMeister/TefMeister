@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -135,6 +135,12 @@
       "url": "https://github.com/TefMeister/lanes-plugin",
       "purpose": "The Claude Code plugin these projects are worked with: named session lanes, a shared work board, claim guards, a naming rule that keeps personal names out of everything written, and an ideas inbox that sessions file automatically. Early version (0.23.1, public 2026-09-24), still being built.",
       "licence": "MIT"
+    },
+    {
+      "name": "terminal-styles",
+      "visibility": "public",
+      "url": "https://github.com/TefMeister/terminal-styles",
+      "purpose": "Terminal Themes: custom looks for Windows Terminal, made for Claude Code sessions. First theme: a green monitor with a faint striped flower shaped like the Claude logo behind the text."
     },
     {
       "name": "VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo",
