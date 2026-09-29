@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: a picture for the Village scope in Fluffy, and a green terminal
+
+📋 The RE Village VR scope's Fluffy Mod Manager package got its own picture, so it shows in the manager's list, and lost its "unfinished" warning, since the game is finished. The Nexus page text now has clickable links. A new rule came with it: the motion-sickness warning stays only on games still being worked on. Separately, a new repo, terminal-styles, collects retro green looks for Windows Terminal, starting with a starburst drawn as a flower.
+
 ## 2026-09-29: research round
 
 🔍 A tidy-up check, a research pass and a cross-game sweep. The research found a likely reason Alice's shadow fix looks wrong (the shadow step works in screen space, not camera space), a clean way to widen Manhunt's view for a headset, and a fresh way into Alan Wake's stuck camera search (its own FOV slider). The shared library gained five lessons that hold across games. Later the same day every game on the account got its research check-in, the library read the games it had skipped, and every waiting note between the working areas was filed: about thirty of them, some over three weeks old. Among the finds: Hard Reset turns out to draw both eyes itself, and Tomb Raider's other VR mod switches on the game's own built-in stereo.
