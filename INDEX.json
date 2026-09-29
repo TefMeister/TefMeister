@@ -137,9 +137,9 @@
       "licence": "MIT"
     },
     {
-      "name": "terminal-styles",
+      "name": "terminal-themes",
       "visibility": "public",
-      "url": "https://github.com/TefMeister/terminal-styles",
+      "url": "https://github.com/TefMeister/terminal-themes",
       "purpose": "Terminal Themes: custom looks for Windows Terminal, made for Claude Code sessions. First theme: a green monitor with a faint striped flower shaped like the Claude logo behind the text."
     },
     {

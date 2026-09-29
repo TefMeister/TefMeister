@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-29: a picture for the Village scope in Fluffy, and a green terminal
 
-📋 The RE Village VR scope's Fluffy Mod Manager package got its own picture, so it shows in the manager's list, and lost its "unfinished" warning, since the game is finished. The Nexus page text now has clickable links. A new rule came with it: the motion-sickness warning stays only on games still being worked on. Separately, a new repo, terminal-styles, collects retro green looks for Windows Terminal, starting with a starburst drawn as a flower.
+📋 The RE Village VR scope's Fluffy Mod Manager package got its own picture, so it shows in the manager's list, and lost its "unfinished" warning, since the game is finished. The Nexus page text now has clickable links. A new rule came with it: the motion-sickness warning stays only on games still being worked on. Separately, a new repo, terminal-themes, collects retro green looks for Windows Terminal, starting with a starburst drawn as a flower.
 
 ## 2026-09-29: research round
 
