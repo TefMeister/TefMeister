@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-29: Prototype runs in a window
 
-🔧 The game has hidden start-up words for its window. Trying spellings found the one that works (`windowed` with no dash, plus `width=1280 height=720`); the other spellings switched the whole screen instead. Menu-o-matiC also gained the player's rule: rehearse a game's menus once before recording them.
+🔧 The game has hidden start-up words for its window. Trying spellings found the one that works (`windowed` with no dash, plus `width=1280 height=720`); the other spellings switched the whole screen instead. Menu-o-matiC also gained the player's rule: rehearse a game's menus once before recording them. After a rehearsal the player recorded the menus once, and they now replay from a closed game to playing in about a minute. The plugin also now asks the player, once per game, to confirm the window before any modding.
 
 ## 2026-09-29: Alice's menus play themselves; the shadow fix could never have fired
 
