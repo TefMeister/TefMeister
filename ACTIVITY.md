@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: Alice's menus play themselves; the shadow fix could never have fired
+
+🎮 🔍 The player recorded Alice's menus once, and they now replay from a closed game to Alice in the level in 50 seconds. Then the mod's log showed why the shadow fix never switched on: the game hands the shadow step its camera numbers just before the step starts, where the fix was not looking. The fix moves next.
+
 ## 2026-09-29: Burnout's first recorded drive
 
 🎮 🔧 The game drove itself through its menus again, then the player drove a short stretch while every key was recorded. The replay did not match: the game clock had moved from night to day, and the car started somewhere else. Move-o-matiC now prints a short test brief before recording (what the drive is for, how far, which turn), so the next drive is played to a plan.

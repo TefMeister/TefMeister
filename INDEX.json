@@ -291,7 +291,7 @@
       "year": 2011,
       "developer": "Spicy Horse",
       "engine": "Unreal Engine 3",
-      "stage": "FIRST HEADSET RUN 2026-09-10: HEAD TRACKING IS LIVE, position AND rotation, fed from a SteamVR pose per frame [verified-live 2026-09-10, n=1]. The per-eye maths is a transpose of Alan Wake's; the stereo edit, the head offset on all three axes and head rotation (by pre-multiplying rather than rebuilding the view matrix) are all built and verified live. Every stereo hotkey lives on the numpad. What is left is calibration — world scale is still 50 units/metre by feel rather than by measurement",
+      "stage": "Stereo + 6DOF head tracking, v0.1.0-alpha public. 2026-09-29: menus replay by themselves (Menu-o-matiC, 50 s); the ScreenToShadow matrix is uploaded before its pass is bound, so the shadow rewrite moves to draw time next.",
       "renderer": "Direct3D 9",
       "latest_release": "v0.1.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
