@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-29: Alice's menus play themselves; the shadow fix could never have fired
 
-🎮 🔍 The player recorded Alice's menus once, and they now replay from a closed game to Alice in the level in 50 seconds. Then the mod's log showed why the shadow fix never switched on: the game hands the shadow step its camera numbers just before the step starts, where the fix was not looking. The fix moves next.
+🎮 🔍 The player recorded Alice's menus once, and they now replay from a closed game to Alice in the level in 50 seconds. Then the mod's log showed why the shadow fix never switched on: the game hands the shadow step its camera numbers just before the step starts, where the fix was not looking. The fix was moved to where the numbers arrive, and it now works in the game; whether the shadows land in exactly the right place is the next check.
 
 ## 2026-09-29: Burnout's first recorded drive
 
