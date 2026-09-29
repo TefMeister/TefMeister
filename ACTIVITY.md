@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: research round
+
+🔍 A tidy-up check, a research pass and a cross-game sweep. The research found a likely reason Alice's shadow fix looks wrong (the shadow step works in screen space, not camera space), a clean way to widen Manhunt's view for a headset, and a fresh way into Alan Wake's stuck camera search (its own FOV slider). The shared library gained five lessons that hold across games.
+
 ## 2026-09-29: Alan Wake's menus, and a simpler recorder
 
 🔧 The player redesigned the menu recorder: Home starts, Page Down plus a key records one step, End stops, and nothing else is kept. Each game gets three goals, recorded in the player's order: into the game, to the key bindings, and back out to the desktop. Alan Wake was the first: a whole round, from a closed game into the level and back out, now takes 31 seconds by itself. Enslaved's DirectX 10 mode was also tried: it runs, but will not open in a window yet.
