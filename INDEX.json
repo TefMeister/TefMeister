@@ -357,7 +357,7 @@
       "developer": "Radical Entertainment",
       "engine": "Titanium",
       "renderer": "Direct3D 9",
-      "stage": "2026-09-14: THE CAMERA IS FOUND [verified-live 2026-09-14, n=1 session]. Register c0, four registers, layout R, LEFT-handed, aspect exactly 16/9, X not mirrored, near plane 0.300000, far plane 7500, 80.00 degrees horizontal, with a zoom ladder of eight fields of view all at exactly 16:9. The depth term FITS the textbook left-handed form, unlike Dead Space 2's, so per-eye maths can use the standard formulae. The game also ships READABLE HLSL SOURCE in shaders.rcf naming its own constants (p3dWorldViewProjectionMatrix). CORRECTION: that source implied a fused world-view-projection, but the gameplay matrix at c0 is a PURE projection - registers are assigned per shader and the shipped file is a 10 KB sample. Open: where the view transform lives (the c0+5 upload, the most frequent of all, is unread)."
+      "stage": "Camera traced (dev PC, 2026-09-29): per-object fused WVP at c0; the scene View's own pose slot (+0x2c) moves and turns the view correctly when written as inv(C)*H*C, verified live without a rebuild. Menus automated. Next: a per-frame head-pose writer. Not VR yet."
     },
     {
       "repo": "tomb-raider-2013-vr",
