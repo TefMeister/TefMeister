@@ -80,6 +80,16 @@ Tools for working with Claude Code itself, not tied to any one game.
 | --- | --- | --- | --- |
 | **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 Public since 2026-09-24; early version, still being built. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
+## 🖥️ Terminal Themes
+
+Give your session a fresh look with one of these custom themes.
+
+<img src="https://raw.githubusercontent.com/TefMeister/terminal-styles/main/preview/green-monitor-starburst.png" alt="The green monitor theme with the starburst flower" width="480">
+
+| Theme | What it looks like | Where it stands | Updated | Repo |
+| --- | --- | --- | --- | --- |
+| **Green monitor, starburst flower** | An old green computer screen for Windows Terminal: sharp glowing letters, dark corners, and a faint striped flower behind the text, its petals placed like the rays of the Claude logo, with a light that slowly runs down the screen. | 🔧 First theme is up, with two plainer ones beside it; more to come. | 09-30 | [terminal-styles](https://github.com/TefMeister/terminal-styles) |
+
 ## 🎯 VR Weapon Mod Kit
 
 ### VR Super Infinite OCCLUSION DRIFT BeGonE 3000XXL Turbo
