@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: Alan Wake's menus, and a simpler recorder
+
+🔧 The player redesigned the menu recorder: Home starts, Page Down plus a key records one step, End stops, and nothing else is kept. Each game gets three goals, recorded in the player's order: into the game, to the key bindings, and back out to the desktop. Alan Wake was the first: a whole round, from a closed game into the level and back out, now takes 31 seconds by itself. Enslaved's DirectX 10 mode was also tried: it runs, but will not open in a window yet.
+
 ## 2026-09-29: Enslaved's menus play themselves, and a road is ruled out
 
 🔧 🔍 One recording by the player became three routes: into the game, back to the main menu, and out. The game's core object lists were confirmed live while the player rehearsed. A one-launch count then showed almost everything the game loads sits in a kind of memory that the easy route to VR output refuses, so a different road is needed.
