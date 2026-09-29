@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: Burnout's first recorded drive
+
+🎮 🔧 The game drove itself through its menus again, then the player drove a short stretch while every key was recorded. The replay did not match: the game clock had moved from night to day, and the car started somewhere else. Move-o-matiC now prints a short test brief before recording (what the drive is for, how far, which turn), so the next drive is played to a plan.
+
 ## 2026-09-29: Village scope packed for Fluffy Mod Manager
 
 🔧 The finished Village scope was packed so Fluffy Mod Manager can install and remove it with one tick. It still needs a hand test before it becomes a second download. The Lanes plugin also stopped warning about an older build when going back to it was on purpose.
