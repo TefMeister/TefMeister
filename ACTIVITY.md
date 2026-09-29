@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: Menu-o-matiC maps the menus; Prototype's camera traced
+
+🔧 🔍 On the player's idea, Menu-o-matiC now keeps a set of routes per game, each with a start and an end: to gameplay, to the key bindings page (pictured, read once, and remembered), and back out through the game's own menu. In Prototype, the most common camera number turned out to be each object's full camera view, and the camera itself was traced in the game's code, down to a spare slot that looks made for head tracking.
+
 ## 2026-09-29: Prototype runs in a window
 
 🔧 The game has hidden start-up words for its window. Trying spellings found the one that works (`windowed` with no dash, plus `width=1280 height=720`); the other spellings switched the whole screen instead. Menu-o-matiC also gained the player's rule: rehearse a game's menus once before recording them. After a rehearsal the player recorded the menus once, and they now replay from a closed game to playing in about a minute. The plugin also now asks the player, once per game, to confirm the window before any modding.
