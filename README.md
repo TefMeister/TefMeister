@@ -29,7 +29,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Prototype** (2009) | Titanium | 🔍 Worked on the camera: found where the game builds it, and a spare slot for head tracking. | 09-29 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
+| **Prototype** (2009) | Titanium | 🏆 Head tracking works in the game: a spare camera slot turns and moves the view correctly. | 09-29 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔧 Worked on driving the game by automation; the character now walks. | 09-11 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the world moves. | 09-23 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on the camera, which is now solved. | 09-10 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
