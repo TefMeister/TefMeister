@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-29: Manhunt's menus play themselves
 
-🔧 The player recorded Manhunt's menus on the keyboard. The tool learned three things for it: pressing keys the way this old game listens, clicking its launcher's Play button, and closing it cleanly. It now goes from a closed game to playing in about 25 seconds.
+🔧 The player recorded Manhunt's menus on the keyboard. The tool learned three things for it: pressing keys the way this old game listens, clicking its launcher's Play button, and closing it cleanly. It now goes from a closed game to playing in about 25 seconds. Later: the black strips the player spotted around the window are fixed, and the camera the game draws with is proven to be the one we read in memory, exactly.
 
 ## 2026-09-29: Menu-o-matiC maps the menus; Prototype's camera traced
 
