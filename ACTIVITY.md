@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-29: Enslaved's menus play themselves, and a road is ruled out
+
+🔧 🔍 One recording by the player became three routes: into the game, back to the main menu, and out. The game's core object lists were confirmed live while the player rehearsed. A one-launch count then showed almost everything the game loads sits in a kind of memory that the easy route to VR output refuses, so a different road is needed.
+
 ## 2026-09-29: Manhunt's menus play themselves
 
 🔧 The player recorded Manhunt's menus on the keyboard. The tool learned three things for it: pressing keys the way this old game listens, clicking its launcher's Play button, and closing it cleanly. It now goes from a closed game to playing in about 25 seconds. Later: the black strips the player spotted around the window are fixed, and the camera the game draws with is proven to be the one we read in memory, exactly. A background check of the game's drawing code then found that everything it draws can safely be drawn twice per frame, once per eye, with three small guards.
