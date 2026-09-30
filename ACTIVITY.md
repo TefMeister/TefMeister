@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: Prince of Persia, a start-up safety fix
+
+🔧 Our graphics add-on for Prince of Persia only passed on one of the seventeen things the real Windows file offers. On Dead Space 2 that exact gap crashed the game at start. It now passes on all seventeen, using the fix already proven there, and a small test confirms it without starting the game.
+
 ## 2026-09-30: Far Cry 3: Blood Dragon, a camera finder
 
 🔧 Built a small read-only add-on for Blood Dragon that, on its first run, will write down where the game keeps its camera, read straight from the game's own shader labels. ⭐ Also found that the game's scripts can nudge the camera's position through one internal setting, which our own code could reach directly: a possible way to move the view per eye or follow head position. Nothing has been run in the game yet.

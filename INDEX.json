@@ -289,7 +289,7 @@
       "year": 2008,
       "developer": "Ubisoft Montreal",
       "engine": "Scimitar (the pre-2009 name of Anvil)",
-      "stage": "static recon plus a working d3d9 proxy [verified-live 2026-08-25]. The .forge archive format is decoded end to end — container, LZO2A chunks, typed datablocks — by a from-scratch reader in dev-archive/tools/forge [verified-numerically 2026-09-02, 33,401 datafiles]. The camera system is authored as DATA (876 CameraRule entries, one CameraGraph) and a shipped rule CR_Debug_1stPerson is conditioned on a debug first-person state [verified-numerically 2026-09-02]. That rule has now been repointed in a regenerated archive to install a camera that follows the player instead of one that flies itself; deployed, awaiting a walk-and-turn test"
+      "stage": "static recon plus a working d3d9 proxy [verified-live 2026-08-25]. The .forge archive format is decoded end to end — container, LZO2A chunks, typed datablocks — by a from-scratch reader in dev-archive/tools/forge [verified-numerically 2026-09-02, 33,401 datafiles]. The camera system is authored as DATA (876 CameraRule entries, one CameraGraph) and a shipped rule CR_Debug_1stPerson is conditioned on a debug first-person state [verified-numerically 2026-09-02]. That rule has now been repointed in a regenerated archive to install a camera that follows the player instead of one that flies itself; deployed, awaiting a walk-and-turn test 2026-09-30: the d3d9 proxy forwards all seventeen exports (latent start-up crash closed; thunk self-test passes)."
     },
     {
       "repo": "alice-madness-returns-vr",
