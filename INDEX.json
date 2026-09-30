@@ -98,8 +98,7 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/ai-game-control-profiles",
       "purpose": "How to OPERATE games programmatically: keys, menu routes, state detection, entry points. Machine-readable, vendor-neutral.",
-      "licence": "CC-BY-4.0",
-      "stage": " Since then: route maps per game, a three-key step recorder and three fixed goals per game (lanes 0.34.0-0.36.1); Alan Wake does a whole round in 31 s (2026-09-29)."
+      "licence": "CC-BY-4.0"
     },
     {
       "name": "flat-to-vr-RE-toolkit",
@@ -159,7 +158,7 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/menu-o-matic",
       "purpose": "Replays recorded game menu routes (key presses plus 32x32 grey fingerprints of small screen patches) with no model tokens; records new routes by reading only the patch a key changed. Also /lanes:menu in the Lanes plugin (0.29.0).",
-      "stage": "works on its first game 2026-09-28: Burnout Paradise, closed game to city in 150 s, no pictures; lanes 0.29.1 Since then: route maps per game, a three-key step recorder and three fixed goals per game (lanes 0.34.0-0.36.1); Alan Wake does a whole round in 31 s (2026-09-29)."
+      "stage": "works on its first game 2026-09-28: Burnout Paradise, closed game to city in 150 s, no pictures; lanes 0.29.1. Since then: route maps per game, a three-key step recorder and three fixed goals per game (lanes 0.34.0-0.36.1); Alan Wake does a whole round in 31 s (2026-09-29)."
     }
   ],
   "projects": [
