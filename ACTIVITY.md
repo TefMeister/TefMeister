@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-30: terminal themes, fish that fade with distance
 
-🔧 In the aquarium, far-off fish are now dim and grey and the close ones bright and vivid. Each of the four themes has its own short moving clip on the page.
+🔧 In the aquarium, far-off fish are now dim and grey and the close ones bright and vivid. Each of the four themes has its own short moving clip on the page, and the aquarium's is an exact loop: its last frame joins its first without a seam.
 
 ## 2026-09-30: Lanes 0.38.0, the Inspector's score
 
