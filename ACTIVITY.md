@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: Tomb Raider, the game already draws two eyes
+
+⭐ Tomb Raider (2013) shipped with 3D modes for old AMD and NVIDIA 3D glasses. Reading its code showed how they work: when switched on, the game draws the whole scene twice, once per eye, and one small piece of code sets each eye's view. That is a ready-made starting point for VR; the next step is choosing how to switch it on without the old glasses' drivers.
+
 ## 2026-09-30: Prototype, head tracking works in the game
 
 🏆 The head-tracking code built this afternoon went into the game and worked on the first try: turning the "head" 10° turned the view on the spot by exactly the predicted amount, and it stayed turned while Alex walked. The floating objective arrows first stayed behind; a second fix found in the game's code now keeps them over their targets. Keys still stand in for the headset.
