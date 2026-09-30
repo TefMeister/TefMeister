@@ -78,7 +78,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 Worked on the Inspector, which now looks over every piece of code written (optional). | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 Every lane session now ends with the Inspector's score (0.38.0). | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## <img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/icons/flower-icon.png" alt="" height="28" align="top"> Terminal Themes
 
@@ -89,7 +89,7 @@ Give your session a fresh look with one of these custom themes.
 | Theme | What it looks like | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **Green monitor, starburst flower** | An old green computer screen for Windows Terminal: sharp glowing letters, dark corners, and a faint striped flower behind the text, its petals placed like the rays of the Claude logo, with a light that slowly runs down the screen. | 🔧 First theme is up, with two plainer ones beside it; more to come. | 09-30 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
-| **Aquarium** | A calm pixel-art fish tank behind the text: light blue water, swaying plants, rocks, bubbles, a crab, and fish that swim sideways, away from you and back towards you. | 🔧 Worked on the fish turning smoothly; text colours come next. | 09-30 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
+| **Aquarium** | A calm pixel-art fish tank behind the text: light blue water, swaying plants, rocks, bubbles, a crab, and fish that swim sideways, away from you and back towards you. | 🔧 Fish now fade with distance; every theme has a moving clip on the page. | 09-30 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 
 ## 🎯 VR Weapon Mod Kit
 
