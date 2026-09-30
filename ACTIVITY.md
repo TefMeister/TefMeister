@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: The Evil Within, a test that can actually be read
+
+🔄 The camera test we had been running on The Evil Within turned the picture 90 degrees in a way that could never look right: the maths squeezes the whole frame into a thin strip, which is the "slivers" seen last time. ⭐ A new test tilts the picture by 15 degrees instead, keeping everything on screen, so the next run can show exactly which parts of the world our patch reaches. Built, checked with numbers and installed, not yet run in the game.
+
 ## 2026-09-30: Metro Exodus, first launch
 
 ⚠️ Metro Exodus started for the first time. On the weaker PC its graphics card lacks the newer ray tracing this edition needs, so it crashed before the menu; all live testing moves to the stronger PC. ⭐ Reading the game's own code turned up two dormant VR switches from 4A's earlier VR game: a stereo setting that never draws two eyes as it stands, and a hidden "oculus" build option checked in 72 places. Both get their first test on the stronger PC.
