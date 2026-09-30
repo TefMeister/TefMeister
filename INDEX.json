@@ -364,7 +364,7 @@
       "developer": "Radical Entertainment",
       "engine": "Titanium",
       "renderer": "Direct3D 9",
-      "stage": "Camera traced (dev PC, 2026-09-29): per-object fused WVP at c0; the scene View's own pose slot (+0x2c) moves and turns the view correctly when written as inv(C)*H*C, verified live without a rebuild. Menus automated. Next: a per-frame head-pose writer. Not VR yet."
+      "stage": "Camera traced (dev PC, 2026-09-29): per-object fused WVP at c0; the scene View's own pose slot (+0x2c) moves and turns the view correctly when written as inv(C)*H*C, verified live without a rebuild. Menus automated. 2026-09-30: the per-frame head-pose writer is built and installed (number-pad keys for now), not yet tried in the game. Not VR yet."
     },
     {
       "repo": "tomb-raider-2013-vr",
