@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: Burnout Paradise, the patch that stayed behind
+
+⭐ In the first eye-shift test, one dark patch under the car refused to move with the rest of the world. Reading the game's shader files showed it is not the sun shadow, which is placed correctly: it is one of 14 objects the game draws with its own copy of the camera. A fix that moves those too is built, checked with nearly 6,000 test cases, and installed; one short flat-screen test will tell whether it worked.
+
 ## 2026-09-30: Lanes 0.37.0, the Inspector joins
 
 🔧 The Inspector, tested in private for four days, is now part of the Lanes plugin. Switch it on and every piece of code Claude writes is looked over, and anything messy is noted for a decision before it is uploaded. It never changes code itself, and it stays off unless asked for.

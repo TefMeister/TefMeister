@@ -318,7 +318,7 @@
       "year": 2008,
       "developer": "Criterion Games",
       "engine": "in-house",
-      "stage": "world camera found and logged live on the dev PC (2026-09-28): a packed ViewProjectionModified in b0, turns with the car; a 1 m test shift moves the whole world with correct depth, only the car's sun shadow stays behind. Not VR yet"
+      "stage": "world camera found and logged live on the dev PC (2026-09-28): a packed ViewProjectionModified in b0, turns with the car; a 1 m test shift moves the whole world with correct depth, a dark patch under the car stayed behind; 2026-09-30 it was traced to 14 exe draws with their own camera matrix, and a fix is built and installed, not yet tested. Not VR yet"
     },
     {
       "repo": "dead-space-2-vr",
