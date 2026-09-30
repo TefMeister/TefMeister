@@ -254,7 +254,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "The pistol swing (2026-09-30): the relaxed-walk animations carry no keep-the-left-hand-on-the-gun instruction, unlike every stock aim motion; a test build with that hold forced on waits for the headset.",
+      "stage": "The pistol swing (2026-09-30, measured): about a second after a shot the game drops out of aiming by itself on the relaxed-walk files, the lower-the-gun pose plays, and the VR hands snap back when aiming returns; why it drops is next, testable flat.",
       "updated": "2026-09-30"
     },
     {
