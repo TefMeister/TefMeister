@@ -46,7 +46,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 First run: it starts, and it starts with our file in place. | 09-17 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on finding the camera code with the game's own symbol file. | 09-28 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on the frame rate in the headset, from 48 to 72 fps. | 09-29 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
-| **Tomb Raider** (2013) | Foundation | 🔍 Taken off pause; worked on the game's old built-in 3D modes. | 09-28 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
+| **Tomb Raider** (2013) | Foundation | ⭐ Worked on how the game's own 3D mode draws its two eyes. | 09-30 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
 | **Death Stranding Director's Cut** (2022) | Decima | 🔍 Taken off pause, for our own version with VR hands and a body. | 09-28 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
 | **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on the dark patch under the car that stayed behind in the eye-shift test. | 09-30 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 
