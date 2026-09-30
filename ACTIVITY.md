@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: Prototype, head tracking works in the game
+
+🏆 The head-tracking code built this afternoon went into the game and worked on the first try: turning the "head" 10° turned the view on the spot by exactly the predicted amount, and it stayed turned while Alex walked. The floating objective arrows first stayed behind; a second fix found in the game's code now keeps them over their targets. Keys still stand in for the headset.
+
 ## 2026-09-30: Prototype, head tracking every frame
 
 🔧 Yesterday a spare camera slot in Prototype turned and moved the view the way a head would, set by hand from outside the game. Today the code that does it by itself, every frame, is built into the mod and installed, with number-pad keys standing in for the headset for now. It was checked against thousands of test cases outside the game; the first in-game try is next.
