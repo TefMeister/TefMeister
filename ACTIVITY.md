@@ -11,6 +11,14 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: terminal themes, fish that fade with distance
+
+🔧 In the aquarium, far-off fish are now dim and grey and the close ones bright and vivid. Each of the four themes has its own short moving clip on the page.
+
+## 2026-09-30: Lanes 0.38.0, the Inspector's score
+
+🔧 Every lane session now ends with the Inspector's score for the code it wrote. A small fix to its design page went in as 0.37.1.
+
 ## 2026-09-30: Visceral, why the pistol swings after a shot
 
 ⭐ Read straight from the animation files: every stock aiming motion carries a small instruction that keeps the left hand on the gun, and the relaxed-walk motions our mod puts in carry none. So while walking and aiming, the support hand is quietly released, and the shot's kick throws the gun. A test build that forces the hold back on, and measures every shot, waits for the headset. The same build tries the Story page's camera on the main menu, to see whether that is where the rain lives.
