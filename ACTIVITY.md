@@ -19,6 +19,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🔧 Every lane session now ends with the Inspector's score for the code it wrote. A small fix to its design page went in as 0.37.1.
 
+## 2026-09-30: RE Village VR Scope v1.0.1
+
+🔄 Tefa installed the scope from the readme as a new player and DLSS did not come on: the text named a newer plugin and DLSS pair that load but find nothing. v1.0.1 names the pair that works (Upscaler Base Plugin 1.1.2, DLSS 310.5.3); the mod's own files are unchanged. The Fluffy zip now carries the readme.
+
 ## 2026-09-30: Visceral, why the pistol swings after a shot
 
 🎮 Evening, in the headset: measured. Every shot gives a small kick that comes back; the throw is different: about a second after a shot taken while stopping, the game drops out of aiming by itself, the arms play the lower-the-gun pose, and the hands snap back when aiming returns. Why it drops is the next question, and it can be tested without the headset.
