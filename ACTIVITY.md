@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: an aquarium for the terminal
+
+🔧 A second terminal theme joined the green monitor: a calm pixel-art fish tank behind the text. Light blue water, plants swaying on a sea floor that rolls into the distance, rocks, bubbles and a crab. Two each of seven kinds of fish swim sideways, turn, swim away with their tails swinging and come back head-on, passing behind and in front of the plants.
+
 ## 2026-09-30: Tomb Raider, the game already draws two eyes
 
 ⭐ Tomb Raider (2013) shipped with 3D modes for old AMD and NVIDIA 3D glasses. Reading its code showed how they work: when switched on, the game draws the whole scene twice, once per eye, and one small piece of code sets each eye's view. That is a ready-made starting point for VR; the next step is choosing how to switch it on without the old glasses' drivers.
