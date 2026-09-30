@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: Prototype, head tracking every frame
+
+🔧 Yesterday a spare camera slot in Prototype turned and moved the view the way a head would, set by hand from outside the game. Today the code that does it by itself, every frame, is built into the mod and installed, with number-pad keys standing in for the headset for now. It was checked against thousands of test cases outside the game; the first in-game try is next.
+
 ## 2026-09-30: Burnout Paradise, the patch that stayed behind
 
 ⭐ In the first eye-shift test, one dark patch under the car refused to move with the rest of the world. Reading the game's shader files showed it is not the sun shadow, which is placed correctly: it is one of 14 objects the game draws with its own copy of the camera. A fix that moves those too is built, checked with nearly 6,000 test cases, and installed; one short flat-screen test will tell whether it worked.
