@@ -21,6 +21,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-30: Visceral, why the pistol swings after a shot
 
+🎮 Evening, in the headset: measured. Every shot gives a small kick that comes back; the throw is different: about a second after a shot taken while stopping, the game drops out of aiming by itself, the arms play the lower-the-gun pose, and the hands snap back when aiming returns. Why it drops is the next question, and it can be tested without the headset.
+
 ⭐ Read straight from the animation files: every stock aiming motion carries a small instruction that keeps the left hand on the gun, and the relaxed-walk motions our mod puts in carry none. So while walking and aiming, the support hand is quietly released, and the shot's kick throws the gun. A test build that forces the hold back on, and measures every shot, waits for the headset. The same build tries the Story page's camera on the main menu, to see whether that is where the rain lives.
 
 ## 2026-09-30: an aquarium for the terminal
