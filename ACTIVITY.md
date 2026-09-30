@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: Visceral, why the pistol swings after a shot
+
+⭐ Read straight from the animation files: every stock aiming motion carries a small instruction that keeps the left hand on the gun, and the relaxed-walk motions our mod puts in carry none. So while walking and aiming, the support hand is quietly released, and the shot's kick throws the gun. A test build that forces the hold back on, and measures every shot, waits for the headset. The same build tries the Story page's camera on the main menu, to see whether that is where the rain lives.
+
 ## 2026-09-30: an aquarium for the terminal
 
 🔧 A second terminal theme joined the green monitor: a calm pixel-art fish tank behind the text. Light blue water, plants swaying on a sea floor that rolls into the distance, rocks, bubbles and a crab. Two each of seven kinds of fish swim sideways, turn, swim away with their tails swinging and come back head-on, passing behind and in front of the plants.

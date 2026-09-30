@@ -254,8 +254,8 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Hunting the pistol swing (2026-09-27): it survived every file change, so the game was cleaned to stock with a fresh DLSS REFramework, and a posture-only rebuild waits to be tested.",
-      "updated": "2026-09-27"
+      "stage": "The pistol swing (2026-09-30): the relaxed-walk animations carry no keep-the-left-hand-on-the-gun instruction, unlike every stock aim motion; a test build with that hold forced on waits for the headset.",
+      "updated": "2026-09-30"
     },
     {
       "repo": "re-village-scope-vr",
