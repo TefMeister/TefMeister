@@ -11,6 +11,12 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: Metro Exodus, first launch
+
+⚠️ Metro Exodus started for the first time. On the weaker PC its graphics card lacks the newer ray tracing this edition needs, so it crashed before the menu; all live testing moves to the stronger PC. ⭐ Reading the game's own code turned up two dormant VR switches from 4A's earlier VR game: a stereo setting that never draws two eyes as it stands, and a hidden "oculus" build option checked in 72 places. Both get their first test on the stronger PC.
+
+🔧 The green terminal theme can now play a moving GIF behind the text.
+
 ## 2026-09-29: a picture for the Village scope in Fluffy, and a green terminal
 
 📋 The RE Village VR scope's Fluffy Mod Manager package got its own picture, so it shows in the manager's list, and lost its "unfinished" warning, since the game is finished. The Nexus page text now has clickable links. A new rule came with it: the motion-sickness warning stays only on games still being worked on. Separately, a new repo, terminal-themes, collects retro green looks for Windows Terminal, starting with a starburst drawn as a flower.
