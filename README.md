@@ -48,7 +48,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on the frame rate in the headset, from 48 to 72 fps. | 09-29 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Tomb Raider** (2013) | Foundation | 🔍 Taken off pause; worked on the game's old built-in 3D modes. | 09-28 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
 | **Death Stranding Director's Cut** (2022) | Decima | 🔍 Taken off pause, for our own version with VR hands and a body. | 09-28 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
-| **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on recording a first drive for the automatic driver. | 09-29 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
+| **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on the dark patch under the car that stayed behind in the eye-shift test. | 09-30 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 
 ### ⏸ Paused
 
