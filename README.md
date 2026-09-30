@@ -31,7 +31,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | --- | --- | --- | --- | --- |
 | **Prototype** (2009) | Titanium | 🏆 Head tracking works in the game: a spare camera slot turns and moves the view correctly. | 09-29 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on drawing the picture twice, once per eye: the plan is checked and ready to build. | 09-29 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
-| **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the world moves. | 09-23 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
+| **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the view shifts per eye. | 09-30 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on automated menus, and measured which road leads to VR output. | 09-29 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🔧 Worked on automated menus: into the game, to the key bindings, and back out, by itself. | 09-29 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |

@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: Mad Max, the HUD stays still and the smear is solved
+
+⭐ Our per-eye shift in Mad Max used to drag the map and health display along with the world, and left objects smeared. Six test runs later: the HUD is now left alone because it is drawn flat, and the smear turned out to be the game's own motion blur, which disappears when it is switched off. The world now shifts cleanly, with one faint edge left on the car to track down.
+
 ## 2026-09-30: The Evil Within, what the camera patch reaches
 
 🎮 Ran The Evil Within with the new tilt test. Menus and a whole room in Chapter 2 tilted, which shows our camera patch reaching them. The street at the start of Chapter 1 stayed level, with odd tilted "ghost" copies of fences and a police car. So something there is drawn another way, and finding out what is the next job. The big code file was split into six tidy ones and checked in the game, and the game's music is now muted for testing.
