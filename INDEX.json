@@ -373,7 +373,7 @@
       "developer": "Crystal Dynamics",
       "engine": "Crystal Dynamics Foundation (internally 'cdc')",
       "renderer": "deferred Direct3D 11, resolved at runtime",
-      "stage": "un-paused 2026-09-28 (existing VR mods judged not up to our standard); static: StereoOffset unread by the exe's 117 shaders, but NVIDIA 3D Vision and AMD HD3D stereo paths are in the exe. Never launched on the dev PC"
+      "stage": "Static: the game's own 3D mode is traced (2026-09-30): it draws the whole scene twice with an eye flag and sets each eye's projection in one function; woken by an AMD vendor ID or NVIDIA direct mode. Not launched yet. Not VR yet."
     },
     {
       "repo": "witcher-2-vr",
