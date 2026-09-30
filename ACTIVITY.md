@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: Far Cry 3: Blood Dragon, a camera finder
+
+🔧 Built a small read-only add-on for Blood Dragon that, on its first run, will write down where the game keeps its camera, read straight from the game's own shader labels. ⭐ Also found that the game's scripts can nudge the camera's position through one internal setting, which our own code could reach directly: a possible way to move the view per eye or follow head position. Nothing has been run in the game yet.
+
 ## 2026-09-30: The Evil Within, a test that can actually be read
 
 🔄 The camera test we had been running on The Evil Within turned the picture 90 degrees in a way that could never look right: the maths squeezes the whole frame into a thin strip, which is the "slivers" seen last time. ⭐ A new test tilts the picture by 15 degrees instead, keeping everything on screen, so the next run can show exactly which parts of the world our patch reaches. Built, checked with numbers and installed, not yet run in the game.

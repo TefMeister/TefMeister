@@ -426,7 +426,7 @@
       "developer": "Ubisoft Montreal",
       "engine": "Dunia",
       "renderer": "Direct3D 9 and Direct3D 11 (two builds)",
-      "stage": "static: same shader-parameter names as Far Cry 2 (2026-09-28); shaders compile at run time; not yet run with our file"
+      "stage": "static: same shader-parameter names as Far Cry 2 (2026-09-28); shaders compile at run time; not yet run with our file 2026-09-30: read-only d3d9 camera-register logger built (constant-table reader tested 26/26), and the Lua camera-offset API traced to a native offset on the camera controller [inferred-static 2026-09-30]. Not launched yet."
     },
     {
       "repo": "deus-ex-mankind-divided-vr",
