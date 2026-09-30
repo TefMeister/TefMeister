@@ -195,7 +195,7 @@
       "engine": "id Tech 5 (STEM)",
       "renderer": "Direct3D 11",
       "injection": "proxy winmm.dll + MinHook",
-      "stage": "stereo-6dof-core merged into main 2026-09-28 (byte-identical build); the dynamic cb0 rotation read is the next flat test 2026-09-30: the 90-degree clip-space test yaw was shown to be unreadable by construction; a readable TEST_ROLL tilt is built and deployed on the dev PC, unlaunched [verified-numerically 2026-09-30]."
+      "stage": "stereo-6dof-core merged into main 2026-09-28 (byte-identical build); the dynamic cb0 rotation read is the next flat test 2026-09-30: the 90-degree clip-space test yaw was shown to be unreadable by construction; a readable TEST_ROLL tilt is built and deployed on the dev PC, unlaunched [verified-numerically 2026-09-30]. 2026-09-30 /lm: the TEST_ROLL tilt read shows menus and the Chapter 2 safe room patched, but the Chapter 1 street not (ghost copies only) [verified-live 2026-09-30, n=1]; mvp_patch.c split into six files, live-tested."
     },
     {
       "repo": "far-cry-2-vr",

@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-09-30: The Evil Within, what the camera patch reaches
+
+🎮 Ran The Evil Within with the new tilt test. Menus and a whole room in Chapter 2 tilted, which shows our camera patch reaching them. The street at the start of Chapter 1 stayed level, with odd tilted "ghost" copies of fences and a police car. So something there is drawn another way, and finding out what is the next job. The big code file was split into six tidy ones and checked in the game, and the game's music is now muted for testing.
+
 ## 2026-09-30: Prince of Persia, a start-up safety fix
 
 🔧 Our graphics add-on for Prince of Persia only passed on one of the seventeen things the real Windows file offers. On Dead Space 2 that exact gap crashed the game at start. It now passes on all seventeen, using the fix already proven there, and a small test confirms it without starting the game.
