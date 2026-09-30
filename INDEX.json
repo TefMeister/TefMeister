@@ -390,7 +390,7 @@
       "developer": "4A Games",
       "engine": "4A Engine",
       "renderer": "Direct3D 12 (ray tracing always on)",
-      "stage": "NEW 2026-09-13. Repo created; first static look only [inferred-static 2026-09-13]: 64-bit Direct3D 12 4A Engine exe behind the Steam DRM wrapper, with about 350 console-variable names and leftover VR code names (-vr_profile, vr_hand_speed, oculus_touch_presets) still inside, likely from 4A's Arktika.1 [hypothesis]. Not launched yet. 4A Engine and Arktika.1 VR research queued for /gr."
+      "stage": "First launch 2026-09-30: the Enhanced Edition needs DXR 1.1 ray tracing, so it crashes on the dev PC and runs only on the home PC. Static reads found a live vr_stereo renderer setting (never draws two eyes as it stands) and a -build_key oculus switch checked in 72 places [inferred-static 2026-09-30]. No headset runtime in the exe."
     },
     {
       "repo": "heavy-rain-vr",
