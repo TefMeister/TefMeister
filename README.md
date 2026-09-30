@@ -20,7 +20,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **XIII** (2003) | Unreal Engine 2 | 🎮 Worked on true stereo in a headset; early release `v0.3.0-alpha` is out. | 09-13 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on making the camera follow the player; stereo and head tracking already work. | 09-13 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
-| **Visceral — RE2 VR** | RE Engine | 🎮 Mapped Andyalpa's reload mod for a native C++ rebuild. | 09-27 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
+| **Visceral — RE2 VR** | RE Engine | 🎮 Worked on where RE2 lives on the dev PC after it was moved to another drive. | 09-29 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Worked on the cube rifle, jackhammer and flamethrower with gloved hands. | 09-24 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 
 ### 🔍 Early RE work
@@ -43,7 +43,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Worked on running it on the fast PC, at well over 190 frames a second. | 09-23 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Worked on a hidden debug menu and free camera found in the game. | 09-28 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🔍 Worked on a tool that finds where the game keeps its camera. | 09-30 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
-| **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 Installed; no look inside yet. | 09-16 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
+| **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 First run: it starts, and it starts with our file in place. | 09-17 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on finding the camera code with the game's own symbol file. | 09-28 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on the frame rate in the headset, from 48 to 72 fps. | 09-29 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Tomb Raider** (2013) | Foundation | 🔍 Taken off pause; worked on the game's old built-in 3D modes. | 09-28 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |

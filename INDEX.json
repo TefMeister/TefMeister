@@ -98,7 +98,8 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/ai-game-control-profiles",
       "purpose": "How to OPERATE games programmatically: keys, menu routes, state detection, entry points. Machine-readable, vendor-neutral.",
-      "licence": "CC-BY-4.0"
+      "licence": "CC-BY-4.0",
+      "stage": " Since then: route maps per game, a three-key step recorder and three fixed goals per game (lanes 0.34.0-0.36.1); Alan Wake does a whole round in 31 s (2026-09-29)."
     },
     {
       "name": "flat-to-vr-RE-toolkit",
@@ -134,7 +135,8 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/lanes-plugin",
       "purpose": "The Claude Code plugin these projects are worked with: named session lanes, a shared work board, claim guards, a naming rule that keeps personal names out of everything written, and an ideas inbox that sessions file automatically. Early version (0.23.1, public 2026-09-24), still being built.",
-      "licence": "MIT"
+      "licence": "MIT",
+      "stage": "0.37.1 on 2026-09-30. Since 0.37.0 it includes the Inspector: an optional code review after every edit that holds uploads until each note is answered (off unless switched on)."
     },
     {
       "name": "terminal-themes",
@@ -157,7 +159,7 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/menu-o-matic",
       "purpose": "Replays recorded game menu routes (key presses plus 32x32 grey fingerprints of small screen patches) with no model tokens; records new routes by reading only the patch a key changed. Also /lanes:menu in the Lanes plugin (0.29.0).",
-      "stage": "works on its first game 2026-09-28: Burnout Paradise, closed game to city in 150 s, no pictures; lanes 0.29.1"
+      "stage": "works on its first game 2026-09-28: Burnout Paradise, closed game to city in 150 s, no pictures; lanes 0.29.1 Since then: route maps per game, a three-key step recorder and three fixed goals per game (lanes 0.34.0-0.36.1); Alan Wake does a whole round in 31 s (2026-09-29)."
     }
   ],
   "projects": [
