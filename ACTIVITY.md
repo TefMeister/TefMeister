@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01 (evening): BeG0nE's Village grip gets the two fixes back, without a patched loader
+
+🔧 The two grip rules Tefa liked in September (no jerk on the first two-handed shot, and the rifle docks only with the left grip button held) were lost when the scope release moved to praydog's stock REFramework. They are back, inside BeG0nE's own Village script, with a self-check that compares its sums with praydog's every frame. Installed on the home PC, not yet worn.
+
 ## 2026-10-01: Lanes 0.41.1 and 0.41.2, the green tab opens on the Desktop; the handover light earns its keep
 
 🔧 Lanes 0.41.1: the "Green Monitor Claude" tab the plugin adds to Windows Terminal opened in system32. It now opens on the Desktop, and the plugin says where to find its one look: the small down arrow next to the +. The theme test's helper functions had been missing since 0.41.0, so five of its checks never ran; fixed.
