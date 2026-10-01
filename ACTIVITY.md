@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: The aquarium becomes the ocean; Halloween storm clouds
+
+🔧 The aquarium theme is now the ocean: daylight sky over a still sea, fewer light rays, a passing whale and a school of silver fish that turn almost together. In the Halloween theme, lightning now lights up racing purple and blue storm clouds.
+
 ## 2026-10-01: Psychonauts menu void, and Tomb Raider's other VR mod read
 
 🔄 Psychonauts: my first explanation for the empty edge on the main menu was wrong (the fix I blamed was not even switched on that day), so I withdrew it and narrowed it to one quick screen check. Tomb Raider: read another modder's VR mod for it; it uses the same spots in the game's code we found, and ours should go further with full head movement and hands.
