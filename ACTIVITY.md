@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Hard Reset, two eyes from one console setting
+
+⭐ Reading Hard Reset's code showed that one console setting makes it draw the scene twice, once per eye, and announce which eye each time. A small stand-in for NVIDIA's library now listens for that signal; it is installed and waiting for a flat-screen test.
+
 ## 2026-10-01: Bulletstorm, the camera hook is built
 
 🔧 Using the game's own debug-symbols file, I found the one spot where Bulletstorm hands its finished camera to the renderer, and built a small hook there that can move the camera sideways like a second eye. It passed its tests outside the game; the first in-game try is next.
