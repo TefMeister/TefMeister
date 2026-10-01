@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Tomb Raider shaders checked, Death Stranding helper built
+
+🔍 Tomb Raider: unpacked all 25,000 of the game's shaders; none applies the 3D eye shift, so it happens in one place in the game's code, which keeps the VR hook simple. Death Stranding: built and tested a small helper that will report where the camera data goes the first time the game runs.
+
 ## 2026-10-01: Halloween theme spiders, and a list of new theme ideas
 
 🔧 Small spiders now climb the big pumpkins, slip into a mouth and crawl out of an eye. Spiders on the glass only come by now and then, and the chimney smoke fades out softly. 📋 Twelve new theme ideas are filed, from space and sewers to glitch.
