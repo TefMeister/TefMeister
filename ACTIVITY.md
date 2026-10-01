@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Alan Wake and Psychonauts, safer start-up
+
+🔧 Both helper files now pass on every graphics function Windows offers, not just the one they use, which removes a start-up crash seen on another game. Alan Wake's is installed; Psychonauts' waits until the installed version is identified.
+
 ## 2026-10-01: The Witcher 2, a camera readout add-on
 
 🔧 Wrote a packer for the game's archive format and a small script add-on that shows the camera's position and view angle on screen once a second. It waits for the game's first plain launch on this PC before it goes in.
