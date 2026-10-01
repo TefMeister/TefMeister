@@ -19,6 +19,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🔧 Wrote a packer for the game's archive format and a small script add-on that shows the camera's position and view angle on screen once a second. It waits for the game's first plain launch on this PC before it goes in.
 
+## 2026-10-01: terminal themes, the witch's hut
+
+🔧 The Halloween theme got a witch's hut, rounder candle-lit pumpkins, a sky that darkens before the ghost, and lightning for its whole visit. Every theme now fades its picture to black at the edges.
+
 ## 2026-10-01: terminal themes, a Halloween graveyard
 
 🔧 A new October theme: a pixel-art night with a big ghost streaming in the wind, three lightning flashes that show zombies walking towards you, glowing pumpkins, witches and spiders. It has its own looping clip on the page.
