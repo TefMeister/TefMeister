@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-02: RE Village VR Scope v1.0.2
+
+📋 v1.0.2 released: the readme's installation steps now name praydog's release plus the five March DLSS loader files, with the reason. Both the manual package and the Fluffy package carry the new text; the Fluffy preview picture was checked in Fluffy. The mod's own files are unchanged.
+
 ## 2026-10-01 (late): the Village VR start-up crash is the REFramework build
 
 🏆 The crash that hit the fresh install on the 30th came back and was run down with a launch loop: praydog's September dev build dies the instant the headset says ready, the March build starts every time. The grip fixes, our plugin, DLSS and the window size were all cleared. The install text now points at praydog's own release plus the five March files that differ, offered unmodified on our release page.
