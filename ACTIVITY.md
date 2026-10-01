@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-01 (late): the Village VR start-up crash is the REFramework build
 
-🏆 The crash that hit the fresh install on the 30th came back and was run down with a launch loop: praydog's September dev build dies the instant the headset says ready, the March build starts every time. The grip fixes, our plugin, DLSS and the window size were all cleared. The install text may need to point at the March build.
+🏆 The crash that hit the fresh install on the 30th came back and was run down with a launch loop: praydog's September dev build dies the instant the headset says ready, the March build starts every time. The grip fixes, our plugin, DLSS and the window size were all cleared. The install text now points at praydog's own release plus the five March files that differ, offered unmodified on our release page.
 
 ## 2026-10-01 (evening): BeG0nE's Village grip gets the two fixes back, without a patched loader
 
