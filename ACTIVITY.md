@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: New preview clips for the ocean and Halloween themes
+
+🔧 Both themes have fresh preview clips showing their latest look, and each loops without a visible jump. They were recorded from the terminal window alone, so nothing else on screen can appear in them.
+
 ## 2026-10-01: Lanes 0.39.0, the handover light
 
 🧩 Every session now opens with three plain lines: is everything on this PC saved to GitHub, when did the other PC last save and how did it end, and is this copy up to date. Built after a check found five helper scripts that lived on one disk only. Every write-up now ends with that line, like the save table.
