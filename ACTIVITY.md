@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: terminal themes, a Halloween graveyard
+
+🔧 A new October theme: a pixel-art night with a big ghost streaming in the wind, three lightning flashes that show zombies walking towards you, glowing pumpkins, witches and spiders. It has its own looping clip on the page.
+
 ## 2026-10-01: Enslaved, a better search for the player
 
 🔧 The memory probe that confirmed Enslaved's engine tables could only find the player controller's blueprint, not the controller itself. It now looks for the live one by what kind of object it is, and passed its tests outside the game.
