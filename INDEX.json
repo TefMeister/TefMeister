@@ -149,7 +149,7 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/BeG0nE",
       "purpose": "BeG0nE: tools and mods that remove unwanted features and faults from video games, one folder per cure, each a toolkit for modders plus drop-in fixes per game. Occlusion Drift BeG0nE (VR two-handed weapons held with the left controller above the right, so tracking never drops; first game RE Village on REFramework) and Camera Jitter/Shake BeG0nE (the stepped camera common in AI-written VR mods; first find out why).",
-      "stage": "renamed from BeG0nE 2026-10-01 and given a second cure; occlusion: Village grip split out 2026-10-01, not yet worn, no download; camera jitter: question written, nothing measured",
+      "stage": "renamed from BeG0nE 2026-10-01 and given a second cure; occlusion: Village grip split out 2026-10-01 and given the two grip fixes (button-only dock, no first-shot jump) the same evening, installed on the home PC, not yet worn, no download; camera jitter: question written, nothing measured",
       "licence": "MIT"
     },
     {
