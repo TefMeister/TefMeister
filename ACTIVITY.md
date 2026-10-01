@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: The Witcher 2, a camera readout add-on
+
+🔧 Wrote a packer for the game's archive format and a small script add-on that shows the camera's position and view angle on screen once a second. It waits for the game's first plain launch on this PC before it goes in.
+
 ## 2026-10-01: terminal themes, a Halloween graveyard
 
 🔧 A new October theme: a pixel-art night with a big ghost streaming in the wind, three lightning flashes that show zombies walking towards you, glowing pumpkins, witches and spiders. It has its own looping clip on the page.
