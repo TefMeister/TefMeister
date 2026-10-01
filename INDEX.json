@@ -273,7 +273,7 @@
       "developer": "Ninja Theory",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 9",
-      "stage": "camera delivery solved statically — the game ships its UE3 .usf shader sources, so the shared view-projection is known to sit at vertex register c0 with the camera position at c4 [inferred-static 2026-09-01, n=3 independent checks]; ProcessEvent is located and the UObject route is open. NOT WEARABLE YET, and the reason is known and small: the proxy has no side-by-side output mode at all (wiggle, left-only and right-only), so the next step is adding one [verified-live 2026-09-10]"
+      "stage": "Live player controller found in gameplay by its class pointer (2026-10-01); next: read the camera from it."
     },
     {
       "repo": "mad-max-vr",
@@ -318,7 +318,7 @@
       "year": 2008,
       "developer": "Criterion Games",
       "engine": "in-house",
-      "stage": "world camera found and logged live on the dev PC (2026-09-28): a packed ViewProjectionModified in b0, turns with the car; a 1 m test shift moves the whole world with correct depth, a dark patch under the car stayed behind; 2026-09-30 it was traced to 14 exe draws with their own camera matrix, and a fix is built and installed, not yet tested. Not VR yet"
+      "stage": "Eye shift on the dev PC: the car's dark patch now moves with the car (2026-10-01); headlight fix built, needs a night test."
     },
     {
       "repo": "dead-space-2-vr",
@@ -364,7 +364,7 @@
       "developer": "Radical Entertainment",
       "engine": "Titanium",
       "renderer": "Direct3D 9",
-      "stage": "Camera traced (dev PC, 2026-09-29): per-object fused WVP at c0; the scene View's own pose slot (+0x2c) moves and turns the view correctly when written as inv(C)*H*C, verified live without a rebuild. Menus automated. 2026-09-30: per-frame head pose works live (number-pad keys for now), and HUD markers follow it. Not VR yet."
+      "stage": "Head pose works every frame; lock-on with the head turned to be checked where enemies are (2026-10-01)."
     },
     {
       "repo": "tomb-raider-2013-vr",
