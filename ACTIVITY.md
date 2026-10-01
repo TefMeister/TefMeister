@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Theme edges, Halloween lanterns
+
+🔧 Every terminal theme now fades only in a thin strip at the left and right, and reaches the top and bottom. The Halloween trees got swinging lanterns that light the trunks and passing spiders, and the coloured smoke now blends softly into the grey.
+
 ## 2026-10-01: Burnout's car shadow fixed, Enslaved's player found
 
 🎮 Burnout: in the eye-shift test the dark patch under the car now moves with the car, as it should; a fix for the headlights is built too, but it needs night-time to test. Enslaved: my memory probe now finds the real player while playing, and then reads the game's camera: as I turned the mouse, the readout turned with it. Prototype: the lock-on check needs enemies around, so it moves to a later trip. Music muted in Burnout and Enslaved.
