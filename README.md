@@ -18,7 +18,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **XIII** (2003) | Unreal Engine 2 | 🎮 Worked on true stereo in a headset; early release `v0.3.0-alpha` is out. | 09-13 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
-| **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on making the camera follow the player; stereo and head tracking already work. | 09-13 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
+| **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on making the helper file safer to start, by passing on every graphics function. | 10-01 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🎮 Measured the pistol throw: the game drops out of aiming a second after a shot on our walk files. | 09-30 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Worked on the cube rifle, jackhammer and flamethrower with gloved hands. | 09-24 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
@@ -33,7 +33,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on drawing the picture twice, once per eye: the plan is checked and ready to build. | 09-29 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the view shifts per eye. | 09-30 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on finding the live player controller in the game's memory. | 10-01 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
-| **Alan Wake** (2010) | Remedy engine | 🔧 Worked on automated menus: into the game, to the key bindings, and back out, by itself. | 09-29 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
+| **Alan Wake** (2010) | Remedy engine | 🔧 Worked on making the helper file safer to start, by passing on every graphics function. | 10-01 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Evil Within** (2014) | id Tech 5 | 🔧 Worked on seeing which parts of the picture our camera patch reaches. | 09-30 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **Hard Reset** (2011) | Road Hog Engine | ⭐ Worked on the game's own two-eye drawing, switched on by a console setting. | 10-01 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
