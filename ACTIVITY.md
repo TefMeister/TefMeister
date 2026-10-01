@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Death Stranding, the camera's layout
+
+⭐ Read the exact layout of the camera data Death Stranding sends to the graphics card, straight from the program with the game closed. It is one shared block per view, which is the easiest kind to change for each eye.
+
 ## 2026-10-01: Death Stranding, first look done
 
 🔍 Finished the first no-game look at Death Stranding: there is a clear way in for our helper file, photo mode is a ready-made free camera, and an old 3D setting is still listed but does nothing on PC.
