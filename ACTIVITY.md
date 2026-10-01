@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Prototype, lock-on follows the head
+
+🔍 The fix that keeps Prototype's objective arrows over their targets also feeds the game's lock-on targeting. With head tracking on, the game should lock onto what you look at; one flat-screen check will confirm it.
+
 ## 2026-10-01: Hard Reset, two eyes from one console setting
 
 ⭐ Reading Hard Reset's code showed that one console setting makes it draw the scene twice, once per eye, and announce which eye each time. A small stand-in for NVIDIA's library now listens for that signal; it is installed and waiting for a flat-screen test.
