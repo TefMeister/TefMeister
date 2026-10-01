@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Enslaved, a better search for the player
+
+🔧 The memory probe that confirmed Enslaved's engine tables could only find the player controller's blueprint, not the controller itself. It now looks for the live one by what kind of object it is, and passed its tests outside the game.
+
 ## 2026-10-01: Prototype, lock-on follows the head
 
 🔍 The fix that keeps Prototype's objective arrows over their targets also feeds the game's lock-on targeting. With head tracking on, the game should lock onto what you look at; one flat-screen check will confirm it.
