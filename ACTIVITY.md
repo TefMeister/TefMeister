@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Bulletstorm, the camera hook is built
+
+🔧 Using the game's own debug-symbols file, I found the one spot where Bulletstorm hands its finished camera to the renderer, and built a small hook there that can move the camera sideways like a second eye. It passed its tests outside the game; the first in-game try is next.
+
 ## 2026-09-30: terminal themes, fish that fade with distance
 
 🔧 In the aquarium, far-off fish are now dim and grey and the close ones bright and vivid. Each of the four themes has its own short moving clip on the page, and every clip is an exact loop: its last frame joins its first without a seam. The recording tools are in the repo, so new clips loop too.
