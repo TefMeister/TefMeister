@@ -263,7 +263,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Finished. v1.0.1 (2026-09-30). 2026-10-01: flat-screen test copy on the dev PC; the grip moved to Dr.BeGonE.",
+      "stage": "Finished. v1.0.1 (2026-09-30). 2026-10-01: flat-screen test copy on the dev PC; the grip moved to Dr.BeGonE; the VR start-up crash traced to the a24c3459 REFramework build (76298bd starts every time), install text to be repointed.",
       "updated": "2026-09-30"
     },
     {

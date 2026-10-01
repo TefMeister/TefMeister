@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01 (late): the Village VR start-up crash is the REFramework build
+
+🏆 The crash that hit the fresh install on the 30th came back and was run down with a launch loop: praydog's September dev build dies the instant the headset says ready, the March build starts every time. The grip fixes, our plugin, DLSS and the window size were all cleared. The install text may need to point at the March build.
+
 ## 2026-10-01 (evening): BeG0nE's Village grip gets the two fixes back, without a patched loader
 
 🔧 The two grip rules Tefa liked in September (no jerk on the first two-handed shot, and the rifle docks only with the left grip button held) were lost when the scope release moved to praydog's stock REFramework. They are back, inside BeG0nE's own Village script, with a self-check that compares its sums with praydog's every frame. Installed on the home PC, not yet worn.
