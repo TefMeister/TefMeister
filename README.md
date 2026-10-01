@@ -29,7 +29,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Prototype** (2009) | Titanium | 🏆 Worked on head tracking in the game: the view and the objective arrows now follow the head every frame. | 09-30 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
+| **Prototype** (2009) | Titanium | 🏆 Worked on what else follows the head: lock-on targeting now uses the turned view too. | 10-01 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on drawing the picture twice, once per eye: the plan is checked and ready to build. | 09-29 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the view shifts per eye. | 09-30 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on automated menus, and measured which road leads to VR output. | 09-29 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
