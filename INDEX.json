@@ -346,7 +346,7 @@
       "developer": "Flying Wild Hog",
       "engine": "Road Hog Engine",
       "renderer": "Direct3D 9",
-      "stage": "console works (2026-09-14); static 2026-09-28: r_stereo cvars drive NVIDIA 3D Vision through a run-time-loaded NVAPI"
+      "stage": "Console works (2026-09-14). 2026-10-01: static trace shows r_stereo_enable makes the game draw two eyes itself and call SetActiveEye per eye; a stand-in nvapi.dll that logs each eye is built and installed, not yet tried. Not VR yet."
     },
     {
       "repo": "portal-vr",
