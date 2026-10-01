@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Death Stranding, first look done
+
+🔍 Finished the first no-game look at Death Stranding: there is a clear way in for our helper file, photo mode is a ready-made free camera, and an old 3D setting is still listed but does nothing on PC.
+
 ## 2026-10-01: Alan Wake and Psychonauts, safer start-up
 
 🔧 Both helper files now pass on every graphics function Windows offers, not just the one they use, which removes a start-up crash seen on another game. Alan Wake's is installed; Psychonauts' waits until the installed version is identified.
