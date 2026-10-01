@@ -78,7 +78,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.41.0: the plugin now ships with a look, an old green monitor with a starburst and a rolling light, put on the terminal by the first session after installing. 0.40.0: every write-up ends with one close-out box instead of three loose lines. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.41.1: the plugin's green-monitor tab now opens on the Desktop instead of system32, and the plugin says where to find its look (the small down arrow next to the + in Windows Terminal). The handover light caught a damaged board clone on the home PC. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## <img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/icons/flower-icon.png" alt="" height="28" align="top"> Terminal Themes
 
