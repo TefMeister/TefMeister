@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-01: Burnout's car shadow fixed, Enslaved's player found
 
-🎮 Burnout: in the eye-shift test the dark patch under the car now moves with the car, as it should; a fix for the headlights is built too, but it needs night-time to test. Enslaved: my memory probe now finds the real player while playing, not the game's blank templates, which opens the way to its camera. Prototype: the lock-on check needs enemies around, so it moves to a later trip. Music muted in Burnout and Enslaved.
+🎮 Burnout: in the eye-shift test the dark patch under the car now moves with the car, as it should; a fix for the headlights is built too, but it needs night-time to test. Enslaved: my memory probe now finds the real player while playing, and then reads the game's camera: as I turned the mouse, the readout turned with it. Prototype: the lock-on check needs enemies around, so it moves to a later trip. Music muted in Burnout and Enslaved.
 
 ## 2026-10-01: The aquarium becomes the ocean; Halloween storm clouds
 
