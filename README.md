@@ -90,7 +90,7 @@ Give your session a fresh look with one of these custom themes.
 | --- | --- | --- | --- | --- |
 | **Green monitor, starburst flower** | An old green computer screen for Windows Terminal: sharp glowing letters, dark corners, and a faint striped flower behind the text, its petals placed like the rays of the Claude logo, with a light that slowly runs down the screen. | 🔧 First theme is up, with two plainer ones beside it; more to come. | 09-30 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 | **Aquarium** | A calm pixel-art fish tank behind the text: light blue water, swaying plants, rocks, bubbles, a crab, and fish that swim sideways, away from you and back towards you. | 🔧 Fish fade with distance; every clip on the page now loops without a seam. | 09-30 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
-| **Halloween** | A pixel-art graveyard night: moon, witches on brooms, a witch's hut, candle-lit pumpkins and spiders on the glass. The sky darkens, a big sheet ghost rises in the wind, and lightning keeps flashing while it stays, lighting up the zombies shuffling towards you. | 🔧 Worked on spiders that crawl into the pumpkins' mouths and out of their eyes. | 10-01 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
+| **Halloween** | A pixel-art graveyard night: moon, witches on brooms, a witch's hut, candle-lit pumpkins and spiders on the glass. The sky darkens, a big sheet ghost rises in the wind, and lightning keeps flashing while it stays, lighting up the zombies shuffling towards you. | 🔧 Worked on big trees in the field, with spiders dropping from their branches. | 10-01 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 
 ## 🎯 VR Weapon Mod Kit
 
