@@ -66,7 +66,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.0.1 is out on GitHub and [Nexus Mods](https://www.nexusmods.com/residentevilvillage/mods/827) — the install text now names the DLSS versions that really work. | 09-30 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
+| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.0.1 is out; worked on a flat-screen test copy, and the download link in the install text is fixed. | 10-01 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 All dates are 2026. Almost everything above is **one person, one machine, often one launch**, and
@@ -101,7 +101,7 @@ for modders and separate game-specific mods for gamers: 🩺 Dr.BeGonE has a cur
 
 | Game | Needs | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Resident Evil Village** | REFramework (built-in VR) | 🔧 Set up the project; the grip works in the headset and is next to be split out on its own. | 09-28 | [VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo](https://github.com/TefMeister/VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo) |
+| **Resident Evil Village** | REFramework (built-in VR) | 🔧 Split the grip out of the scope mod into its own file; next it is worn in the headset. | 10-01 | [VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo](https://github.com/TefMeister/VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo) |
 
 ## 🤖 Automated navigation and movement
 
