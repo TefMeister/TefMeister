@@ -78,7 +78,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.39.0: every session now opens with the handover light, which says whether everything on this PC is saved to GitHub and when the other PC last saved. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.41.0: the plugin now ships with a look, an old green monitor with a starburst and a rolling light, put on the terminal by the first session after installing. 0.40.0: every write-up ends with one close-out box instead of three loose lines. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## <img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/icons/flower-icon.png" alt="" height="28" align="top"> Terminal Themes
 
@@ -92,16 +92,15 @@ Give your session a fresh look with one of these custom themes.
 | **Ocean** | A calm pixel-art view under the sea: daylight sky over a still surface, light blue water, swaying plants, fish swimming near and far, a school of silver fish turning together, and now and then a passing whale. | 🔧 Worked on a new preview clip that loops without a jump. | 10-01 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 | **Halloween** | A pixel-art graveyard night: moon, witches on brooms, a witch's hut, candle-lit pumpkins and spiders on the glass. The sky darkens, a big sheet ghost rises in the wind, and lightning keeps flashing while it stays, lighting up the zombies shuffling towards you. | 🔧 Worked on a new preview clip that loops without a jump. | 10-01 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 
-## 🎯 VR Weapon Mod Kit
+## 🧹 BeG0nE tools and mods
 
-### VR Super Infinite OCCLUSION DRIFT BeGonE 3000XXL Turbo
+Things that universally remove an unwanted feature or a fault from a video game. Each cure comes as a toolkit for
+modders, human or AI, and as drop-in fixes for specific games.
 
-An occlusion drift removal kit for two-handed weapon aiming in virtual reality, or Dr.BeGonE for short. A toolkit
-for modders and separate game-specific mods for gamers: 🩺 Dr.BeGonE has a cure for everyone!
-
-| Game | Needs | Where it stands | Updated | Repo |
+| Cure | What it removes | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Resident Evil Village** | REFramework (built-in VR) | 🔧 Split the grip out of the scope mod into its own file; next it is worn in the headset. | 10-01 | [VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo](https://github.com/TefMeister/VR-Super-Infinite-OCCLUSION-DRIFT-BeGonE-3000XXL-Turbo) |
+| **Occlusion Drift BeG0nE** | In VR, a two-handed weapon's aim drifting because the front hand hides the back controller. The cure: hold the weapon with the left controller just above the right. First game: Resident Evil Village (REFramework). | 🔧 Moved into its own folder of the renamed repo; the Village grip waits to be worn in the headset. | 10-01 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/occlusion-drift) |
+| **Camera Jitter/Shake BeG0nE** | The stepped, jittery camera so many AI-written VR mods have. First find out why; then a tool for modders and a jitter-free camera for specific games. | 🔍 Started: the question is written down, nothing measured yet. | 10-01 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/camera-jitter) |
 
 ## 🤖 Automated navigation and movement
 
