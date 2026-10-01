@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -445,7 +445,7 @@
       "developer": "People Can Fly",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 11",
-      "stage": "runs with our proxy (home PC, 2026-09-17); the shipped PDB names the camera path (ULocalPlayer::CalcSceneView) and the console is compiled in (2026-09-28, static)"
+      "stage": "Runs with our dxgi.dll (2026-09-17). 2026-10-01: camera hook point found via the shipped PDB (FSceneView's constructor) and a first sideways camera edit built and installed, not yet tried. Not VR yet."
     },
     {
       "repo": "ashes-2063-weapons",
