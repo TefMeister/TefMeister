@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Psychonauts menu void, and Tomb Raider's other VR mod read
+
+🔄 Psychonauts: my first explanation for the empty edge on the main menu was wrong (the fix I blamed was not even switched on that day), so I withdrew it and narrowed it to one quick screen check. Tomb Raider: read another modder's VR mod for it; it uses the same spots in the game's code we found, and ours should go further with full head movement and hands.
+
 ## 2026-10-01: Halloween theme, big trees and flowers
 
 🔧 Three big gnarled trees now stand in the field; zombies and the ghost pass behind and in front of them, and lightning shows their bark. Spiders drop from their branches, purple flowers grow in the grass, and the zombies sway more gently.
