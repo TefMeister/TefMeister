@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Halloween theme spiders, and a list of new theme ideas
+
+🔧 Small spiders now climb the big pumpkins, slip into a mouth and crawl out of an eye. Spiders on the glass only come by now and then, and the chimney smoke fades out softly. 📋 Twelve new theme ideas are filed, from space and sewers to glitch.
+
 ## 2026-10-01: Halloween terminal theme, a livelier night
 
 🔧 Zombies now really walk, some straight at you, some at an angle, some sideways, arms out or swinging. The witch's hut brews potions that go bang in purple and pink, colouring the smoke. The ghost turns up in ten places, near and far, and hides behind the hut, trees and gravestones.
