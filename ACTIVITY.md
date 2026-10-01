@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Lanes 0.39.0, the handover light
+
+🧩 Every session now opens with three plain lines: is everything on this PC saved to GitHub, when did the other PC last save and how did it end, and is this copy up to date. Built after a check found five helper scripts that lived on one disk only. Every write-up now ends with that line, like the save table.
+
 ## 2026-10-01: Halloween theme, quicker start
 
 🔧 Trimmed repeated work in the Halloween theme so its picture appears a little sooner; about 7 seconds is now the floor without removing anything from the scene.
