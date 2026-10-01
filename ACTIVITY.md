@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Halloween terminal theme, pumpkins and zombies
+
+🔧 The big pumpkins now sit in the bottom corners, turned to look towards the middle, with the biggest half hidden past the right edge. The zombies each sway their own way and walk in more slowly. New preview clip.
+
 ## 2026-10-01: Death Stranding, the camera's layout
 
 ⭐ Read the exact layout of the camera data Death Stranding sends to the graphics card, straight from the program with the game closed. It is one shared block per view, which is the easiest kind to change for each eye.
