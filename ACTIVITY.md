@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Halloween terminal theme, a livelier night
+
+🔧 Zombies now really walk, some straight at you, some at an angle, some sideways, arms out or swinging. The witch's hut brews potions that go bang in purple and pink, colouring the smoke. The ghost turns up in ten places, near and far, and hides behind the hut, trees and gravestones.
+
 ## 2026-10-01: Halloween terminal theme, pumpkins and zombies
 
 🔧 The big pumpkins now sit in the bottom corners, turned to look towards the middle, with the biggest half hidden past the right edge. The zombies each sway their own way and walk in more slowly. New preview clip.
