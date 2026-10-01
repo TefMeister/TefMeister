@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Halloween theme, quicker start
+
+🔧 Trimmed repeated work in the Halloween theme so its picture appears a little sooner; about 7 seconds is now the floor without removing anything from the scene.
+
 ## 2026-10-01: Village's flat-screen scope starts by itself
 
 🎮 On the dev PC's flat-screen copy of RE Village, the scope picture now comes up by itself when the rifle is drawn. The newer rifle-camera picture still stays dark on that PC, so that part is next.
