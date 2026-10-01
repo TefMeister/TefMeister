@@ -36,7 +36,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Alan Wake** (2010) | Remedy engine | 🔧 Worked on automated menus: into the game, to the key bindings, and back out, by itself. | 09-29 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Evil Within** (2014) | id Tech 5 | 🔧 Worked on seeing which parts of the picture our camera patch reaches. | 09-30 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
-| **Hard Reset** (2011) | Road Hog Engine | 🔍 Worked on the game's old NVIDIA 3D mode. | 09-28 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
+| **Hard Reset** (2011) | Road Hog Engine | ⭐ Worked on the game's own two-eye drawing, switched on by a console setting. | 10-01 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **The Witcher 2** (2011) | REDengine | ⭐ Worked on the game's scripts, which already include a free camera. | 09-28 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus Enhanced Edition** (2021) | 4A Engine | 🔍 First launch; found two hidden VR switches in the game. | 09-30 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
