@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Halloween ravens, and a faster start
+
+🔧 Ravens now sit on the treetops, take off at the first lightning strike and land back once the storm passes. Fewer lanterns, and the picture now appears in about half the time when a tab opens.
+
 ## 2026-10-01: Village gets a flat-screen copy, and Dr.BeGonE gets its grip
 
 🔧 RE Village: a second copy of the game now runs in a window on the dev PC for flat-screen work, and the scope comes up there too. Its picture still needs a nudge at start-up, which is next. The grip moved out of the scope mod into Dr.BeGonE, unchanged, ready to be worn in the headset. The broken REFramework download link in the install text is fixed.
