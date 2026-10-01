@@ -11,6 +11,12 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: BeG0nE gets its name and a second cure; the lanes plugin gets a look and a close-out box
+
+🔧 BeG0nE: the occlusion-drift repo was renamed BeG0nE and became the home for every cure that removes an unwanted feature or fault from a game, one folder each. A second cure started: Camera Jitter/Shake BeG0nE, for the stepped camera so many AI-written VR mods have. First job is to find out why.
+
+🔧 Lanes 0.41.0: the plugin now ships with a look. The first session after installing puts an old green monitor, a starburst and a rolling light on the terminal, with a backup and an undo. 0.40.0: every write-up now ends with one close-out box, printed from facts, instead of a save table and two loose lines.
+
 ## 2026-10-01: New preview clips for the ocean and Halloween themes
 
 🔧 Both themes have fresh preview clips showing their latest look, and each loops without a visible jump. They were recorded from the terminal window alone, so nothing else on screen can appear in them.
