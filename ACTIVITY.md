@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-01: Village's flat-screen scope starts by itself
+
+🎮 On the dev PC's flat-screen copy of RE Village, the scope picture now comes up by itself when the rifle is drawn. The newer rifle-camera picture still stays dark on that PC, so that part is next.
+
 ## 2026-10-01: Halloween ravens, and a faster start
 
 🔧 Ravens now sit on the treetops, take off at the first lightning strike and land back once the storm passes. Fewer lanterns, and the picture now appears in about half the time when a tab opens.
