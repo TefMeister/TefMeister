@@ -29,10 +29,10 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Prototype** (2009) | Titanium | 🏆 Worked on what else follows the head: lock-on targeting now uses the turned view too. | 10-01 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
+| **Prototype** (2009) | Titanium | 🏆 Worked on checking lock-on with the head turned; needs enemies to test. | 10-01 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on drawing the picture twice, once per eye: the plan is checked and ready to build. | 09-29 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the view shifts per eye. | 09-30 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
-| **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on finding the live player controller in the game's memory. | 10-01 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
+| **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on finding the player in memory: found it while playing. | 10-01 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🔧 Worked on making the helper file safer to start, by passing on every graphics function. | 10-01 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Evil Within** (2014) | id Tech 5 | 🔧 Worked on seeing which parts of the picture our camera patch reaches. | 09-30 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
@@ -48,7 +48,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on the frame rate in the headset, from 48 to 72 fps. | 09-29 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Tomb Raider** (2013) | Foundation | ⭐ Worked on checking all 25,000 of the game's shaders: the eye shift is not in them. | 10-01 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
 | **Death Stranding Director's Cut** (2022) | Decima | ⭐ Worked on a small helper that will report where the camera data goes, the first time the game runs. | 10-01 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
-| **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on the dark patch under the car that stayed behind in the eye-shift test. | 09-30 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
+| **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on the dark patch under the car: it now moves with the car in the eye-shift test. | 10-01 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 
 ### ⏸ Paused
 
