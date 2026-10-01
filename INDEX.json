@@ -273,7 +273,7 @@
       "developer": "Ninja Theory",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 9",
-      "stage": "Live player controller found in gameplay by its class pointer (2026-10-01); next: read the camera from it."
+      "stage": "Game camera read live from memory (follows the mouse, 2026-10-01); next: steer it from a head pose."
     },
     {
       "repo": "mad-max-vr",
