@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-02: BeG0nE's Village grip worn and working
+
+🎮 Seven quick fixes in one headset session: the grip now decides for itself from where the real hand is, keeps hold through the bolt and the reload, and puts its steering back inside the gun's shoot call. The first-shot jerk is gone from the numbers; the small move that remains is the game's own, one-handed too. Not in a download yet.
+
 ## 2026-10-02: RE Village VR Scope v1.0.2
 
 📋 v1.0.2 released: the readme's installation steps now name praydog's release plus the five March DLSS loader files, with the reason. Both the manual package and the Fluffy package carry the new text; the Fluffy preview picture was checked in Fluffy. The mod's own files are unchanged.
