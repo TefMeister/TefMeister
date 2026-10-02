@@ -149,7 +149,7 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/BeG0nE",
       "purpose": "BeG0nE: tools and mods that remove unwanted features and faults from video games, one folder per cure, each a toolkit for modders plus drop-in fixes per game. Occlusion Drift BeG0nE (VR two-handed weapons held with the left controller above the right, so tracking never drops; first game RE Village on REFramework) and Camera Jitter/Shake BeG0nE (the stepped camera common in AI-written VR mods; first find out why).",
-      "stage": "renamed BeG0nE 2026-10-01 and given a second cure; occlusion: Village grip worn 2026-10-02 (own grip decision, frozen socket, holds through shots); the frozen spot is now only taken from a hand that has held still, built 2026-10-02, headset check next; no download yet; camera jitter: question written, nothing measured",
+      "stage": "renamed BeG0nE 2026-10-01 and given a second cure; occlusion: Village grip worn 2026-10-02 (own grip decision, frozen socket, holds through shots); shipped inside the RE Village scope mod v1.1.1 (2026-10-02): trusted frozen spot, short-pull let-go, rifle spot only on the rifle, pistol not steered; camera jitter: question written, nothing measured",
       "licence": "MIT"
     },
     {
@@ -263,8 +263,8 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Finished. v1.0.2 (2026-10-02): readme repointed at praydog v1.5.9.1 plus the five March DLSS loader files after the a24c3459 start-up crash was traced; flat-screen test copy on the dev PC; the grip moved to Dr.BeGonE.",
-      "updated": "2026-09-30"
+      "stage": "Finished. v1.1.1 (2026-10-02): the left hand lets go with a short pull, rests on the pistol without steering it, and the rifle's left-hand spot applies to the rifle only; the grip is Dr.BeGonE's, shipped inside the mod. Work happens on a test copy; only headset-confirmed builds are released.",
+      "updated": "2026-10-02"
     },
     {
       "repo": "enslaved-vr",

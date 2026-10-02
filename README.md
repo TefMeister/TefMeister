@@ -66,7 +66,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.0.2 is out with the updated install steps (praydog's release plus the March DLSS loader files). | 10-02 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
+| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.1.1 is out, with a left hand that lets go easily and sits on every gun. | 10-02 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 All dates are 2026. Almost everything above is **one person, one machine, often one launch**, and
@@ -99,7 +99,7 @@ modders, human or AI, and as drop-in fixes for specific games.
 
 | Cure | What it removes | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Occlusion Drift BeG0nE** | In VR, a two-handed weapon's aim drifting because the front hand hides the back controller. The cure: hold the weapon with the left controller just above the right. First game: Resident Evil Village (REFramework). | 🔧 Built 2026-10-02: the grip now only freezes its reference once the hand has held still; a headset check is next. | 10-02 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/occlusion-drift) |
+| **Occlusion Drift BeG0nE** | In VR, a two-handed weapon's aim drifting because the front hand hides the back controller. The cure: hold the weapon with the left controller just above the right. First game: Resident Evil Village (REFramework). | 🔧 Worked on the Village grip, now shipped inside the RE Village scope mod v1.1.1. | 10-02 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/occlusion-drift) |
 | **Camera Jitter/Shake BeG0nE** | The stepped, jittery camera so many AI-written VR mods have. First find out why; then a tool for modders and a jitter-free camera for specific games. | 🔍 Started: the question is written down, nothing measured yet. | 10-01 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/camera-jitter) |
 
 ## 🤖 Automated navigation and movement
