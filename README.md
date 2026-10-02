@@ -20,7 +20,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **XIII** (2003) | Unreal Engine 2 | 🎮 Worked on true stereo in a headset; early release `v0.3.0-alpha` is out. | 09-13 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on why the main menu still shows the empty edge when gameplay does not. | 10-01 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
-| **Visceral — RE2 VR** | RE Engine | 🎮 Tested the title-menu rain: the Story page's camera mode is not what switches it on. | 10-01 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
+| **Visceral — RE2 VR** | RE Engine | 📋 Tidied the test copy: the disproved title-rain test is out. | 10-02 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Worked on the cube rifle, jackhammer and flamethrower with gloved hands. | 09-24 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 
 ### 🔍 Early RE work
@@ -78,7 +78,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.41.2: the handover light now names a damaged board clone instead of blaming GitHub. 0.41.1: the plugin's green-monitor tab now opens on the Desktop instead of system32, and the plugin says where to find its look (the small down arrow next to the + in Windows Terminal). The handover light caught a damaged board clone on the home PC. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.42.0: live sessions run a game from its private test copy when it has one. 0.41.2: the handover light now names a damaged board clone instead of blaming GitHub. 0.41.1: the plugin's green-monitor tab now opens on the Desktop instead of system32, and the plugin says where to find its look (the small down arrow next to the + in Windows Terminal). The handover light caught a damaged board clone on the home PC. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## <img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/icons/flower-icon.png" alt="" height="28" align="top"> Terminal Themes
 

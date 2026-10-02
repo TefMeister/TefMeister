@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-02: Lanes 0.42.0, and a tidy RE2 test copy
+
+🔧 Live sessions now run a game from its private test copy whenever one exists, unless the game is still at the early reverse-engineering stage. 📋 Visceral RE2: the disproved rain test came out of the test copy (saved as build 40).
+
 ## 2026-10-02: RE Village VR Scope v1.1.1
 
 🎮 The left hand now lets go of a gun with a short pull, rests on the pistol without steering it, and no longer floats beside other weapons on the rifle's spot. Worn and confirmed in the headset, then released. Village is now modded on a test copy, and only confirmed builds reach the game and this page.
