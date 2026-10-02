@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -254,8 +254,8 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "0.3.0 (2026-10-03, worn): the gun swing is fixed in a patched REFramework, the aim posture is upright, aim-walking uses the relaxed walk for both characters, the title rain reaches the main menu. Builds are shared privately; progress is shown in videos.",
-      "updated": "2026-10-02"
+      "stage": "0.3.0 worn (2026-10-03); the native manual-reload port has started: architecture written, controller bridge v2 built and awaiting its first run. Builds are shared privately; progress is shown in videos.",
+      "updated": "2026-10-03"
     },
     {
       "repo": "re-village-scope-vr",
