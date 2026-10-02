@@ -15,6 +15,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🎮 The rifle no longer jumps to the right when it fires, and the scope now brightens and dims with the game indoors and outdoors, with no blue tint. Confirmed in the headset, then released.
 
+## 2026-10-02: Visceral RE2 — the aim-drop is not the game's own doing
+
+⭐ Flat test, 14 shots: with the aim button held by the game itself the aim never drops, even on our relaxed-walk files. A short gap in the aim input reproduces the headset symptom exactly. So the VR side is refusing the aim: either the controller input going missing for a moment, or the game's "lower the gun near a wall" rule reading the headset. One headset run with the new probe decides it; both fixes are already in the test copy.
+
 ## 2026-10-02: Lanes 0.42.0, and a tidy RE2 test copy
 
 🔧 Live sessions now run a game from its private test copy whenever one exists, unless the game is still at the early reverse-engineering stage. 📋 Visceral RE2: the disproved rain test came out of the test copy (saved as build 40).
