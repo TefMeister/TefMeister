@@ -149,7 +149,7 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/BeG0nE",
       "purpose": "BeG0nE: tools and mods that remove unwanted features and faults from video games, one folder per cure, each a toolkit for modders plus drop-in fixes per game. Occlusion Drift BeG0nE (VR two-handed weapons held with the left controller above the right, so tracking never drops; first game RE Village on REFramework) and Camera Jitter/Shake BeG0nE (the stepped camera common in AI-written VR mods; first find out why).",
-      "stage": "renamed from BeG0nE 2026-10-01 and given a second cure; occlusion: Village grip worn 2026-10-02 and working (own grip decision, frozen socket, holds through shots), no download yet; camera jitter: question written, nothing measured",
+      "stage": "renamed BeG0nE 2026-10-01 and given a second cure; occlusion: Village grip worn 2026-10-02 (own grip decision, frozen socket, holds through shots); the frozen spot is now only taken from a hand that has held still, built 2026-10-02, headset check next; no download yet; camera jitter: question written, nothing measured",
       "licence": "MIT"
     },
     {
@@ -255,7 +255,7 @@
       "developer": "Capcom",
       "engine": "RE Engine",
       "stage": "The pistol swing (2026-09-30, measured): about a second after a shot the game drops out of aiming by itself on the relaxed-walk files, the lower-the-gun pose plays, and the VR hands snap back when aiming returns; why it drops is next, testable flat.",
-      "updated": "2026-09-30"
+      "updated": "2026-10-02"
     },
     {
       "repo": "re-village-scope-vr",
