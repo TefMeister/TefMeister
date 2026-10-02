@@ -19,6 +19,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ⭐ Flat test, 14 shots: with the aim button held by the game itself the aim never drops, even on our relaxed-walk files. A short gap in the aim input reproduces the headset symptom exactly. So the VR side is refusing the aim: either the controller input going missing for a moment, or the game's "lower the gun near a wall" rule reading the headset. One headset run with the new probe decides it; both fixes are already in the test copy. 🔍 Also found in the code: the Story page's rain is one effect the page requests itself, picked by the last save's location; one flat call next session should put it on the main menu. 🎮 Evening headset rounds: the gun still throws while the aim state stays up, so that reading is withdrawn; next is a round that records the hands and gun every frame. 🏆 That round found it: the shot's kick pulls the support hand off the gun for a third of a second and the VR mod swings the gun after it; one-handed, no swing. 🔧 Late night: the clip edit was not it — the swing comes from REFramework itself re-reading where the left hand sits on the gun every frame. Patched that in its source, rebuilt it, installed it — 🏆 and worn the same night: the swing is gone, after ten days and 45 test builds. 🎮 The title-screen rain now falls on the main menu too.
 
+## 2026-10-03: Visceral RE2 VR 0.3.0
+
+📦 Worn and liked: no gun swing, upright posture, relaxed aim-walk for Claire and Leon, rain on the main menu. Packaged as 0.3.0 for a fellow modder. From here on nothing is released publicly; progress goes out as videos.
+
 ## 2026-10-02: Lanes 0.42.0, and a tidy RE2 test copy
 
 🔧 0.42.1 (just after midnight): session write-ups now put the two boxes first and the text last, so the next instructions sit at the bottom of the terminal.
