@@ -15,10 +15,6 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🔧 The plan for rebuilding manual reloads, holsters and recoil natively is written: when in a frame the hands are read and written, which pieces Visceral already covers, and the order to build in. The first piece, a bigger controller bridge that also measures its own timing, is built and waits for a headset run.
 
-## 2026-10-03: Visceral RE2 0.3.0, shared privately
-
-🎮 The swing fix, the upright posture and the title rain, worn and liked, packaged as a private build for a friend. No public releases from now on; progress will be shown in videos.
-
 ## 2026-10-02: RE Village VR Scope v1.1.2
 
 🎮 The rifle no longer jumps to the right when it fires, and the scope now brightens and dims with the game indoors and outdoors, with no blue tint. Confirmed in the headset, then released.
