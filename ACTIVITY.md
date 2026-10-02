@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-02: RE Village VR Scope v1.1.1
+
+🎮 The left hand now lets go of a gun with a short pull, rests on the pistol without steering it, and no longer floats beside other weapons on the rifle's spot. Worn and confirmed in the headset, then released. Village is now modded on a test copy, and only confirmed builds reach the game and this page.
+
 ## 2026-10-02: BeG0nE's Village grip learns to distrust a moving hand
 
 🔧 The far-right rifle after a relaunch is explained: the grip froze its reference while the draw animation was still moving the hand, and kept it. A reference is now taken only once the hand has held still or sits where the rifle's grip is known to be, and a weapon change forgets it. Installed on the home PC for a headset check.
