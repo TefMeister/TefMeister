@@ -21,6 +21,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-02: Lanes 0.42.0, and a tidy RE2 test copy
 
+🔧 0.42.1 (just after midnight): session write-ups now put the two boxes first and the text last, so the next instructions sit at the bottom of the terminal.
 🔧 Live sessions now run a game from its private test copy whenever one exists, unless the game is still at the early reverse-engineering stage. 📋 Visceral RE2: the disproved rain test came out of the test copy (saved as build 40).
 
 ## 2026-10-02: RE Village VR Scope v1.1.1
