@@ -254,7 +254,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "The pistol swing (2026-10-02): flat, with the aim input held by the game itself, aiming never drops, so the VR side is refusing it - a missing controller input frame or the game's lower-the-gun-at-a-wall rule reading the headset; one headset run with the probe decides, both levers are in the test copy.",
+      "stage": "The pistol swing is understood (2026-10-02, measured in the headset): the shot kick pulls the support hand off the gun for a third of a second and the VR mod steers the gun after it; one-handed there is no swing. Next: strip the left-arm tracks from the kick clip, one headset check.",
       "updated": "2026-10-02"
     },
     {
