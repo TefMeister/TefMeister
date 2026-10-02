@@ -11,6 +11,14 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-02: BeG0nE's Village grip learns to distrust a moving hand
+
+🔧 The far-right rifle after a relaunch is explained: the grip froze its reference while the draw animation was still moving the hand, and kept it. A reference is now taken only once the hand has held still or sits where the rifle's grip is known to be, and a weapon change forgets it. Installed on the home PC for a headset check.
+
+## 2026-10-02: Home PC catches up
+
+📋 The Halloween and Ocean terminal themes reached the home PC, every local theme now fades only at the sides, and six finished reminders came off the board.
+
 ## 2026-10-02: BeG0nE's Village grip worn and working
 
 🎮 Seven quick fixes in one headset session: the grip now decides for itself from where the real hand is, keeps hold through the bolt and the reload, and puts its steering back inside the gun's shoot call. The first-shot jerk is gone from the numbers; the small move that remains is the game's own, one-handed too. Not in a download yet.
