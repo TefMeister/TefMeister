@@ -254,7 +254,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "The pistol swing is understood and a fix is built (2026-10-02): REFramework re-read the grip point on the gun from the animation every frame, so the shot kick swung the gun; a patched build keeps the point frozen while gripping; installed, one headset round decides.",
+      "stage": "The pistol swing is fixed (2026-10-02, worn): REFramework re-read the grip point on the gun from the animation every frame, so the shot kick swung the gun; a patched build keeps the point frozen while gripping. Next: package the patched build and offer the patch upstream.",
       "updated": "2026-10-02"
     },
     {
