@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-03: blender-cubekit — the cube-model framework gets its own repo
 
-🔧 Every cube model in a project now shares one cube size, set in one place. Any single cube can be picked with one key (merged strips are cut back into cubes for editing; the game still gets the lean version). The scripts, a Blender add-on with the buttons and keys, a tutorial and the how-it-works page are in a new public repo. Game models stay out of it. Later the same day, add-on 0.3.0: a picking brush, keys to add and remove cubes, and a colour palette.
+🔧 Every cube model in a project now shares one cube size, set in one place. Any single cube can be picked with one key (merged strips are cut back into cubes for editing; the game still gets the lean version). The scripts, a Blender add-on with the buttons and keys, a tutorial and the how-it-works page are in a new public repo. Game models stay out of it. Later the same day, add-ons 0.3.0 and 0.4.0: a picking brush, keys to add and remove cubes, a colour palette, and game-style W A S D movement that is always on.
 
 ## 2026-10-03: RE Village — the game's own colour table on the scope
 
