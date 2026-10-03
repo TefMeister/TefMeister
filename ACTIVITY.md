@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-03: blender-cubekit — the cube-model framework gets its own repo
+
+🔧 Every cube model in a project now shares one cube size, set in one place. Any single cube can be picked with one key (merged strips are cut back into cubes for editing; the game still gets the lean version). The scripts, a Blender add-on with the buttons and keys, a tutorial and the how-it-works page are in a new public repo. Game models stay out of it.
+
 ## 2026-10-03: RE Village — the game's own colour table on the scope
 
 🔧 The scope picture was still a little too orange next to the world. The missing piece was the colour table the game applies per area after its tone curve; the scope now borrows that same table from the game and applies it too, with three fine-trim knobs. Built and installed on a test copy; one headset session judges it.

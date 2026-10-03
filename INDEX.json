@@ -159,6 +159,13 @@
       "url": "https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/menu-o-matic",
       "purpose": "Replays recorded game menu routes (key presses plus 32x32 grey fingerprints of small screen patches) with no model tokens; records new routes by reading only the patch a key changed. Also /lanes:menu in the Lanes plugin (0.29.0).",
       "stage": "works on its first game 2026-09-28: Burnout Paradise, closed game to city in 150 s, no pictures; lanes 0.29.1. Since then: route maps per game, a three-key step recorder and three fixed goals per game (lanes 0.34.0-0.36.1); Alan Wake does a whole round in 31 s (2026-09-29)."
+    },
+    {
+      "name": "blender-cubekit",
+      "visibility": "public",
+      "url": "https://github.com/TefMeister/blender-cubekit",
+      "purpose": "Pixel-style cube (voxel) models for games, built in Blender by script: one cube size per project, named settings, pick any cube, stop-motion animation, game export. Scripts, a Blender add-on and tutorials. Framework only; game models live in their own project folders.",
+      "licence": "MIT"
     }
   ],
   "projects": [

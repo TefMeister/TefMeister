@@ -80,6 +80,14 @@ Tools for working with Claude Code itself, not tied to any one game.
 | --- | --- | --- | --- |
 | **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.42.1: write-ups put the boxes first and the text last. 0.42.0: live sessions run a game from its private test copy when it has one. 0.41.2: the handover light now names a damaged board clone instead of blaming GitHub. 0.41.1: the plugin's green-monitor tab now opens on the Desktop instead of system32, and the plugin says where to find its look (the small down arrow next to the + in Windows Terminal). The handover light caught a damaged board clone on the home PC. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
+## 🧊 Blender
+
+Pixel-style cube models for games, built in Blender by script.
+
+| Tool | What it does | Where it stands | Repo |
+| --- | --- | --- | --- |
+| **blender-cubekit** | A framework for making game models out of little cubes, like pixel art with depth: one cube size for everything, every number named, no lights, stop-motion animation, straight into the game. Comes with a Blender add-on (buttons and keys) and the write-ups on how it is done. The game models made with it stay in their own projects. | 🔧 0.1.0 (10-03): made from the shared kit folder. New today: pick any single cube with one key, and the add-on. | [blender-cubekit](https://github.com/TefMeister/blender-cubekit) |
+
 ## <img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/icons/flower-icon.png" alt="" height="28" align="top"> Terminal Themes
 
 Give your session a fresh look with one of these custom themes.
