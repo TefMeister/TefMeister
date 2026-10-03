@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-04: Visceral RE2 — starting over from a clean base
+
+🔄 The working body posture stopped feeling right after a reinstall. RE2 is back on a clean REFramework with DLSS, and it no longer shakes. The working pieces are gathered into one rebuild kit, ready to go back one at a time.
+
 ## 2026-10-03: RE Village scope — chasing the outdoor blue
 
 🎮 Indoors the scope's colours are close now, and the 5 cm scope distance is confirmed. Outdoors it stays blue: the game's haze filter was ruled out, and the scope turned out to draw fewer fog volumes than the normal view.
