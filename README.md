@@ -86,7 +86,7 @@ Pixel-style cube models for games, built in Blender by script.
 
 | Tool | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **blender-cubekit** | A framework for making game models out of little cubes, like pixel art with depth: one cube size for everything, every number named, no lights, stop-motion animation, straight into the game. Comes with a Blender add-on (buttons and keys) and the write-ups on how it is done. The game models made with it stay in their own projects. | 🔧 0.5.0 (10-03): a cube's side can now be split into four smaller squares for cracks and wear. | [blender-cubekit](https://github.com/TefMeister/blender-cubekit) |
+| **blender-cubekit** | A framework for making game models out of little cubes, like pixel art with depth: one cube size for everything, every number named, no lights, stop-motion animation, straight into the game. Comes with a Blender add-on (buttons and keys) and the write-ups on how it is done. The game models made with it stay in their own projects. | 🔧 0.6.0 (10-03): a Paint-style colour palette; hover a cube and press 1 to 0 to paint it. | [blender-cubekit](https://github.com/TefMeister/blender-cubekit) |
 
 ## <img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/icons/flower-icon.png" alt="" height="28" align="top"> Terminal Themes
 
