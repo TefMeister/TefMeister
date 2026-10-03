@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-03: RE Village scope — chasing the outdoor blue
+
+🎮 Indoors the scope's colours are close now, and the 5 cm scope distance is confirmed. Outdoors it stays blue: the game's haze filter was ruled out, and the scope turned out to draw fewer fog volumes than the normal view.
+
 ## 2026-10-03: Visceral RE2 — main-menu rain and a step back
 
 🔄 The rain now carries seamlessly between the main menu and the Story page, and the menu no longer goes black after quitting a game. Tonight's posture changes made the walk worse, so the test copy went back to the 25 September package, which moved perfectly.
