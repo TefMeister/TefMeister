@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-03: RE Village — the game's own colour table on the scope
+
+🔧 The scope picture was still a little too orange next to the world. The missing piece was the colour table the game applies per area after its tone curve; the scope now borrows that same table from the game and applies it too, with three fine-trim knobs. Built and installed on a test copy; one headset session judges it.
+
 ## 2026-10-03: Visceral RE2 — the manual-reload port begins
 
 🔧 The plan for rebuilding manual reloads, holsters and recoil natively is written: when in a frame the hands are read and written, which pieces Visceral already covers, and the order to build in. The first piece, a bigger controller bridge that also measures its own timing, is built and waits for a headset run.
