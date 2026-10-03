@@ -261,7 +261,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "0.3.0 worn (2026-10-03); the native manual-reload port has started: architecture written, controller bridge v2 built and awaiting its first run. Builds are shared privately; progress is shown in videos.",
+      "stage": "0.3.0 worn (2026-10-03); the native manual-reload port has started: architecture written, controller bridge v2 and step 2 (sound player + empty-gun click) built and awaiting their first run. Builds are shared privately; progress is shown in videos.",
       "updated": "2026-10-03"
     },
     {
