@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-03: Visceral RE2 — main-menu rain and a step back
+
+🔄 The rain now carries seamlessly between the main menu and the Story page, and the menu no longer goes black after quitting a game. Tonight's posture changes made the walk worse, so the test copy went back to the 25 September package, which moved perfectly.
+
 ## 2026-10-03: Visceral RE2 — reload port, step 2
 
 🎮 The mod now has its own sound player for Andyalpa's reload sounds. A first run proved the empty-gun click works in game. The next step, stopping the game's own reload, is drafted.
