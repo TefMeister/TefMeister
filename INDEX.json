@@ -263,8 +263,8 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Finished. v1.1.2 (2026-10-02): the rifle holds still when it fires and the scope brightens and dims with the game. v1.1.1: the left hand lets go with a short pull, rests on the pistol without steering it, and the rifle's left-hand spot applies to the rifle only; the grip is BeG0nE's, shipped inside the mod. Work happens on a test copy; only headset-confirmed builds are released.",
-      "updated": "2026-10-02"
+      "stage": "Finished. Polishing (2026-10-03): the scope picture's colours are being matched to the game world by applying the game's own per-area colour table on the scope. v1.1.2 (2026-10-02): the rifle holds still when it fires and the scope brightens and dims with the game. v1.1.1: the left hand lets go with a short pull, rests on the pistol without steering it, and the rifle's left-hand spot applies to the rifle only; the grip is BeG0nE's, shipped inside the mod. Work happens on a test copy; only headset-confirmed builds are released.",
+      "updated": "2026-10-03"
     },
     {
       "repo": "enslaved-vr",
