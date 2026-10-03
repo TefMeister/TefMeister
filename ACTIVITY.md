@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-03: Visceral RE2 — reload port, step 2
 
-🔧 The mod now has its own sound player, playing Andyalpa's reload sounds, and the click of an empty gun. Built and installed on the test copy; the next headset session checks it.
+🎮 The mod now has its own sound player for Andyalpa's reload sounds. A first run proved the empty-gun click works in game. The next step, stopping the game's own reload, is drafted.
 
 ## 2026-10-03: Lanes 0.42.2
 
