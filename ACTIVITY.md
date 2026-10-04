@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-04: Research sweep
 
-⭐ Found that a Tomb Raider VR mod switches on the game's own built-in 3D mode with stand-in graphics-driver files, and that Hard Reset could be woken the same way. Two lessons that held in a second game went into the shared library. Silent Hill 2 got its first research page.
+⭐ Found that a Tomb Raider VR mod switches on the game's own built-in 3D mode with stand-in graphics-driver files, and that Hard Reset could be woken the same way. Two lessons that held in a second game went into the shared library. Silent Hill 2 got its first research page. A second pass covered every game: a public mod maps Death Stranding's camera on our exact version, and Condemned 2's port has a new release with field-of-view and frame-rate settings.
 
 ## 2026-10-04: Enslaved — where the camera is decided
 
