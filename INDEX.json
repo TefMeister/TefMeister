@@ -280,7 +280,7 @@
       "developer": "Ninja Theory",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 9",
-      "stage": "Game camera read live from memory (follows the mouse, 2026-10-01); next: steer it from a head pose."
+      "stage": "Found where the camera is decided each frame; a numpad turn test is built (2026-10-04); next: one launch to try it."
     },
     {
       "repo": "mad-max-vr",
