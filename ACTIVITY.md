@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-04: Lanes drops the private game copy
+
+🔧 Lanes 0.43.0: the Mint feature, which modded a private copy of a game instead of the real one, is removed. Modding happens in the game's own folder again. Old copies stay on disk until you decide.
+
 ## 2026-10-04: Visceral RE2 — starting over from a clean base
 
 🔄 The working body posture stopped feeling right after a reinstall. RE2 is back on a clean REFramework with DLSS, and it no longer shakes. The working pieces are gathered into one rebuild kit, ready to go back one at a time.

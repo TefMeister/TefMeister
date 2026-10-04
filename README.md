@@ -78,7 +78,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.42.2: the gate box sits right above the instructions. 0.42.1: write-ups put the boxes first and the text last. 0.42.0: live sessions run a game from its private test copy when it has one. 0.41.2: the handover light now names a damaged board clone instead of blaming GitHub. 0.41.1: the plugin's green-monitor tab now opens on the Desktop instead of system32, and the plugin says where to find its look (the small down arrow next to the + in Windows Terminal). The handover light caught a damaged board clone on the home PC. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.43.0: the private game copy (Mint) is gone; modding happens in the game's own folder again. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
