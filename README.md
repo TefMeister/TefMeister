@@ -32,7 +32,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Prototype** (2009) | Titanium | 🏆 Worked on checking lock-on with the head turned; needs enemies to test. | 10-01 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on drawing the picture twice, once per eye: the plan is checked and ready to build. | 09-29 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the view shifts per eye. | 09-30 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
-| **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on reading the game's camera: it now follows the mouse in our readout. | 10-01 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
+| **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on finding where the game turns its camera each frame. | 10-04 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🔧 Worked on making the helper file safer to start, by passing on every graphics function. | 10-01 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Evil Within** (2014) | id Tech 5 | 🔧 Worked on seeing which parts of the picture our camera patch reaches. | 09-30 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |

@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-04: Enslaved — where the camera is decided
+
+⭐ Found the one spot each frame where the game settles where the camera looks, just before it draws. A small numpad test that turns the view from that spot is built and waiting for one launch.
+
 ## 2026-10-04: Lanes drops the private game copy
 
 🔧 Lanes 0.43.0: the Mint feature, which modded a private copy of a game instead of the real one, is removed. Modding happens in the game's own folder again. Old copies stay on disk until you decide.
