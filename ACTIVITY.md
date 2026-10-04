@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-04: Tidying the game folders
+
+📋 RE Village: the colour work from the test copy now sits in the real game, and the copy is gone. 📋 RE2's old test copy is gone too; its mod files were already saved. 🔧 Lanes plugin updated to 0.43.0 on the home PC.
+
 ## 2026-10-04: Research sweep
 
 ⭐ Found that a Tomb Raider VR mod switches on the game's own built-in 3D mode with stand-in graphics-driver files, and that Hard Reset could be woken the same way. Two lessons that held in a second game went into the shared library. Silent Hill 2 got its first research page. A second pass covered every game: a public mod maps Death Stranding's camera on our exact version, and Condemned 2's port has a new release with field-of-view and frame-rate settings.
