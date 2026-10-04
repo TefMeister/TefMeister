@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-04: Research sweep
+
+⭐ Found that a Tomb Raider VR mod switches on the game's own built-in 3D mode with stand-in graphics-driver files, and that Hard Reset could be woken the same way. Two lessons that held in a second game went into the shared library. Silent Hill 2 got its first research page.
+
 ## 2026-10-04: Enslaved — where the camera is decided
 
 ⭐ Found the one spot each frame where the game settles where the camera looks, just before it draws. A small numpad test that turns the view from that spot is built and waiting for one launch.
