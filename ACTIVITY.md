@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-05: Visceral RE2 — every gun relaxed
 
-🔧 Leon's relaxed body pose, first made for the pistol, now goes on every gun and its upgrades: magnum, SMG, shotgun, launchers and the flamethrower group. Built from the game files alone; not worn yet.
+🔧 Leon's relaxed body pose, first made for the pistol, now goes on every gun and its upgrades: magnum, SMG, shotgun, launchers, the flamethrower group, the knife and grenades. Built from the game files alone; not worn yet.
 
 ## 2026-10-05: Visceral RE2 — the left hand and the pistol
 
