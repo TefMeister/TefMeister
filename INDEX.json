@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -261,8 +261,8 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "0.3.0 worn (2026-10-03); the native manual-reload port has started: architecture written, controller bridge v2 and step 2 (sound player + empty-gun click) built and run once (the empty-gun click works). Main-menu rain nearly seamless; the test copy is back on the 2026-09-25 package after posture changes made the walk worse. Builds are shared privately; progress is shown in videos.",
-      "updated": "2026-10-03"
+      "stage": "Leon's pose fix passed a fresh install (2026-10-05). The left-hand hold switch is back in the pistol animations so the left hand can grip the Matilda again (installed, not yet worn). Builds are shared privately; progress is shown in videos.",
+      "updated": "2026-10-05"
     },
     {
       "repo": "re-village-scope-vr",
