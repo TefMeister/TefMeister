@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-05: Visceral RE2 — the left hand and the pistol
+
+⭐ The new straight-body animations had lost the game's own switch that keeps Leon's left hand on the gun. A new tool puts that switch back while keeping the straight body; it is in the game, waiting to be worn.
+
 ## 2026-10-04: Tidying the game folders
 
 📋 RE Village: the colour work from the test copy now sits in the real game, and the copy is gone. 📋 RE2's old test copy is gone too; its mod files were already saved. 🏆 Visceral RE2: the shake is traced to the upper-body straightener, and with the pistol out Leon now moves exactly like with no gun, straight and smooth. The upgraded Matilda turned out to have its own aiming animations. 🔧 Lanes 0.44.0 and 0.45.0: every session summary is now saved, dated, in its own folder per project, and breakthroughs are marked IMPORTANT.
