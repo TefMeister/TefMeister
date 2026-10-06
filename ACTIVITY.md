@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-06: Ashes 2063 — the shotgun gets darker and worn
+
+🔧 The cube shotgun's metal is darker, with the shiny top and light rails painted out. It now uses the smaller cubes, with worn edges, a rubbed muzzle, thin scratches and a few rust spots.
+
 ## 2026-10-06: Metro Exodus — the original edition runs on the dev PC
 
 🎮 The original 2019 edition runs where the Enhanced one could not: it reaches its menu, plays in a small window with the music off, and loads our file. ⭐ The game's camera was found in its code, and the old VR switches turned out never to draw two eyes.
