@@ -316,7 +316,7 @@
       "year": 2012,
       "developer": "Remedy Entertainment",
       "engine": "Remedy in-house (pre-Northlight)",
-      "stage": "Camera route alive again (2026-10-06): the projection edits move the scene live with correct depth; next is drawing two eyes per frame.",
+      "stage": "2026-10-06: two eyes (alternate frames) with per-eye lighting work on the monitor; a floating 3D screen works in an OpenXR simulator; real headset next.",
       "renderer": "Direct3D 9"
     },
     {
