@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -190,7 +190,7 @@
       "engine": "Unreal Engine 2",
       "renderer": "Direct3D 8",
       "injection": "proxy D3DDrv.dll (Unreal render device)",
-      "stage": "🎉 TRUE STEREO WORKS IN A REAL HEADSET over OpenXR (Virtual Desktop's 32-bit VDXR runtime) [verified-live 2026-09-10, n=3 launches] — the eyes line up in gameplay and head-look is correct in yaw. The patched D3D8 render device renders the world twice from the engine's own cached World/View/Projection. Open, all static: the HUD and menu receive the per-eye offset instead of sitting at a fixed depth, a placeholder yaw makes the view spin when no headset pose is present, character shadows read as detached, and roll/pitch are missing so a tilted head tilts the world",
+      "stage": "True stereo works in a real headset over OpenXR [verified-live 2026-09-10, n=3]; early release v0.3.0-alpha. 2026-10-06: confirmed live that only the HUD is drawn flat on the screen; the headset test of the latest build is next.",
       "warning": "As of 2026-09-01 the proxy SOURCE is in no repository [measured 2026-09-01, n=59 commits searched] - zero source files across this repo's whole history and none in staging. The only known copy is an unversioned folder on the home PC. Milestone 2 cannot be implemented until it is committed.",
       "latest_release": "v0.3.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
