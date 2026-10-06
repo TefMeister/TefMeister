@@ -316,7 +316,7 @@
       "year": 2012,
       "developer": "Remedy Entertainment",
       "engine": "Remedy in-house (pre-Northlight)",
-      "stage": "the proxy now owns the REAL device. For weeks it only ever saw a throwaway probe device, because the system d3d9.dll was loaded by full path and never released, so the game's second LoadLibraryA got the system copy; one FreeLibrary on detach fixed it [verified-live 2026-09-04, n=1 launch] — the same fix ReShade needed in this exact game in 2019. The stereo edit is wired in and both hook races are closed: rather than racing for a vtable slot, the proxy hands back its own IDirect3D9 [verified-live 2026-09-08]. Handedness is answered (left-handed). This project now needs a NEW IDEA rather than another probe",
+      "stage": "Camera route alive again (2026-10-06): the projection edits move the scene live with correct depth; next is drawing two eyes per frame.",
       "renderer": "Direct3D 9"
     },
     {
