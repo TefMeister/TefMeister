@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Work-in-progress videos
+
+🔧 Eight short gameplay videos cut from the raw headset recordings: RE2, RE Village and Ashes 2063, each with a title and smooth fades.
+
 ## 2026-10-06: Visceral RE2 — running and ladders worn
 
 🎮 Running works perfectly: let go of the stick and Leon stops at once. 🔄 Ladders, switches and cupboards no longer swing the view round; only a tiny flick is left at the start. ⭐ Saved as a keeper build. 🔧 Late on, a frame-by-frame log showed why the inventory flickers; a fix waits to be worn. The main menu rain is back.
