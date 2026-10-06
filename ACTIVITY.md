@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-06: Alan Wake — the dead end was not a dead end
 
-🔄 A month ago we decided our camera changes did nothing on screen. Re-reading the old pictures showed they did; the comparison had been fooled by the camera moving between runs. A new on/off key proved it live: one eye's view now shifts with proper depth. Music is muted. The game measures in metres, so a real eye distance can now be set. Then built the first two-eye mode, one frame per eye, and saw it alternate in the game. Lighting now follows each eye too, with motion blur switched off.
+🔄 A month ago we decided our camera changes did nothing on screen. Re-reading the old pictures showed they did; the comparison had been fooled by the camera moving between runs. A new on/off key proved it live: one eye's view now shifts with proper depth. Music is muted. The game measures in metres, so a real eye distance can now be set. Then built the first two-eye mode, one frame per eye, and saw it alternate in the game. Lighting now follows each eye too, with motion blur switched off. Late on, the code was tidied into smaller files and the first headset output was built: a floating 3D screen, one picture per eye.
 
 ## 2026-10-06: Bulletstorm — two eyes in one frame
 
