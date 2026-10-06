@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-06: The Evil Within — head tracking built
 
-🔧 Built head tracking: the headset now turns the picture. The game's own lens is measured from its drawings while it runs, so nothing has to be guessed, and shadows are left alone. Not tried in the game yet.
+🔧 Built head tracking: the headset now turns the picture. The game's own lens is measured from its drawings while it runs, so nothing has to be guessed, and shadows are left alone. 🏆 Then tried in a headset simulator: turning, nodding and tilting the head all move the view the right way in both eyes, and even a big turn to the side shows a fully drawn street.
 
 ## 2026-10-06: The Evil Within — the street mystery solved (there was none), two eyes built
 
