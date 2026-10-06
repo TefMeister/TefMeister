@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-06: Visceral RE2 — next jobs lined up
+
+📋 Planned four new jobs: ladder climbing taken over from Arcade Controls, the left hand staying on the gun, quicker stops when running, and no player body showing in menus. Manual reloads wait for the new firing work.
+
 ## 2026-10-05: Visceral RE2 — every gun relaxed
 
 🔧 Leon's relaxed body pose, first made for the pistol, now goes on every gun and its upgrades: magnum, SMG, shotgun, launchers, the flamethrower group, the knife and grenades. Claire and Ada got the same on every weapon. 🎮 Worn: every weapon works, Hunk too; saved as a roll-back build. 🔧 Started a new C++ plugin for the RELOADED features; the four holster spots now take out and put away whatever is in the game's weapon shortcut. Putting grenades there broke the menus, so that was rolled back. Built from the game files alone; not worn yet.
