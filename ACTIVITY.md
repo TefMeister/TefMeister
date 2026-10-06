@@ -11,9 +11,9 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
-## 2026-10-06: The Evil Within — the street mystery narrows
+## 2026-10-06: The Evil Within — the street mystery solved (there was none)
 
-🔍 A new recorder showed that every part of the opening street is reached by our camera change, yet the street still looks untouched, so the cause is further down the line than thought. The game can now be walked around by the computer on its own.
+🔍 A new recorder showed that every part of the opening street is reached by our camera change, yet the street still looks untouched, so the cause is further down the line than thought. The game can now be walked around by the computer on its own. 🔄 Then Tefa looked in the running game: the street does tilt. It was never broken; I had misread my screenshots.
 
 ## 2026-10-06: Alan Wake — the dead end was not a dead end
 
