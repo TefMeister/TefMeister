@@ -11,9 +11,11 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
-## 2026-10-06: Bulletstorm — the camera moves where we tell it
+## 2026-10-06: Bulletstorm — two eyes in one frame
 
 ⭐ The first camera edit works in the game: the view can be slid sideways like a second eye, with near things moving more than far ones and the HUD staying put. The game now runs in a small window with the music off.
+
+🏆 Later the same day: the game now draws two eyes in one frame, side by side, by borrowing its own split-screen mode. Next is the HUD in both eyes.
 
 ## 2026-10-06: XIII — the mystery draws were never there
 
