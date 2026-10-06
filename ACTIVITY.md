@@ -11,13 +11,13 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
-## 2026-10-06: The Evil Within — the street mystery solved (there was none)
+## 2026-10-06: The Evil Within — the street mystery solved (there was none), two eyes built
 
-🔍 A new recorder showed that every part of the opening street is reached by our camera change, yet the street still looks untouched, so the cause is further down the line than thought. The game can now be walked around by the computer on its own. 🔄 Then Tefa looked in the running game: the street does tilt. It was never broken; I had misread my screenshots.
+🔍 A new recorder showed that every part of the opening street is reached by our camera change, yet the street still looks untouched, so the cause is further down the line than thought. The game can now be walked around by the computer on its own. 🔄 Then Tefa looked in the running game: the street does tilt. It was never broken; I had misread my screenshots. A first two-eye mode is built and waiting for its test.
 
 ## 2026-10-06: Alan Wake — the dead end was not a dead end
 
-🔄 A month ago we decided our camera changes did nothing on screen. Re-reading the old pictures showed they did; the comparison had been fooled by the camera moving between runs. A new on/off key proved it live: one eye's view now shifts with proper depth. Music is muted. The game measures in metres, so a real eye distance can now be set. Then built the first two-eye mode, one frame per eye, and saw it alternate in the game. Lighting now follows each eye too, with motion blur switched off. Late on, the code was tidied into smaller files and the first headset output was built: a floating 3D screen, one picture per eye. It then worked end to end in a headset simulator; the real headset is next. Head tracking was built last: the view now turns with your head, ready for its first test.
+🔄 A month ago we decided our camera changes did nothing on screen. Re-reading the old pictures showed they did; the comparison had been fooled by the camera moving between runs. A new on/off key proved it live: one eye's view now shifts with proper depth. Music is muted. The game measures in metres, so a real eye distance can now be set. Then built the first two-eye mode, one frame per eye, and saw it alternate in the game. Lighting now follows each eye too, with motion blur switched off. Late on, the code was tidied into smaller files and the first headset output was built: a floating 3D screen, one picture per eye. It then worked end to end in a headset simulator; the real headset is next. Head tracking came last, and in a headset simulator turning, nodding and tilting the head all move the view the right way in both eyes. The real headset is next.
 
 ## 2026-10-06: Bulletstorm — two eyes in one frame
 

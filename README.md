@@ -33,9 +33,9 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on drawing the picture twice, once per eye: the plan is checked and ready to build. | 09-29 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the view shifts per eye. | 09-30 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Worked on finding where the game turns its camera each frame. | 10-04 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
-| **Alan Wake** (2010) | Remedy engine | 🔧 Built head tracking on top of the working 3D screen; test next. | 10-06 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
+| **Alan Wake** (2010) | Remedy engine | 🔧 Head tracking works in a headset simulator; real headset next. | 10-06 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Evil Within** (2014) | id Tech 5 | 🔧 Confirmed the camera change reaches the whole opening street; two eyes next. | 10-06 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
+| **The Evil Within** (2014) | id Tech 5 | 🔧 Built a first two-eye mode on top of the working camera change. | 10-06 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **Hard Reset** (2011) | Road Hog Engine | ⭐ Worked on the game's own two-eye drawing, switched on by a console setting. | 10-01 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Worked on a small script add-on that shows the camera on screen. | 10-01 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus Enhanced Edition** (2021) | 4A Engine | 🔍 First launch; found two hidden VR switches in the game. | 09-30 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
