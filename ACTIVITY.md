@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-06: XIII — the mystery draws were never there
+
+🔄 One keypress in the bank level settled it: nothing is drawn flat on the screen except the HUD, so the twelve "screen-space" draws were a misreading, and the fix for it holds. A second puzzle turned out to be a units slip. Music is now muted, and the game can be quit by keyboard.
+
 ## 2026-10-06: Lanes 0.46.0 — builds by feature, originals kept
 
 🔧 Each feature's builds now get their own folder. The game's original files are saved before a mod changes them, so a plain, working game can always be put back.
