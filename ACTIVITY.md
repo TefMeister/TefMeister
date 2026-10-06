@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-06: Lanes 0.46.0 — builds by feature, originals kept
+
+🔧 Each feature's builds now get their own folder. The game's original files are saved before a mod changes them, so a plain, working game can always be put back.
+
 ## 2026-10-06: Visceral RE2 — next jobs lined up
 
 📋 Planned four new jobs: ladder climbing taken over from Arcade Controls, the left hand staying on the gun, quicker stops when running, and no player body showing in menus. Manual reloads wait for the new firing work.
