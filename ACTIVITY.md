@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-06: The Evil Within — the street mystery solved (there was none), two eyes built
 
-🔍 A new recorder showed that every part of the opening street is reached by our camera change, yet the street still looks untouched, so the cause is further down the line than thought. The game can now be walked around by the computer on its own. 🔄 Then Tefa looked in the running game: the street does tilt. It was never broken; I had misread my screenshots. A first two-eye mode is built and waiting for its test.
+🔍 A new recorder showed that every part of the opening street is reached by our camera change, yet the street still looks untouched, so the cause is further down the line than thought. The game can now be walked around by the computer on its own. 🔄 Then Tefa looked in the running game: the street does tilt. It was never broken; I had misread my screenshots. A first two-eye mode was built and then seen working in the game: one frame per eye, with near and far in the right order.
 
 ## 2026-10-06: Alan Wake — the dead end was not a dead end
 
