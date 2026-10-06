@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-06: Ashes 2063 — the shotgun gets darker and worn
 
-🔧 The cube shotgun's metal is darker, with the shiny top and light rails painted out. It now uses the smaller cubes, with worn edges, a rubbed muzzle, thin scratches and a few rust spots. After a look: darker gloves and a taller silver panel by the shell opening. 🔧 CubeKit 0.14.0 can show the inside of a model again, 0.15.0 picks a whole loose block with one key, and 0.16.0 copies and pastes cubes onto a chosen side.
+🔧 The cube shotgun's metal is darker, with the shiny top and light rails painted out. It now uses the smaller cubes, with worn edges, a rubbed muzzle, thin scratches and a few rust spots. After a look: darker gloves and a taller silver panel by the shell opening. 🔧 CubeKit 0.14.0 can show the inside of a model again, 0.15.0 picks a whole loose block with one key, and 0.16.0 and 0.17.0 copy, cut and paste cubes onto a chosen side.
 
 ## 2026-10-06: Metro Exodus — the original edition runs on the dev PC
 
