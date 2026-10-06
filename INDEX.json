@@ -395,10 +395,7 @@
       "developer": "4A Games",
       "engine": "4A Engine",
       "renderer": "Direct3D 12 (ray tracing always on)",
-      "stage": "First launch 2026-09-30: the Enhanced Edition needs DXR 1.1 ray tracing, so it crashes on the dev PC and runs only on the home PC. Static reads found a live vr_stereo renderer setting (never draws two eyes as it stands) and a -build_key oculus switch checked in 72 places [inferred-static 2026-09-30]. No headset runtime in the exe."
-    },
-    {
-      "repo": "heavy-rain-vr",
+      "stage": "2026-10-06: the original 2019 edition (appid 412020) runs on the dev PC: menu reached, 1280x720 window, music muted, logging proxy loads [verified-live 2026-10-06]; DirectX 12 by default, DirectX 11 needs -force_rapi 2 via Steam; camera matrices and their per-frame builder found statically [inferred-static 2026-10-06]. The Enhanced Edition still runs only on the home PC.",
       "game": "Heavy Rain",
       "year": 2010,
       "developer": "Quantic Dream",
