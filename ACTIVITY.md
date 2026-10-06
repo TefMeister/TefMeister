@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-06: Alan Wake — the dead end was not a dead end
 
-🔄 A month ago we decided our camera changes did nothing on screen. Re-reading the old pictures showed they did; the comparison had been fooled by the camera moving between runs. A new on/off key proved it live: one eye's view now shifts with proper depth. Music is muted.
+🔄 A month ago we decided our camera changes did nothing on screen. Re-reading the old pictures showed they did; the comparison had been fooled by the camera moving between runs. A new on/off key proved it live: one eye's view now shifts with proper depth. Music is muted. The game measures in metres, so a real eye distance can now be set.
 
 ## 2026-10-06: Bulletstorm — two eyes in one frame
 
