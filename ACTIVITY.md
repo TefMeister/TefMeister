@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-06: The Evil Within — head tracking built
+
+🔧 Built head tracking: the headset now turns the picture. The game's own lens is measured from its drawings while it runs, so nothing has to be guessed, and shadows are left alone. Not tried in the game yet.
+
 ## 2026-10-06: The Evil Within — the street mystery solved (there was none), two eyes built
 
 🔍 A new recorder showed that every part of the opening street is reached by our camera change, yet the street still looks untouched, so the cause is further down the line than thought. The game can now be walked around by the computer on its own. 🔄 Then Tefa looked in the running game: the street does tilt. It was never broken; I had misread my screenshots. A first two-eye mode was built and then seen working in the game: one frame per eye, with near and far in the right order. 🏆 Late on, the game showed up in both eyes of a headset simulator, with the menus kept flat while the world is 3D. Sharing the game's own graphics device with the headset froze the game, so the headset now gets its own. The real headset is next.

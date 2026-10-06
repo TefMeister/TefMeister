@@ -203,7 +203,7 @@
       "engine": "id Tech 5 (STEM)",
       "renderer": "Direct3D 11",
       "injection": "proxy winmm.dll + MinHook",
-      "stage": "2026-10-06: the game shows in both eyes of the OpenXR headset simulator (alternate-frame stereo, menus kept flat, headset output on its own D3D11 device and thread) [verified-live 2026-10-06, n=1]; head tracking and the real-headset look are next",
+      "stage": "2026-10-06: shows in both eyes of the OpenXR headset simulator (alternate-frame stereo, flat menus, headset on its own device) [verified-live 2026-10-06, n=1]; head tracking built with the lens measured from the game's own draws, not yet run [verified-numerically 2026-10-06]",
       "game": "Far Cry 2",
       "year": 2008,
       "developer": "Ubisoft Montreal",
