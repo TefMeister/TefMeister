@@ -452,7 +452,7 @@
       "developer": "People Can Fly",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 11",
-      "stage": "Early RE. 2026-10-06: a hook on the engine's view constructor shifts the eye sideways live, with correct depth; next is drawing two eyes per frame."
+      "stage": "Early RE. 2026-10-06: two eyes render in one frame side by side through the engine's split-screen path; next the HUD per eye, then the headset."
     },
     {
       "repo": "ashes-2063-weapons",
