@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-06: Bulletstorm — the camera moves where we tell it
+
+⭐ The first camera edit works in the game: the view can be slid sideways like a second eye, with near things moving more than far ones and the HUD staying put. The game now runs in a small window with the music off.
+
 ## 2026-10-06: XIII — the mystery draws were never there
 
 🔄 One keypress in the bank level settled it: nothing is drawn flat on the screen except the HUD, so the twelve "screen-space" draws were a misreading, and the fix for it holds. A second puzzle turned out to be a units slip. Music is now muted, and the game can be quit by keyboard.

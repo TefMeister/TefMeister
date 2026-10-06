@@ -452,7 +452,7 @@
       "developer": "People Can Fly",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 11",
-      "stage": "Runs with our dxgi.dll (2026-09-17). 2026-10-01: camera hook point found via the shipped PDB (FSceneView's constructor) and a first sideways camera edit built and installed, not yet tried. Not VR yet."
+      "stage": "Early RE. 2026-10-06: a hook on the engine's view constructor shifts the eye sideways live, with correct depth; next is drawing two eyes per frame."
     },
     {
       "repo": "ashes-2063-weapons",
