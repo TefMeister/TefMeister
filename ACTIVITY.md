@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- 🎮 **Ashes 2063.** The cube shotgun does catch the game's real lights, face by face — proven on the flat screen with painted test runs; the earlier "no normals" finding was a misread. A metal shine map gives a faint sheen that moves with the gun. Two headset shortcuts for Tefa to confirm in VR.
+- 🎬 **Recording.** The home PC has no E: drive, so its OBS recordings now go to the MEGA transfer folder.
 - 🎮 **RE Village — VR scope.** A second night on the scope's colours, Tefa in the headset. The rifle camera's finished picture was smeared by the game's motion blur (now off for that camera) and brightened twice on its way to the glass (fixed). Two things remain: nothing draws the sky for that camera, and its picture lacks the game's haze, so it stays warm and bright. Tefa saw no visible change yet.
 - 🎨 **Halloween theme.** Stars are now a handful, scattered across the sky instead of in rows. The chimney smoke takes whichever colour the potion window had when it left, so the puffs match the brew. Tefa called it finished.
 - 🧩 **Lanes 0.50.0.** A green tick now tells you when a held test has given enough, so you can lower the controllers.
