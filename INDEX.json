@@ -203,7 +203,10 @@
       "engine": "id Tech 5 (STEM)",
       "renderer": "Direct3D 11",
       "injection": "proxy winmm.dll + MinHook",
-      "stage": "2026-10-06: shows in both eyes of the OpenXR headset simulator (alternate-frame stereo, flat menus, headset on its own device) [verified-live 2026-10-06, n=1]; head tracking works in the simulator on all three axes, lens measured from the game's own draws [verified-live 2026-10-06, n=1]; the real headset is next",
+      "stage": "2026-10-06: shows in both eyes of the OpenXR headset simulator (alternate-frame stereo, flat menus, headset on its own device) [verified-live 2026-10-06, n=1]; head tracking works in the simulator on all three axes, lens measured from the game's own draws [verified-live 2026-10-06, n=1]; the real headset is next"
+    },
+    {
+      "repo": "far-cry-2-vr",
       "game": "Far Cry 2",
       "year": 2008,
       "developer": "Ubisoft Montreal",
@@ -350,7 +353,7 @@
       "developer": "Flying Wild Hog",
       "engine": "Road Hog Engine",
       "renderer": "Direct3D 9",
-      "stage": "Console works (2026-09-14). 2026-10-01: static trace shows r_stereo_enable makes the game draw two eyes itself and call SetActiveEye per eye; a stand-in nvapi.dll that logs each eye is built and installed, not yet tried. Not VR yet."
+      "stage": "2026-10-07: r_stereo_enable 1 makes the game draw both eyes (SetActiveEye L/R ~119/s each, real driver) [verified-live 2026-10-07, n=1]; the window freezes, so capturing each eye is next. Loose edited .hlsl shaders are compiled (no injection needed)."
     },
     {
       "repo": "portal-vr",
