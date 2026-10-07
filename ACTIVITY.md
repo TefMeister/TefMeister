@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Enslaved — our code turns the view
+
+🎮 First run of the turn test: each numpad press turned the picture 15 degrees, it held still, and one key put it back exactly. That is the spot where head movement will go in next.
+
 ## 2026-10-07: Hard Reset — HUD at a set distance
 
 🔧 Hard Reset's health, ammo and text can now float on a flat panel two metres ahead in the headset, instead of covering the whole lens. Tested without the game; it lands exactly where it should. Next: a look in the running game.

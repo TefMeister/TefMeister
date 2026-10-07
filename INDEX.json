@@ -280,7 +280,7 @@
       "developer": "Ninja Theory",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 9",
-      "stage": "Found where the camera is decided each frame; a numpad turn test is built (2026-10-04); next: one launch to try it."
+      "stage": "Our code now turns the game's view each frame (numpad test passed 2026-10-07); next: feed it head movement."
     },
     {
       "repo": "mad-max-vr",
