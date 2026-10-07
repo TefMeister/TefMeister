@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Hard Reset — head tracking
+
+🏆 In the virtual headset Hard Reset now follows the head: turning, looking up and tilting all work, and the world stays level. Every frame reaches the headset. Next: head movement, then the real headset.
+
 ## 2026-10-07: Hard Reset — in the virtual headset
 
 🏆 Hard Reset now plays in the virtual headset with both eyes, the right way round. Next: a faster hand-over, then the real headset at home.
