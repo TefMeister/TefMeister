@@ -19,6 +19,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ⭐ SteamVR now has a 32-bit headset route, which helps Hard Reset and Alan Wake reach the real headset. Metro got a simpler way to send its picture out. The watch list of other people's VR mods is checked.
 
+## 2026-10-07: Burnout Paradise — night on demand
+
+🔧 Found the game's own time-of-day setting, so night is one menu choice away. At night the headlight light on the road now gets our per-eye fix. Judging how it looks needs a steady camera spot.
+
 ## 2026-10-07: Bulletstorm — HUD in both eyes
 
 🔧 Bulletstorm's score, ammo and hints now show in both eyes of its side-by-side view; before, only the right eye had them. Next: sending it to a headset.
