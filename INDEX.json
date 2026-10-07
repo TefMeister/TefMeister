@@ -353,7 +353,7 @@
       "developer": "Flying Wild Hog",
       "engine": "Road Hog Engine",
       "renderer": "Direct3D 9",
-      "stage": "2026-10-07: r_stereo_enable 1 makes the game draw both eyes (SetActiveEye L/R ~119/s each, real driver) [verified-live 2026-10-07, n=1]; the window freezes, so capturing each eye is next. Loose edited .hlsl shaders are compiled (no injection needed)."
+      "stage": "2026-10-07: both eyes reach the OpenXR headset simulator with head tracking and the headset lens [verified-live 2026-10-07, n=1]; the HUD can float on a panel at a set distance (built, tested without the game). Next: head position (units per metre), then the real headset."
     },
     {
       "repo": "portal-vr",
