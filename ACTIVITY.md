@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Research sweep
+
+⭐ SteamVR now has a 32-bit headset route, which helps Hard Reset and Alan Wake reach the real headset. Metro got a simpler way to send its picture out. The watch list of other people's VR mods is checked.
+
 ## 2026-10-07: Bulletstorm — HUD in both eyes
 
 🔧 Bulletstorm's score, ammo and hints now show in both eyes of its side-by-side view; before, only the right eye had them. Next: sending it to a headset.
