@@ -13,7 +13,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-07: Enslaved — our code turns the view
 
-🎮 First run of the turn test: each numpad press turned the picture 15 degrees, it held still, and one key put it back exactly. That is the spot where head movement will go in next. A second build then gives the game its own direction back after each frame, so turning your head should not steer Monkey.
+🎮 First run of the turn test: each numpad press turned the picture 15 degrees, it held still, and one key put it back exactly. That is the spot where head movement will go in next. A second build then gives the game its own direction back after each frame, so turning your head should not steer Monkey. Later the same evening, head turning and tilting from a headset was wired in, ready for a simulator test.
 
 ## 2026-10-07: Hard Reset — HUD at a set distance
 
