@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Metro Exodus — headset hookup
+
+🔧 The headset bridge from The Evil Within now runs in Metro: a red and blue test picture reaches the virtual headset at 60 fps. It first froze the game, which is fixed. Next is handing over the game's own picture, which needs a different method. 🎮 The runs were recorded with OBS, game and virtual headset in two separate videos.
+
 ## 2026-10-07: Lanes 0.47.0 and recording
 
 🔧 Lanes setup now suggests a synced MEGA folder for files that must not go on GitHub, with a reminder that sharing game files is illegal. On the dev PC, OBS now records test footage using the graphics card after a driver update, and a MEGA transfer folder links the two PCs.

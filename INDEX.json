@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -395,7 +395,10 @@
       "developer": "4A Games",
       "engine": "4A Engine",
       "renderer": "Direct3D 12 (ray tracing always on)",
-      "stage": "2026-10-07: original 2019 edition on the dev PC, DirectX 11 (-force_rapi 2), 1280x720 window confirmed by Tefa; camera matrices read live; alternate-frame two eyes working via our metro_eye.dll [verified-live 2026-10-07, n=1]. Headset output is next.",
+      "stage": "2026-10-07: original 2019 edition on the dev PC, DirectX 11; alternate-frame two eyes working; the headset bridge sends a test picture to the OpenXR simulator at 60 fps [verified-live 2026-10-07, n=1]; the game picture handover is being rebuilt (the game's device refuses keyed-mutex textures)."
+    },
+    {
+      "repo": "heavy-rain-vr",
       "game": "Heavy Rain",
       "year": 2010,
       "developer": "Quantic Dream",
