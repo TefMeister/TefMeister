@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Hard Reset — two eyes on screen
+
+🏆 Hard Reset now shows both eyes side by side in its window, with real depth: far things sit apart, near things close. Two small helper files fool the game's old 3D checks and catch each eye's picture. Next is sending them to a headset.
+
 ## 2026-10-07: Hard Reset and Alice
 
 🏆 Hard Reset draws both eyes by itself once a console setting is on, about 120 times a second each, and it compiles our own edited shader files. The eye pictures do not reach the window yet; catching them is next. 🔧 Alice: the shadow fix was re-worked out from the game's own shaders; the live check waits for Tefa on Friday.
