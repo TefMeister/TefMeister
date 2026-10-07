@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Metro Exodus — two eyes
+
+🏆 With DirectX 11 switched on, the game's camera was read live while it ran, and a small mod now moves it half an eye-width left and right on alternate frames. Near things separate more than far ones, as they should. Tefa played to the first save point.
+
 ## 2026-10-07: Work-in-progress videos
 
 🔧 Eight short gameplay videos cut from the raw headset recordings: RE2, RE Village and Ashes 2063, each with a title and smooth fades.
