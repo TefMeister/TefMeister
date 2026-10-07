@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Hard Reset — HUD at a set distance
+
+🔧 Hard Reset's health, ammo and text can now float on a flat panel two metres ahead in the headset, instead of covering the whole lens. Tested without the game; it lands exactly where it should. Next: a look in the running game.
+
 ## 2026-10-07: Research sweep
 
 ⭐ SteamVR now has a 32-bit headset route, which helps Hard Reset and Alan Wake reach the real headset. Metro got a simpler way to send its picture out. The watch list of other people's VR mods is checked.
