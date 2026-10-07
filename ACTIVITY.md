@@ -11,6 +11,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+**2026-10-07** 🏆 **Visceral RE2:** a round fired with no aim stance at all -- three of the game's own switches, flipped for the press only. Next: wire it to the trigger. 🏆 **RE Village scope:** the rifle camera's finished, game-coloured picture was found in VR (a one-frame census of what the game draws); a headset check of the look is next. 🔧 OBS recording fixed on the home PC; Lanes 0.49.0.
+
 ## 2026-10-07: Enslaved — our code turns the view
 
 🎮 First run of the turn test: each numpad press turned the picture 15 degrees, it held still, and one key put it back exactly. That is the spot where head movement will go in next. A second build then gives the game its own direction back after each frame, so turning your head should not steer Monkey. Later the same evening, head turning and tilting from a headset was wired in, ready for a simulator test.
