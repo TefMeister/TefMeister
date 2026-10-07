@@ -20,7 +20,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **XIII** (2003) | Unreal Engine 2 | 🎮 Checked which draws are flat on the screen; only the HUD is. | 10-06 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on why the main menu still shows the empty edge when gameplay does not. | 10-01 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
-| **Visceral — RE2 VR** | RE Engine | 🔧 Tested running and ladders in the headset; both work and were saved as a keeper build. | 10-06 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
+| **Visceral — RE2 VR** | RE Engine | 🔧 Fired a round with no aim stance at all, through the game's own switches. | 10-07 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Worked on the shotgun's darker, worn paint. | 10-06 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 
 ### 🔍 Early RE work
@@ -66,7 +66,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.1.2 is out. Moved the scope's colour work into the real game. | 10-04 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
+| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.1.2 is out. Found where the game keeps the rifle camera's finished picture in VR. | 10-07 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 All dates are 2026. Almost everything above is **one person, one machine, often one launch**, and
