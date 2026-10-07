@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Bulletstorm — HUD in both eyes
+
+🔧 Bulletstorm's score, ammo and hints now show in both eyes of its side-by-side view; before, only the right eye had them. Next: sending it to a headset.
+
 ## 2026-10-07: Hard Reset — head tracking
 
 🏆 In the virtual headset Hard Reset now follows the head: turning, looking up and tilting all work, and the world stays level. Every frame reaches the headset. Next: head movement, then the real headset.
