@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Hard Reset and Alice
+
+🏆 Hard Reset draws both eyes by itself once a console setting is on, about 120 times a second each, and it compiles our own edited shader files. The eye pictures do not reach the window yet; catching them is next. 🔧 Alice: the shadow fix was re-worked out from the game's own shaders; the live check waits for Tefa on Friday.
+
 ## 2026-10-07: Metro Exodus — headset hookup
 
 🔧 The headset bridge from The Evil Within now runs in Metro: a red and blue test picture reaches the virtual headset at 60 fps. It first froze the game, which is fixed. Next is handing over the game's own picture, which needs a different method. 🎮 The runs were recorded with OBS, game and virtual headset in two separate videos.
