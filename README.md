@@ -48,7 +48,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on the frame rate in the headset, from 48 to 72 fps. | 09-29 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Tomb Raider** (2013) | Foundation | ⭐ Worked on checking all 25,000 of the game's shaders: the eye shift is not in them. | 10-01 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
 | **Death Stranding Director's Cut** (2022) | Decima | ⭐ Worked on a small helper that will report where the camera data goes, the first time the game runs. | 10-01 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
-| **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on the dark patch under the car: it now moves with the car in the eye-shift test. | 10-01 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
+| **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on night driving: the headlights now get their per-eye fix at night. | 10-07 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 
 ### ⏸ Paused
 
