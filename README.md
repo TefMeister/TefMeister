@@ -66,7 +66,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.1.2 is out. Found where the game keeps the rifle camera's finished picture in VR. | 10-07 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
+| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.1.2 is out. Chased the scope colours through the rifle camera's finished picture: motion blur and a gamma fault fixed, the missing sky and haze still open. | 10-08 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 All dates are 2026. Almost everything above is **one person, one machine, often one launch**, and
@@ -97,7 +97,7 @@ Give your session a fresh look with one of these custom themes.
 | Theme | What it looks like | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **Green monitor, starburst flower** | An old green computer screen for Windows Terminal: sharp glowing letters, dark corners, and a faint striped flower behind the text, its petals placed like the rays of the Claude logo, with a light that slowly runs down the screen. | 🔧 First theme is up, with two plainer ones beside it; more to come. | 09-30 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
-| **Ocean** | A calm pixel-art view under the sea: daylight sky over a still surface, light blue water, swaying plants, fish swimming near and far, a school of silver fish turning together, and now and then a passing whale. | 🔧 Worked on a new preview clip that loops without a jump. | 10-01 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
+| **Ocean** | A calm pixel-art view under the sea: daylight sky over a still surface, light blue water, swaying plants, fish swimming near and far, a school of silver fish turning together, and now and then a passing whale. | 📦 Finished: scattered stars and chimney smoke in the window's colour were the last touches. | 10-08 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 | **Halloween** | A pixel-art graveyard night: moon, witches on brooms, a witch's hut, candle-lit pumpkins and spiders on the glass. The sky darkens, a big sheet ghost rises in the wind, and lightning keeps flashing while it stays, lighting up the zombies shuffling towards you. | 🔧 Worked on a new preview clip that loops without a jump. | 10-01 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 
 ## 🧹 BeG0nE tools and mods

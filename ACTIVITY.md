@@ -6,6 +6,12 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-08
+
+- 🎮 **RE Village — VR scope.** A second night on the scope's colours, Tefa in the headset. The rifle camera's finished picture was smeared by the game's motion blur (now off for that camera) and brightened twice on its way to the glass (fixed). Two things remain: nothing draws the sky for that camera, and its picture lacks the game's haze, so it stays warm and bright. Tefa saw no visible change yet.
+- 🎨 **Halloween theme.** Stars are now a handful, scattered across the sky instead of in rows. The chimney smoke takes whichever colour the potion window had when it left, so the puffs match the brew. Tefa called it finished.
+- 🧩 **Lanes 0.50.0.** A green tick now tells you when a held test has given enough, so you can lower the controllers.
+
 **Key:** 🏆 breakthrough · ⭐ promising find · 🎮 hands-on test · 🔄 correction · ⚠️ something went
 wrong · 🔧 tooling · 📋 housekeeping
 
