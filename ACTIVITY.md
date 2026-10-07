@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Hard Reset — in the virtual headset
+
+🏆 Hard Reset now plays in the virtual headset with both eyes, the right way round. Next: a faster hand-over, then the real headset at home.
+
 ## 2026-10-07: Hard Reset — two eyes on screen
 
 🏆 Hard Reset now shows both eyes side by side in its window, with real depth: far things sit apart, near things close. Two small helper files fool the game's old 3D checks and catch each eye's picture. Next is sending them to a headset.
