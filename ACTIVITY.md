@@ -11,6 +11,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ---
 
+## 2026-10-07: Lanes 0.47.0 and recording
+
+🔧 Lanes setup now suggests a synced MEGA folder for files that must not go on GitHub, with a reminder that sharing game files is illegal. On the dev PC, OBS now records test footage using the graphics card after a driver update, and a MEGA transfer folder links the two PCs.
+
 ## 2026-10-07: Metro Exodus — two eyes
 
 🏆 With DirectX 11 switched on, the game's camera was read live while it ran, and a small mod now moves it half an eye-width left and right on alternate frames. Near things separate more than far ones, as they should. Tefa played to the first save point.
