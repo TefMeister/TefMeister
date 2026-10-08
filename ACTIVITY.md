@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
-- 🧹 **BeG0nE.** Camera Jitter now has its measuring tool: it reads every recording a session makes, game window and headset view, and says per second whether the view stepped, shook, hitched or froze. It runs by itself after each recording. Nine made-up test clips all judged right.
+- 🧹 **BeG0nE.** Camera Jitter got its ride-along: a mod writes down when it read the headset pose, wrote the camera and sent a picture out, and a rider in the background files each VR session with the cause of any stepping named. Only active while a game is really in VR. A screen-recording checker built earlier the same day is archived: the flat window never shows VR jitter.
 - 🎮 **Hard Reset.** Measured that one game unit is a metre, then switched on head position: leaning and stepping now move the view in the headset simulator. The health dial turned out to be a 3D part of the gun.
 - ⭐ **Far Cry 3: Blood Dragon.** Built the step that moves the camera half an eye-width left and right, using Far Cry 2's recipe; it passed a test of about 17,000 checks without the game. One flat run will show it working.
 - **Terminal themes:** Frequency, round eight: the big bang now follows the dive into the black hole at once, and the bottle pours into a turning swirl that fills the window.
