@@ -38,7 +38,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **The Evil Within** (2014) | id Tech 5 | 🔧 Head tracking works in a headset simulator; the real headset is next. | 10-06 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **Hard Reset** (2011) | Road Hog Engine | 🏆 Worked on the on-screen display: it can now float at a comfortable distance in the headset. | 10-07 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Worked on a small script add-on that shows the camera on screen. | 10-01 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
-| **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Worked on the headset hookup: a test picture now reaches the virtual headset. | 10-07 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
+| **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Rebuilt how the game's picture is passed to the headset. | 10-08 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Worked on running it on the fast PC, at well over 190 frames a second. | 09-23 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Worked on a hidden debug menu and free camera found in the game. | 09-28 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
