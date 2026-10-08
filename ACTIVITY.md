@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- 🎮 **RE Village VR scope.** Back to the 1.1.2 scope, plus the one keeper: the scope no longer sees through nearby walls. Built as v1.1.3 and installed; the colour work is set aside. Tefa's observation: the sky went with the layer that removed the blue hue, not with the motion blur.
 - ⭐ **Visceral, RE2 VR.** The trigger-only shot works in the headset: one real round per pull. Holding the trigger made the slide keep cycling, so the next build fires once per pull.
 - 🎮 **Visceral, RE2 VR.** Built the trigger-only shot: pull the trigger without holding the aim button and the gun fires for real, using the game's own switches. Installed, waiting to be tried in the headset.
 - 🎮 **Visceral, RE2 VR.** Wore the menu flicker fix in the headset: the slight tilt on opening and the flicker on closing are both still there. The next idea is that the VR side reads the camera a moment too early.
