@@ -110,7 +110,7 @@ modders, human or AI, and as drop-in fixes for specific games.
 | Cure | What it removes | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **Occlusion Drift BeG0nE** | In VR, a two-handed weapon's aim drifting because the front hand hides the back controller. The cure: hold the weapon with the left controller just above the right. First game: Resident Evil Village (REFramework). | 🔧 Worked on the Village grip, now shipped inside the RE Village scope mod v1.1.1. | 10-02 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/occlusion-drift) |
-| **Camera Jitter/Shake BeG0nE** | The stepped, jittery camera so many AI-written VR mods have. First find out why; then a tool for modders and a jitter-free camera for specific games. | 🔍 Started: the question is written down, nothing measured yet. | 10-01 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/camera-jitter) |
+| **Camera Jitter/Shake BeG0nE** | The stepped, jittery camera so many AI-written VR mods have. First find out why; then a tool for modders and a jitter-free camera for specific games. | 🔧 Built the tool that reads session recordings and says whether the view stepped, shook or froze. | 10-08 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/camera-jitter) |
 
 ## 🤖 Automated navigation and movement
 
