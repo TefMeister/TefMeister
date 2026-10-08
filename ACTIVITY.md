@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- ⭐ **Far Cry 3: Blood Dragon.** The left and right eye now see the world from slightly different places, with near things moving more than far ones: real depth, measured in the game. Next is showing both eye pictures side by side.
 - 🔧 **Hard Reset.** Read the game's own files: its health and ammo display is a 3D screen on the arm and the gun, so it already works in VR and stays. Only menus and the crosshair will float on a panel.
 - 🧩 **CubeKit 0.18.0.** Cubes of different sizes in one model: pick some cubes and make them 8 or 64 times smaller for screws and emblems, then join them back. Tested without opening Blender; bigger sizes are the next step.
 - 🧹 **BeG0nE.** Camera Jitter got its ride-along: a mod writes down when it read the headset pose, wrote the camera and sent a picture out, and a rider in the background files each VR session with the cause of any stepping named. Only active while a game is really in VR. A knowledge base keeps one entry per behaviour pattern (no copies), takes Tefa's jittery/smooth label, and rebuilds a findings page naming what separates the two. Controllers are logged on the same line for the Occlusion Drift cure. Lanes 0.52.0 now starts the rider at every session, so it simply rides along. A screen-recording checker built earlier the same day is archived: the flat window never shows VR jitter.
