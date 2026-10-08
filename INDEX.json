@@ -398,7 +398,7 @@
       "developer": "4A Games",
       "engine": "4A Engine",
       "renderer": "Direct3D 12 (ray tracing always on)",
-      "stage": "2026-10-07: original 2019 edition on the dev PC, DirectX 11; alternate-frame two eyes working; the headset bridge sends a test picture to the OpenXR simulator at 60 fps [verified-live 2026-10-07, n=1]; the game picture handover is being rebuilt (the game's device refuses keyed-mutex textures)."
+      "stage": "2026-10-07: original 2019 edition on the dev PC, DirectX 11; alternate-frame two eyes working; the headset bridge sends a test picture to the OpenXR simulator at 60 fps [verified-live 2026-10-07, n=1]; 2026-10-08: the picture handover was rebuilt without the keyed mutex the game refuses (two ways, compile-verified, not run yet)."
     },
     {
       "repo": "heavy-rain-vr",
