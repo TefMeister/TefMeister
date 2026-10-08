@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- 🎬 **Video recorder (home PC).** Ashes 2063 was recorded on the flat screen: game window only, game sound, 60 fps. The recorder now also says so out loud if a recording never really starts.
+- 🧩 **Lanes 0.52.0 and CubeKit 0.18.0** installed on the home PC.
 - ⭐ **Far Cry 3: Blood Dragon.** The left/right eye shift was tried in the game and gives real depth. Then built the next step: both eyes shown side by side in the window, each frame filed under the right eye.
 - 🎮 **Hard Reset.** Tested the floating screen for menus: the pause menu's words now float at the right distance in both eyes, but its outline frames don't follow yet. That's the next fix.
 - ⭐ **Far Cry 3: Blood Dragon.** The left and right eye now see the world from slightly different places, with near things moving more than far ones: real depth, measured in the game. Next is showing both eye pictures side by side.
