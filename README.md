@@ -36,7 +36,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Alan Wake** (2010) | Remedy engine | 🔧 Head tracking works in a headset simulator; real headset next. | 10-06 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Evil Within** (2014) | id Tech 5 | 🔧 Head tracking works in a headset simulator; the real headset is next. | 10-06 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
-| **Hard Reset** (2011) | Road Hog Engine | 🏆 Leaning and stepping now move the view in the headset simulator. | 10-08 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
+| **Hard Reset** (2011) | Road Hog Engine | 🏆 Found that the game's HUD is already 3D, on the arm and gun, so it can stay. | 10-08 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Worked on a small script add-on that shows the camera on screen. | 10-01 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Rebuilt how the game's picture is passed to the headset. | 10-08 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
