@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- **Terminal themes:** Frequency, round seven: scenes are shorter and roll into each other through long, soft blends, and what pours from the bottle is solid and spread in depth.
 - ⭐ **Far Cry 3: Blood Dragon.** Ran the game twice with a logging file and found where it sends the camera: the same slot Far Cry 2 used, and it turns with the mouse. The two-eye step can now be built.
 - **Terminal themes:** Frequency, round six: the suburb gained depth (solid shaded houses, shadows, haze), the dive leads into a tube of big bangs, the bottle arcs overhead shrinking to nothing, and glitches became chunky blocks.
 - **Terminal themes:** Frequency, round five: one black hole now grows in the middle of the suburb and swallows it, with debris flying in and the colours draining to bleak browns, then a dive into it and a pixelated big bang. Glitch lines are shorter and rarer.
