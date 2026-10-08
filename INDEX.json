@@ -235,7 +235,7 @@
       "year": 2003,
       "developer": "Rockstar North",
       "engine": "RenderWare",
-      "stage": "THE GAME IS DRIVABLE UNATTENDED as of 2026-09-10 — a synthesised DirectInput mouse plus hooking every enumerated device moves the frontend, and two of our own earlier measurements turned out to be the broken part rather than the game [verified-live 2026-09-10]. Both blocking rows cleared; the project moves from “we cannot drive this game” to “we can, now go play it”. Windowed mode needs no code patch — the mode index is a plain registry value [inferred-static 2026-09-01]; RenderWare manages its own video-mode state and crashes if you override D3DPRESENT_PARAMETERS alone [verified-live 2026-08-30, n=10 tests]"
+      "stage": "THE GAME IS DRIVABLE UNATTENDED as of 2026-09-10 — a synthesised DirectInput mouse plus hooking every enumerated device moves the frontend, and two of our own earlier measurements turned out to be the broken part rather than the game [verified-live 2026-09-10]. Both blocking rows cleared; the project moves from “we cannot drive this game” to “we can, now go play it”. Windowed mode needs no code patch — the mode index is a plain registry value [inferred-static 2026-09-01]; RenderWare manages its own video-mode state and crashes if you override D3DPRESENT_PARAMETERS alone [verified-live 2026-08-30, n=10 tests] 2026-10-08: the per-eye unit (world drawn twice per frame, same camera) is built, opt-in, compile-verified, not yet run."
     },
     {
       "repo": "doom-2016-vr",
