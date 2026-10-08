@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- **Terminal themes:** Frequency got a second station: black-hole cubes over a suburb, a bottle pouring letters that turn into earth, eyes, laughing lips and a night city of letters, all slightly wrong. The cubes now glitch in wild colours and the sunrise floor has more detail.
 - 🎮 **Psychonauts.** Found a likely reason the head-follow camera went glitchy in the headset: the game may build its next camera on top of our head turn, so the turn keeps adding up. A fix now hands the game its own camera back every frame, and one flat-screen run will show whether that was the cause.
 - 🔧 **Enslaved.** Turning and tilting a simulated headset now turns and tilts the game's view, and putting the head back puts the view back. Next is getting the picture into the headset.
 - 🧩 **CubeKit** installed in Blender on the dev PC.
