@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- **Terminal themes:** Frequency, round eight: the big bang now follows the dive into the black hole at once, and the bottle pours into a turning swirl that fills the window.
 - 🔍 **Manhunt.** Built the step that makes the game draw its world twice per frame, once per eye, with the same camera for now. It is switched off until a test run turns it on.
 - **Terminal themes:** Frequency, round seven: scenes are shorter and roll into each other through long, soft blends, and what pours from the bottle is solid and spread in depth.
 - ⭐ **Far Cry 3: Blood Dragon.** Ran the game twice with a logging file and found where it sends the camera: the same slot Far Cry 2 used, and it turns with the mouse. The two-eye step can now be built.
