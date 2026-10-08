@@ -30,7 +30,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **Prototype** (2009) | Titanium | 🏆 Worked on checking lock-on with the head turned; needs enemies to test. | 10-01 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
-| **Manhunt** (2003) | RenderWare | 🔍 Worked on drawing the picture twice, once per eye: the plan is checked and ready to build. | 09-29 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
+| **Manhunt** (2003) | RenderWare | 🔍 Built drawing the world twice per frame, once per eye; not tried in the game yet. | 10-08 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the view shifts per eye. | 09-30 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Proved head movement turns and tilts the view, in the headset simulator. | 10-08 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🔧 Head tracking works in a headset simulator; real headset next. | 10-06 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
