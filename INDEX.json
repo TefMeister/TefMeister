@@ -353,7 +353,7 @@
       "developer": "Flying Wild Hog",
       "engine": "Road Hog Engine",
       "renderer": "Direct3D 9",
-      "stage": "2026-10-07: both eyes reach the OpenXR headset simulator with head tracking and the headset lens [verified-live 2026-10-07, n=1]; the HUD can float on a panel at a set distance (built, tested without the game). Next: head position (units per metre), then the real headset."
+      "stage": "2026-10-08: in the OpenXR simulator, head rotation, the headset lens and now head position (one unit = one metre, measured) all work; next: the real headset on the home PC."
     },
     {
       "repo": "portal-vr",

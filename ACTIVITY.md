@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- 🎮 **Hard Reset.** Measured that one game unit is a metre, then switched on head position: leaning and stepping now move the view in the headset simulator. The health dial turned out to be a 3D part of the gun.
 - ⭐ **Far Cry 3: Blood Dragon.** Built the step that moves the camera half an eye-width left and right, using Far Cry 2's recipe; it passed a test of about 17,000 checks without the game. One flat run will show it working.
 - **Terminal themes:** Frequency, round eight: the big bang now follows the dive into the black hole at once, and the bottle pours into a turning swirl that fills the window.
 - 🔍 **Manhunt.** Built the step that makes the game draw its world twice per frame, once per eye, with the same camera for now. It is switched off until a test run turns it on.
