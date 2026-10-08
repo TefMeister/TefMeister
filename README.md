@@ -18,7 +18,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **XIII** (2003) | Unreal Engine 2 | 🎮 Checked which draws are flat on the screen; only the HUD is. | 10-06 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
-| **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on why the main menu still shows the empty edge when gameplay does not. | 10-01 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
+| **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on the head-follow camera that went glitchy in the headset. | 10-08 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🔧 Fired a round with no aim stance at all, through the game's own switches. | 10-07 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Proved the cube shotgun catches the game's real lights, face by face. | 10-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
