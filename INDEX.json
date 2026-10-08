@@ -270,7 +270,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Finished. Polishing (2026-10-08): the scope picture's colours are being matched to the game world. The rifle camera's finished picture route: motion blur and a gamma fault fixed, the missing sky and haze still open; Tefa saw no visible change yet. v1.1.2 (2026-10-02): the rifle holds still when it fires and the scope brightens and dims with the game. Only headset-confirmed builds are released.",
+      "stage": "Finished. v1.1.3 built 2026-10-08: v1.1.2 plus the scope's 5 cm near limit, so it no longer sees through nearby walls; installed, not published. The colour-matching work of 2026-10-03..08 is set aside: the blue tint and the sky come from the same atmosphere layer, so the tint has to be corrected on top of it. v1.1.2 (2026-10-02): the rifle holds still when it fires and the scope brightens and dims with the game. Only headset-confirmed builds are released.",
       "updated": "2026-10-08"
     },
     {

@@ -66,7 +66,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.1.2 is out. Chased the scope colours through the rifle camera's finished picture: motion blur and a gamma fault fixed, the missing sky and haze still open. | 10-08 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
+| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.1.2 is out. Built v1.1.3 (v1.1.2 plus the fix for the scope seeing through nearby walls) and set the colour work aside. | 10-08 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 All dates are 2026. Almost everything above is **one person, one machine, often one launch**, and
