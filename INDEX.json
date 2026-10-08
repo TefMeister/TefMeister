@@ -380,7 +380,7 @@
       "developer": "Crystal Dynamics",
       "engine": "Crystal Dynamics Foundation (internally 'cdc')",
       "renderer": "deferred Direct3D 11, resolved at runtime",
-      "stage": "Static: the game's own 3D mode is traced (2026-09-30): it draws the whole scene twice with an eye flag and sets each eye's projection in one function; woken by an AMD vendor ID or NVIDIA direct mode. Not launched yet. Not VR yet."
+      "stage": "Static: the game's own 3D mode is traced (2026-09-30): it draws the whole scene twice with an eye flag and sets each eye's projection in one function; woken by an AMD vendor ID or NVIDIA direct mode. Not launched yet. Not VR yet. 2026-10-08: the VR build will wake the game's NVIDIA 3D path with a stand-in nvapi.dll (built, self-tested, not yet run; the game has not been launched)."
     },
     {
       "repo": "witcher-2-vr",
