@@ -78,7 +78,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.47.0: setup now offers a synced MEGA folder for files that must travel between PCs but never go on GitHub. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.51.0: the plugin's terminal look now shows the Lanes banner in dim green. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
@@ -92,10 +92,11 @@ Pixel-style cube models for games, built in Blender by script.
 
 Give your session a fresh look with one of these custom themes.
 
-<img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/preview/green-monitor-starburst.png" alt="The green monitor theme with the starburst flower" width="480">
+<img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/preview/green-monitor-lanes.png" alt="The green monitor theme with the Lanes banner" width="480">
 
 | Theme | What it looks like | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
+| **Green monitor, Lanes banner** | The same old green screen, with the Lanes Plugin banner behind the text in one dim, striped green, so the letters stay easy to read. The look the Lanes plugin ships with. | 🔧 New today; replaced the starburst as the default. | 10-08 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 | **Green monitor, starburst flower** | An old green computer screen for Windows Terminal: sharp glowing letters, dark corners, and a faint striped flower behind the text, its petals placed like the rays of the Claude logo, with a light that slowly runs down the screen. | 🔧 First theme is up, with two plainer ones beside it; more to come. | 09-30 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 | **Ocean** | A calm pixel-art view under the sea: daylight sky over a still surface, light blue water, swaying plants, fish swimming near and far, a school of silver fish turning together, and now and then a passing whale. | 📦 Finished: scattered stars and chimney smoke in the window's colour were the last touches. | 10-08 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
 | **Halloween** | A pixel-art graveyard night: moon, witches on brooms, a witch's hut, candle-lit pumpkins and spiders on the glass. The sky darkens, a big sheet ghost rises in the wind, and lightning keeps flashing while it stays, lighting up the zombies shuffling towards you. | 🔧 Worked on a new preview clip that loops without a jump. | 10-01 | [terminal-themes](https://github.com/TefMeister/terminal-themes) |
