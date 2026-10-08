@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- 🔧 **Enslaved.** Turning and tilting a simulated headset now turns and tilts the game's view, and putting the head back puts the view back. Next is getting the picture into the headset.
+- 🧩 **CubeKit** installed in Blender on the dev PC.
 - **Terminal themes:** started Frequency, a new look that keeps changing station like a radio dial, from fish bones and skulls to a 1930s cartoon on an old TV and an asteroid field, with random psychedelic glitches. The whole loop plays; tuning comes next.
 - 🔧 **Metro Exodus.** The game refuses the usual way of handing its picture to the headset, so a new handover was built with two fallbacks and tested on its own. The next flat run shows which one works.
 - 📋 **Weekly check.** One outdated fact (SteamVR now runs older 32-bit games in VR) was still written in three places, and two to-do lists were hidden from the board. Notes left for the owners.
