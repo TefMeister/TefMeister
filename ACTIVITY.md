@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- **Terminal themes:** Frequency, round five: one black hole now grows in the middle of the suburb and swallows it, with debris flying in and the colours draining to bleak browns, then a dive into it and a pixelated big bang. Glitch lines are shorter and rarer.
 - **Terminal themes:** Frequency, round four: skulls turn after each glitch, chunkier pixel mouths, a slower tunnel, a smoother join after the bottle, a long grey static before the city, and thin glitch lines throughout.
 - **Terminal themes:** Frequency, round three: fish glitch between bones and living fish at their own frame rates, the cartoon dog splits into a mirrored pair, black holes swallow three suburbs in turn, and the eyes and mouths are scattered at different depths, each glitching in its own way.
 - 🔍 **Far Cry 3: Blood Dragon.** First run on the dev PC. The publisher's launcher signs in by itself, the game plays, and it now runs in a small window with the music off.
