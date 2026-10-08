@@ -177,7 +177,7 @@
       "engine": "bespoke in-house",
       "renderer": "Direct3D 9",
       "injection": "proxy d3d9.dll",
-      "stage": "core VR (stereo + 6DOF head tracking) working in a real headset [verified-live 2026-08-18, Quest 3]; automation harness and free camera added 2026-08-27. FIRST WEAR of the camera-follow build 2026-09-10 FAILED and it does not ship: the world went “crazy glitchy” within seconds of enabling camfollow, and the main menu still shows the black void [reported 2026-09-10, n=1 wearer]. Diagnosing that before any re-wear; the void now has a testable two-gate model (frustum culling varies with yaw, a PVS gate keys on position) 2026-10-08: a fix that hands the engine its own camera back each frame is built and compile-verified, with a log line that names the fault; one monitor run decides.",
+      "stage": "2026-10-08: add-on 0.18.0, picked cubes can be made smaller (mixed sizes in one model); bigger sizes and the game export of small cubes next.",
       "source_of_truth": "psychonauts-vr/dev-archive/tools/proxy-d3d9/",
       "latest_release": "v0.1.8-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"

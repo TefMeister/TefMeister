@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- 🧩 **CubeKit 0.18.0.** Cubes of different sizes in one model: pick some cubes and make them 8 or 64 times smaller for screws and emblems, then join them back. Tested without opening Blender; bigger sizes are the next step.
 - 🧹 **BeG0nE.** Camera Jitter got its ride-along: a mod writes down when it read the headset pose, wrote the camera and sent a picture out, and a rider in the background files each VR session with the cause of any stepping named. Only active while a game is really in VR. A knowledge base keeps one entry per behaviour pattern (no copies), takes Tefa's jittery/smooth label, and rebuilds a findings page naming what separates the two. Controllers are logged on the same line for the Occlusion Drift cure. Lanes 0.52.0 now starts the rider at every session, so it simply rides along. A screen-recording checker built earlier the same day is archived: the flat window never shows VR jitter.
 - 🎮 **Hard Reset.** Measured that one game unit is a metre, then switched on head position: leaning and stepping now move the view in the headset simulator. The health dial turned out to be a 3D part of the gun.
 - ⭐ **Far Cry 3: Blood Dragon.** Built the step that moves the camera half an eye-width left and right, using Far Cry 2's recipe; it passed a test of about 17,000 checks without the game. One flat run will show it working.
