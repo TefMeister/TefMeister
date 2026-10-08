@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- **Terminal themes:** Frequency, round three: fish glitch between bones and living fish at their own frame rates, the cartoon dog splits into a mirrored pair, black holes swallow three suburbs in turn, and the eyes and mouths are scattered at different depths, each glitching in its own way.
 - 🔍 **Far Cry 3: Blood Dragon.** First run on the dev PC. The publisher's launcher signs in by itself, the game plays, and it now runs in a small window with the music off.
 - ⭐ **Tomb Raider.** Chose how the VR build will switch on the game's own 3D mode: a small stand-in for NVIDIA's old 3D driver, the trick that already works for Hard Reset. It is built and tested on its own; the game has not been started yet.
 - **Terminal themes:** Frequency got a second station: black-hole cubes over a suburb, a bottle pouring letters that turn into earth, eyes, laughing lips and a night city of letters, all slightly wrong. The cubes now glitch in wild colours and the sunrise floor has more detail.
