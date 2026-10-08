@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- **Terminal themes:** started Frequency, a new look that keeps changing station like a radio dial, from fish bones and skulls to a 1930s cartoon on an old TV and an asteroid field, with random psychedelic glitches. The whole loop plays; tuning comes next.
 - 🔧 **Metro Exodus.** The game refuses the usual way of handing its picture to the headset, so a new handover was built with two fallbacks and tested on its own. The next flat run shows which one works.
 - 📋 **Weekly check.** One outdated fact (SteamVR now runs older 32-bit games in VR) was still written in three places, and two to-do lists were hidden from the board. Notes left for the owners.
 - 🎮 **Ashes 2063.** The cube shotgun does catch the game's real lights, face by face — proven on the flat screen with painted test runs; the earlier "no normals" finding was a misread. A metal shine map gives a faint sheen that moves with the gun. Two headset shortcuts for Tefa to confirm in VR.
