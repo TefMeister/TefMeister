@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- 🎮 **Hard Reset.** Tested the floating screen for menus: the pause menu's words now float at the right distance in both eyes, but its outline frames don't follow yet. That's the next fix.
 - ⭐ **Far Cry 3: Blood Dragon.** The left and right eye now see the world from slightly different places, with near things moving more than far ones: real depth, measured in the game. Next is showing both eye pictures side by side.
 - 🔧 **Hard Reset.** Read the game's own files: its health and ammo display is a 3D screen on the arm and the gun, so it already works in VR and stays. Only menus and the crosshair will float on a panel.
 - 🧩 **CubeKit 0.18.0.** Cubes of different sizes in one model: pick some cubes and make them 8 or 64 times smaller for screws and emblems, then join them back. Tested without opening Blender; bigger sizes are the next step.
