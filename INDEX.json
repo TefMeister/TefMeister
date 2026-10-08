@@ -434,7 +434,7 @@
       "developer": "Ubisoft Montreal",
       "engine": "Dunia",
       "renderer": "Direct3D 9 and Direct3D 11 (two builds)",
-      "stage": "2026-10-08: first live run on the dev PC: Ubisoft Connect signs in by itself, gameplay reached, now a 1280x720 window on Direct3D 9 with music off; next: run our camera logger. 2026-10-08: the camera's view matrix measured at c12-c15 (as on Far Cry 2), turning with the mouse [measured, n=2]; the per-eye shift is next."
+      "stage": "2026-10-08: first live run on the dev PC: Ubisoft Connect signs in by itself, gameplay reached, now a 1280x720 window on Direct3D 9 with music off; next: run our camera logger. 2026-10-08: the camera's view matrix measured at c12-c15 (as on Far Cry 2), turning with the mouse [measured, n=2]; the per-eye shift is next. The per-eye shift is built and tested without the game [verified-numerically 2026-10-08]; not yet run."
     },
     {
       "repo": "deus-ex-mankind-divided-vr",
