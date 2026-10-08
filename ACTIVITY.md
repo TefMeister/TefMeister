@@ -6,6 +6,10 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-09
+
+- 🎮 **RE Village VR scope.** The outdoor blue tint is solved. The scope's colour dial now pulls blue down on top of the picture, with the sky and fog left in; tuned over three launches to "it's perfect now". Brightness and the VR crosshair-off setting saved with it.
+
 ## 2026-10-08
 
 - 🧠 **Visceral, RE2 VR (evening).** Read the VR layer's own code and found why menus tilt: it adds the headset's turn on top of a camera that already has it. Also found why the shotgun sits crooked in the light: the two-handed grip reads the relaxed clip's arms. Both fixes built, waiting for the headset.
