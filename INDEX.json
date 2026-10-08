@@ -434,7 +434,7 @@
       "developer": "Ubisoft Montreal",
       "engine": "Dunia",
       "renderer": "Direct3D 9 and Direct3D 11 (two builds)",
-      "stage": "2026-10-08: runs windowed on Direct3D 9; the per-eye camera shift gives real depth live (near 23 px, far 0); next: the side-by-side picture, then the headset simulator."
+      "stage": "2026-10-08: runs windowed on Direct3D 9; the per-eye camera shift gives real depth live (near 23 px, far 0); next: the side-by-side picture, then the headset simulator. Side-by-side picture built (eye-label parity test passes); not yet run."
     },
     {
       "repo": "deus-ex-mankind-divided-vr",
