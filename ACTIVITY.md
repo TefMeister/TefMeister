@@ -9,7 +9,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-10-09
 
 - 🧩 **Lanes 0.53.0.** A desktop shortcut named Lanes now opens Claude Code in the plugin's look, same font and background. The first session after the look goes on offers it once; so does an update.
-- 🎮 **RE Village VR scope.** The outdoor blue tint is solved. The scope's colour dial now pulls blue down on top of the picture, with the sky and fog left in; tuned over three launches to "it's perfect now". Brightness and the VR crosshair-off setting saved with it. Later: the scope's own camera now draws with the lowest picture effects while the game keeps its settings, for a smoother scope; to be judged.
+- 🎮 **RE Village VR scope.** The outdoor blue tint is solved. The scope's colour dial now pulls blue down on top of the picture, with the sky and fog left in; tuned over three launches to "it's perfect now". Brightness and the VR crosshair-off setting saved with it. Later: the scope's own camera now draws with the lowest picture effects while the game keeps its settings, for a smoother scope, and the DLSS upscaler was switched off after the scope looked DLSS-blurry; both to be judged.
 
 ## 2026-10-08
 
