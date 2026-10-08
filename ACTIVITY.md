@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- 🎮 **Visceral, RE2 VR.** Built the trigger-only shot: pull the trigger without holding the aim button and the gun fires for real, using the game's own switches. Installed, waiting to be tried in the headset.
 - 🎮 **Visceral, RE2 VR.** Wore the menu flicker fix in the headset: the slight tilt on opening and the flicker on closing are both still there. The next idea is that the VR side reads the camera a moment too early.
 - 📝 **Session write-ups** got a new look: numbered sections, each with its own colour dot.
 - 🎬 **Video recorder (home PC).** Ashes 2063 was recorded on the flat screen: game window only, game sound, 60 fps. The recorder now also says so out loud if a recording never really starts.
