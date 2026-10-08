@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- 🎮 **Visceral, RE2 VR.** Wore the menu flicker fix in the headset: the slight tilt on opening and the flicker on closing are both still there. The next idea is that the VR side reads the camera a moment too early.
+- 📝 **Session write-ups** got a new look: numbered sections, each with its own colour dot.
 - 🎬 **Video recorder (home PC).** Ashes 2063 was recorded on the flat screen: game window only, game sound, 60 fps. The recorder now also says so out loud if a recording never really starts.
 - 🧩 **Lanes 0.52.0 and CubeKit 0.18.0** installed on the home PC.
 - ⭐ **Far Cry 3: Blood Dragon.** The left/right eye shift was tried in the game and gives real depth. Then built the next step: both eyes shown side by side in the window, each frame filed under the right eye.
