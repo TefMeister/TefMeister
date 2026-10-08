@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-08
 
+- ⭐ **Far Cry 3: Blood Dragon.** The left/right eye shift was tried in the game and gives real depth. Then built the next step: both eyes shown side by side in the window, each frame filed under the right eye.
 - 🎮 **Hard Reset.** Tested the floating screen for menus: the pause menu's words now float at the right distance in both eyes, but its outline frames don't follow yet. That's the next fix.
 - ⭐ **Far Cry 3: Blood Dragon.** The left and right eye now see the world from slightly different places, with near things moving more than far ones: real depth, measured in the game. Next is showing both eye pictures side by side.
 - 🔧 **Hard Reset.** Read the game's own files: its health and ammo display is a 3D screen on the arm and the gun, so it already works in VR and stays. Only menus and the crosshair will float on a panel.
