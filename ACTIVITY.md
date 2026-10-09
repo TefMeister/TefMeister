@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-09
 
+- 🎮 **RE Village VR scope (afternoon).** The lag with the rifle raised is gone: our own code was making the processor wait on the graphics card every frame. The scope picture now waits for both hands to be up, and stops only when the glass is seen nearly edge-on. Tefa: *"the lag is completely gone!"*
+- 🎨 **Terminal themes.** The newest look, Frequency, added on the home PC as an extra tab.
 - 🎮 **Visceral, RE2 VR (afternoon).** Four fixes built, waiting for the headset: the grenade no longer flips in and out while the left grip is held, the black screen at item pick-ups gets a first fix, the holster spots now turn with the player, and Run Hold, auto reload off and aim assist off are set by themselves on the first start.
 - 🎮 **Visceral, RE2 VR (night).** Menus: the tilt is gone and the one-frame flash of Leon's body on closing is gone. The inventory still flickers for a frame; DLSS was ruled out. Next: a headset recording picked apart frame by frame.
 - 🧩 **Lanes 0.53.0.** A desktop shortcut named Lanes now opens Claude Code in the plugin's look, same font and background. The first session after the look goes on offers it once; so does an update.
