@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-09
 
-- 🎮 **RE Village VR scope (afternoon).** The lag with the rifle raised is gone: our own code was making the processor wait on the graphics card every frame. The scope picture now waits for both hands to be up, and stops only when the glass is seen nearly edge-on. Tefa: *"the lag is completely gone!"*
+- 🎮 **RE Village VR scope (afternoon).** The lag with the rifle raised is gone: our own code was making the processor wait on the graphics card every frame. The scope picture now waits for both hands to be up, and stops only when the glass is seen nearly edge-on. Tefa: *"the lag is completely gone!"* Then back to v1.1.3 with only the colour fix and the lag fix on top: *"scope is great!"* Saved as v1.1.4.
 - 🎨 **Terminal themes.** The newest look, Frequency, added on the home PC as an extra tab.
 - 🎮 **Visceral, RE2 VR (afternoon).** Four fixes built, waiting for the headset: the grenade no longer flips in and out while the left grip is held, the black screen at item pick-ups gets a first fix, the holster spots now turn with the player, and Run Hold, auto reload off and aim assist off are set by themselves on the first start.
 - 🎮 **Visceral, RE2 VR (night).** Menus: the tilt is gone and the one-frame flash of Leon's body on closing is gone. The inventory still flickers for a frame; DLSS was ruled out. Next: a headset recording picked apart frame by frame.
