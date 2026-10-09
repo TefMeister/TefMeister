@@ -6,6 +6,10 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-10
+
+- 🏆 **Visceral, RE2 VR (night).** The two-handed grip works in every state: hold the left grip near any gun and the hand takes it, relaxed, walking, running or aiming, with no change of pose; the grip spot comes from the gun's own support-hand anchor. Tefa: "i can now run and shoot at the same time". Reloading while gripping fixed the same night. Saved as the baseline. The main menu shows the last save's scene with rain again.
+
 ## 2026-10-09
 
 - 🎮 **RE Village VR scope (afternoon).** The lag with the rifle raised is gone: our own code was making the processor wait on the graphics card every frame. The scope picture now waits for both hands to be up, and stops only when the glass is seen nearly edge-on. Tefa: *"the lag is completely gone!"* Then back to v1.1.3 with only the colour fix and the lag fix on top: *"scope is great!"* Saved as v1.1.4.
