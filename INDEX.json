@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -261,8 +261,8 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Leon's pose fix passed a fresh install (2026-10-05). Every Leon gun and its upgrades now uses the same relaxed body pose (installed, not yet worn); the left-hand grip comes after. Builds are shared privately; progress is shown in videos.",
-      "updated": "2026-10-05"
+      "stage": "Native plugin growing feature by feature: holsters, running, trigger-only shots, menus. Latest (2026-10-09): the grenade loop, the pick-up black screen, holster heading and auto-set options, waiting for the headset. Builds are shared privately; progress is shown in videos.",
+      "updated": "2026-10-09"
     },
     {
       "repo": "re-village-scope-vr",
