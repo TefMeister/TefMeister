@@ -9,6 +9,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-10-10
 
 - 🏆 **Visceral, RE2 VR (night).** The two-handed grip works in every state: hold the left grip near any gun and the hand takes it, relaxed, walking, running or aiming, with no change of pose; the grip spot comes from the gun's own support-hand anchor. Tefa: "i can now run and shoot at the same time". Reloading while gripping fixed the same night. Saved as the baseline. The main menu shows the last save's scene with rain again.
+- 🎯 **Visceral, RE2 VR (late night).** Bullet spread now depends on stance and hands: running is wide, walking is tighter, and standing with both hands on the gun is dead on. Long guns are a step less accurate than handguns.
 
 ## 2026-10-10
 
