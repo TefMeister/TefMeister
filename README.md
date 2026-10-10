@@ -23,6 +23,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Visceral — RE2 VR** | RE Engine | 🔧 Manual reloads (magazines, shells, slide and pump racking by hand) and the grenade on the right grip at the back. | 10-10 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Newest RE2 build brought over and checked on the flat screen; headset look next. | 10-10 | private for now |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Proved the cube shotgun catches the game's real lights, and recorded a flat test run. | 10-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
+| **Hard Reset** (2011) | Road Hog Engine | 🎮 Plays in the real headset, flicker fixed; Tefa: “really fun in VR”. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 
 ### 🔍 Early RE work
 
@@ -37,7 +38,6 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Alan Wake** (2010) | Remedy engine | 🔧 Reaches the real headset; the 3D still hides Alan and the fog there. | 10-10 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Evil Within** (2014) | id Tech 5 | 🔧 Reaches the real headset at full speed; ready for a first look. | 10-10 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
-| **Hard Reset** (2011) | Road Hog Engine | 🏆 Runs in 3D in the real headset at about 52 frames a second. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Worked on a small script add-on that shows the camera on screen. | 10-01 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Rebuilt how the game's picture is passed to the headset. | 10-08 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
