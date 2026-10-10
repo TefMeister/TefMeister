@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-10
 
+- 🎬 **Game recorder.** The automatic OBS recorder now checks every 10 seconds that it is getting a picture, and reconnects to the game window after 30 seconds of black.
 - 🥽 **Headset checks without wearing it (late evening).** With the Quest connected but not worn, four games were started and measured. Alan Wake and The Evil Within reach the headset; Alan Wake’s 3D still hides Alan and the fog, and The Evil Within runs slowly in its opening cutscene. Hard Reset runs in 3D; Tefa then wore it, a flicker was found and fixed, and it is “really fun in VR”. Its first build, 0.1.0, is out on GitHub; the 3D now switches on by itself. XIII’s newest 3D build now starts with the headset.
 - 🎮 **Visceral, RE2 VR (evening).** Manual reloads ported from Andyalpa's RELOADED: drop the magazine with B, take a new one from the hip, slide it in; shotgun shells one by one; slide and pump racked by moving the hand. The grenade now comes from the lower back on the right grip, and a swing throws it; Tefa: "feels superb". Saved as BASELINE 3.
 - 🎮 **RE Village VR scope (afternoon).** v1.1.5 confirmed in play by Tefa: "finally working as it should in game, this is a huge achievement". The scope is done; v1.1.5 is the version everywhere.
