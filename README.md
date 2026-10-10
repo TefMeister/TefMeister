@@ -17,7 +17,7 @@ story is in each repo. Each game sits in the group that matches its status.
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **XIII** (2003) | Unreal Engine 2 | 🎮 Checked which draws are flat on the screen; only the HUD is. | 10-06 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
+| **XIII** (2003) | Unreal Engine 2 | 🎮 The newest 3D build now starts with the real headset on the home PC. | 10-10 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on the head-follow camera that went glitchy in the headset. | 10-08 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🔧 Manual reloads (magazines, shells, slide and pump racking by hand) and the grenade on the right grip at the back. | 10-10 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
@@ -34,10 +34,10 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Manhunt** (2003) | RenderWare | 🔍 Built drawing the world twice per frame, once per eye; not tried in the game yet. | 10-08 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on keeping the HUD still while the view shifts per eye. | 09-30 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Proved head movement turns and tilts the view, in the headset simulator. | 10-08 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
-| **Alan Wake** (2010) | Remedy engine | 🔧 Head tracking works in a headset simulator; real headset next. | 10-06 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
+| **Alan Wake** (2010) | Remedy engine | 🔧 Reaches the real headset; the 3D still hides Alan and the fog there. | 10-10 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Evil Within** (2014) | id Tech 5 | 🔧 Head tracking works in a headset simulator; the real headset is next. | 10-06 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
-| **Hard Reset** (2011) | Road Hog Engine | 🏆 Worked on menus floating at a comfortable distance in the headset. | 10-08 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
+| **The Evil Within** (2014) | id Tech 5 | 🔧 Reaches the real headset at full speed; ready for a first look. | 10-10 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
+| **Hard Reset** (2011) | Road Hog Engine | 🏆 Runs in 3D in the real headset at about 52 frames a second. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Worked on a small script add-on that shows the camera on screen. | 10-01 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Rebuilt how the game's picture is passed to the headset. | 10-08 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
