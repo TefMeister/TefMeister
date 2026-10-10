@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-10
 
+- 🎮 **Visceral, RE2 VR (afternoon).** Every menu now sits over the live game world: the inventory, map and item box lost their colour filter, the pause menu its blur and dark overlay. Tefa on the monitor: "looks great!" Pick-ups still hide the world; that is the next job. Music muted on every launch.
 - 🧩 **Lanes 0.54.0 and ideas.** Four ideas that waited overnight were filed (three for RE2, one for Lanes: an uninstall command). From now on an idea mentioned during a session is filed straight away instead of waiting for the next session.
 - 🏆 **Visceral, RE2 VR (night).** The two-handed grip works in every state: hold the left grip near any gun and the hand takes it, relaxed, walking, running or aiming, with no change of pose; the grip spot comes from the gun's own support-hand anchor. Tefa: "i can now run and shoot at the same time". Reloading while gripping fixed the same night. Saved as the baseline. The main menu shows the last save's scene with rain again.
 - 🎯 **Visceral, RE2 VR (late night).** Bullet spread now depends on stance and hands: running is wide, walking is tighter, and standing with both hands on the gun is dead on. Long guns are a step less accurate than handguns.
