@@ -23,7 +23,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Visceral — RE2 VR** | RE Engine | 🔧 Manual reloads (magazines, shells, slide and pump racking by hand) and the grenade on the right grip at the back. | 10-10 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Newest RE2 build brought over and checked on the flat screen; headset look next. | 10-10 | private for now |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Proved the cube shotgun catches the game's real lights, and recorded a flat test run. | 10-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
-| **Hard Reset** (2011) | Road Hog Engine | 🎮 Plays in the real headset, flicker fixed; Tefa: “really fun in VR”. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
+| **Hard Reset** (2011) | Road Hog Engine | 🎮 First build released: plays in the headset, 3D switches on by itself. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 
 ### 🔍 Early RE work
 
