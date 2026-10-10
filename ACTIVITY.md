@@ -9,6 +9,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-10-11
 
 - 🎮 **Visceral, RE2 and RE3.** The slide rack and the shotgun pump now work on a button (left grip + left trigger), the way Arcade Controls did it, so combat stays fluid. The hand-motion version is kept for later.
+- 🎮 **Visceral, RE2 (late).** The D-pad moved to the right stick click, and a flashlight like RE3's got its first light: LT at the left shoulder, a beam from the chest that turns with the head. It still flickers; parked for another day.
 
 ## 2026-10-10
 
