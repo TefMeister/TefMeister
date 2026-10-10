@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-10
 
+- 🎮 **Visceral, RE2 VR (evening).** Manual reloads ported from Andyalpa's RELOADED: drop the magazine with B, take a new one from the hip, slide it in; shotgun shells one by one; slide and pump racked by moving the hand. The grenade now comes from the lower back on the right grip, and a swing throws it; Tefa: "feels superb". Saved as BASELINE 3.
 - 🎮 **RE Village VR scope (afternoon).** v1.1.5 confirmed in play by Tefa: "finally working as it should in game, this is a huge achievement". The scope is done; v1.1.5 is the version everywhere.
 - 🎮 **Visceral, RE3 VR (started).** RE3 got the March REFramework with DLSS ready but off. The first RE2 features are brought over: every weapon now uses the relaxed body pose for Jill and Carlos, plus the hunch fix. Not tried in the headset yet. Later the same evening the whole newest RE2 build was brought over: holsters, running, ladders, menus, two-handed grip, manual reloads and the rest, rebuilt for RE3. The first run showed RE3 was ignoring our settings file, so the poses never loaded; that is fixed. Jill now has the relaxed body; a calmer standing pose is being tried for the forward lean.
 - 🎮 **Visceral, RE2 VR (afternoon).** Every menu now sits over the live game world: the inventory, map and item box lost their colour filter, the pause menu its blur and dark overlay. Tefa on the monitor: "looks great!" Pick-ups still hide the world; that is the next job. Music muted on every launch.
