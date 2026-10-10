@@ -20,7 +20,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **XIII** (2003) | Unreal Engine 2 | 🎮 The newest 3D build now starts with the real headset on the home PC. | 10-10 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on the head-follow camera that went glitchy in the headset. | 10-08 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
-| **Visceral — RE2 VR** | RE Engine | 🔧 Manual reloads (magazines, shells, slide and pump racking by hand) and the grenade on the right grip at the back. | 10-10 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
+| **Visceral — RE2 VR** | RE Engine | 🔧 Slide rack and shotgun pump moved onto a button (left grip + left trigger) for fluid combat. | 10-11 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 The slide rack and shotgun pump now work on a button, for fluid combat. | 10-10 | private for now |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Proved the cube shotgun catches the game's real lights, and recorded a flat test run. | 10-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🎮 First build released: plays in the headset, 3D switches on by itself. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
