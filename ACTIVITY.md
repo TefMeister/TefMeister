@@ -6,6 +6,10 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-11
+
+- 🎮 **Visceral, RE2 and RE3.** The slide rack and the shotgun pump now work on a button (left grip + left trigger), the way Arcade Controls did it, so combat stays fluid. The hand-motion version is kept for later.
+
 ## 2026-10-10
 
 - 🧩 **Lanes 0.56.0 and 0.57.0.** Sessions now say plainly when the game can be closed, and short answers come as a few plain lines instead of a formatted report.
