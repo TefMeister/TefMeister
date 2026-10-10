@@ -261,7 +261,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Two-handed grip in any state (2026-10-10, baseline): the left hand takes any gun while the left grip is held, run and shoot two-handed, reload while gripping. Holsters, running, trigger-only shots, menus, main-menu scene with rain. Builds are shared privately; progress is shown in videos.",
+      "stage": "Menus over the live world (no tint, no blur) worn flat 2026-10-10; pick-up still hides the world; headset check next.",
       "updated": "2026-10-10"
     },
     {
