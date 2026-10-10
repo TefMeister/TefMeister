@@ -67,7 +67,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.1.5 is ready: reloads no longer get cancelled by the VR block gesture when both hands hold the gun. | 10-10 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
+| **RE Village — VR scope** | RE Engine | 📦 Finished: v1.1.5 confirmed in play on 2026-10-10 — the scope finally works as it should. | 10-10 | [re-village-scope-vr](https://github.com/TefMeister/re-village-scope-vr) |
 | **Arcade Controls for RE2 VR** | RE Engine | 📦 Closed. Shipped on Nexus to v1.5.0, replaced by Visceral | — | [arcade-controls-re2-vr](https://github.com/TefMeister/arcade-controls-re2-vr) |
 
 All dates are 2026. Almost everything above is **one person, one machine, often one launch**, and
