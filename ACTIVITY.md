@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-10
 
+- 🎮 **RE Village VR scope (afternoon).** v1.1.5 confirmed in play by Tefa: "finally working as it should in game, this is a huge achievement". The scope is done; v1.1.5 is the version everywhere.
 - 🎮 **Visceral, RE3 VR (started).** RE3 got the March REFramework with DLSS ready but off. The first RE2 features are brought over: every weapon now uses the relaxed body pose for Jill and Carlos, plus the hunch fix. Not tried in the headset yet.
 - 🎮 **Visceral, RE2 VR (afternoon).** Every menu now sits over the live game world: the inventory, map and item box lost their colour filter, the pause menu its blur and dark overlay. Tefa on the monitor: "looks great!" Pick-ups still hide the world; that is the next job. Music muted on every launch.
 - 🧩 **Lanes 0.54.0 and ideas.** Four ideas that waited overnight were filed (three for RE2, one for Lanes: an uninstall command). From now on an idea mentioned during a session is filed straight away instead of waiting for the next session.
