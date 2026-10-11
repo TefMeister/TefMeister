@@ -316,7 +316,7 @@
       "year": 2012,
       "developer": "Remedy Entertainment",
       "engine": "Remedy in-house (pre-Northlight)",
-      "stage": "2026-10-11: reaches the real headset; fix built for the 3D picture splitting in two (world and characters now get the same edit), not yet run.",
+      "stage": "2026-10-11: reaches the real headset; the 3D picture no longer splits in two (tested flat and in a headset simulator); real headset next.",
       "renderer": "Direct3D 9"
     },
     {
