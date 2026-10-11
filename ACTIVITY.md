@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🎮 **Alan Wake and Far Cry 3 Blood Dragon (evening).** Both seen in a real headset for the first time and released as first VR builds. Blood Dragon has real depth and runs smoothly; Alan Wake's head tracking works, with jitter still to fix.
 - 🎮 **Releases (evening).** Visceral RE2 0.4.0 and Visceral RE3 0.1.0 are out as public work-in-progress builds, and The Evil Within's first VR build is up as a milestone, not for playing.
 - 🎮 **Alan Wake and Hard Reset (evening).** Alan Wake's head tracking works in the real headset; both now record camera timing so the jitter can be found.
 - 🎮 **The Evil Within (evening).** Tefa saw it in the real headset for the first time, saved as the first VR build. The menus show in both eyes, but gameplay is still flat and stuck to the view, so that is next.

@@ -24,6 +24,8 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Visceral — RE3 VR** | RE Engine | 🔧 Released 0.1.0, the movement and combat overhaul as it stands. | 10-11 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🎮 Proved the cube shotgun catches the game's real lights, and recorded a flat test run. | 10-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🎮 First build released: plays in the headset, 3D switches on by itself. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
+| **Alan Wake** (2010) | Remedy engine | 🎮 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
+| **Far Cry 3: Blood Dragon** (2013) | Dunia | 🎮 First VR build released: real depth in the headset, smooth; head tracking next. | 10-11 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 
 ### 🔍 Early RE work
 
@@ -35,7 +37,6 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Manhunt** (2003) | RenderWare | 🔍 Built drawing the world twice per frame, once per eye; not tried in the game yet. | 10-08 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Fixed our logging so the next run shows how the car's shadow settings travel. | 10-11 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Proved head movement turns and tilts the view, in the headset simulator. | 10-08 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
-| **Alan Wake** (2010) | Remedy engine | 🔧 Joined the two halves of the 3D picture; next is the real headset. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Evil Within** (2014) | id Tech 5 | 🔧 First look in the real headset; the 3D picture needs fixing. | 10-11 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Worked on a small script add-on that shows the camera on screen. | 10-01 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
@@ -43,7 +44,6 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Worked on running it on the fast PC, at well over 190 frames a second. | 09-23 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Turned the free camera with a head pose, steady and without spin; the headset link is next. | 10-11 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
-| **Far Cry 3: Blood Dragon** (2013) | Dunia | ⭐ Shows both eyes side by side and in a headset simulator; real headset next. | 10-11 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 First run: it starts, and it starts with our file in place. | 09-17 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on the HUD: it now shows in both eyes. | 10-07 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on the frame rate in the headset, from 48 to 72 fps. | 09-29 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
