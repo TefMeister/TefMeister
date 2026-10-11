@@ -37,7 +37,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Proved head movement turns and tilts the view, in the headset simulator. | 10-08 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🔧 Joined the two halves of the 3D picture; next is the real headset. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Evil Within** (2014) | id Tech 5 | 🔧 Reaches the real headset at full speed; ready for a first look. | 10-10 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
+| **The Evil Within** (2014) | id Tech 5 | 🔧 First look in the real headset; the 3D picture needs fixing. | 10-11 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Worked on a small script add-on that shows the camera on screen. | 10-01 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Rebuilt how the game's picture is passed to the headset. | 10-08 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
