@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🧰 **Install check (night).** A mod file that was only moved to another folder is now reported as "moved, nothing lost" instead of "gone", and one command updates the record. This stops a false warning that had shown up at every session start for a week.
 - 🧩 **Lanes 0.59.0 (evening).** Every VR mod still early in development now gets the BeG0nE jitter recorder built in, so the cause of a jittery camera is on file from the first headset run.
 - 🎮 **Alan Wake and Far Cry 3 Blood Dragon (evening).** Both seen in a real headset for the first time and released as first VR builds. Blood Dragon has real depth and runs smoothly; Alan Wake's head tracking works, with jitter still to fix.
 - 🎮 **Releases (evening).** Visceral RE2 0.4.0 and Visceral RE3 0.1.0 are out as public work-in-progress builds, and The Evil Within's first VR build is up as a milestone, not for playing.
