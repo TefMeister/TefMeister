@@ -316,7 +316,7 @@
       "year": 2012,
       "developer": "Remedy Entertainment",
       "engine": "Remedy in-house (pre-Northlight)",
-      "stage": "2026-10-11: reaches the real headset; the 3D picture no longer splits in two (tested flat and in a headset simulator); real headset next.",
+      "stage": "First VR build released (2026-10-11): head tracking works in the headset; jitter and the world behind vanishing next.",
       "renderer": "Direct3D 9"
     },
     {
@@ -434,7 +434,7 @@
       "developer": "Ubisoft Montreal",
       "engine": "Dunia",
       "renderer": "Direct3D 9 and Direct3D 11 (two builds)",
-      "stage": "2026-10-11: both eyes side by side with real depth, and both eyes reach the OpenXR headset simulator on a floating screen; next: a real headset, then head tracking."
+      "stage": "First VR build released (2026-10-11): real depth on a floating screen, smooth; head tracking next."
     },
     {
       "repo": "deus-ex-mankind-divided-vr",
