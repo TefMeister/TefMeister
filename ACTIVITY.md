@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🎮 **Mad Max (late).** Found that our own logging was cutting off part of what it reported, and that it never watched one way the game can send its settings. Fixed both, so the next run shows how the sun's shadow settings travel.
 - 🎮 **Mad Max (evening).** Motion blur no longer smears the 3D picture: the car stays sharp. The car's shadow still lags behind; one more suspect was ruled out.
 - 🎮 **Heavy Rain (evening).** Built the first step of head tracking: a head turn laid on top of the game's free camera, done so the camera cannot start spinning. Tested without the game; next is one try in it.
 - 🎮 **Mad Max (later).** Found what most likely makes the car's ground shadow lag behind in 3D: a shadow box under the car, placed using the unshifted camera. Built a fix that moves it with the eye; tested without the game, not yet in it.
