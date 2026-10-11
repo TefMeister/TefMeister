@@ -6,6 +6,10 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-12
+
+- 🎮 **Visceral RE2 (late night).** Leon's left hand now closes its fingers round a magazine or shell while reloading, using poses saved from the older Arcade Controls work. The hand also grips the slide to rack it, and the slide now stays back until the trigger is let go. Smoother docking is next.
+
 ## 2026-10-11
 
 - 🧰 **Install check (night).** A mod file that was only moved to another folder is now reported as "moved, nothing lost" instead of "gone", and one command updates the record. This stops a false warning that had shown up at every session start for a week.
