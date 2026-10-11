@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -316,7 +316,7 @@
       "year": 2012,
       "developer": "Remedy Entertainment",
       "engine": "Remedy in-house (pre-Northlight)",
-      "stage": "2026-10-06: two eyes (alternate frames) with per-eye lighting work on the monitor; a floating 3D screen works in an OpenXR simulator; real headset next.",
+      "stage": "2026-10-11: reaches the real headset; fix built for the 3D picture splitting in two (world and characters now get the same edit), not yet run.",
       "renderer": "Direct3D 9"
     },
     {
