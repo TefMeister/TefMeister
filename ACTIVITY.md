@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🎮 **Mad Max.** Measured that the 3D shift moves the car and the ground but leaves the car's shadow behind, which explains the faint dark edge. Two fixes were tried and ruled out; finding where the shadow is drawn is next.
 - 🔎 **Research sweeps.** Checked the whole collection for wrong or out-of-date notes, looked up news for the games being worked on, and fixed an old line in the shared library: SteamVR now runs 32-bit VR games through OpenXR. Found a public RE2 VR pack with holsters and reloading, and a known way round the Tomb Raider sign-in pop-up.
 - 🎮 **Heavy Rain (later).** Built the switch for the game's own free camera into our file: one key turns it on and a log shows whether it worked. Tested without the game; next is one try in the game.
 - 🎮 **Heavy Rain.** First run on the dev PC, now in a window with the music off. The hidden debug menu cannot be switched on by a file, but the game's own free camera can be switched on from our code; the recipe is written down.
