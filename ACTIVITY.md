@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🧩 **Lanes 0.58.0.** New GitHub repos are now private by default, and a session asks first before making any repo public.
 - 💽 **Dev PC tidy-up.** The games came off the drive that ran hot; it now holds only videos and files. Paused games and the Resident Evil copies were removed from this PC to make room.
 - 🎮 **Visceral, RE2 and RE3.** The slide rack and the shotgun pump now work on a button (left grip + left trigger), the way Arcade Controls did it, so combat stays fluid. The hand-motion version is kept for later.
 - 🎮 **Visceral, RE2 (late).** The D-pad moved to the right stick click, and a flashlight like RE3's got its first light: LT at the left shoulder, a beam from the chest that turns with the head. It still flickers; parked for another day.
