@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🎮 **Heavy Rain (later).** Built the switch for the game's own free camera into our file: one key turns it on and a log shows whether it worked. Tested without the game; next is one try in the game.
 - 🎮 **Heavy Rain.** First run on the dev PC, now in a window with the music off. The hidden debug menu cannot be switched on by a file, but the game's own free camera can be switched on from our code; the recipe is written down.
 - 🎮 **Far Cry 3: Blood Dragon.** Both eyes now show side by side in the window with real depth, and the game reached a headset simulator with each eye its own picture. Next is a real headset.
 - 🎮 **Alan Wake (live test).** The fix works: the road, trees and Alan now move together in 3D, also when the simulated headset turns. The mod also finds the camera on its own now, so each PC needs no special numbers.
