@@ -289,7 +289,7 @@
       "developer": "Avalanche Studios",
       "engine": "Apex (Avalanche)",
       "renderer": "Direct3D 11",
-      "stage": "2026-10-11: per-eye shift works on the monitor (world and HUD correct, motion blur off); the car's shadow is left unshifted, source being traced"
+      "stage": "2026-10-11: per-eye shift works on the monitor (world and HUD correct, motion blur off); the car's shadow is left unshifted; its likely source (an AO box) found and a fix built, not yet tried in the game"
     },
     {
       "repo": "prince-of-persia-2008-vr",
