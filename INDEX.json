@@ -407,7 +407,7 @@
       "developer": "Quantic Dream",
       "engine": "Quantic Dream engine",
       "renderer": "Direct3D 11",
-      "stage": "runs with our proxy (2026-09-17); static 2026-09-28: a developer settings table with DebugMenu and Cheat, and a built-in free camera, found in the exe"
+      "stage": "2026-10-11: runs windowed on both PCs; the developer settings file is never read; the built-in free camera can be switched on natively (recipe found, not yet built)"
     },
     {
       "repo": "prey-2017-vr",
