@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🎮 **The Evil Within (evening).** Tefa saw it in the real headset for the first time, saved as the first VR build. The menus show in both eyes, but gameplay is still flat and stuck to the view, so that is next.
 - 🎮 **Heavy Rain (evening).** A head turn now rotates the free camera and it holds steady, the way looking around in VR needs. The first try at linking the real head-tracking crashed the game, so that is being tracked down.
 - 🎮 **Mad Max (late).** Found that our own logging was cutting off part of what it reported, and that it never watched one way the game can send its settings. Fixed both, so the next run shows how the sun's shadow settings travel.
 - 🎮 **Mad Max (evening).** Motion blur no longer smears the 3D picture: the car stays sharp. The car's shadow still lags behind; one more suspect was ruled out.

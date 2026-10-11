@@ -203,7 +203,7 @@
       "engine": "id Tech 5 (STEM)",
       "renderer": "Direct3D 11",
       "injection": "proxy winmm.dll + MinHook",
-      "stage": "2026-10-06: shows in both eyes of the OpenXR headset simulator (alternate-frame stereo, flat menus, headset on its own device) [verified-live 2026-10-06, n=1]; head tracking works in the simulator on all three axes, lens measured from the game's own draws [verified-live 2026-10-06, n=1]; the real headset is next"
+      "stage": "First look in the real headset (2026-10-11); the 3D picture and head tracking need fixing."
     },
     {
       "repo": "far-cry-2-vr",
