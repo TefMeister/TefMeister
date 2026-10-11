@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🎮 **Alan Wake.** Found why the 3D hid Alan and the fog in the headset: the game draws its world in two halves, and only one followed the 3D. Built a fix that moves both together; not tried in the game yet.
 - 🧩 **Lanes 0.58.0.** New GitHub repos are now private by default, and a session asks first before making any repo public.
 - 💽 **Dev PC tidy-up.** The games came off the drive that ran hot; it now holds only videos and files. Paused games and the Resident Evil copies were removed from this PC to make room.
 - 🎮 **Visceral, RE2 and RE3.** The slide rack and the shotgun pump now work on a button (left grip + left trigger), the way Arcade Controls did it, so combat stays fluid. The hand-motion version is kept for later.
