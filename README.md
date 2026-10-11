@@ -42,7 +42,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Rebuilt how the game's picture is passed to the headset. | 10-08 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Worked on running it on the fast PC, at well over 190 frames a second. | 09-23 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
-| **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Switched on the game's own free camera from our code; it flies with the keyboard. | 10-11 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
+| **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Built the first step of head tracking on top of the game's free camera. | 10-11 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | ⭐ Shows both eyes side by side and in a headset simulator; real headset next. | 10-11 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 First run: it starts, and it starts with our file in place. | 09-17 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on the HUD: it now shows in both eyes. | 10-07 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
