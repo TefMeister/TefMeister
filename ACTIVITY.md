@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🎮 **Releases (evening).** Visceral RE2 0.4.0 and Visceral RE3 0.1.0 are out as public work-in-progress builds, and The Evil Within's first VR build is up as a milestone, not for playing.
+- 🎮 **Alan Wake and Hard Reset (evening).** Alan Wake's head tracking works in the real headset; both now record camera timing so the jitter can be found.
 - 🎮 **The Evil Within (evening).** Tefa saw it in the real headset for the first time, saved as the first VR build. The menus show in both eyes, but gameplay is still flat and stuck to the view, so that is next.
 - 🎮 **Heavy Rain (evening).** A head turn now rotates the free camera and it holds steady, the way looking around in VR needs. The first try at linking the real head-tracking crashed the game, so that is being tracked down.
 - 🎮 **Mad Max (late).** Found that our own logging was cutting off part of what it reported, and that it never watched one way the game can send its settings. Fixed both, so the next run shows how the sun's shadow settings travel.
