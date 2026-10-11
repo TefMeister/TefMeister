@@ -407,7 +407,7 @@
       "developer": "Quantic Dream",
       "engine": "Quantic Dream engine",
       "renderer": "Direct3D 11",
-      "stage": "2026-10-11: runs windowed on both PCs; the developer settings file is never read; the built-in free camera is switched on from our proxy, takes the view and flies with the keyboard"
+      "stage": "2026-10-11: runs windowed; the built-in free camera switches on from our code and flies; a head-pose layer on top of it is built, not yet tried in the game"
     },
     {
       "repo": "prey-2017-vr",
