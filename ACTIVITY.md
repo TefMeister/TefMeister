@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🎮 **Far Cry 3: Blood Dragon.** Both eyes now show side by side in the window with real depth, and the game reached a headset simulator with each eye its own picture. Next is a real headset.
 - 🎮 **Alan Wake (live test).** The fix works: the road, trees and Alan now move together in 3D, also when the simulated headset turns. The mod also finds the camera on its own now, so each PC needs no special numbers.
 - 🎮 **Alan Wake.** Found why the 3D hid Alan and the fog in the headset: the game draws its world in two halves, and only one followed the 3D. Built a fix that moves both together; not tried in the game yet.
 - 🧩 **Lanes 0.58.0.** New GitHub repos are now private by default, and a session asks first before making any repo public.
