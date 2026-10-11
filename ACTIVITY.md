@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-11
 
+- 🔎 **Research sweeps.** Checked the whole collection for wrong or out-of-date notes, looked up news for the games being worked on, and fixed an old line in the shared library: SteamVR now runs 32-bit VR games through OpenXR. Found a public RE2 VR pack with holsters and reloading, and a known way round the Tomb Raider sign-in pop-up.
 - 🎮 **Heavy Rain (later).** Built the switch for the game's own free camera into our file: one key turns it on and a log shows whether it worked. Tested without the game; next is one try in the game.
 - 🎮 **Heavy Rain.** First run on the dev PC, now in a window with the music off. The hidden debug menu cannot be switched on by a file, but the game's own free camera can be switched on from our code; the recipe is written down.
 - 🎮 **Far Cry 3: Blood Dragon.** Both eyes now show side by side in the window with real depth, and the game reached a headset simulator with each eye its own picture. Next is a real headset.
