@@ -6,6 +6,10 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-13
+
+- 🎮 **Visceral RE2 (after midnight).** Measured hand racking with Ghost Hand: the pistol slide was already steady, and the shotgun's pump area and push back are fixed. Racking by hand now replaces the button. New hand-tuning sliders save per character, per gun and per hold.
+
 ## 2026-10-12
 
 - 🧩 **Lanes 0.62.1 (night).** Sessions now say whether anything they left running still matters, so you know when it is safe to close.
