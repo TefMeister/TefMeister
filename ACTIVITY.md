@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🎮 **Prototype (afternoon).** The headset can now turn the camera instead of the number pad, tilt included. Tested in a small program against the headset simulator: turning the simulated head turned the view the right way. Next: try it in the game.
 - 🎮 **Metro Exodus (midday).** Built head tracking: turning your head will turn the game camera, and each picture tells the headset which way the head was facing when it was drawn, so it should not swim. Tested without the game; it stays switched off until a game test.
 - 🎮 **Mad Max (midday).** The car's shadow now sits under the car in the 3D picture, in both eyes: the sun's settings were in a different place than the shader files said. Motion blur no longer smears the near sand either.
 - 🎮 **Heavy Rain (morning).** Found why linking the headset closed the game: the game carries an old copy of a Microsoft helper file that the newer VR software crashes on. Proved it with a small test program, and the mod now stops safely instead. Next: try the game without that old copy.
