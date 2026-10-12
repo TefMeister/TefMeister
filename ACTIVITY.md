@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🎮 **Manhunt (later).** Each eye now gets the headset's own field of view, filling the whole view instead of a floating screen. Proven in the small test program; the world does not turn with the head yet.
 - 🎮 **Manhunt (late).** Built the link that sends each eye's half of the picture to the headset. Tested in a small program with the headset simulator: the left half reached the left eye and the right half the right. Next: the same in the game.
 - 🎮 **Mad Max (late).** Built the headset link in, copied from the one Metro uses: each picture goes to the eye it was drawn for, with the head pose, and the headset can now turn the view. Switched off until its first test with the headset simulator.
 - 🎮 **Manhunt (evening).** Started the last save test: past the first hunter and through the car-park door. Tefa will play the rest at home, so the test now waits for them; a backup tool that skips the fighting is ready but not installed. Then each eye got its own half of the screen, the step before the headset. Music muted.
