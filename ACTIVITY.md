@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🎮 **Silent Hill 2 remake (afternoon).** Planned how the VR arms will work: the game keeps animating James, the arms copy that each frame, and your hands steer them on top. So the game's own push, pull and lever animations can show through, then hand the arms back smoothly.
 - 🎮 **Heavy Rain (afternoon).** The headset feed now runs inside the game: turning the simulated headset turns the view and it holds steady. The game can keep its own old helper files, so a Steam file check won't break it.
 - 🎮 **Prototype (afternoon).** The headset can now turn the camera instead of the number pad, tilt included. Tested in a small program against the headset simulator: turning the simulated head turned the view the right way. Next: try it in the game.
 - 🎮 **Metro Exodus (midday).** Built head tracking: turning your head will turn the game camera, and each picture tells the headset which way the head was facing when it was drawn, so it should not swim. Tested without the game; it stays switched off until a game test.
