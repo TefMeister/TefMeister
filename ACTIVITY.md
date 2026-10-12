@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🎮 **Heavy Rain (morning).** Found why linking the headset closed the game: the game carries an old copy of a Microsoft helper file that the newer VR software crashes on. Proved it with a small test program, and the mod now stops safely instead. Next: try the game without that old copy.
 - 🎮 **Visceral RE2 (late night).** Leon's left hand now closes its fingers round a magazine or shell while reloading, using poses saved from the older Arcade Controls work. The hand also grips the slide to rack it, and the slide now stays back until the trigger is let go. Smoother docking is next.
 
 ## 2026-10-11
