@@ -371,7 +371,7 @@
       "developer": "Radical Entertainment",
       "engine": "Titanium",
       "renderer": "Direct3D 9",
-      "stage": "Head pose works every frame; lock-on with the head turned to be checked where enemies are (2026-10-01)."
+      "stage": "Head pose works every frame from the number pad (2026-09-30); 2026-10-12: the headset (OpenXR) feeds it, tested outside the game against the simulator, not yet in the game."
     },
     {
       "repo": "tomb-raider-2013-vr",
