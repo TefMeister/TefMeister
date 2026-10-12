@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🧩 **Lanes 0.61.0 (afternoon).** New `/lanes:uninstall`: shows what Lanes put on the PC, asks, then takes it all off, the plugin last. Your repos, notes and tools stay. The weekly `/gs` check now also tests Lanes' health.
 - 🧩 **Lanes 0.60.0 and 0.60.1 (afternoon).** New standing rule: in VR every blur and every effect painted on the screen (blood spatter, rain drops, the low-health red tint, screen shake) is found and switched off, so there is only gameplay. Also fixed a settings line with a note after it being misread. Every test passes.
 - 🎮 **Mad Max (afternoon).** Drove the car with the 3D on: the picture stays clean and the shadow stays under the car, straight and in turns. The cockpit view works with a real eye spacing.
 - 🎮 **Silent Hill 2 remake (afternoon).** Planned how the VR arms will work: the game keeps animating James, the arms copy that each frame, and your hands steer them on top. So the game's own push, pull and lever animations can show through, then hand the arms back smoothly.
