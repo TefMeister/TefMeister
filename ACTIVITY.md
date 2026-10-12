@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🎮 **Manhunt (evening).** Started the last save test: past the first hunter and through the car-park door. Tefa will play the rest at home, so the test now waits for them; a backup tool that skips the fighting is ready but not installed.
 - 🎮 **Mad Max (evening).** The four 3D fixes (car, shadow, motion blur, ground) now follow a head turn as well as the eye spacing. Tested without the game; a small text file can now hold a test head pose, so the next game run can try it on the monitor.
 - 🎮 **Manhunt (late afternoon).** Each eye now gets its own slightly shifted view in the game, with correct depth. The grainy camcorder look can be switched off for VR.
 - 🎮 **Mad Max (later).** Built the maths that turns the game's view with your head, and tested it thoroughly without the game: it turns the right way and matches the 3D that already works. Not connected to the game yet.
