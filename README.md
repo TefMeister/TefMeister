@@ -33,7 +33,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Prototype** (2009) | Titanium | 🏆 Worked on checking lock-on with the head turned; needs enemies to test. | 10-01 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
+| **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-12 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Built drawing the world twice per frame, once per eye; not tried in the game yet. | 10-08 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on the car's shadow and the sand in the 3D picture; both now line up. | 10-12 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Proved head movement turns and tilts the view, in the headset simulator. | 10-08 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
