@@ -235,7 +235,7 @@
       "year": 2003,
       "developer": "Rockstar North",
       "engine": "RenderWare",
-      "stage": "2026-10-12: the world draws once per eye with each eye's own camera (verified on the monitor); next: each eye to its own picture and a headset."
+      "stage": "2026-10-12: each eye's picture reaches the headset with the headset's own field of view (proven outside the game); next: in the game, then head tracking."
     },
     {
       "repo": "doom-2016-vr",
