@@ -289,7 +289,7 @@
       "developer": "Avalanche Studios",
       "engine": "Apex (Avalanche)",
       "renderer": "Direct3D 11",
-      "stage": "2026-10-12: per-eye shift works on the monitor; the car's sun shadow and the ground under motion blur now shift with the eye (both eyes, still camera); next: the same while driving."
+      "stage": "2026-10-12: per-eye shift works on the monitor while driving (shadow, motion blur and cockpit included); next: both eyes per frame to a headset."
     },
     {
       "repo": "prince-of-persia-2008-vr",
