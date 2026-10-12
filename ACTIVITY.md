@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🧩 **Lanes 0.62.0 and Ghost Hand (night).** The BeG0nE tools now ship inside Lanes, joined by a new one, Ghost Hand, which measures where your real hand and the game's hand part. After each headset session the PC turns recordings into short reports, and the raw numbers are locked away.
+- 🎮 **Visceral RE2 (night).** The finger and grip settings tuned in the headset last night are saved as build 160.
 - 🎮 **Condemned 2 (late evening).** The blur and screen effects can now be switched off for VR, and both eyes show the same moment. The game makes clean stereo pairs on the monitor; next is the headset.
 - 🎮 **Manhunt (night).** Checked a worry that each eye's picture would look squeezed: it won't. It is only a little less sharp side to side. Everything left on Manhunt now needs the game running.
 - 🎮 **Condemned 2 (evening).** Runs on the older PC from our own build. Found where the game sets its camera; splitting it gives two viewpoints side by side. Music switched off.
