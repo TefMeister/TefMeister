@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🎮 **Mad Max (evening).** The four 3D fixes (car, shadow, motion blur, ground) now follow a head turn as well as the eye spacing. Tested without the game; a small text file can now hold a test head pose, so the next game run can try it on the monitor.
 - 🎮 **Manhunt (late afternoon).** Each eye now gets its own slightly shifted view in the game, with correct depth. The grainy camcorder look can be switched off for VR.
 - 🎮 **Mad Max (later).** Built the maths that turns the game's view with your head, and tested it thoroughly without the game: it turns the right way and matches the 3D that already works. Not connected to the game yet.
 - 🎮 **Mad Max (afternoon).** Planned the way into the headset: one eye per frame, and head turning built on the same trick that already makes the 3D work. Also listed which blur and screen effects to switch off for VR.
