@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🎮 **Condemned 2 (late evening).** The blur and screen effects can now be switched off for VR, and both eyes show the same moment. The game makes clean stereo pairs on the monitor; next is the headset.
 - 🎮 **Manhunt (night).** Checked a worry that each eye's picture would look squeezed: it won't. It is only a little less sharp side to side. Everything left on Manhunt now needs the game running.
 - 🎮 **Condemned 2 (evening).** Runs on the older PC from our own build. Found where the game sets its camera; splitting it gives two viewpoints side by side. Music switched off.
 - 🎮 **The Darkness (evening).** Each picture now knows which eye it is, and with a fixed freeze both eyes show the same moment. Seen in one test so far.
