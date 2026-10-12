@@ -56,9 +56,6 @@ story of any project, open its repo and read `modding-notes/`.
 - 🧩 **Lanes 0.54.0 and ideas.** Four ideas that waited overnight were filed (three for RE2, one for Lanes: an uninstall command). From now on an idea mentioned during a session is filed straight away instead of waiting for the next session.
 - 🏆 **Visceral, RE2 VR (night).** The two-handed grip works in every state: hold the left grip near any gun and the hand takes it, relaxed, walking, running or aiming, with no change of pose; the grip spot comes from the gun's own support-hand anchor. Tefa: "i can now run and shoot at the same time". Reloading while gripping fixed the same night. Saved as the baseline. The main menu shows the last save's scene with rain again.
 - 🎯 **Visceral, RE2 VR (late night).** Bullet spread now depends on stance and hands: running is wide, walking is tighter, and standing with both hands on the gun is dead on. Long guns are a step less accurate than handguns.
-
-## 2026-10-10
-
 - 🎮 **RE Village VR scope (night).** Reloads broke whenever the rifle was raised with the left hand gripping: praydog's hands-up block gesture made Ethan guard, which cancelled the reload. Five probe rounds to find the switch the game itself honours; now blocking is off while reloading or with two hands on a gun. The left hand also follows the reload animation. Tefa: *"it works!! ... played perfectly"*. Saved as v1.1.5.
 
 ## 2026-10-09
