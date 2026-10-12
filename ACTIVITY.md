@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-12
 
+- 🎮 **Metro Exodus (midday).** Built head tracking: turning your head will turn the game camera, and each picture tells the headset which way the head was facing when it was drawn, so it should not swim. Tested without the game; it stays switched off until a game test.
 - 🎮 **Mad Max (midday).** The car's shadow now sits under the car in the 3D picture, in both eyes: the sun's settings were in a different place than the shader files said. Motion blur no longer smears the near sand either.
 - 🎮 **Heavy Rain (morning).** Found why linking the headset closed the game: the game carries an old copy of a Microsoft helper file that the newer VR software crashes on. Proved it with a small test program, and the mod now stops safely instead. Next: try the game without that old copy.
 - 🎮 **Visceral RE2 (late night).** Leon's left hand now closes its fingers round a magazine or shell while reloading, using poses saved from the older Arcade Controls work. The hand also grips the slide to rack it, and the slide now stays back until the trigger is let go. Smoother docking is next.
