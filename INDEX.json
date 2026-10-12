@@ -407,7 +407,7 @@
       "developer": "Quantic Dream",
       "engine": "Quantic Dream engine",
       "renderer": "Direct3D 11",
-      "stage": "2026-10-12: runs windowed; a head pose turns the built-in free camera steadily; the headset link closed the game because of an old C++ runtime copy it ships, proved outside the game"
+      "stage": "2026-10-12: the OpenXR head pose drives the free camera inside the game (simulator, dev PC); next: the real headset on the home PC, then stereo."
     },
     {
       "repo": "prey-2017-vr",

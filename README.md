@@ -43,7 +43,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Built head tracking: turning your head turns the game camera. | 10-12 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: the world holds still between the eyes, but the eyes sometimes swap. | 09-28 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Worked on running it on the fast PC, at well over 190 frames a second. | 09-23 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
-| **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Found why linking the headset closed the game: an old helper file it ships. | 10-12 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
+| **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Worked on head tracking: the headset feed now runs inside the game. | 10-12 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 First run: it starts, and it starts with our file in place. | 09-17 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on the HUD: it now shows in both eyes. | 10-07 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Worked on the frame rate in the headset, from 48 to 72 fps. | 09-29 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
