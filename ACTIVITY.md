@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-13
 
+- 🎮 **Visceral RE2 (midday).** A new tick box holds both hands still after a 10-second countdown, so the controllers can be put down while the hand sliders are moved with the mouse. Built, not yet tried in the headset.
 - 🧩 **Lanes 0.63.0.** Conversations now get summarised earlier, at 40% full, so sessions stay sharp. A checkpoint is saved first and the full logs are kept on the PC. The front page now has a full guide for beginners.
 - 🎮 **Visceral RE2 (morning).** The hand-tuning menu now covers the right hand too: every finger joint, the grip, and where the gun sits in the hand, saved per character and per gun.
 - 🎮 **Visceral RE2 (after midnight).** Measured hand racking with Ghost Hand: the pistol slide was already steady, and the shotgun's pump area and push back are fixed. Racking by hand now replaces the button. New hand-tuning sliders save per character, per gun and per hold.
