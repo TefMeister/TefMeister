@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-14
 
+- 🎞️ **YouTube footage list.** Every recording that goes into a video is now listed, so the same footage is never used twice.
 - 🔧 **Visceral RE2.** The left hand now opens as it reaches for the slide or pump and curls closed on the grab, with its own shape for the pistol handle. The left hand can also be posed on its own, and two grab spots on the straightened shotgun are fixed.
 
 ## 2026-10-13
