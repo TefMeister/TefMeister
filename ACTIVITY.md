@@ -8,7 +8,6 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-13
 - ❄️ **Hand Freeze (late afternoon).** New pixel-art look: summer and winter backgrounds, a round red-to-green switch, and snowflake and flame buttons for the left hand, the right hand or both. Tested on the simulator.
-
 - ❄️ **Hand Freeze (afternoon).** A new desktop app holds both VR controllers still in any OpenXR game after a countdown, so hands can be posed with the mouse. Tested on the headset simulator.
 - 🎮 **Visceral RE2 (midday).** A new tick box holds both hands still after a 10-second countdown, so the controllers can be put down while the hand sliders are moved with the mouse. Built, not yet tried in the headset.
 - 🧩 **Lanes 0.63.0.** Conversations now get summarised earlier, at 40% full, so sessions stay sharp. A checkpoint is saved first and the full logs are kept on the PC. The front page now has a full guide for beginners.
