@@ -6,6 +6,10 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-14
+
+- 🔧 **Visceral RE2.** The left hand now opens as it reaches for the slide or pump and curls closed on the grab, with its own shape for the pistol handle. The left hand can also be posed on its own, and two grab spots on the straightened shotgun are fixed.
+
 ## 2026-10-13
 
 - 🔧 **Visceral RE2 (late).** The hand-tuning menu now keeps separate numbers for a gun with upgrades, such as the long magazine, and the plain gun. Tefa's tuning so far carries over.

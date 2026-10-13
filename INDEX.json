@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -261,7 +261,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Public work-in-progress release 0.4.0 (2026-10-11): movement and combat overhaul on praydog's REFramework VR. Since then: left-hand finger grips (2026-10-12); racking and pumping by hand, hand-tuning sliders per character and gun, for both hands, a tick box that holds the hands still while tuning, and separate tuning for upgraded guns (2026-10-13).",
+      "stage": "Public work-in-progress release 0.4.0 (2026-10-11): movement and combat overhaul on praydog's REFramework VR. Since then: left-hand finger grips (2026-10-12); racking and pumping by hand, hand-tuning sliders per character and gun, for both hands, a tick box that holds the hands still while tuning, and separate tuning for upgraded guns (2026-10-13); the left hand opening and curling closed as it grabs (2026-10-14).",
       "updated": "2026-10-13"
     },
     {
