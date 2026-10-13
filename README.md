@@ -114,6 +114,14 @@ modders, human or AI, and as drop-in fixes for specific games.
 | **Camera Jitter/Shake BeG0nE** | The stepped, jittery camera so many AI-written VR mods have. First find out why; then a tool for modders and a jitter-free camera for specific games. | 🔧 Built the ride-along: a mod logs when it reads the pose and writes the camera, and a background rider names the cause of any stepping and grows a jittery-versus-smooth knowledge base; Lanes starts it at every session. | 10-08 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/camera-jitter) |
 | **Ghost Hand BeG0nE** | In VR, the gaps between your real hand and the player's hand: lag, offset, jumps and lost tracking that make hand gestures like racking a slide miss. It records both controllers and the game's hands, then points at where they part. | 🔧 Built today: the recorder and its report maker, shipped in Lanes. First job: hand racking in RE2. | 10-12 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/ghost-hand) |
 
+## ❄️ VR helpers
+
+Small programs that make working in a headset easier, for any game.
+
+| Tool | How it works | Where it stands | Updated | Where it lives |
+| --- | --- | --- | --- | --- |
+| **Hand Freeze** | A desktop app that holds both VR controllers still in any OpenXR game. Press Freeze, hold the controllers where the hands should be, and after a countdown they stay put while the game keeps running, so hand poses can be tuned with the mouse. | 🔧 Built today and tested on the headset simulator; first real try next. | 10-13 | [flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/hand-freeze) |
+
 ## 🤖 Automated navigation and movement
 
 Tools that let a game get itself from launch to gameplay, so testing a mod does not start with the same menus
