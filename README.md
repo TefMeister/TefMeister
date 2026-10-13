@@ -120,7 +120,7 @@ Small programs that make working in a headset easier, for any game.
 
 | Tool | How it works | Where it stands | Updated | Where it lives |
 | --- | --- | --- | --- | --- |
-| **Hand Freeze** | A desktop app that holds both VR controllers still in any OpenXR game. Press Freeze, hold the controllers where the hands should be, and after a countdown they stay put while the game keeps running, so hand poses can be tuned with the mouse. | 🔧 Built today and tested on the headset simulator; first real try next. | 10-13 | [flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/hand-freeze) |
+| **Hand Freeze** | A pixel-art desktop app that holds the VR controllers still in any OpenXR game, left, right or both. Press the snowflake, hold the controllers where the hands should be, and after a countdown they stay put while the game keeps running, so hand poses can be tuned with the mouse. | 🔧 Redesigned with a winter look and a row per hand; first real try next. | 10-13 | [flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/hand-freeze) |
 
 ## 🤖 Automated navigation and movement
 
