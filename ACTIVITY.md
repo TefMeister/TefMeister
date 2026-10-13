@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-13
 
+- ❄️ **Hand Freeze (night).** The look got a last tidy, and the tool now has its own repo, private until it is tested in real games.
 - ❄️ **Hand Freeze (evening).** Clearer pixel lettering, the flame button now reads UN- / FREEZE, and the rows say LEFT HAND, RIGHT HAND and BOTH HANDS. The window grew a little so everything fits, with the sun and moon in the middle of the title box.
 - ❄️ **Hand Freeze (late afternoon).** New pixel-art look: summer and winter backgrounds, a round red-to-green switch, and snowflake and flame buttons for the left hand, the right hand or both. Tested on the simulator.
 - ❄️ **Hand Freeze (afternoon).** A new desktop app holds both VR controllers still in any OpenXR game after a countdown, so hands can be posed with the mouse. Tested on the headset simulator.
