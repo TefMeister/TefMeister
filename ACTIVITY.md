@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-13
 
+- 🎮 **Visceral RE2 (morning).** The hand-tuning menu now covers the right hand too: every finger joint, the grip, and where the gun sits in the hand, saved per character and per gun.
 - 🎮 **Visceral RE2 (after midnight).** Measured hand racking with Ghost Hand: the pistol slide was already steady, and the shotgun's pump area and push back are fixed. Racking by hand now replaces the button. New hand-tuning sliders save per character, per gun and per hold.
 
 ## 2026-10-12
