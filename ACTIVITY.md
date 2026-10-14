@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-14
 
+- 🔧 **Mad Max.** Turning the view with a head pose was tried on the monitor. At first it broke the colours; that is fixed, and the world now turns and looks up the right way. Lighting and shadows do not follow yet.
 - 🧩 **Lanes 0.65.0.** Each PC keeps a note of which of our apps it has, so the other PC knows. Saying a job is done on the other PC now clears its reminder.
 - ❄️ **Hand Freeze is public.** It works, so its repo is open to everyone now.
 - 🧩 **Lanes 0.64.0.** Setup can install Hand Freeze straight from GitHub, and update tells you when a newer one is out.
