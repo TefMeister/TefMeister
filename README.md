@@ -13,7 +13,7 @@ story is in each repo. Each game sits in the group that matches its status.
 
 🎮 works in a headset · 🔧 being built · 🔍 studying the game · 🏆 breakthrough · ⭐ promising find · ⏸ paused · 📦 finished
 
-### ✅ Works in headset
+### 🥽 Works in headset
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
