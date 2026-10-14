@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-14
 
+- 🥽 **RE Village scope v1.1.5 released (evening).** The 1.1.5 build, confirmed in play last week, is now on the GitHub release page with its notes. Tefa's evening list of four Resident Evil 2 faults (menu rain timing, empty-gun shot, menu flicker, ladder camera jump) went onto the RE2 board for desk work.
 - 🧩 **Compiler update (late night).** Both PCs moved to the new compiler, the program that turns mod code into game files. Dead Space 2, Prototype, Psychonauts and The Evil Within rebuild cleanly with it, and their build recipes now find whichever version is installed.
 - 🧩 **Lanes 0.68 and the first tool check (late night).** The weekly tool check can now update without asking and also covers the PC's own programs; its first run updated the build tools, editors and Python packages. Games that work in a headset now carry a 🥽 headset icon on this page.
 - 🧩 **Lanes 0.67 (late night).** New weekly tool check, `/gu`: it brings our own tools up to date in both directions, keeps the two copies of a tool in step, lists new releases of outside tools like UEVR, and feeds lessons from game sessions into the tools. Its first run found the two copies of the menu tool had drifted apart, and they were put back in step.
