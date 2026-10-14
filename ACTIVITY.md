@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-14
 
+- 🧩 **Hand Freeze v3 (late evening).** A new BUTTONS TOO tick box: a freeze now also holds the trigger, grip, stick and buttons of those controllers, for poses that only exist while something is pressed. Released on GitHub and installed on the home PC. RE2's bridge script now records headset pose and camera for the jitter checker.
 - 🥽 **RE Village scope v1.1.5 released (evening).** The 1.1.5 build, confirmed in play last week, is now on the GitHub release page with its notes. Visceral RE2 b174 built from Tefa's evening list: an empty gun no longer triggers the shooting animation (the likely source of the phantom gunshot), and the camera is held steady for the frames a ladder or cupboard takes the body over. The menu rain's refusal points were read from the game code and are now logged.
 - 🧩 **Compiler update (late night).** Both PCs moved to the new compiler, the program that turns mod code into game files. Dead Space 2, Prototype, Psychonauts and The Evil Within rebuild cleanly with it, and their build recipes now find whichever version is installed.
 - 🧩 **Lanes 0.68 and the first tool check (late night).** The weekly tool check can now update without asking and also covers the PC's own programs; its first run updated the build tools, editors and Python packages. Games that work in a headset now carry a 🥽 headset icon on this page.
