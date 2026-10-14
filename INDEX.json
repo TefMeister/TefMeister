@@ -289,7 +289,7 @@
       "developer": "Avalanche Studios",
       "engine": "Apex (Avalanche)",
       "renderer": "Direct3D 11",
-      "stage": "2026-10-12: per-eye shift works on the monitor while driving (shadow, motion blur and cockpit included); next: both eyes per frame to a headset."
+      "stage": "2026-10-14: a head pose turns the world on the monitor (geometry right, lighting and shadows not yet following); per-eye shift works while driving; headset link built in, untested."
     },
     {
       "repo": "prince-of-persia-2008-vr",
@@ -463,7 +463,7 @@
       "renderer": "OpenGL",
       "stage": "Light: the held cube gun catches the game's real lights face by face, proven flat 2026-10-08 [verified-live, n=5 runs]; a metal shine map adds a moving sheen; headset confirmation pending. Before that: v0.1.1 released 2026-09-23; weapons being rebuilt in cubes with Tefa in Blender (shotgun with gloved hands, animated from the game; rifle, jackhammer and flamethrower first passes), the shotgun editing copy at 1.7 mm with wear and tear (2026-10-06)",
       "source_of_truth": "ashes-2063-weapons/kit/",
-      "updated": "2026-10-06"
+      "updated": "2026-10-14"
     },
     {
       "repo": "silent-hill-2-remake-vr",
