@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-14
 
+- 🧩 **Lanes 0.67 (late night).** New weekly tool check, `/gu`: it brings our own tools up to date in both directions, keeps the two copies of a tool in step, lists new releases of outside tools like UEVR, and feeds lessons from game sessions into the tools. Its first run found the two copies of the menu tool had drifted apart, and they were put back in step.
 - 🧩 **Lanes 0.66.1.** Sessions no longer ask whether you can see Claude beside a windowed game; you place the windows yourself.
 - 🧩 **Lanes 0.66.0 and Menu-o-matiC (night).** Sessions now drive games with the recorded menu routes first and keep a note per game of what they learn (menu buttons, controls, hazards), read before every launch. Plugin updates now list what each new version adds.
 - 🔍 **Manhunt.** The game itself now shows up in the headset simulator, one picture per eye, and turning the head turns the view the right way. Two faults were fixed on the way, and each eye is sharper now that the game runs at 1280x720.
