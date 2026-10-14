@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-14
 
+- 🧩 **Lanes 0.65.0.** Each PC keeps a note of which of our apps it has, so the other PC knows. Saying a job is done on the other PC now clears its reminder.
 - ❄️ **Hand Freeze is public.** It works, so its repo is open to everyone now.
 - 🧩 **Lanes 0.64.0.** Setup can install Hand Freeze straight from GitHub, and update tells you when a newer one is out.
 - 🎞️ **YouTube footage list.** Every recording that goes into a video is now listed, so the same footage is never used twice.
