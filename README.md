@@ -79,7 +79,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.63.0: conversations now get summarised earlier, with a checkpoint saved first and the full logs kept; the front page has a full guide for beginners. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.64.0: setup can now install our Hand Freeze VR app from GitHub, and update it. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
@@ -120,7 +120,7 @@ Small programs that make working in a headset easier, for any game.
 
 | Tool | How it works | Where it stands | Updated | Where it lives |
 | --- | --- | --- | --- | --- |
-| **Hand Freeze** | A pixel-art desktop app that holds the VR controllers still in any OpenXR game, left, right or both. Press the snowflake, hold the controllers where the hands should be, and after a countdown they stay put while the game keeps running, so hand poses can be tuned with the mouse. | 🔧 Redesigned with a winter look and a row per hand; first real try next. | 10-13 | [flat-to-vr-RE-toolkit](https://github.com/TefMeister/flat-to-vr-RE-toolkit/tree/main/tools/hand-freeze) |
+| **Hand Freeze** | A pixel-art desktop app that holds the VR controllers still in any OpenXR game, left, right or both. Press the snowflake, hold the controllers where the hands should be, and after a countdown they stay put while the game keeps running, so hand poses can be tuned with the mouse. | 🔧 Out in public now, and Lanes can install it. | 10-14 | [hand-freeze-vr](https://github.com/TefMeister/hand-freeze-vr) |
 
 ## 🤖 Automated navigation and movement
 
