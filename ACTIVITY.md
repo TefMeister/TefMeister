@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-14
 
+- 🔍 **Manhunt.** The game itself now shows up in the headset simulator, one picture per eye, and turning the head turns the view the right way. Two faults were fixed on the way, and each eye is sharper now that the game runs at 1280x720.
 - 🔧 **Mad Max (evening).** The pass that lights the ground now turns with the head as well, so light and shadow should stay in place when looking around. Built and checked on paper; the next game run will show it.
 - 🔧 **Mad Max.** Turning the view with a head pose was tried on the monitor. At first it broke the colours; that is fixed, and the world now turns and looks up the right way. Lighting and shadows do not follow yet.
 - 🧩 **Lanes 0.65.0.** Each PC keeps a note of which of our apps it has, so the other PC knows. Saying a job is done on the other PC now clears its reminder.
