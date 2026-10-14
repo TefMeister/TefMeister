@@ -235,7 +235,7 @@
       "year": 2003,
       "developer": "Rockstar North",
       "engine": "RenderWare",
-      "stage": "2026-10-12: each eye reaches the headset with its own field of view and head tracking (proven outside the game); next: in the game."
+      "stage": "2026-10-14: the game reaches the headset simulator, one picture per eye, head tracking turns the right way; next: the real headset."
     },
     {
       "repo": "doom-2016-vr",
