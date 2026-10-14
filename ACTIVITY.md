@@ -6,6 +6,10 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-15
+
+- 🎬 **Four progress videos compiled (night).** From ten hours of headset and flat recordings of 10-13 October: Visceral RE2 (67 min), the Village scope (17 min), the first RE3 port runs (41 min), and first looks at six other games (43 min). Desktop footage and idle stretches cut; ready for YouTube.
+
 ## 2026-10-14
 
 - 🧩 **Hand Freeze v3 (late evening).** A new BUTTONS TOO tick box: a freeze now also holds the trigger, grip, stick and buttons of those controllers, for poses that only exist while something is pressed. Then v3.1 the same night: 32-bit games (Manhunt) failed to start with the switch on; a 32-bit copy of the layer now sits beside the 64-bit one, proven with a small test program in both sizes. Released on GitHub and installed on the home PC. RE2's bridge script now records headset pose and camera for the jitter checker.
