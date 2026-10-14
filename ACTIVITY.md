@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-14
 
+- 🧩 **Lanes 0.66.0 and Menu-o-matiC (night).** Sessions now drive games with the recorded menu routes first and keep a note per game of what they learn (menu buttons, controls, hazards), read before every launch. Plugin updates now list what each new version adds.
 - 🔍 **Manhunt.** The game itself now shows up in the headset simulator, one picture per eye, and turning the head turns the view the right way. Two faults were fixed on the way, and each eye is sharper now that the game runs at 1280x720.
 - 🔧 **Mad Max (evening).** The pass that lights the ground now turns with the head as well, so light and shadow should stay in place when looking around. Built and checked on paper; the next game run will show it.
 - 🔧 **Mad Max.** Turning the view with a head pose was tried on the monitor. At first it broke the colours; that is fixed, and the world now turns and looks up the right way. Lighting and shadows do not follow yet.
