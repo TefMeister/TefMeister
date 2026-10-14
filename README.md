@@ -11,21 +11,21 @@ Working on things with Claude Code
 VR mods for flat-screen games. A quick look at where each one stands, newest state only; the full
 story is in each repo. Each game sits in the group that matches its status.
 
-🎮 works in a headset · 🔧 being built · 🔍 studying the game · 🏆 breakthrough · ⭐ promising find · ⏸ paused · 📦 finished
+🥽 works in a headset · 🔧 being built · 🔍 studying the game · 🏆 breakthrough · ⭐ promising find · ⏸ paused · 📦 finished
 
 ### 🥽 Works in headset
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **XIII** (2003) | Unreal Engine 2 | 🎮 The newest 3D build now starts with the real headset on the home PC. | 10-10 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
-| **Psychonauts** (2005) | Double Fine engine | 🎮 Worked on the head-follow camera that went glitchy in the headset. | 10-08 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
-| **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🎮 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
+| **XIII** (2003) | Unreal Engine 2 | 🥽 The newest 3D build now starts with the real headset on the home PC. | 10-10 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
+| **Psychonauts** (2005) | Double Fine engine | 🥽 Worked on the head-follow camera that went glitchy in the headset. | 10-08 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
+| **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🔧 Worked on the left hand opening and closing as it grabs the gun. | 10-14 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Released 0.1.0, the movement and combat overhaul as it stands. | 10-11 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Ashes 2063** (2018) | GZDoom | 🎮 Proved the cube shotgun catches the game's real lights, and recorded a flat test run. | 10-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
-| **Hard Reset** (2011) | Road Hog Engine | 🎮 First build released: plays in the headset, 3D switches on by itself. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
-| **Alan Wake** (2010) | Remedy engine | 🎮 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
-| **Far Cry 3: Blood Dragon** (2013) | Dunia | 🎮 First VR build released: real depth in the headset, smooth; head tracking next. | 10-11 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
+| **Ashes 2063** (2018) | GZDoom | 🥽 Proved the cube shotgun catches the game's real lights, and recorded a flat test run. | 10-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
+| **Hard Reset** (2011) | Road Hog Engine | 🥽 First build released: plays in the headset, 3D switches on by itself. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
+| **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
+| **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 First VR build released: real depth in the headset, smooth; head tracking next. | 10-11 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 
 ### 🔍 Early RE work
 
