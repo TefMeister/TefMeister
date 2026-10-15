@@ -36,7 +36,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | --- | --- | --- | --- | --- |
 | **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on getting the game into the headset simulator. | 10-14 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
-| **Mad Max** (2015) | Apex Engine | 🔧 Worked on making the lighting turn with your head, not only the world. | 10-14 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
+| **Mad Max** (2015) | Apex Engine | 🔧 Got the lighting and shadows turning with your head; worked on the headset link. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Proved head movement turns and tilts the view, in the headset simulator. | 10-08 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Evil Within** (2014) | id Tech 5 | 🔧 First look in the real headset; the 3D picture needs fixing. | 10-11 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
