@@ -25,7 +25,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Ashes 2063** (2018) | GZDoom | 🥽 Proved the cube shotgun catches the game's real lights, and recorded a flat test run. | 10-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 First build released: plays in the headset, 3D switches on by itself. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
-| **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 First VR build released: real depth in the headset, smooth; head tracking next. | 10-11 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
+| **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Built head tracking: the view turns with your head; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Planned how the VR arms will work, keeping the game's own animations. | 10-12 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 
 ### 🔍 Early RE work

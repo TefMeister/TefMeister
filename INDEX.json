@@ -443,7 +443,7 @@
       "developer": "Ubisoft Montreal",
       "engine": "Dunia",
       "renderer": "Direct3D 9 and Direct3D 11 (two builds)",
-      "stage": "First VR build released (2026-10-11): real depth on a floating screen, smooth; head tracking next."
+      "stage": "First VR build released (2026-10-11): real depth on a floating screen, smooth. Head tracking and per-eye projection views built 2026-10-15 [compile-verified], first simulator run next."
     },
     {
       "repo": "deus-ex-mankind-divided-vr",
