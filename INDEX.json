@@ -452,7 +452,7 @@
       "developer": "Eidos-Montréal",
       "engine": "Dawn Engine",
       "renderer": "Direct3D 11 / Direct3D 12",
-      "stage": "2026-09-17: runs, and runs with our dxgi.dll, windowed on the home PC [verified-live 2026-09-17]. 2026-10-15: first static look on the dev PC: 64-bit, Direct3D 11 by default; the code is packed at rest; the game has its own stereo 3D including a side-by-side mode [inferred-static 2026-10-15]; next: one side-by-side test run."
+      "stage": "2026-09-17: runs, and runs with our dxgi.dll, windowed on the home PC [verified-live 2026-09-17]. 2026-10-15: first static look on the dev PC: 64-bit, Direct3D 11 by default; the code is packed at rest; the game has its own stereo 3D including a side-by-side mode [inferred-static 2026-10-15]; a shape-based camera finder (d3d11 proxy) is built and tested without the game [verified-numerically 2026-10-15]; next: one side-by-side test run, then the finder run."
     },
     {
       "repo": "bulletstorm-vr",

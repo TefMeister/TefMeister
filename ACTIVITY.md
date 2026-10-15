@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🎮 **Deus Ex: Mankind Divided: a camera finder (night).** A small add-on that spots the game's camera by its maths, so we need no names from the game's files. It passed 20,000 made-up cameras; it waits for its first run in the game, after the 3D-mode test.
 - 🎮 **Mad Max: the game's own picture reaches the headset (evening).** Steam's overlay no longer fights the headset link, and the game's real picture shows in both eyes of the headset simulator, turning with the head. The blur over the steering wheel and hands is gone: the switch built earlier had never been reached, and now it is.
 - 🎮 **Deus Ex: Mankind Divided: a built-in 3D mode (late evening).** A first look through the game's files found that it can already draw two eyes side by side, a mode made for 3D TVs. The game's code is locked until it runs, so the next step is a test run with that mode switched on.
 - 🎮 **Metro Exodus: the picture keeps its shape (late evening).** The game's wide picture looked stretched in each tall headset eye. That turned out to be the test tool's own preview, but one gap was real: with head tracking off, a headset would have stretched it too. Now every eye tells the headset the game's real viewing angles. Built and checked without the game.
