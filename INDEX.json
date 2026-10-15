@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -149,7 +149,7 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/BeG0nE",
       "purpose": "BeG0nE: tools and mods that remove unwanted features and faults from video games, one folder per cure, each a toolkit for modders plus drop-in fixes per game. Occlusion Drift BeG0nE (VR two-handed weapons held with the left controller above the right, so tracking never drops; first game RE Village on REFramework) and Camera Jitter/Shake BeG0nE (the stepped camera common in AI-written VR mods; first find out why).",
-      "stage": "renamed BeG0nE 2026-10-01 and given a second cure; occlusion: Village grip worn 2026-10-02 (own grip decision, frozen socket, holds through shots); shipped inside the RE Village scope mod v1.1.1 (2026-10-02): trusted frozen spot, short-pull let-go, rifle spot only on the rifle, pistol not steered; camera jitter: ride-along built; ghost hand: recorder and reader built 2026-10-12; all three tools ship inside Lanes 0.62.0",
+      "stage": "renamed BeG0nE 2026-10-01 and given a second cure; occlusion: Village grip worn 2026-10-02 (own grip decision, frozen socket, holds through shots); shipped inside the RE Village scope mod since v1.1.1 (2026-10-02; finished at v1.1.5): trusted frozen spot, short-pull let-go, rifle spot only on the rifle, pistol not steered; camera jitter: ride-along built; ghost hand: recorder and reader built 2026-10-12; all three tools ship inside Lanes 0.62.0",
       "licence": "MIT"
     },
     {
@@ -263,6 +263,15 @@
       "engine": "RE Engine",
       "stage": "Public work-in-progress release 0.4.0 (2026-10-11): movement and combat overhaul on praydog's REFramework VR. Since then: left-hand finger grips (2026-10-12); racking and pumping by hand, hand-tuning sliders per character and gun, for both hands, a tick box that holds the hands still while tuning, and separate tuning for upgraded guns (2026-10-13); the left hand opening and curling closed as it grabs (2026-10-14).",
       "updated": "2026-10-13"
+    },
+    {
+      "repo": "visceral-re3-vr",
+      "game": "Resident Evil 3 (2020)",
+      "year": 2020,
+      "developer": "Capcom",
+      "engine": "RE Engine",
+      "stage": "Public work-in-progress release 0.1.0 (2026-10-11): Visceral RE2's movement and combat overhaul ported to RE3 on praydog's REFramework VR, started 2026-10-10. Slide rack and shotgun pump on a button, D-pad on the right stick click.",
+      "updated": "2026-10-11"
     },
     {
       "repo": "re-village-scope-vr",
