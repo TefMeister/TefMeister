@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🎮 **Condemned 2: the picture goes to the headset (afternoon).** Each eye of the stereo pair is now handed to the headset, and turning your head turns the game camera. Tested on the dev PC's headset simulator with a test program for 1,500 frames without a fault; the game itself has not been run with it yet.
 - 🎮 **The Darkness and Condemned 2.** Both games and the shared library they run on now build with the newer compiler both PCs use. The new compiler also pointed at one likely fault in the shared library, now on the list.
 - 🧩 **Lanes 0.69.0.** The weekly tool check (/gu) now also goes over every public repo and flags descriptions and front pages that fell behind the work; its first run fixed nine more player pages. Silent Hill 2 moved to the headset group.
 - 🧹 **Front pages brought up to date (morning).** The Village scope pages now point to v1.1.5 on GitHub, Visceral RE3 says its first build is out, and The Darkness, Condemned 2 and Silent Hill 2 no longer say work has not started. Twelve repo descriptions refreshed. The dev PC's tools were updated and checked.
