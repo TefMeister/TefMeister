@@ -261,8 +261,8 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Public work-in-progress release 0.4.0 (2026-10-11): movement and combat overhaul on praydog's REFramework VR. Since then: left-hand finger grips (2026-10-12); racking and pumping by hand, hand-tuning sliders per character and gun, for both hands, a tick box that holds the hands still while tuning, and separate tuning for upgraded guns (2026-10-13); the left hand opening and curling closed as it grabs (2026-10-14).",
-      "updated": "2026-10-13"
+      "stage": "Public work-in-progress release 0.4.0 (2026-10-11): movement and combat overhaul on praydog's REFramework VR. Since then: left-hand finger grips (2026-10-12); racking and pumping by hand, hand-tuning sliders per character and gun, for both hands, a tick box that holds the hands still while tuning, and separate tuning for upgraded guns (2026-10-13); the left hand opening and curling closed as it grabs (2026-10-14).; 2026-10-15: the late title rain traced to a crash in the game's effect code, a fix built, unrun",
+      "updated": "2026-10-15"
     },
     {
       "repo": "visceral-re3-vr",
@@ -270,8 +270,8 @@
       "year": 2020,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Public work-in-progress release 0.1.0 (2026-10-11): Visceral RE2's movement and combat overhaul ported to RE3 on praydog's REFramework VR, started 2026-10-10. Slide rack and shotgun pump on a button, D-pad on the right stick click.",
-      "updated": "2026-10-11"
+      "stage": "Public work-in-progress release 0.1.0 (2026-10-11): Visceral RE2's movement and combat overhaul ported to RE3 on praydog's REFramework VR, started 2026-10-10. Slide rack and shotgun pump on a button, D-pad on the right stick click. 2026-10-15: a built-in check of the numbers and gun parts carried over from RE2, unrun.",
+      "updated": "2026-10-15"
     },
     {
       "repo": "re-village-scope-vr",

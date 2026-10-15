@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🎮 **Visceral RE2: why the title rain starts late (night).** The rain's "refusal" turned out to be a small crash inside the game's effect code, read from a log already on the PC. A new build loads the rain's effect files straight away; the next start shows whether that fixes it.
+- 🎮 **Visceral RE3: checking what came over from RE2 (night).** RE3 still uses some of RE2's numbers and gun parts. The mod now writes the game's real numbers and each gun's parts into its log, so one start shows what needs changing.
 - 🎮 **Far Cry 3: Blood Dragon: a tidy-up (late night).** The headset code was split into smaller pieces without changing what it does, and an old to-do turned out to be done already.
 - 🎮 **Deus Ex: Mankind Divided: its own 3D mode draws each eye (evening).** On the dev PC the game now runs in a window with the music off. Its built-in side-by-side 3D mode really draws the world from two eye positions, and the camera finder found the game's camera on its first run. The next step is seeing how the two eyes are set up.
 - 🎮 **Far Cry 3: Blood Dragon: head tracking, built (night).** The game's view now turns with the head, and each eye goes to the headset with the exact head position it was drawn for. The maths passed 45,506 checks; the first run in the headset simulator is next.
