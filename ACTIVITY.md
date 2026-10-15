@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🎮 **Mad Max: driving with your head turned (late evening).** Turning your head while driving made the ground vanish on that side. A fix has the game draw a wider view than the eye sees, and on small turns the ground now stays whole. The jitter checker can read Mad Max now: smooth in the headset simulator.
+- 🧩 **Lanes 0.70.0.** The jitter checker now keeps flat-screen, headset-simulator and real-headset runs apart, because jitter feels different in each.
 - 🎮 **Enslaved: a tidier head-tilt log (night).** The log now shows the game's own camera tilt even when the head is still, so tests are easier to read. Nothing in the game behaves differently.
 - 🎮 **Deus Ex: Mankind Divided: a camera finder (night).** A small add-on that spots the game's camera by its maths, so we need no names from the game's files. It passed 20,000 made-up cameras; it waits for its first run in the game, after the 3D-mode test.
 - 🎮 **Mad Max: the game's own picture reaches the headset (evening).** Steam's overlay no longer fights the headset link, and the game's real picture shows in both eyes of the headset simulator, turning with the head. The blur over the steering wheel and hands is gone: the switch built earlier had never been reached, and now it is.
