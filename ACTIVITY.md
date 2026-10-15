@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🎮 **Deus Ex: Mankind Divided: its own 3D mode draws each eye (evening).** On the dev PC the game now runs in a window with the music off. Its built-in side-by-side 3D mode really draws the world from two eye positions, and the camera finder found the game's camera on its first run. The next step is seeing how the two eyes are set up.
 - 🎮 **Far Cry 3: Blood Dragon: head tracking, built (night).** The game's view now turns with the head, and each eye goes to the headset with the exact head position it was drawn for. The maths passed 45,506 checks; the first run in the headset simulator is next.
 - 🎮 **Mad Max: driving with your head turned (late evening).** Turning your head while driving made the ground vanish on that side. A fix has the game draw a wider view than the eye sees, and on small turns the ground now stays whole. The jitter checker can read Mad Max now: smooth in the headset simulator.
 - 🧩 **Lanes 0.70.0.** The jitter checker now keeps flat-screen, headset-simulator and real-headset runs apart, because jitter feels different in each.
