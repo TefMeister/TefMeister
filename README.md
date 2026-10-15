@@ -41,7 +41,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Prince of Persia** (2008) | Scimitar | 🔧 Worked on a start-up safety fix for the graphics add-on. | 09-30 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Evil Within** (2014) | id Tech 5 | 🔧 Worked out why the first headset look failed and fixed the main cause. | 10-15 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Worked on a small script add-on that shows the camera on screen. | 10-01 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
-| **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Got the game's own picture into the headset simulator; turning your head turns the view. | 10-15 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
+| **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Worked on keeping the picture's shape in each eye of the headset. | 10-15 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: each eye now shows the same moment from its own viewpoint. | 10-12 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Ran the game in the simulated headset: head tracking works and the view fits the headset. | 10-15 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Worked on head tracking: the headset feed now runs inside the game. | 10-12 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
