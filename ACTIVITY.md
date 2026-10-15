@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🎮 **Mad Max: the blur inside the car gets an off switch (evening).** The game's settings could not remove the blur over the steering wheel and hands. The game's own picture pass shows which numbers make it, and our mod now zeroes them, along with lens dirt, colour fringing and heat shimmer. Built and tested without the game; the next run shows whether it works.
 - 🧰 **Recording tool: dev PC videos reach the home PC by themselves.** They had been copied by hand, and none arrived after 10-11. Each finished test recording is now copied into the shared folder automatically.
 - 🎮 **Condemned 2: the game runs in the headset simulator (afternoon).** Turning, tilting and looking up move the view the right way, and nothing froze. The game now draws exactly what the headset can see, and the eye spread comes from the headset's own setting. Next: the first try in a real headset at home.
 - 🎮 **The Evil Within: why the first headset look failed (afternoon).** The "two pictures at once" came from one depth setting, now set automatically. A likely reason the world stayed flat and followed the head is fixed, and the log will now show whether it was the cause. Built and tested without the game; the home PC gets it next.
