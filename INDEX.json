@@ -298,7 +298,7 @@
       "developer": "Avalanche Studios",
       "engine": "Apex (Avalanche)",
       "renderer": "Direct3D 11",
-      "stage": "2026-10-15: a head pose turns the world, lighting and shadows on the monitor; per-eye shift works while driving; headset link reaches the simulator but clashes with the Steam overlay; an off switch for the cockpit blur and other screen effects is built, not yet run."
+      "stage": "2026-10-15: a head pose turns the world, lighting and shadows on the monitor; per-eye shift works while driving; the game's own picture reaches both eyes of the OpenXR simulator and turns with the head, the Steam overlay clash is fixed, and the cockpit blur is switched off [verified-live 2026-10-15, n=1]."
     },
     {
       "repo": "prince-of-persia-2008-vr",
