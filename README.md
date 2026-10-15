@@ -26,6 +26,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 First build released: plays in the headset, 3D switches on by itself. | 10-10 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 First VR build released: real depth in the headset, smooth; head tracking next. | 10-11 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Planned how the VR arms will work, keeping the game's own animations. | 10-12 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 
 ### 🔍 Early RE work
 
@@ -46,7 +47,6 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Worked on head tracking: the headset feed now runs inside the game. | 10-12 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 First run: it starts, and it starts with our file in place. | 09-17 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on the HUD: it now shows in both eyes. | 10-07 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Planned how the VR arms will work, keeping the game's own animations. | 10-12 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Tomb Raider** (2013) | Foundation | ⭐ Worked on how to switch on the game's own built-in 3D mode for VR. | 10-08 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
 | **Death Stranding Director's Cut** (2022) | Decima | ⭐ Worked on a small helper that will report where the camera data goes, the first time the game runs. | 10-01 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
 | **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on night driving: the headlights now get their per-eye fix at night. | 10-07 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
