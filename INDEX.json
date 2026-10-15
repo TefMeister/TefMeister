@@ -203,7 +203,7 @@
       "engine": "id Tech 5 (STEM)",
       "renderer": "Direct3D 11",
       "injection": "proxy winmm.dll + MinHook",
-      "stage": "First VR build released as a milestone (2026-10-11); the 3D picture and head tracking need fixing."
+      "stage": "Two eyes and head tracking work in the headset simulator; the first real headset look (2026-10-11) failed, diagnosed 2026-10-15: a depth setting split far things into two pictures (fixed), and the world-not-turning cause is narrowed with a fix and a log check [inferred-static 2026-10-15]"
     },
     {
       "repo": "far-cry-2-vr",
