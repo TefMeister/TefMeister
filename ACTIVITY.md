@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🎮 **Deus Ex: Mankind Divided: a built-in 3D mode (late evening).** A first look through the game's files found that it can already draw two eyes side by side, a mode made for 3D TVs. The game's code is locked until it runs, so the next step is a test run with that mode switched on.
 - 🎮 **Metro Exodus: the picture keeps its shape (late evening).** The game's wide picture looked stretched in each tall headset eye. That turned out to be the test tool's own preview, but one gap was real: with head tracking off, a headset would have stretched it too. Now every eye tells the headset the game's real viewing angles. Built and checked without the game.
 - 🎮 **Manhunt: the HUD into both eyes (evening).** The radar sat in the left eye and the health in the right. Our mod now catches every flat 2D drawing after the world and draws it again, shrunk, into each eye. Built and checked without the game; the next run shows whether it works.
 - 🎮 **Metro Exodus: the game's own picture reaches the headset (afternoon).** Until now only a red and blue test picture got through; the game's real picture now shows in both eyes of the headset simulator. Turning your head turns the view the right way and it comes back without drifting. A view that looked broken turned out to be the test tool's own head floating 11 m up; a safety fix for the head's height went in anyway.
