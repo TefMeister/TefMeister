@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🎮 **Metro Exodus: the game's own picture reaches the headset (afternoon).** Until now only a red and blue test picture got through; the game's real picture now shows in both eyes of the headset simulator. Turning your head turns the view the right way and it comes back without drifting. One bug found: the head's standing height lifted the camera into the ceiling; a fix is being built.
 - 🎮 **Mad Max: the blur inside the car gets an off switch (evening).** The game's settings could not remove the blur over the steering wheel and hands. The game's own picture pass shows which numbers make it, and our mod now zeroes them, along with lens dirt, colour fringing and heat shimmer. Built and tested without the game; the next run shows whether it works.
 - 🧰 **Recording tool: dev PC videos reach the home PC by themselves.** They had been copied by hand, and none arrived after 10-11. Each finished test recording is now copied into the shared folder automatically.
 - 🎮 **Condemned 2: the game runs in the headset simulator (afternoon).** Turning, tilting and looking up move the view the right way, and nothing froze. The game now draws exactly what the headset can see, and the eye spread comes from the headset's own setting. Next: the first try in a real headset at home.
