@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🧰 **Recording tool: dev PC videos reach the home PC by themselves.** They had been copied by hand, and none arrived after 10-11. Each finished test recording is now copied into the shared folder automatically.
 - 🎮 **Condemned 2: the game runs in the headset simulator (afternoon).** Turning, tilting and looking up move the view the right way, and nothing froze. The game now draws exactly what the headset can see, and the eye spread comes from the headset's own setting. Next: the first try in a real headset at home.
 - 🎮 **The Evil Within: why the first headset look failed (afternoon).** The "two pictures at once" came from one depth setting, now set automatically. A likely reason the world stayed flat and followed the head is fixed, and the log will now show whether it was the cause. Built and tested without the game; the home PC gets it next.
 - 🎮 **Mad Max: the light turns with your head (afternoon).** Turn your head and the ground stays lit and the car's shadow stays under the car. The first try at the headset link crashed the game; Steam's overlay turned out to loop back into our code, and a guard now keeps the game alive.
