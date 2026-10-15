@@ -289,7 +289,7 @@
       "developer": "Ninja Theory",
       "engine": "Unreal Engine 3",
       "renderer": "Direct3D 9",
-      "stage": "Our code turns the game's view each frame (tested 2026-10-07); head turning and tilting from a headset works in the headset simulator (2026-10-08); next: the picture through DirectX 10."
+      "stage": "Our code turns the game's view each frame (tested 2026-10-07); head turning and tilting from a headset works in the headset simulator (2026-10-08); the head-tilt log shows the game's real pitch (2026-10-15); next: the picture through DirectX 10."
     },
     {
       "repo": "mad-max-vr",
