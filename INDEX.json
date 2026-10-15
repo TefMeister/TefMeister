@@ -503,8 +503,8 @@
       "engine": "Lithtech Jupiter EX",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "Running on PC from a self-built recompile; clean stereo pairs, and headset output with head-turned camera built and simulator-tested (not yet run in the game) [verified-live 2026-10-15, n=2]",
-      "updated": "2026-09-20"
+      "stage": "Running on PC from a self-built recompile; in the game, headset output with head tracking and the headset's own view works on the OpenXR simulator; real headset not yet tried [verified-live 2026-10-15, n=1]",
+      "updated": "2026-10-15"
     }
   ],
   "notes_for_ai_readers": [
