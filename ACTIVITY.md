@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-15
 
+- 🧩 **Lanes 0.69.0.** The weekly tool check (/gu) now also goes over every public repo and flags descriptions and front pages that fell behind the work; its first run fixed nine more player pages. Silent Hill 2 moved to the headset group.
 - 🧹 **Front pages brought up to date (morning).** The Village scope pages now point to v1.1.5 on GitHub, Visceral RE3 says its first build is out, and The Darkness, Condemned 2 and Silent Hill 2 no longer say work has not started. Twelve repo descriptions refreshed. The dev PC's tools were updated and checked.
 - 🎬 **Four progress videos compiled (night).** From ten hours of headset and flat recordings of 10-13 October: Visceral RE2 (67 min), the Village scope (17 min), the first RE3 port runs (41 min), and first looks at six other games (43 min). Desktop footage and idle stretches cut; ready for YouTube.
 
