@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-16
 
+- 🔧 **Prince of Persia (2008):** our changed camera rule now gives a normal camera that follows the Prince, and a test with a different camera showed the game really uses our change. The game can now be driven from start to gameplay without help.
 - 🔍 **The Witcher 2:** the camera can now be turned from outside the game, and the turning looks smooth. That is the first step towards head tracking.
 - 🔍 **The Witcher 2: first live session.** It now runs in a window with our small file loaded. Our own script runs inside the game and shows the live camera on screen, once we found the check value the game puts on its script archives. A hidden network console also turned up that takes commands, such as changing the field of view.
 - 🧩 **Lanes 0.73: a pretend headset on offer.** Setup and the next update now offer to download the OpenXR Simulator by elliotttate, which shows a VR game's two eyes in a desktop window. A fork that also runs 32-bit games is the other choice. Downloading never switches it on.
