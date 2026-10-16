@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-16
 
+- 🔍 **Bulletstorm: the headset hookup is built.** The picture-to-headset code that works in Metro Exodus now serves Bulletstorm too, and each eye is drawn with the headset's own view shape. Tested without the game; the first look through the headset simulator comes next.
 - 🎬 **Fifteen YouTube videos cut from the 7-15 October recordings (night into morning).** One per game, named "RE2 1", "RE3 1", "Mad Max 1" and so on: only moments where the player's hands or gun are in view or the player moves, idle stretches cut, a lofi beat underneath. RE2's runs two hours. The cutting tools are kept for the next batch.
 
 ## 2026-10-15
