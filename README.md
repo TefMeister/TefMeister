@@ -48,7 +48,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 Tested the game's own 3D mode: it really draws each eye, and the camera is found. | 10-15 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on sending the picture to a headset, each eye with its own view. | 10-16 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 | **Tomb Raider** (2013) | Foundation | ⭐ Worked on how to switch on the game's own built-in 3D mode for VR. | 10-08 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
-| **Death Stranding Director's Cut** (2022) | Decima | ⭐ Worked on a small helper that will report where the camera data goes, the first time the game runs. | 10-01 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
+| **Death Stranding Director's Cut** (2022) | Decima | ⭐ First live start: runs in a window with our file loaded, and can be driven into play. | 10-16 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
 | **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on night driving: the headlights now get their per-eye fix at night. | 10-07 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 
 ### ⏸ Paused
