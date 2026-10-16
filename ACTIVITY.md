@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-16
 
+- 🔍 **The Witcher 2:** the camera can now be turned from outside the game, and the turning looks smooth. That is the first step towards head tracking.
 - 🔍 **The Witcher 2: first live session.** It now runs in a window with our small file loaded. Our own script runs inside the game and shows the live camera on screen, once we found the check value the game puts on its script archives. A hidden network console also turned up that takes commands, such as changing the field of view.
 - 🧩 **Lanes 0.73: a pretend headset on offer.** Setup and the next update now offer to download the OpenXR Simulator by elliotttate, which shows a VR game's two eyes in a desktop window. A fork that also runs 32-bit games is the other choice. Downloading never switches it on.
 - 🧩 **Lanes 0.72: simulator tests record themselves.** When a game is recorded, the headset simulator's preview window is now recorded too, in its own file, even if it opens later.
