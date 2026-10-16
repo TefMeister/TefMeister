@@ -14,6 +14,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-10-16
 
 - ❄️ **Window View, a new VR helper (afternoon).** Any desktop window can now hang in front of your eyes inside an OpenXR game, following your head like a menu: pick it in a small app, set how see-through it is, drag it by its header, resize it by its corner, and Page Up hands the mouse and keyboard to the floating windows while the game only hears the controllers. Built in one afternoon on the same two-part shape as Hand Freeze and proven on the headset simulator: Notepad showed in both eyes, typing landed in it, a drag moved it. Public repo, marked untested until the home PC tries it in a real headset. A stand-alone hand poser for the RE games (taken from the idea of EMV Engine's poser) was designed the same afternoon and is next.
+- ❄️ **Hand Poser built (evening).** The window and its in-game script exist: press LEFT FINGERS and every finger of the left hand gets three sliders, already set to where the game has it; drag one and the finger follows and stays, the joints it carries along light up, undo and redo go back through 200 changes, named builds and an autosave keep poses. Proven against a stand-in game only; the first run in RE3 is next. Public repo, marked untested.
 
 ## 2026-10-15
 
