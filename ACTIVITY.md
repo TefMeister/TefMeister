@@ -6,6 +6,10 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-16
+
+- 🎬 **Fifteen YouTube videos cut from the 7-15 October recordings (night into morning).** One per game, named "RE2 1", "RE3 1", "Mad Max 1" and so on: only moments where the player's hands or gun are in view or the player moves, idle stretches cut, a lofi beat underneath. RE2's runs two hours. The cutting tools are kept for the next batch.
+
 ## 2026-10-15
 
 - 🧩 **Lanes 0.71.0.** Sessions no longer answer "you're right". They check the fact first and say what they found, ask when they cannot check, and say "agreed" only after checking.
