@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-16
 
+- 🎬 **Recording:** automatic game recording is switched off on both PCs. Progress videos stop; each mod gets one long playthrough once it is finished.
 - 🔧 **The Evil Within:** the fix for the failed first headset look is now saved as a numbered build on the home PC, ready for the next headset try.
 - 🧩 **Lanes 0.73.1 and 0.73.2:** the weekly tool check no longer flags a page that only quotes its own words, and it now test-starts the tool connectors after a big library update, after one nearly broke the debugger's.
 - 📚 **Research:** the shared library gained four lessons from this week, the biggest being to look for a game's own lens input before rebuilding its picture maths.
