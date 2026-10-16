@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-16
 
+- 🧩 **Lanes 0.73.1 and 0.73.2:** the weekly tool check no longer flags a page that only quotes its own words, and it now test-starts the tool connectors after a big library update, after one nearly broke the debugger's.
+- 📚 **Research:** the shared library gained four lessons from this week, the biggest being to look for a game's own lens input before rebuilding its picture maths.
 - ⭐ **Death Stranding:** first live session. The game now runs in a window with a small file of ours loaded, and can be driven from the menu into play. One way of finding the camera turned out to be a dead end.
 - 🔧 **Prince of Persia (2008):** our changed camera rule now gives a normal camera that follows the Prince, and a test with a different camera showed the game really uses our change. The game can now be driven from start to gameplay without help.
 - 🔍 **The Witcher 2:** the camera can now be turned from outside the game, and the turning looks smooth. That is the first step towards head tracking.
