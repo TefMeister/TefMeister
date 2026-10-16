@@ -39,7 +39,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Tidied the head-tilt log so it shows the game's real camera angle. | 10-15 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Got our own camera following the Prince in normal play. | 10-16 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Evil Within** (2014) | id Tech 5 | 🔧 Worked out why the first headset look failed and fixed the main cause. | 10-15 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
+| **The Evil Within** (2014) | id Tech 5 | 🔧 The fix for the first headset look is installed on the home PC and ready to try. | 10-16 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Turned the camera smoothly from outside the game, a first step to head tracking. | 10-16 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Worked on keeping the picture's shape in each eye of the headset. | 10-15 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Worked on the two-eye picture: each eye now shows the same moment from its own viewpoint. | 10-12 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
