@@ -362,7 +362,7 @@
       "developer": "Flying Wild Hog",
       "engine": "Road Hog Engine",
       "renderer": "Direct3D 9",
-      "stage": "Plays in the real headset (Quest 3, VDXR 32-bit), flicker fixed 2026-10-10"
+      "stage": "Works in the headset: stereo, head tracking, our own VR hands, the gun aimed by the controller (live 2026-10-16); motion-controller controls with a two-handed hold built, first game run next."
     },
     {
       "repo": "portal-vr",
