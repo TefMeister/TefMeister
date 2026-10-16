@@ -398,7 +398,7 @@
       "developer": "CD Projekt Red",
       "engine": "REDengine",
       "renderer": "Direct3D 9",
-      "stage": "static 2026-09-28: base_scripts unpacked (460 plain-text scripts); the camera is script-reachable and a FreeCamera console command exists; console key not yet bound"
+      "stage": "live 2026-10-16: runs windowed with a d3d9 proxy; our replacement base_scripts.dzip (DZIP table hash found) runs and reads the live camera; remote console on TCP 47000 runs exec commands"
     },
     {
       "repo": "metro-exodus-vr",
