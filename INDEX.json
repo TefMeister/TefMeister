@@ -353,7 +353,7 @@
       "developer": "Kojima Productions",
       "engine": "Decima",
       "renderer": "Direct3D 12",
-      "stage": "un-paused 2026-09-28: Tefa wants our own version with 6DoF VR hands and a visible body, beyond R.E.A.L. VR. No new work yet"
+      "stage": "live 2026-10-16: runs windowed 1280x720 (settings.cfg beside ds.exe), a d3dcompiler proxy of ours loads; ViewConstants layout decoded statically; a reported camera path on this exact build awaits a read-only logger"
     },
     {
       "repo": "hard-reset-vr",
