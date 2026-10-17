@@ -24,6 +24,10 @@ story of any project, open its repo and read `modding-notes/`.
 - 🥽 **Alice: Madness Returns:** the same OpenXR move is now on its work board.
 - ⭐ **Thanks:** stars left on the 21 outside tools these projects rely on.
 
+## 2026-10-17
+
+- 🔧 **Visceral RE2:** the late title-screen rain is understood: the game cleared its own scratch memory under the effect it was making. The plugin now holds that off during the request; rain on the first try, before and after a game. Not yet seen in the headset.
+
 ## 2026-10-16
 
 - 🎬 **Recording:** automatic game recording is switched off on both PCs. Progress videos stop; each mod gets one long playthrough once it is finished.
