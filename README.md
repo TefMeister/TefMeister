@@ -18,7 +18,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **XIII** (2003) | Unreal Engine 2 | 🥽 The newest 3D build now starts with the real headset on the home PC. | 10-10 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
-| **Psychonauts** (2005) | Double Fine engine | 🥽 Worked on the head-follow camera that went glitchy in the headset. | 10-14 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
+| **Psychonauts** (2005) | Double Fine engine | 🥽 Moved the headset side to OpenXR, Hard Reset's way; its first run on the pretend headset is next. | 10-17 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🔧 Worked on why the title-screen rain starts late. | 10-15 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on checking the numbers it took over from RE2. | 10-15 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
@@ -79,7 +79,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.73.2: the weekly tool check tests the tool connectors after a big library update. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 Building VR Bench into it, a robot player for VR games; its first game run comes before the release. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
@@ -121,6 +121,7 @@ Small programs that make working in a headset easier, for any game.
 | Tool | How it works | Where it stands | Updated | Where it lives |
 | --- | --- | --- | --- | --- |
 | **Hand Freeze** | A pixel-art desktop app that holds the VR controllers still in any OpenXR game, left, right or both. Press the snowflake, hold the controllers where the hands should be, and after a countdown they stay put while the game keeps running, so hand poses can be tuned with the mouse. | 🔧 v3.2: mends an old layer registration by itself when opened, so 32-bit games start again. | 10-16 | [hand-freeze-vr](https://github.com/TefMeister/hand-freeze-vr) |
+| **VR Bench** | A robot player for VR games. With the OpenXR Simulator as the headset, it moves the head, both hands and every button by itself, takes a picture after each, and writes down what the game did, so VR work can be tested with nobody wearing anything. The idea came from a description shared on Discord. | 🔍 New today: it moved a test program's hand left, up, right and down as asked, in both eyes; next, a real game. | 10-17 | [vr-bench](https://github.com/TefMeister/vr-bench) |
 | **Window View** | A desktop app plus an OpenXR layer that hangs any open window in front of your eyes inside the game, like an in-game menu that turns with your head. Add as many as you like, set how see-through each is, drag them by their header, resize them by their corner. Page Up hands your mouse and keyboard to the floating windows (the game sees nothing and is played with the controllers); Page Down hands them back. | 🔧 Built today and proven on the headset simulator only: a window shows in both eyes, typing and dragging work. Not yet tried in a real headset. | 10-16 | [window-view-vr](https://github.com/TefMeister/window-view-vr) |
 | **Hand Poser** | A compact window of sliders that poses the player's hands in RE Engine games: add any bone, turn it, see which bones move with it, undo, redo, and keep named pose builds. Meant to hang inside the headset through Window View while Hand Freeze holds the controllers. Inspired by alphaZomega's EMV Engine poser. | 🔍 Built the window and the in-game script; proven against a stand-in game, not yet in a real one. | 10-16 | [hand-poser-vr](https://github.com/TefMeister/hand-poser-vr) |
 
