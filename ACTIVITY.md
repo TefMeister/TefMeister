@@ -8,6 +8,9 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-17
 
+- 🥽 **Hard Reset:** the robot player pressed every controller button in the game, and each one did its job. It also showed the game never listens to a game pad, so walking now uses keys.
+- 🧩 **Lanes 0.74.0:** VR Bench is released inside Lanes, fixed the same day after its first game showed two weak checks.
+- ⭐ **Thanks:** stars on 192 more outside projects these mods have used.
 - 🧩 **VR Bench (new, in Lanes):** a robot player for VR games, built on the OpenXR Simulator. In its first test it moved a hand left, up, right and down exactly as asked, in both eyes. Its first real game run is next.
 - 🥽 **Psychonauts:** the headset side now runs through OpenXR, the same way as Hard Reset; it is installed and waits for its first run on the pretend headset.
 - 🥽 **Alice: Madness Returns:** the same OpenXR move is now on its work board.
