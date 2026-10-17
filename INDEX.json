@@ -135,7 +135,7 @@
       "url": "https://github.com/TefMeister/lanes-plugin",
       "purpose": "The Claude Code plugin these projects are worked with: named session lanes, a shared work board, claim guards, a naming rule that keeps personal names out of everything written, and an ideas inbox that sessions file automatically. Early version (0.23.1, public 2026-09-24), still being built.",
       "licence": "MIT",
-      "stage": "0.73.2 (2026-10-16); 2026-10-17: VR Bench being built into it (a robot player for VR games on the OpenXR Simulator), released as 0.74.0 after its first game run."
+      "stage": "0.74.0 (2026-10-17): VR Bench, a robot player for VR games on the OpenXR Simulator, comes with it."
     },
     {
       "name": "terminal-themes",
@@ -166,7 +166,7 @@
       "url": "https://github.com/TefMeister/vr-bench",
       "purpose": "VR Bench: an OpenXR API layer that plays both VR controllers (poses, buttons, sticks) from a JSON file, so a VR game can be tested and learned on the OpenXR Simulator with nobody in the headset. Driven by /lanes:bench in the Lanes plugin.",
       "licence": "MIT",
-      "stage": "v0.1.0 (2026-10-17): moved a test program's left hand as the file said, in both eyes, 32-bit; first real game run next."
+      "stage": "v0.1.0 (2026-10-17): moved a test program's left hand as the file said, in both eyes, 32-bit; first game Hard Reset (2026-10-17): every controller button proven."
     },
     {
       "name": "blender-cubekit",
@@ -370,7 +370,7 @@
       "developer": "Flying Wild Hog",
       "engine": "Road Hog Engine",
       "renderer": "Direct3D 9",
-      "stage": "Works in the headset: stereo, head tracking, our own VR hands, the gun aimed by the controller (live 2026-10-16); motion-controller controls with a two-handed hold built, first game run next."
+      "stage": "Works in the headset: stereo, head tracking, our own VR hands, the gun aimed by the controller (live 2026-10-16); 2026-10-17: every motion-controller button proven in the game by VR Bench; walking moved to keys (the game never reads a pad)."
     },
     {
       "repo": "portal-vr",
