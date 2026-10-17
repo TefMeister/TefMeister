@@ -20,7 +20,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **XIII** (2003) | Unreal Engine 2 | 🥽 The newest 3D build now starts with the real headset on the home PC. | 10-10 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🥽 Moved the headset side to OpenXR, Hard Reset's way; its first run on the pretend headset is next. | 10-17 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
-| **Visceral — RE2 VR** | RE Engine | 🔧 Worked on why the title-screen rain starts late. | 10-15 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
+| **Visceral — RE2 VR** | RE Engine | 🔧 Found why the title-screen rain started late and built the cure. | 10-17 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on checking the numbers it took over from RE2. | 10-15 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 Proved the cube shotgun catches the game's real lights, and recorded a flat test run. | 10-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 Worked on two-handed holds, smooth turning and the pause menu in the headset. | 10-17 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
