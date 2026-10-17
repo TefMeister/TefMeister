@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-17
 
+- 🥽 **Hard Reset:** the gun's handle now sits in the hand, and its dial shows its numbers and moves with it. The game also keeps running and follows the aim with another window in front.
+- 🧩 **Lanes 0.77.0:** a recording that stops mid-session is noticed, noted in the jitter report and restarted. VR Bench now steps, bends over and crouches. The superpowers skills are offered once.
 - 🧩 **Lanes 0.76.0:** the game is now recorded by itself while the jitter checker logs a headset session, and each report comes with its jittery seconds cut out as pictures. First tried on Hard Reset.
 - 🧩 **Lanes 0.75.0:** every offer is now asked once only, at the first setup or the update that brings it. New optional offer: star and follow the people whose tools and findings your work uses.
 - 🥽 **Hard Reset:** the game's own gun now goes where the controller is, not only where it points. The dial on the gun does not follow properly yet.
