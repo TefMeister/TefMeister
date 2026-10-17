@@ -370,7 +370,7 @@
       "developer": "Flying Wild Hog",
       "engine": "Road Hog Engine",
       "renderer": "Direct3D 9",
-      "stage": "Works in the headset: stereo, head tracking, our own VR hands, the gun aimed by the controller (live 2026-10-16); 2026-10-17: every motion-controller button proven in the game by VR Bench; walking moved to keys (the game never reads a pad)."
+      "stage": "Works in the headset: stereo, head tracking, our own VR hands, the gun aimed by the controller (live 2026-10-16); 2026-10-17: every motion-controller button proven in the game by VR Bench; walking moved to keys (the game never reads a pad); walking follows the head, two-handed holds and shots where the hand points proven, and the aim leaves menus alone."
     },
     {
       "repo": "portal-vr",
