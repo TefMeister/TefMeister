@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-17
 
+- 🥽 **Hard Reset:** the gun's aim now leaves the menus alone, which also stopped the game minimising itself. The robot player then proved that walking goes where the head looks, that holding the gun with two hands is recognised, and that shots land where the hand points.
 - 🥽 **Hard Reset:** the robot player pressed every controller button in the game, and each one did its job. It also showed the game never listens to a game pad, so walking now uses keys.
 - 🧩 **Lanes 0.74.0:** VR Bench is released inside Lanes, fixed the same day after its first game showed two weak checks.
 - ⭐ **Thanks:** stars on 192 more outside projects these mods have used.
