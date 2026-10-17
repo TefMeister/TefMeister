@@ -27,6 +27,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-10-17
 
 - 🔧 **Visceral RE2:** the late title-screen rain is understood: the game cleared its own scratch memory under the effect it was making. The plugin now holds that off during the request; rain on the first try, before and after a game. Not yet seen in the headset. Also a try at the menu flicker when a menu opens: the camera hold now trusts the fresh reading of who owns the camera in that frame.
+- 🥽 **Visceral RE2, later:** worn: the rain is fixed and the pause menu no longer flickers. The inventory still flashes on closing; its one bad frame was caught in the log and a build that overwrites that frame is installed, not yet worn.
 
 ## 2026-10-16
 
