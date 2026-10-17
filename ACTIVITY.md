@@ -6,6 +6,13 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-17
+
+- 🧩 **VR Bench (new, in Lanes):** a robot player for VR games, built on the OpenXR Simulator. In its first test it moved a hand left, up, right and down exactly as asked, in both eyes. Its first real game run is next.
+- 🥽 **Psychonauts:** the headset side now runs through OpenXR, the same way as Hard Reset; it is installed and waits for its first run on the pretend headset.
+- 🥽 **Alice: Madness Returns:** the same OpenXR move is now on its work board.
+- ⭐ **Thanks:** stars left on the 21 outside tools these projects rely on.
+
 ## 2026-10-16
 
 - 🎬 **Recording:** automatic game recording is switched off on both PCs. Progress videos stop; each mod gets one long playthrough once it is finished.

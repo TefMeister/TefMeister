@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -135,7 +135,7 @@
       "url": "https://github.com/TefMeister/lanes-plugin",
       "purpose": "The Claude Code plugin these projects are worked with: named session lanes, a shared work board, claim guards, a naming rule that keeps personal names out of everything written, and an ideas inbox that sessions file automatically. Early version (0.23.1, public 2026-09-24), still being built.",
       "licence": "MIT",
-      "stage": "0.42.0 (2026-10-02): live sessions run a game from its private copy whenever one exists (mint.py where), unless the game is marked as still at the reverse-engineering stage."
+      "stage": "0.73.2 (2026-10-16); 2026-10-17: VR Bench being built into it (a robot player for VR games on the OpenXR Simulator), released as 0.74.0 after its first game run."
     },
     {
       "name": "terminal-themes",
@@ -161,6 +161,14 @@
       "stage": "works on its first game 2026-09-28: Burnout Paradise, closed game to city in 150 s, no pictures; lanes 0.29.1. Since then: route maps per game, a three-key step recorder and three fixed goals per game (lanes 0.34.0-0.36.1); Alan Wake does a whole round in 31 s (2026-09-29)."
     },
     {
+      "name": "vr-bench",
+      "visibility": "public",
+      "url": "https://github.com/TefMeister/vr-bench",
+      "purpose": "VR Bench: an OpenXR API layer that plays both VR controllers (poses, buttons, sticks) from a JSON file, so a VR game can be tested and learned on the OpenXR Simulator with nobody in the headset. Driven by /lanes:bench in the Lanes plugin.",
+      "licence": "MIT",
+      "stage": "v0.1.0 (2026-10-17): moved a test program's left hand as the file said, in both eyes, 32-bit; first real game run next."
+    },
+    {
       "name": "blender-cubekit",
       "visibility": "public",
       "url": "https://github.com/TefMeister/blender-cubekit",
@@ -177,7 +185,7 @@
       "engine": "bespoke in-house",
       "renderer": "Direct3D 9",
       "injection": "proxy d3d9.dll",
-      "stage": "Stereo + 6DOF head tracking in a real headset (v0.1.8-alpha public, 2026-09-12). 2026-10-14: worked on the head-follow camera that went glitchy in the headset.",
+      "stage": "Stereo + 6DOF head tracking in a real headset (v0.1.8-alpha public, 2026-09-12). 2026-10-17: the headset side moved to OpenXR, Hard Reset's way; first run on the simulator next.",
       "source_of_truth": "psychonauts-vr/dev-archive/tools/proxy-d3d9/",
       "latest_release": "v0.1.8-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
