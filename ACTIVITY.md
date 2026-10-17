@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-17
 
-- 🥽 **Hard Reset:** holding the gun with both hands now puts the other hand on the barrel, and the jitter checker records those holds. Smooth turning is there as an option beside snap turns. The pause menu's outline frames were traced to one shader; placing them right is next.
+- 🥽 **Hard Reset:** holding the gun with both hands now puts the other hand on the barrel, and the jitter checker records those holds. Smooth turning is there as an option beside snap turns. The whole pause menu now shows on the floating panel in the headset, frames and words included.
 - 🧩 **Lanes 0.77.1:** the two-handed-hold checker now also works in mods written in C, first used in Hard Reset.
 - 🥽 **Hard Reset:** the gun's handle now sits in the hand, and its dial shows its numbers and moves with it. The game also keeps running and follows the aim with another window in front.
 - 🧩 **Lanes 0.77.0:** a recording that stops mid-session is noticed, noted in the jitter report and restarted. VR Bench now steps, bends over and crouches. The superpowers skills are offered once.
