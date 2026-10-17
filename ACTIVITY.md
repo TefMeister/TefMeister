@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-17
 
+- 🧩 **Lanes 0.75.0:** every offer is now asked once only, at the first setup or the update that brings it. New optional offer: star and follow the people whose tools and findings your work uses.
+
 - 🥽 **Hard Reset:** the game's own gun now goes where the controller is, not only where it points. The dial on the gun does not follow properly yet.
 - 🥽 **Hard Reset:** the gun's aim now leaves the menus alone, which also stopped the game minimising itself. The robot player then proved that walking goes where the head looks, that holding the gun with two hands is recognised, and that shots land where the hand points.
 - 🥽 **Hard Reset:** the robot player pressed every controller button in the game, and each one did its job. It also showed the game never listens to a game pad, so walking now uses keys.
