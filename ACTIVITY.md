@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-18
 
-- 🔧 **Brutal Doom 3D guns (new):** started a project to give Brutal Doom 3D guns with Doomguy's gloves. Every weapon's fire rate, damage, reload and sound timings are now read from the mod's own files.
+- 🔧 **Brutal Doom 3D guns (new):** started a project to give Brutal Doom 3D guns with Doomguy's gloves. Every weapon's fire rate, damage, reload and sound timings are now read from the mod's own files. The shotgun is under way in cubes: a dark oak stock and a square, nearly black body.
 - 🧩 **Lanes 0.79.0:** the setup list now names who made every tool and says what it is for. It also offers the image and recording tools we use, and describes everything Lanes does by itself.
 - 🧩 **Lanes 0.78.0:** new step-by-step guide for setting up a GitHub account the Lanes way. Claude then builds the private work board, ideas and other repos, plus a ready repo for each project.
 - 🥽 **Ashes 2063:** the test tools now close the game by its window instead of typing "quit", so a test run can end without the game being in front. Typing into the wrong window had crashed the session twice.
