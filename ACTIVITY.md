@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-18
 
+- 🔧 **Brutal Doom 3D guns:** the hand cannon's heavy nose now runs the whole length of the barrel, with wider //// ridges spread along it.
 - 🔧 **Brutal Doom 3D guns:** the hand cannon got a slimmer grip, a heavier nose with //// ridges and a longer barrel. Five diamond holes on the left, and on the right a bullet port with a cover that can swing open.
 - 🔧 **Brutal Doom 3D guns:** the pistol became a hand cannon: a bigger slide with windows onto its copper barrel, a ported compensator, and silver grip plates with a military star.
 - 🔧 **Brutal Doom 3D guns:** the cube pistol now follows the DOOM (2016) pistol: a boxy slide, a copper barrel in a top window and a ring module under the front, without the blue glow or the hammer. Small red and white marks are built from the smallest cubes.
