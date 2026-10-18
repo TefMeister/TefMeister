@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-19
 
-- 🔧 **Brutal Doom 3D guns:** the pistol, shotgun and machine gun went into the VR game for the first time, over Brutal Doom in Doom 1. They hold still for now; the first look in the headset is next.
+- 🔧 **Brutal Doom 3D guns:** the pistol, shotgun and machine gun went into the VR game for the first time, over Brutal Doom in Doom 1. Worn the same night: they sit in the hands and catch the room's light. Next, explosions and glowing items lighting them too.
 - 🧩 **Lanes 0.80.0:** BeG0nE now films every headset and simulator session by itself, from the moment any of its logs starts. Setting BeG0nE up asks once: with recordings (recommended) or on its own, and where the videos go.
 
 ## 2026-10-18
