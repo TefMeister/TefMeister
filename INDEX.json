@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -521,7 +521,7 @@
       "developer": "id Software; Brutal Doom by Sergeant_Mark_IV",
       "engine": "GZDoom (played through GZDoomVR)",
       "renderer": "OpenGL",
-      "stage": "Shotgun remodelled in cubes in the DOOM (2016) style with a dark oak grip and pump, small-cube detail, Doomguy's gloves on it; the pistol is next, made in Blender with Tefa",
+      "stage": "First VR test build: the three cube guns in GZDoom VR over Brutal Doom (static), headset look next",
       "source_of_truth": "brutal-doom-3d-guns/tools/",
       "updated": "2026-10-18"
     }
