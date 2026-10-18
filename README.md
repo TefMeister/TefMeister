@@ -34,7 +34,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Put Doomguy's gloves on the cube machine gun and pistol. | 10-18 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
+| **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Put the first three cube guns into the VR game for a first look. | 10-19 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
 | **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on putting the HUD into both eyes. | 10-15 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
@@ -80,7 +80,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.79.0: the setup list now says what every tool is for and who made it, and offers more of the tools we use. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 0.80.0: BeG0nE now films every headset and simulator session by itself. | 10-19 |
 
 ## 🧊 Blender
 
