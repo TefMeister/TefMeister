@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-18
 
+- 🔧 **Brutal Doom 3D guns:** the hand cannon got a steam vent under its nose, for steam to blow out when a magazine drops, and gunmetal grip plates.
 - 🔧 **Brutal Doom 3D guns:** the hand cannon is now black with a longer grip, and its sights are lined up for real aiming in VR.
 - 🔧 **Brutal Doom 3D guns:** the hand cannon's heavy nose now runs the whole length of the barrel, with wider //// ridges spread along it.
 - 🔧 **Brutal Doom 3D guns:** the hand cannon got a slimmer grip, a heavier nose with //// ridges and a longer barrel. Five diamond holes on the left, and on the right a bullet port with a cover that can swing open.
