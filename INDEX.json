@@ -521,7 +521,7 @@
       "developer": "id Software; Brutal Doom by Sergeant_Mark_IV",
       "engine": "GZDoom (played through GZDoomVR)",
       "renderer": "OpenGL",
-      "stage": "Started 2026-10-18: every Brutal Doom weapon's numbers read from the mod's files (sheet/WEAPONS.md); the shotgun with Doomguy's gloves is next, made in Blender with Tefa",
+      "stage": "Shotgun remodelled in cubes in the DOOM (2016) style with a dark oak grip and pump, small-cube detail, Doomguy's gloves on it; the pistol is next, made in Blender with Tefa",
       "source_of_truth": "brutal-doom-3d-guns/tools/",
       "updated": "2026-10-18"
     }
