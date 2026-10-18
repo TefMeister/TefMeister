@@ -6,6 +6,10 @@ A short, dated line for every working session, newest first. It includes the day
 advanced, because dead ends and corrections are part of how this work really goes. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-18
+
+- 🌸 **Frequency theme:** the loop now joins by the sea rising over the window into the fish, with only a soft glitch. The city's sky turns from a starry night with a moon to day, the cartoon dogs part and rejoin, and the sand and the laughing mouths fade and glitch away instead of vanishing.
+
 ## 2026-10-17
 
 - 🌸 **Frequency theme:** the loop now ends and starts on the same colourful glitch, so a video of it joins up. The grey static sways, the bottle pours fine coloured sand, and the letter ocean heaves like water.
