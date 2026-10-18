@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -478,7 +478,7 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "Light: the held cube gun catches the game's real lights face by face, proven flat 2026-10-08 [verified-live, n=5 runs]; a metal shine map adds a moving sheen; headset confirmation pending. Before that: v0.1.1 released 2026-09-23; weapons being rebuilt in cubes with Tefa in Blender (shotgun with gloved hands, animated from the game; rifle, jackhammer and flamethrower first passes), the shotgun editing copy at 1.7 mm with wear and tear (2026-10-06)",
+      "stage": "Carved wear 2026-10-18: scratches, chipped edges and pits cut into all six cube guns with 0.85 mm cubes (blender-cubekit carve_wear.py), new _carved copies awaiting Tefa's look in Blender, not yet in the game. Light: the held cube gun catches the game's real lights face by face, proven flat 2026-10-08 [verified-live, n=5 runs]; a metal shine map adds a moving sheen; headset confirmation pending. Before that: v0.1.1 released 2026-09-23; weapons being rebuilt in cubes with Tefa in Blender (shotgun with gloved hands, animated from the game; rifle, jackhammer and flamethrower first passes), the shotgun editing copy at 1.7 mm with wear and tear (2026-10-06)",
       "source_of_truth": "ashes-2063-weapons/kit/",
       "updated": "2026-10-14"
     },
