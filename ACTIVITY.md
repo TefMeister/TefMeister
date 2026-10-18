@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-18
 
+- 🔧 **Brutal Doom 3D guns:** the pistol became a hand cannon: a bigger slide with windows onto its copper barrel, a ported compensator, and silver grip plates with a military star.
 - 🔧 **Brutal Doom 3D guns:** the cube pistol now follows the DOOM (2016) pistol: a boxy slide, a copper barrel in a top window and a ring module under the front, without the blue glow or the hammer. Small red and white marks are built from the smallest cubes.
 - 🔧 **Brutal Doom 3D guns:** the shotgun got a thick barrel jacket with machined windows and a worn serial number. Doomguy's gloves are bigger, with leather, small-cube studs and stitching, and the Slayer's mark raised on the left hand.
 - 🔧 **Brutal Doom 3D guns:** the cube shotgun now takes after the DOOM (2016) combat shotgun, keeping its dark oak pump; the stock became a dark oak grip. Panel lines, vents, screw heads and small white arrows are made of the smallest cubes. Doomguy's gloves hold it.
