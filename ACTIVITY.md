@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-18
 
+- 🔧 **Brutal Doom 3D guns:** started the machine gun, a mash of two sci-fi guns, its red now dried blood stains, drips and spatter all over.
 - 🔧 **Brutal Doom 3D guns:** made three steam hiss sounds from scratch for the hand cannon's heat collector, soft to loud by how hot it is.
 - 🔧 **Brutal Doom 3D guns:** the hand cannon's vent became a heat collector: it glows redder with each shot as the magazine empties. The in-game glow and steam come later.
 - 🔧 **Brutal Doom 3D guns:** the hand cannon got a steam vent under its nose, for steam to blow out when a magazine drops, and gunmetal grip plates.
