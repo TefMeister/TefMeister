@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-18
 
+- 🔧 **Brutal Doom 3D guns:** Doomguy's gloves now hold the machine gun with both hands and the hand cannon with the right.
 - 🔧 **Brutal Doom 3D guns:** the machine gun got slimmer, with green sights inside its box sight, an ammo counter, barrel fins, a blade, a flashlight and a skull carved in the stock.
 - 🔧 **Brutal Doom 3D guns:** the machine gun's magazine moved forward and leans forward now, and its sides got plates, levers, clamps, a grille and UAC markings.
 - 🔧 **Brutal Doom 3D guns:** started the machine gun, a mash of two sci-fi guns. Dried blood stains were tried and dropped; it is worn dark red, grey and black instead.
