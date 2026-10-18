@@ -34,7 +34,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Made steam hiss sounds for the hand cannon's glowing heat collector. | 10-18 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
+| **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Started a cube machine gun, covered in dried blood. | 10-18 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
 | **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on putting the HUD into both eyes. | 10-15 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
