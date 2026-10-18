@@ -513,6 +513,17 @@
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
       "stage": "Running on PC from a self-built recompile; in the game, headset output with head tracking and the headset's own view works on the OpenXR simulator; real headset not yet tried [verified-live 2026-10-15, n=1]",
       "updated": "2026-10-15"
+    },
+    {
+      "repo": "brutal-doom-3d-guns",
+      "game": "Doom and Doom II with Brutal Doom v22 test 6",
+      "year": 1993,
+      "developer": "id Software; Brutal Doom by Sergeant_Mark_IV",
+      "engine": "GZDoom (played through GZDoomVR)",
+      "renderer": "OpenGL",
+      "stage": "Started 2026-10-18: every Brutal Doom weapon's numbers read from the mod's files (sheet/WEAPONS.md); the shotgun with Doomguy's gloves is next, made in Blender with Tefa",
+      "source_of_truth": "brutal-doom-3d-guns/tools/",
+      "updated": "2026-10-18"
     }
   ],
   "notes_for_ai_readers": [
