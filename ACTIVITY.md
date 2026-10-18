@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-18
 
+- 🥽 **Ashes 2063:** all six cube guns now have scratches, chipped edges and small pits cut into them with the smallest cubes, instead of painted on. Saved as new copies to look at together in Blender.
+- 🧩 **CubeKit:** a new script does that carving for any cube model, the same way every time.
 - 🌸 **Frequency theme:** the loop now joins by the sea rising over the window into the fish, with only a soft glitch. The city's sky turns from a starry night with a moon to day, the cartoon dogs part and rejoin, and the sand and the laughing mouths fade and glitch away instead of vanishing.
 
 ## 2026-10-17
