@@ -133,9 +133,9 @@
       "name": "lanes-plugin",
       "visibility": "public",
       "url": "https://github.com/TefMeister/lanes-plugin",
-      "purpose": "The Claude Code plugin these projects are worked with: named session lanes, a shared work board, claim guards, a naming rule that keeps personal names out of everything written, and an ideas inbox that sessions file automatically. Early version (0.23.1, public 2026-09-24), still being built.",
+      "purpose": "The Claude Code plugin these projects are worked with: named session lanes, a shared work board, claim guards, a naming rule that keeps personal names out of everything written, and an ideas inbox that sessions file automatically. Early version (public since 2026-09-24), still being built.",
       "licence": "MIT",
-      "stage": "0.74.0 (2026-10-17): VR Bench, a robot player for VR games on the OpenXR Simulator, comes with it."
+      "stage": "0.79.0 (2026-10-18): setup names who made every tool and what it is for, and offers the image and recording tools too."
     },
     {
       "name": "terminal-themes",
