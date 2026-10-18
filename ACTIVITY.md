@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-18
 
+- 🧩 **Lanes 0.78.0:** new step-by-step guide for setting up a GitHub account the Lanes way. Claude then builds the private work board, ideas and other repos, plus a ready repo for each project.
 - 🥽 **Ashes 2063:** the test tools now close the game by its window instead of typing "quit", so a test run can end without the game being in front. Typing into the wrong window had crashed the session twice.
 - 🥽 **Ashes 2063:** all six cube guns now have scratches, chipped edges and small pits cut into them with the smallest cubes, instead of painted on. Saved as new copies to look at together in Blender.
 - 🧩 **CubeKit:** a new script does that carving for any cube model, the same way every time.
