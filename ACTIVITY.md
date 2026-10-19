@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-19
 
+- 🧩 **Lanes 0.81.0:** offers once to unlock every weapon and item in a game before modding it, found in the game files or on the first run.
+- 🥽 **Visceral RE2:** a fix for the one-frame sideways jump when the inventory closes, ready to try. Doom and Ashes now start with every gun.
 - 🔧 **Fire and barrel glows:** burning drums and campfires in Ashes now cast flickering firelight, and Doom's barrels glow green further, so both light the guns and gloves.
 - 🥽 **Left hand in Doom and Ashes:** a free left hand now follows the left controller while a one-handed weapon is out, made from the approved right glove. In Ashes the lantern key swaps it for the lantern. Ready to try in the headset.
 - 🔧 **Gloves on the newer cube guns:** Doomguy's gloves on 23 Brutal Doom guns and the Ashes gloves on 19 Ashes guns, a first pass to look over together.
