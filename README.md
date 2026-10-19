@@ -22,7 +22,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Rain and pause-menu flicker fixed; working on the inventory's closing flash. | 10-17 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on checking the numbers it took over from RE2. | 10-15 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Ashes 2063** (2018) | GZDoom | 🥽 Carved scratches and worn edges into all six cube guns with tiny cubes. | 10-18 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
+| **Ashes 2063** (2018) | GZDoom | 🥽 Built every weapon of all three episodes in cubes of three sizes, copied from the game. | 10-19 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 Worked on two-handed holds, smooth turning and the pause menu in the headset. | 10-17 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
@@ -34,7 +34,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 The first three cube guns work in the headset, catching the light. | 10-19 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
+| **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Built 26 more bold cube guns, from the axe to the BFG 10K. | 10-19 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
 | **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on putting the HUD into both eyes. | 10-15 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
@@ -88,7 +88,7 @@ Pixel-style cube models for games, built in Blender by script.
 
 | Tool | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **blender-cubekit** | A framework for making game models out of little cubes, like pixel art with depth: one cube size for everything, every number named, no lights, stop-motion animation, straight into the game. Comes with a Blender add-on (buttons and keys) and the write-ups on how it is done. The game models made with it stay in their own projects. | 🔧 0.18.0 (10-18): new carving script cuts scratches, chips and pits out of a model with the smallest cubes. | [blender-cubekit](https://github.com/TefMeister/blender-cubekit) |
+| **blender-cubekit** | A framework for making game models out of little cubes, like pixel art with depth: one cube size for everything, every number named, no lights, stop-motion animation, straight into the game. Comes with a Blender add-on (buttons and keys) and the write-ups on how it is done. The game models made with it stay in their own projects. | 🔧 10-19: new forge builds whole models in three cube sizes from a short script, with no Blender window. | [blender-cubekit](https://github.com/TefMeister/blender-cubekit) |
 
 ## <img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/icons/flower-icon.png" alt="" height="28" align="top"> Terminal Themes
 
