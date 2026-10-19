@@ -22,7 +22,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Worked on the left hand gripping the shotgun pump again. | 10-19 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on hand racking and the silent empty gun, taken over from RE2. | 10-19 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Ashes 2063** (2018) | GZDoom | 🥽 Put the Ashes gloves on the new cube guns, ready to look over. | 10-19 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
+| **Ashes 2063** (2018) | GZDoom | 🥽 Worked on the free left hand and the lantern swap. | 10-19 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 Worked on two-handed holds, smooth turning and the pause menu in the headset. | 10-17 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
@@ -34,7 +34,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Starting again from zero, in C++. | 10-19 | private for now |
-| **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Put gloves on the newer guns, ready to look over. | 10-19 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
+| **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Worked on a free left hand that follows the left controller. | 10-19 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
 | **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on putting the HUD into both eyes. | 10-15 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
