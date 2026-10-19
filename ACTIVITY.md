@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-19
 
+- 🔧 **Gloves on the newer cube guns:** Doomguy's gloves on 23 Brutal Doom guns and the Ashes gloves on 19 Ashes guns, a first pass to look over together.
 - 🔧 **Brutal Doom 3D guns:** the pistol, shotgun and machine gun now kick on each shot, the shotgun pumps after every shot, and each gun has its first pick-up move. No reloading. Ready for a first look in the headset.
 - 🔍 **Silent Hill 2:** starting again from zero, in C++. The old work is cleared and the repo will be private for now.
 - 🥽 **Visceral RE2:** the left grip locks the hand onto the shotgun pump again. It had stopped gripping at all after the pump was given a single grip spot.
