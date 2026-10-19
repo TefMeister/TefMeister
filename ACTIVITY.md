@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-19
 
+- 🥽 **Visceral RE2:** the left grip locks the hand onto the shotgun pump again. It had stopped gripping at all after the pump was given a single grip spot.
+- 🔧 **Visceral RE3:** now racks the slide and pump by hand like RE2, an empty gun just clicks, and the Ghost Hand recorder is wired in. Built, not yet tried in the headset.
 - 🔧 **Ashes 2063 weapons:** every weapon from Ashes 2063, Dead Man Walking, Afterglow and Hard Reset, 21 in all, now exists in cubes, copied from the game's own pictures. Big cubes for the bodies, half cubes on corners, tiny ones for screws, cuts and cracks.
 - 🔧 **Brutal Doom 3D guns:** 26 more cube guns in bold free designs, from the axe and chainsaw to the BFG 10K, the Unmaker and the Dragonslayer.
 - 🧱 **blender-cubekit:** a new forge that builds a whole model in three cube sizes from a short script, without opening Blender.
