@@ -26,7 +26,6 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 Worked on two-handed holds, smooth turning and the pause menu in the headset. | 10-17 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Planned how the VR arms will work, keeping the game's own animations. | 10-12 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 
 ### 🔍 Early RE work
 
@@ -34,6 +33,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🔍 Starting again from zero, in C++. | 10-19 | private for now |
 | **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Built 26 more bold cube guns, from the axe to the BFG 10K. | 10-19 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
 | **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Manhunt** (2003) | RenderWare | 🔍 Worked on putting the HUD into both eyes. | 10-15 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
