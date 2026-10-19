@@ -8,6 +8,10 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-19
 
+- 🔧 **Ashes 2063 weapons:** every weapon from Ashes 2063, Dead Man Walking, Afterglow and Hard Reset, 21 in all, now exists in cubes, copied from the game's own pictures. Big cubes for the bodies, half cubes on corners, tiny ones for screws, cuts and cracks.
+- 🔧 **Brutal Doom 3D guns:** 26 more cube guns in bold free designs, from the axe and chainsaw to the BFG 10K, the Unmaker and the Dragonslayer.
+- 🧱 **blender-cubekit:** a new forge that builds a whole model in three cube sizes from a short script, without opening Blender.
+- 🎨 **Terminal themes:** new videos of Frequency and Halloween, each loop three times over, without music.
 - 🔧 **Brutal Doom 3D guns:** the pistol, shotgun and machine gun went into the VR game for the first time, over Brutal Doom in Doom 1. Worn the same night: they sit in the hands and catch the room's light. Next, explosions and glowing items lighting them too.
 - 🧩 **Lanes 0.80.0:** BeG0nE now films every headset and simulator session by itself, from the moment any of its logs starts. Setting BeG0nE up asks once: with recordings (recommended) or on its own, and where the videos go.
 
