@@ -80,7 +80,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | Lets several Claude Code sessions work the same projects at once without treading on each other: a shared work board, one naming rule (nobody's name is written down unless they choose one), and ideas that get filed by themselves. Every project on this page is worked with it. | 🔧 10-19: [0.81.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.81.0) offers to unlock every weapon and item in a game before modding it. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | A growing collection of tools, skills and programs, that we use in our modding journey. Optional and modular as much as possible, ships with a rule to not say "You're right!" :). | 🔧 10-19: [0.81.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.81.0) offers to unlock every weapon and item in a game before modding it. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
