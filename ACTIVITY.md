@@ -10,6 +10,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 - 🎃 **Halloween theme:** the ravens are a very dark grey now, so they just stand out from the night. A 12-minute video of the night was made too: the loop runs twice with no visible join.
 - 📻 **Frequency theme:** glitches now pop up in patches all over the window, each in its own way, and the old cartoon runs the other way after the two dogs merge. A 12-minute video plays the whole night of stations twice with no visible join.
+- 🔧 **Doom and Ashes cube guns:** all 46 newer cube guns are now in separate pieces (grip, barrel, stock, magazine, sights and more), so each piece can be picked on its own in Blender. Nothing about their look changed.
 - 🧱 **CubeKit 0.19.0:** a build brush: sweep the left mouse over a model to add one layer of cubes on its surface, the right mouse to carve one out. B switches it on and off.
 - 🏆 **The Darkness:** the game bridge now works here too, built straight into our own build of the game. Claude took pictures from inside it, read its log, pressed through the title to the main menu with a virtual controller while another window was in front, then closed it cleanly.
 - 🥽 **Hard Reset:** the running game now answers Claude live through a new game bridge: pictures of both eyes from inside the game, the head and hand poses, its log, keys and mouse while another window is in front, and console commands (`quit` closed it cleanly). First proof of the bridge on a real game.
