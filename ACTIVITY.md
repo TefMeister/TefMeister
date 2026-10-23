@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-23
 
+- 🥽 **Silent Hill 2:** now plays in VR as one package: jbusfield's VR mod, LukasBlaster7's manual reloads and VynnGfx's performance tweaks, all with permission. The repo is public. In the prison armory it runs at about 41 frames a second, and the processor turned out to be what holds it back.
 - 🎃 **Halloween theme:** the ravens are a very dark grey now, so they just stand out from the night. A 12-minute video of the night was made too: the loop runs twice with no visible join.
 - 📻 **Frequency theme:** glitches now pop up in patches all over the window, each in its own way, and the old cartoon runs the other way after the two dogs merge. A 12-minute video plays the whole night of stations twice with no visible join.
 - 🔧 **Doom and Ashes cube guns:** all 46 newer cube guns are now in separate pieces (grip, barrel, stock, magazine, sights and more), so each piece can be picked on its own in Blender. Nothing about their look changed.
