@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-23
 
+- 🏆 **The Darkness:** the game bridge now works here too, built straight into our own build of the game. Claude took pictures from inside it, read its log, pressed through the title to the main menu with a virtual controller while another window was in front, then closed it cleanly.
 - 🥽 **Hard Reset:** the running game now answers Claude live through a new game bridge: pictures of both eyes from inside the game, the head and hand poses, its log, keys and mouse while another window is in front, and console commands (`quit` closed it cleanly). First proof of the bridge on a real game.
 - 🧰 **Two new tools (private for now):** MCP Game Bridge³, the bridge above, built so any mod can carry it and grow it; and 0ut-0f-f0cus, a game out-of-focus tool that keeps a game playing and taking input behind other windows. Both pass their self-tests on 32- and 64-bit.
 - 🧩 **Lanes 0.84.0:** every Lanes feature is now optional, each with a link to read up on it first. Features that work well together are offered as a set.
