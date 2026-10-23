@@ -80,7 +80,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | A growing collection of tools, skills and programs, that we use in our modding journey. Optional and modular as much as possible, ships with a rule to not say "You're right!" :). | 🔧 10-19: [0.81.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.81.0) offers to unlock every weapon and item in a game before modding it. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 10-23: [0.82.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.82.0) lets Claude look inside a running Resident Evil or Unreal game. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
