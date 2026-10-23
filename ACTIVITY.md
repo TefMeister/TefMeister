@@ -9,6 +9,8 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-10-23
 
 - 🎃 **Halloween theme:** the ravens are a very dark grey now, so they just stand out from the night. A 12-minute video of the night was made too: the loop runs twice with no visible join.
+- 📻 **Frequency theme:** glitches now pop up in patches all over the window, each in its own way, and the old cartoon runs the other way after the two dogs merge. A 12-minute video plays the whole night of stations twice with no visible join.
+- 🧱 **CubeKit 0.19.0:** a build brush: sweep the left mouse over a model to add one layer of cubes on its surface, the right mouse to carve one out. B switches it on and off.
 - 🏆 **The Darkness:** the game bridge now works here too, built straight into our own build of the game. Claude took pictures from inside it, read its log, pressed through the title to the main menu with a virtual controller while another window was in front, then closed it cleanly.
 - 🥽 **Hard Reset:** the running game now answers Claude live through a new game bridge: pictures of both eyes from inside the game, the head and hand poses, its log, keys and mouse while another window is in front, and console commands (`quit` closed it cleanly). First proof of the bridge on a real game.
 - 🧰 **Two new tools (private for now):** MCP Game Bridge³, the bridge above, built so any mod can carry it and grow it; and 0ut-0f-f0cus, a game out-of-focus tool that keeps a game playing and taking input behind other windows. Both pass their self-tests on 32- and 64-bit.
