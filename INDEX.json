@@ -490,8 +490,8 @@
       "developer": "Bloober Team (published by Konami); remake of Team Silent’s 2001 original",
       "engine": "Unreal Engine 5.1.1",
       "renderer": "DirectX 12 [reported]",
-      "stage": "Restarted from zero on 2026-10-19: the earlier work was cleared; a new start in C++ (UEVR plugin). Repo private for now.",
-      "updated": "2026-10-19"
+      "stage": "Plays in VR (2026-10-23): bundles jbusfield's SH2_UEVR, LukasBlaster7's manual reloads and VynnGfx's Optimized Tweaks, with permission; UEVR (PureDark's AFW build). Armory baseline about 41 fps, processor-bound. A C++ rewrite is planned. Repo public.",
+      "updated": "2026-10-23"
     },
     {
       "repo": "the-darkness-vr",
