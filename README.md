@@ -22,11 +22,12 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Worked on the world jumping sideways when the inventory closes. | 10-19 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on hand racking and the silent empty gun, taken over from RE2. | 10-19 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
+| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Found and fixed the crash that kept hitting during play. | 10-23 | private for now |
 | **Ashes 2063** (2018) | GZDoom | 🥽 Worked on the free left hand and the lantern swap. | 10-19 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Plays in VR with manual reloads; worked on the frame rate in the prison armory. | 10-23 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Our own C++ plugin now runs inside the game, the first step of the rewrite. | 10-23 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 
 ### 🔍 Early RE work
 
