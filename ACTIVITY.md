@@ -9,6 +9,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-10-23
 
 - 🧩 **Lanes 0.82.0:** setup now offers praydog's RE Engine MCP and elliotttate's UEVR-MCP, so Claude can look inside a running Resident Evil or Unreal Engine game and read its values live. New installs choose six built-in extras instead of getting them all.
+- 🧩 **Lanes 0.82.1:** the weekly tool check now ends with tick boxes, each update with a plain warning of what it could break.
 - 📋 **Account tidy-up:** the e-mail address is gone from every repo, release note and download; contact is through GitHub issues now.
 
 ## 2026-10-19
