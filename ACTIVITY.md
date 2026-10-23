@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-23
 
-- 🥽 **Silent Hill 2:** our own C++ plugin now runs inside the game beside the Lua scripts, reads their settings and reports every few seconds; the first step of the rewrite.
+- 🥽 **Silent Hill 2:** our own C++ plugin now runs inside the game beside the Lua scripts, reads their settings, and can call the game's own functions by name (checked live: position, rotation, distance). The first step of the rewrite; the hands are designed and next.
 - 🥽 **Resident Evil Village:** the crash that hit about ten times in play is found: the ammo counter asked the game to show itself with the wrong kind of answer. Fixed, and the plugin now refuses any such call before it reaches the game.
 - 🥽 **Silent Hill 2:** now plays in VR as one package: jbusfield's VR mod, LukasBlaster7's manual reloads and VynnGfx's performance tweaks, all with permission. The repo is public. In the prison armory it runs at about 41 frames a second, and the processor turned out to be what holds it back.
 - 🎃 **Halloween theme:** the ravens are a very dark grey now, so they just stand out from the night. A 12-minute video of the night was made too: the loop runs twice with no visible join.
