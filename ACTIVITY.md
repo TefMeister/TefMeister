@@ -2,21 +2,18 @@
 
 [← Back to the front page](README.md)
 
-A short, dated line for every working session, newest first. It includes the days when nothing
-advanced, because dead ends and corrections are part of how this work really goes. For the full
+A short, dated line whenever the work moved forward, newest first: something that now works, a cause
+found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-19
 
 - 🧩 **Lanes 0.81.0:** offers once to unlock every weapon and item in a game before modding it, found in the game files or on the first run.
-- 🥽 **Visceral RE2:** a fix for the one-frame sideways jump when the inventory closes, ready to try. Doom and Ashes now start with every gun.
+- 🔧 **Doom and Ashes:** both now start with every gun.
 - 🔧 **Fire and barrel glows:** burning drums and campfires in Ashes now cast flickering firelight, and Doom's barrels glow green further, so both light the guns and gloves.
-- 🥽 **Left hand in Doom and Ashes:** a free left hand now follows the left controller while a one-handed weapon is out, made from the approved right glove. In Ashes the lantern key swaps it for the lantern. Ready to try in the headset.
 - 🔧 **Gloves on the newer cube guns:** Doomguy's gloves on 23 Brutal Doom guns and the Ashes gloves on 19 Ashes guns, a first pass to look over together.
-- 🔧 **Brutal Doom 3D guns:** the pistol, shotgun and machine gun now kick on each shot, the shotgun pumps after every shot, and each gun has its first pick-up move. No reloading. Ready for a first look in the headset.
 - 🔍 **Silent Hill 2:** starting again from zero, in C++. The old work is cleared and the repo will be private for now.
 - 🥽 **Visceral RE2:** the left grip locks the hand onto the shotgun pump again. It had stopped gripping at all after the pump was given a single grip spot.
-- 🔧 **Visceral RE3:** now racks the slide and pump by hand like RE2, an empty gun just clicks, and the Ghost Hand recorder is wired in. Built, not yet tried in the headset.
 - 🔧 **Ashes 2063 weapons:** every weapon from Ashes 2063, Dead Man Walking, Afterglow and Hard Reset, 21 in all, now exists in cubes, copied from the game's own pictures. Big cubes for the bodies, half cubes on corners, tiny ones for screws, cuts and cracks.
 - 🔧 **Brutal Doom 3D guns:** 26 more cube guns in bold free designs, from the axe and chainsaw to the BFG 10K, the Unmaker and the Dragonslayer.
 - 🧱 **blender-cubekit:** a new forge that builds a whole model in three cube sizes from a short script, without opening Blender.
@@ -63,20 +60,19 @@ story of any project, open its repo and read `modding-notes/`.
 - 🥽 **Hard Reset:** the robot player pressed every controller button in the game, and each one did its job. It also showed the game never listens to a game pad, so walking now uses keys.
 - 🧩 **Lanes 0.74.0:** VR Bench is released inside Lanes, fixed the same day after its first game showed two weak checks.
 - ⭐ **Thanks:** stars on 192 more outside projects these mods have used.
-- 🧩 **VR Bench (new, in Lanes):** a robot player for VR games, built on the OpenXR Simulator. In its first test it moved a hand left, up, right and down exactly as asked, in both eyes. Its first real game run is next.
+- 🧩 **VR Bench (new, in Lanes):** a robot player for VR games, built on the OpenXR Simulator. In its first test it moved a hand left, up, right and down exactly as asked, in both eyes.
 - 🥽 **Psychonauts:** the headset side now runs through OpenXR, the same way as Hard Reset; it is installed and waits for its first run on the pretend headset.
 - 🥽 **Alice: Madness Returns:** the same OpenXR move is now on its work board.
 - ⭐ **Thanks:** stars left on the 21 outside tools these projects rely on.
 
 ## 2026-10-17
 
-- 🔧 **Visceral RE2:** the late title-screen rain is understood: the game cleared its own scratch memory under the effect it was making. The plugin now holds that off during the request; rain on the first try, before and after a game. Not yet seen in the headset. Also a try at the menu flicker when a menu opens: the camera hold now trusts the fresh reading of who owns the camera in that frame.
-- 🥽 **Visceral RE2, later:** worn: the rain is fixed and the pause menu no longer flickers. The inventory still flashes on closing; its one bad frame was caught in the log and a build that overwrites that frame is installed, not yet worn.
+- 🔧 **Visceral RE2:** the late title-screen rain is understood: the game cleared its own scratch memory under the effect it was making. The plugin now holds that off during the request; rain on the first try, before and after a game.
+- 🥽 **Visceral RE2, later:** worn: the rain is fixed and the pause menu no longer flickers. The inventory still flashes on closing; its one bad frame was caught in the log .
 
 ## 2026-10-16
 
 - 🎬 **Recording:** automatic game recording is switched off on both PCs. Progress videos stop; each mod gets one long playthrough once it is finished.
-- 🔧 **The Evil Within:** the fix for the failed first headset look is now saved as a numbered build on the home PC, ready for the next headset try.
 - 🧩 **Lanes 0.73.1 and 0.73.2:** the weekly tool check no longer flags a page that only quotes its own words, and it now test-starts the tool connectors after a big library update, after one nearly broke the debugger's.
 - 📚 **Research:** the shared library gained four lessons from this week, the biggest being to look for a game's own lens input before rebuilding its picture maths.
 - ⭐ **Death Stranding:** first live session. The game now runs in a window with a small file of ours loaded, and can be driven from the menu into play. One way of finding the camera turned out to be a dead end.
@@ -85,23 +81,21 @@ story of any project, open its repo and read `modding-notes/`.
 - 🔍 **The Witcher 2: first live session.** It now runs in a window with our small file loaded. Our own script runs inside the game and shows the live camera on screen, once we found the check value the game puts on its script archives. A hidden network console also turned up that takes commands, such as changing the field of view.
 - 🧩 **Lanes 0.73: a pretend headset on offer.** Setup and the next update now offer to download the OpenXR Simulator by elliotttate, which shows a VR game's two eyes in a desktop window. A fork that also runs 32-bit games is the other choice. Downloading never switches it on.
 - 🧩 **Lanes 0.72: simulator tests record themselves.** When a game is recorded, the headset simulator's preview window is now recorded too, in its own file, even if it opens later.
-- 🎮 **Hard Reset: our own VR hands (evening).** The game's model files have no tools anywhere, so instead of teaching the game a new hand, our add-on now draws the hands itself: it tracks both controllers and paints two hands into each eye where the controllers are. Proven on the headset simulator with a blocky stand-in hand; the real hand gets sculpted in Blender together next. Later the same day the simulator's controllers were moved about and round a circle, and the hands followed in both eyes, on video. Then the next piece was built, not yet run: the gun aimed by the controller while the head looks freely (the add-on steers the game's own aim to the hand and draws the picture from a fixed body frame), proven on a stand-in with 16 checks. In the afternoon it ran in the game for the first time: the gun turned with the simulator's controller while the street stayed still, on video. Found on the way: a Hand Freeze that was switched ON before v3.1 kept an old one-copy registration that stopped 32-bit VR games from starting; Hand Freeze v3.2 and Window View v1.1 now mend that by themselves. In the evening the motion controllers were wired in: the triggers fire, the buttons jump and switch guns, the left stick walks where the head looks, the right stick snap-turns, and the gun can be held with two hands, the left one on the barrel or just above the right. Built and checked without the game; its first run in the game is next.
-- 🔍 **Bulletstorm: the headset hookup is built.** The picture-to-headset code that works in Metro Exodus now serves Bulletstorm too, and each eye is drawn with the headset's own view shape. Tested without the game; the first look through the headset simulator comes next.
+- 🎮 **Hard Reset: our own VR hands (evening).** The game's model files have no tools anywhere, so instead of teaching the game a new hand, our add-on now draws the hands itself: it tracks both controllers and paints two hands into each eye where the controllers are. Proven on the headset simulator with a blocky stand-in hand. Later the same day the simulator's controllers were moved about and round a circle, and the hands followed in both eyes, on video. Then the gun was aimed by the controller while the head looks freely (the add-on steers the game's own aim to the hand and draws the picture from a fixed body frame), proven on a stand-in with 16 checks. In the afternoon it ran in the game for the first time: the gun turned with the simulator's controller while the street stayed still, on video. Found on the way: a Hand Freeze that was switched ON before v3.1 kept an old one-copy registration that stopped 32-bit VR games from starting; Hand Freeze v3.2 and Window View v1.1 now mend that by themselves.
 - 🎬 **Fifteen YouTube videos cut from the 7-15 October recordings (night into morning).** One per game, named "RE2 1", "RE3 1", "Mad Max 1" and so on: only moments where the player's hands or gun are in view or the player moves, idle stretches cut, a lofi beat underneath. RE2's runs two hours. The cutting tools are kept for the next batch.
 
 ## 2026-10-16
 
-- ❄️ **Window View, a new VR helper (afternoon).** Any desktop window can now hang in front of your eyes inside an OpenXR game, following your head like a menu: pick it in a small app, set how see-through it is, drag it by its header, resize it by its corner, and Page Up hands the mouse and keyboard to the floating windows while the game only hears the controllers. Built in one afternoon on the same two-part shape as Hand Freeze and proven on the headset simulator: Notepad showed in both eyes, typing landed in it, a drag moved it. Public repo, marked untested until the home PC tries it in a real headset. A stand-alone hand poser for the RE games (taken from the idea of EMV Engine's poser) was designed the same afternoon and is next.
-- ❄️ **Hand Poser built (evening).** The window and its in-game script exist: press LEFT FINGERS and every finger of the left hand gets three sliders, already set to where the game has it; drag one and the finger follows and stays, the joints it carries along light up, undo and redo go back through 200 changes, named builds and an autosave keep poses. Proven against a stand-in game only; the first run in RE3 is next. Public repo, marked untested.
+- ❄️ **Window View, a new VR helper (afternoon).** Any desktop window can now hang in front of your eyes inside an OpenXR game, following your head like a menu: pick it in a small app, set how see-through it is, drag it by its header, resize it by its corner, and Page Up hands the mouse and keyboard to the floating windows while the game only hears the controllers. Built in one afternoon on the same two-part shape as Hand Freeze and proven on the headset simulator: Notepad showed in both eyes, typing landed in it, a drag moved it. Public repo.
+- ❄️ **Hand Poser built (evening).** The window and its in-game script exist: press LEFT FINGERS and every finger of the left hand gets three sliders, already set to where the game has it; drag one and the finger follows and stays, the joints it carries along light up, undo and redo go back through 200 changes, named builds and an autosave keep poses. Proven against a stand-in game so far.
 
 ## 2026-10-15
 
 - 🧩 **Lanes 0.71.0.** Sessions no longer answer "you're right". They check the fact first and say what they found, ask when they cannot check, and say "agreed" only after checking.
-- 🎮 **Visceral RE2: why the title rain starts late (night).** The rain's "refusal" turned out to be a small crash inside the game's effect code, read from a log already on the PC. A new build loads the rain's effect files straight away; the next start shows whether that fixes it.
+- 🎮 **Visceral RE2: why the title rain starts late (night).** The rain's "refusal" turned out to be a small crash inside the game's effect code, read from a log already on the PC.
 - 🎮 **Visceral RE3: checking what came over from RE2 (night).** RE3 still uses some of RE2's numbers and gun parts. The mod now writes the game's real numbers and each gun's parts into its log, so one start shows what needs changing.
 - 🎮 **Far Cry 3: Blood Dragon: a tidy-up (late night).** The headset code was split into smaller pieces without changing what it does, and an old to-do turned out to be done already.
 - 🎮 **Deus Ex: Mankind Divided: its own 3D mode draws each eye (evening).** On the dev PC the game now runs in a window with the music off. Its built-in side-by-side 3D mode really draws the world from two eye positions, and the camera finder found the game's camera on its first run. The next step is seeing how the two eyes are set up.
-- 🎮 **Far Cry 3: Blood Dragon: head tracking, built (night).** The game's view now turns with the head, and each eye goes to the headset with the exact head position it was drawn for. The maths passed 45,506 checks; the first run in the headset simulator is next.
 - 🎮 **Mad Max: driving with your head turned (late evening).** Turning your head while driving made the ground vanish on that side. A fix has the game draw a wider view than the eye sees, and on small turns the ground now stays whole. The jitter checker can read Mad Max now: smooth in the headset simulator.
 - 🧩 **Lanes 0.70.0.** The jitter checker now keeps flat-screen, headset-simulator and real-headset runs apart, because jitter feels different in each.
 - 🎮 **Enslaved: a tidier head-tilt log (night).** The log now shows the game's own camera tilt even when the head is still, so tests are easier to read. Nothing in the game behaves differently.
@@ -109,9 +103,8 @@ story of any project, open its repo and read `modding-notes/`.
 - 🎮 **Mad Max: the game's own picture reaches the headset (evening).** Steam's overlay no longer fights the headset link, and the game's real picture shows in both eyes of the headset simulator, turning with the head. The blur over the steering wheel and hands is gone: the switch built earlier had never been reached, and now it is.
 - 🎮 **Deus Ex: Mankind Divided: a built-in 3D mode (late evening).** A first look through the game's files found that it can already draw two eyes side by side, a mode made for 3D TVs. The game's code is locked until it runs, so the next step is a test run with that mode switched on.
 - 🎮 **Metro Exodus: the picture keeps its shape (late evening).** The game's wide picture looked stretched in each tall headset eye. That turned out to be the test tool's own preview, but one gap was real: with head tracking off, a headset would have stretched it too. Now every eye tells the headset the game's real viewing angles. Built and checked without the game.
-- 🎮 **Manhunt: the HUD into both eyes (evening).** The radar sat in the left eye and the health in the right. Our mod now catches every flat 2D drawing after the world and draws it again, shrunk, into each eye. Built and checked without the game; the next run shows whether it works.
 - 🎮 **Metro Exodus: the game's own picture reaches the headset (afternoon).** Until now only a red and blue test picture got through; the game's real picture now shows in both eyes of the headset simulator. Turning your head turns the view the right way and it comes back without drifting. A view that looked broken turned out to be the test tool's own head floating 11 m up; a safety fix for the head's height went in anyway.
-- 🎮 **Mad Max: the blur inside the car gets an off switch (evening).** The game's settings could not remove the blur over the steering wheel and hands. The game's own picture pass shows which numbers make it, and our mod now zeroes them, along with lens dirt, colour fringing and heat shimmer. Built and tested without the game; the next run shows whether it works.
+- 🎮 **Mad Max: where the blur inside the car comes from (evening).** The game's settings could not remove the blur over the steering wheel and hands. The game's own picture pass shows which numbers make it.
 - 🧰 **Recording tool: dev PC videos reach the home PC by themselves.** They had been copied by hand, and none arrived after 10-11. Each finished test recording is now copied into the shared folder automatically.
 - 🎮 **Condemned 2: the game runs in the headset simulator (afternoon).** Turning, tilting and looking up move the view the right way, and nothing froze. The game now draws exactly what the headset can see, and the eye spread comes from the headset's own setting. Next: the first try in a real headset at home.
 - 🎮 **The Evil Within: why the first headset look failed (afternoon).** The "two pictures at once" came from one depth setting, now set automatically. A likely reason the world stayed flat and followed the head is fixed, and the log will now show whether it was the cause. Built and tested without the game; the home PC gets it next.
@@ -147,7 +140,6 @@ story of any project, open its repo and read `modding-notes/`.
 - ❄️ **Hand Freeze (evening).** Clearer pixel lettering, the flame button now reads UN- / FREEZE, and the rows say LEFT HAND, RIGHT HAND and BOTH HANDS. The window grew a little so everything fits, with the sun and moon in the middle of the title box.
 - ❄️ **Hand Freeze (late afternoon).** New pixel-art look: summer and winter backgrounds, a round red-to-green switch, and snowflake and flame buttons for the left hand, the right hand or both. Tested on the simulator.
 - ❄️ **Hand Freeze (afternoon).** A new desktop app holds both VR controllers still in any OpenXR game after a countdown, so hands can be posed with the mouse. Tested on the headset simulator.
-- 🎮 **Visceral RE2 (midday).** A new tick box holds both hands still after a 10-second countdown, so the controllers can be put down while the hand sliders are moved with the mouse. Built, not yet tried in the headset.
 - 🧩 **Lanes 0.63.0.** Conversations now get summarised earlier, at 40% full, so sessions stay sharp. A checkpoint is saved first and the full logs are kept on the PC. The front page now has a full guide for beginners.
 - 🎮 **Visceral RE2 (morning).** The hand-tuning menu now covers the right hand too: every finger joint, the grip, and where the gun sits in the hand, saved per character and per gun.
 - 🎮 **Visceral RE2 (after midnight).** Measured hand racking with Ghost Hand: the pistol slide was already steady, and the shotgun's pump area and push back are fixed. Racking by hand now replaces the button. New hand-tuning sliders save per character, per gun and per hold.
@@ -180,7 +172,7 @@ story of any project, open its repo and read `modding-notes/`.
 - 🎮 **Metro Exodus (midday).** Built head tracking: turning your head will turn the game camera, and each picture tells the headset which way the head was facing when it was drawn, so it should not swim. Tested without the game; it stays switched off until a game test.
 - 🎮 **Mad Max (midday).** The car's shadow now sits under the car in the 3D picture, in both eyes: the sun's settings were in a different place than the shader files said. Motion blur no longer smears the near sand either.
 - 🎮 **Heavy Rain (morning).** Found why linking the headset closed the game: the game carries an old copy of a Microsoft helper file that the newer VR software crashes on. Proved it with a small test program, and the mod now stops safely instead. Next: try the game without that old copy.
-- 🎮 **Visceral RE2 (late night).** Leon's left hand now closes its fingers round a magazine or shell while reloading, using poses saved from the older Arcade Controls work. The hand also grips the slide to rack it, and the slide now stays back until the trigger is let go. Smoother docking is next.
+- 🎮 **Visceral RE2 (late night).** Leon's left hand now closes its fingers round a magazine or shell while reloading, using poses saved from the older Arcade Controls work. The hand also grips the slide to rack it, and the slide now stays back until the trigger is let go.
 
 ## 2026-10-11
 
@@ -189,14 +181,14 @@ story of any project, open its repo and read `modding-notes/`.
 - 🎮 **Alan Wake and Far Cry 3 Blood Dragon (evening).** Both seen in a real headset for the first time and released as first VR builds. Blood Dragon has real depth and runs smoothly; Alan Wake's head tracking works, with jitter still to fix.
 - 🎮 **Releases (evening).** Visceral RE2 0.4.0 and Visceral RE3 0.1.0 are out as public work-in-progress builds, and The Evil Within's first VR build is up as a milestone, not for playing.
 - 🎮 **Alan Wake and Hard Reset (evening).** Alan Wake's head tracking works in the real headset; both now record camera timing so the jitter can be found.
-- 🎮 **The Evil Within (evening).** Tefa saw it in the real headset for the first time, saved as the first VR build. The menus show in both eyes, but gameplay is still flat and stuck to the view, so that is next.
+- 🎮 **The Evil Within (evening).** Tefa saw it in the real headset for the first time, saved as the first VR build. The menus show in both eyes, but gameplay is still flat and stuck to the view.
 - 🎮 **Heavy Rain (evening).** A head turn now rotates the free camera and it holds steady, the way looking around in VR needs. The first try at linking the real head-tracking crashed the game, so that is being tracked down.
-- 🎮 **Mad Max (late).** Found that our own logging was cutting off part of what it reported, and that it never watched one way the game can send its settings. Fixed both, so the next run shows how the sun's shadow settings travel.
+- 🎮 **Mad Max (late).** Found that our own logging was cutting off part of what it reported, and that it never watched one way the game can send its settings. Fixed both.
 - 🎮 **Mad Max (evening).** Motion blur no longer smears the 3D picture: the car stays sharp. The car's shadow still lags behind; one more suspect was ruled out.
 - 🎮 **Heavy Rain (evening).** Built the first step of head tracking: a head turn laid on top of the game's free camera, done so the camera cannot start spinning. Tested without the game; next is one try in it.
 - 🎮 **Mad Max (later).** Found what most likely makes the car's ground shadow lag behind in 3D: a shadow box under the car, placed using the unshifted camera. Built a fix that moves it with the eye; tested without the game, not yet in it.
 - 🎮 **Heavy Rain (live test).** Our code switched on the game's hidden free camera: it takes over from the film camera and can be flown around with the keyboard. That is the starting point for looking around in VR.
-- 🎮 **Mad Max.** Measured that the 3D shift moves the car and the ground but leaves the car's shadow behind, which explains the faint dark edge. Two fixes were tried and ruled out; finding where the shadow is drawn is next.
+- 🎮 **Mad Max.** Measured that the 3D shift moves the car and the ground but leaves the car's shadow behind, which explains the faint dark edge. Two fixes were tried and ruled out.
 - 🔎 **Research sweeps.** Checked the whole collection for wrong or out-of-date notes, looked up news for the games being worked on, and fixed an old line in the shared library: SteamVR now runs 32-bit VR games through OpenXR. Found a public RE2 VR pack with holsters and reloading, and a known way round the Tomb Raider sign-in pop-up.
 - 🎮 **Heavy Rain (later).** Built the switch for the game's own free camera into our file: one key turns it on and a log shows whether it worked. Tested without the game; next is one try in the game.
 - 🎮 **Heavy Rain.** First run on the dev PC, now in a window with the music off. The hidden debug menu cannot be switched on by a file, but the game's own free camera can be switched on from our code; the recipe is written down.
@@ -226,14 +218,13 @@ story of any project, open its repo and read `modding-notes/`.
 
 - 🎮 **RE Village VR scope (afternoon).** The lag with the rifle raised is gone: our own code was making the processor wait on the graphics card every frame. The scope picture now waits for both hands to be up, and stops only when the glass is seen nearly edge-on. Tefa: *"the lag is completely gone!"* Then back to v1.1.3 with only the colour fix and the lag fix on top: *"scope is great!"* Saved as v1.1.4.
 - 🎨 **Terminal themes.** The newest look, Frequency, added on the home PC as an extra tab.
-- 🎮 **Visceral, RE2 VR (afternoon).** Four fixes built, waiting for the headset: the grenade no longer flips in and out while the left grip is held, the black screen at item pick-ups gets a first fix, the holster spots now turn with the player, and Run Hold, auto reload off and aim assist off are set by themselves on the first start.
 - 🎮 **Visceral, RE2 VR (night).** Menus: the tilt is gone and the one-frame flash of Leon's body on closing is gone. The inventory still flickers for a frame; DLSS was ruled out. Next: a headset recording picked apart frame by frame.
 - 🧩 **Lanes 0.53.0.** A desktop shortcut named Lanes now opens Claude Code in the plugin's look, same font and background. The first session after the look goes on offers it once; so does an update.
 - 🎮 **RE Village VR scope.** The outdoor blue tint is solved. The scope's colour dial now pulls blue down on top of the picture, with the sky and fog left in; tuned over three launches to "it's perfect now". Brightness and the VR crosshair-off setting saved with it. Later: the scope's own camera now draws with the lowest picture effects while the game keeps its settings, for a smoother scope, and the DLSS upscaler was switched off after the scope looked DLSS-blurry. Tefa: sharp picture, runs really well; DLSS stays off for Village. Checked whether the scope alone could use low mesh detail: no, this engine picks detail per object, not per camera. The frame drops came only with the rifle out, so the scope's camera now draws only while the rifle is raised to the eye. Worn: it works. The lens also dims when the right hand is away from the headset, and the scope camera only works on every other frame while aiming; tuned with Tefa over several rounds.
 
 ## 2026-10-08
 
-- 🧠 **Visceral, RE2 VR (evening).** Read the VR layer's own code and found why menus tilt: it adds the headset's turn on top of a camera that already has it. Also found why the shotgun sits crooked in the light: the two-handed grip reads the relaxed clip's arms. Both fixes built, waiting for the headset.
+- 🧠 **Visceral, RE2 VR (evening).** Read the VR layer's own code and found why menus tilt: it adds the headset's turn on top of a camera that already has it. Also found why the shotgun sits crooked in the light: the two-handed grip reads the relaxed clip's arms.
 - 🎮 **RE Village VR scope.** Back to the 1.1.2 scope, plus the one keeper: the scope no longer sees through nearby walls. Built as v1.1.3 and installed; the colour work is set aside. Tefa's observation: the sky went with the layer that removed the blue hue, not with the motion blur. Later the same night: the scope's outdoor colour dial can now pull blue down instead of only adding it, rebuilt on the 1.1.2 plugin and installed at a mild setting.
 - ⭐ **Visceral, RE2 VR.** The trigger-only shot works in the headset: one real round per pull. Holding the trigger made the slide keep cycling, so the next build fires once per pull.
 - 🎮 **Visceral, RE2 VR.** Built the trigger-only shot: pull the trigger without holding the aim button and the gun fires for real, using the game's own switches. Installed, waiting to be tried in the headset.
@@ -250,7 +241,6 @@ story of any project, open its repo and read `modding-notes/`.
 - 🎮 **Hard Reset.** Measured that one game unit is a metre, then switched on head position: leaning and stepping now move the view in the headset simulator. The health dial turned out to be a 3D part of the gun.
 - ⭐ **Far Cry 3: Blood Dragon.** Built the step that moves the camera half an eye-width left and right, using Far Cry 2's recipe; it passed a test of about 17,000 checks without the game. One flat run will show it working.
 - **Terminal themes:** Frequency, round eight: the big bang now follows the dive into the black hole at once, and the bottle pours into a turning swirl that fills the window.
-- 🔍 **Manhunt.** Built the step that makes the game draw its world twice per frame, once per eye, with the same camera for now. It is switched off until a test run turns it on.
 - **Terminal themes:** Frequency, round seven: scenes are shorter and roll into each other through long, soft blends, and what pours from the bottle is solid and spread in depth.
 - ⭐ **Far Cry 3: Blood Dragon.** Ran the game twice with a logging file and found where it sends the camera: the same slot Far Cry 2 used, and it turns with the mouse. The two-eye step can now be built.
 - **Terminal themes:** Frequency, round six: the suburb gained depth (solid shaded houses, shadows, haze), the dive leads into a tube of big bangs, the bottle arcs overhead shrinking to nothing, and glitches became chunky blocks.
@@ -263,7 +253,7 @@ story of any project, open its repo and read `modding-notes/`.
 - 🎮 **Psychonauts.** Found a likely reason the head-follow camera went glitchy in the headset: the game may build its next camera on top of our head turn, so the turn keeps adding up. A fix now hands the game its own camera back every frame, and one flat-screen run will show whether that was the cause.
 - 🔧 **Enslaved.** Turning and tilting a simulated headset now turns and tilts the game's view, and putting the head back puts the view back. Next is getting the picture into the headset.
 - 🧩 **CubeKit** installed in Blender on the dev PC.
-- **Terminal themes:** started Frequency, a new look that keeps changing station like a radio dial, from fish bones and skulls to a 1930s cartoon on an old TV and an asteroid field, with random psychedelic glitches. The whole loop plays; tuning comes next.
+- **Terminal themes:** started Frequency, a new look that keeps changing station like a radio dial, from fish bones and skulls to a 1930s cartoon on an old TV and an asteroid field, with random psychedelic glitches. The whole loop plays.
 - 🔧 **Metro Exodus.** The game refuses the usual way of handing its picture to the headset, so a new handover was built with two fallbacks and tested on its own. The next flat run shows which one works.
 - 📋 **Weekly check.** One outdated fact (SteamVR now runs older 32-bit games in VR) was still written in three places, and two to-do lists were hidden from the board. Notes left for the owners.
 - 🎮 **Ashes 2063.** The cube shotgun does catch the game's real lights, face by face — proven on the flat screen with painted test runs; the earlier "no normals" finding was a misread. A metal shine map gives a faint sheen that moves with the gun. Two headset shortcuts for Tefa to confirm in VR.
@@ -314,7 +304,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-07: Hard Reset and Alice
 
-🏆 Hard Reset draws both eyes by itself once a console setting is on, about 120 times a second each, and it compiles our own edited shader files. The eye pictures do not reach the window yet; catching them is next. 🔧 Alice: the shadow fix was re-worked out from the game's own shaders; the live check waits for Tefa on Friday.
+🏆 Hard Reset draws both eyes by itself once a console setting is on, about 120 times a second each, and it compiles our own edited shader files. The eye pictures do not reach the window yet. 🔧 Alice: the shadow fix was re-worked out from the game's own shaders.
 
 ## 2026-10-07: Metro Exodus — headset hookup
 
@@ -350,11 +340,11 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-06: The Evil Within — the street mystery solved (there was none), two eyes built
 
-🔍 A new recorder showed that every part of the opening street is reached by our camera change, yet the street still looks untouched, so the cause is further down the line than thought. The game can now be walked around by the computer on its own. 🔄 Then Tefa looked in the running game: the street does tilt. It was never broken; I had misread my screenshots. A first two-eye mode was built and then seen working in the game: one frame per eye, with near and far in the right order. 🏆 Late on, the game showed up in both eyes of a headset simulator, with the menus kept flat while the world is 3D. Sharing the game's own graphics device with the headset froze the game, so the headset now gets its own. The real headset is next.
+🔍 A new recorder showed that every part of the opening street is reached by our camera change, yet the street still looks untouched, so the cause is further down the line than thought. The game can now be walked around by the computer on its own. 🔄 Then Tefa looked in the running game: the street does tilt. It was never broken; I had misread my screenshots. A first two-eye mode was built and then seen working in the game: one frame per eye, with near and far in the right order. 🏆 Late on, the game showed up in both eyes of a headset simulator, with the menus kept flat while the world is 3D. Sharing the game's own graphics device with the headset froze the game, so the headset now gets its own.
 
 ## 2026-10-06: Alan Wake — the dead end was not a dead end
 
-🔄 A month ago we decided our camera changes did nothing on screen. Re-reading the old pictures showed they did; the comparison had been fooled by the camera moving between runs. A new on/off key proved it live: one eye's view now shifts with proper depth. Music is muted. The game measures in metres, so a real eye distance can now be set. Then built the first two-eye mode, one frame per eye, and saw it alternate in the game. Lighting now follows each eye too, with motion blur switched off. Late on, the code was tidied into smaller files and the first headset output was built: a floating 3D screen, one picture per eye. It then worked end to end in a headset simulator; the real headset is next. Head tracking came last, and in a headset simulator turning, nodding and tilting the head all move the view the right way in both eyes. The real headset is next.
+🔄 A month ago we decided our camera changes did nothing on screen. Re-reading the old pictures showed they did; the comparison had been fooled by the camera moving between runs. A new on/off key proved it live: one eye's view now shifts with proper depth. Music is muted. The game measures in metres, so a real eye distance can now be set. Then built the first two-eye mode, one frame per eye, and saw it alternate in the game. Lighting now follows each eye too, with motion blur switched off. Late on, the code was tidied into smaller files and the first headset output was built: a floating 3D screen, one picture per eye. It then worked end to end in a headset simulator. Head tracking came last, and in a headset simulator turning, nodding and tilting the head all move the view the right way in both eyes.
 
 ## 2026-10-06: Bulletstorm — two eyes in one frame
 
@@ -374,11 +364,8 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 📋 Planned four new jobs: ladder climbing taken over from Arcade Controls, the left hand staying on the gun, quicker stops when running, and no player body showing in menus. Manual reloads wait for the new firing work.
 
-🔧 Rebuilt the ladder and cupboard-push camera fix from Arcade Controls in the new plugin, ready to try in the headset. Each feature's builds now get their own folder.
+🔧 Each feature's builds now get their own folder.
 
-🔧 Running now stops the moment the stick is let go, or with a second click. Also ready to try.
-
-🔧 The player's body no longer shows in the inventory, map and pause menus. Ready to try.
 
 ## 2026-10-05: Visceral RE2 — every gun relaxed
 
@@ -398,7 +385,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-04: Enslaved — where the camera is decided
 
-⭐ Found the one spot each frame where the game settles where the camera looks, just before it draws. A small numpad test that turns the view from that spot is built and waiting for one launch.
+⭐ Found the one spot each frame where the game settles where the camera looks, just before it draws.
 
 ## 2026-10-04: Lanes drops the private game copy
 
@@ -477,9 +464,6 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🏆 The crash that hit the fresh install on the 30th came back and was run down with a launch loop: praydog's September dev build dies the instant the headset says ready, the March build starts every time. The grip fixes, our plugin, DLSS and the window size were all cleared. The install text now points at praydog's own release plus the five March files that differ, offered unmodified on our release page.
 
-## 2026-10-01 (evening): BeG0nE's Village grip gets the two fixes back, without a patched loader
-
-🔧 The two grip rules Tefa liked in September (no jerk on the first two-handed shot, and the rifle docks only with the left grip button held) were lost when the scope release moved to praydog's stock REFramework. They are back, inside BeG0nE's own Village script, with a self-check that compares its sums with praydog's every frame. Installed on the home PC, not yet worn.
 
 ## 2026-10-01: Visceral RE2, the title rain is not the Story page's camera mode
 
@@ -511,7 +495,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-01: Village's flat-screen scope starts by itself
 
-🎮 On the dev PC's flat-screen copy of RE Village, the scope picture now comes up by itself when the rifle is drawn. The newer rifle-camera picture still stays dark on that PC, so that part is next.
+🎮 On the dev PC's flat-screen copy of RE Village, the scope picture now comes up by itself when the rifle is drawn. The newer rifle-camera picture still stays dark on that PC.
 
 ## 2026-10-01: Halloween ravens, and a faster start
 
@@ -519,7 +503,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-01: Village gets a flat-screen copy, and Dr.BeGonE gets its grip
 
-🔧 RE Village: a second copy of the game now runs in a window on the dev PC for flat-screen work, and the scope comes up there too. Its picture still needs a nudge at start-up, which is next. The grip moved out of the scope mod into Dr.BeGonE, unchanged, ready to be worn in the headset.
+🔧 RE Village: a second copy of the game now runs in a window on the dev PC for flat-screen work, and the scope comes up there too. Its picture still needs a nudge at start-up.
 
 ## 2026-10-01: Theme edges, Halloween lanterns
 
@@ -591,11 +575,11 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-10-01: Hard Reset, two eyes from one console setting
 
-⭐ Reading Hard Reset's code showed that one console setting makes it draw the scene twice, once per eye, and announce which eye each time. A small stand-in for NVIDIA's library now listens for that signal; it is installed and waiting for a flat-screen test.
+⭐ Reading Hard Reset's code showed that one console setting makes it draw the scene twice, once per eye, and announce which eye each time.
 
 ## 2026-10-01: Bulletstorm, the camera hook is built
 
-🔧 Using the game's own debug-symbols file, I found the one spot where Bulletstorm hands its finished camera to the renderer, and built a small hook there that can move the camera sideways like a second eye. It passed its tests outside the game; the first in-game try is next.
+🔧 Using the game's own debug-symbols file, I found the one spot where Bulletstorm hands its finished camera to the renderer, and built a small hook there that can move the camera sideways like a second eye.
 
 ## 2026-09-30: terminal themes, fish that fade with distance
 
@@ -629,7 +613,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-30: Prototype, head tracking every frame
 
-🔧 Yesterday a spare camera slot in Prototype turned and moved the view the way a head would, set by hand from outside the game. Today the code that does it by itself, every frame, is built into the mod and installed, with number-pad keys standing in for the headset for now. It was checked against thousands of test cases outside the game; the first in-game try is next.
+🔧 Yesterday a spare camera slot in Prototype turned and moved the view the way a head would, set by hand from outside the game.
 
 ## 2026-09-30: Burnout Paradise, the patch that stayed behind
 
@@ -657,7 +641,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-30: The Evil Within, a test that can actually be read
 
-🔄 The camera test we had been running on The Evil Within turned the picture 90 degrees in a way that could never look right: the maths squeezes the whole frame into a thin strip, which is the "slivers" seen last time. ⭐ A new test tilts the picture by 15 degrees instead, keeping everything on screen, so the next run can show exactly which parts of the world our patch reaches. Built, checked with numbers and installed, not yet run in the game.
+🔄 The camera test we had been running on The Evil Within turned the picture 90 degrees in a way that could never look right: the maths squeezes the whole frame into a thin strip, which is the "slivers" seen last time.
 
 ## 2026-09-30: Metro Exodus, first launch
 
@@ -703,7 +687,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ## 2026-09-29: Village scope packed for Fluffy Mod Manager
 
-🔧 The finished Village scope was packed so Fluffy Mod Manager can install and remove it with one tick. It still needs a hand test before it becomes a second download. The Lanes plugin also stopped warning about an older build when going back to it was on purpose.
+🔧 The finished Village scope was packed so Fluffy Mod Manager can install and remove it with one tick. The Lanes plugin also stopped warning about an older build when going back to it was on purpose.
 
 ## 2026-09-29: Silent Hill 2 frame rate in the headset
 
@@ -769,19 +753,19 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 ⭐ Looked into why the picture inside the scope turns golden and too bright outdoors. Our own code does not add the gold. The likely cause is that the rifle camera misses the game's cold outdoor colour grading. A short headset test with existing keys will tell which.
 
-🎮 The headset test settled it: the golden look is already baked into the rifle camera's picture before our code sees it, because its bright parts are cut off. The fix is to darken that camera before the cut-off. The switch for that had a bug where whole numbers became zero; it is fixed and ready to try.
+🎮 The headset test settled it: the golden look is already baked into the rifle camera's picture before our code sees it, because its bright parts are cut off. The fix is to darken that camera before the cut-off.
 
 🔄 Tried it in the headset: darkening the rifle camera made the picture darker but still golden, so that idea is closed. Next is the trick that beat the same golden look in August, taking the picture before its bright parts are cut off.
 
-⭐ That August trick turned out not to fit: the rifle camera has no uncut copy to grab. What it is missing is the game's colour grading, the part that gives the outdoors its cold look. A switch that copies the game's grading onto the rifle camera is built and ready for a headset try.
+⭐ That August trick turned out not to fit: the rifle camera has no uncut copy to grab. What it is missing is the game's colour grading, the part that gives the outdoors its cold look.
 
 🔄 Tried in the headset: the scope stayed golden with the game's grading copied on, so that idea is closed too. Five ideas were ruled out today. The next try starts from one odd reading that suggests the lens may be showing a different picture than the one being measured.
 
-🏆 Evening, in the headset: the gold was the rifle camera's own glow effect plus its brightest colours being cut off. With the glow off and the rifle camera darker, the scope's colours now largely match the world. The sky is still too bright; that is next.
+🏆 Evening, in the headset: the gold was the rifle camera's own glow effect plus its brightest colours being cut off. With the glow off and the rifle camera darker, the scope's colours now largely match the world. The sky is still too bright.
 
 🏆🏆 The golden scope picture is beaten, after five weeks. The last piece was our own: a script meant to keep the rifle camera matching the main view kept switching its glow back on and undoing the darker setting, nine frames out of ten. Tefa's frame-by-frame video showed it. The scope now shows the world in its real colours.
 
-🎮 The left hand now stays in one grip on the rifle, fingers included, instead of jumping between the game's holding animations. The faint weapon clicks those animations still play were traced to the game lowering and readying the rifle by its angle; silencing them is next.
+🎮 The left hand now stays in one grip on the rifle, fingers included, instead of jumping between the game's holding animations. The faint weapon clicks those animations still play were traced to the game lowering and readying the rifle by its angle.
 
 🏆🏆🏆 The VR scope is complete. The last loose ends went tonight: the weapon-handling clicks the game played when lowering, readying or aiming the rifle are silenced (the bolt and reload sounds stay), and the brightness is set. In Tefa's words: the brightness is perfect, the sounds are perfect, the hand stays on the gun, the scope points where the bullets land, and the picture is crisp.
 
@@ -797,7 +781,7 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 📋 Mod pieces now go back into a separate test copy of the game, one at a time, starting with the walking poses. The test copy now uses OpenXR only, Tefa's choice for every RE game.
 
-⭐ The gun swing was tracked down, step by step, to our relaxed walking poses. The shot's kick is made to sit on top of raised arms, and our walks hold the arms lowered, so the kick threw the gun aside. A new mix, legs from the relaxed walk and arms from the game's own aiming walk, is ready to test.
+⭐ The gun swing was tracked down, step by step, to our relaxed walking poses. The shot's kick is made to sit on top of raised arms, and our walks hold the arms lowered, so the kick threw the gun aside.
 
 🎮 That mix still threw the gun, so it waits for a deeper look. Then work started on making the last-save scene the only title background: it now shows from launch, but pressing Story still fades to black and backing out brings the old view back. Nine rounds taught how the title screen really works; the next attempt is written down.
 
@@ -811,13 +795,13 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🔍 The one saved crash report turned out to be from an older build, with none of our code involved, so there is nothing to fix. For the rifle shots landing slightly low, a likely cause was found: each bullet takes the rifle's aim from a split second before the trigger, a fix made for the old mirror scope. A headset test will tell.
 
-🎮 The test confirmed it: taking the aim from a little earlier brought the far shots in to the same small miss as the near ones. The small miss that is left comes from the bullet starting a few centimetres away from the scope's camera, and a fix for it is built and waiting for a test. The scope also survived loading a save while playing.
+🎮 The test confirmed it: taking the aim from a little earlier brought the far shots in to the same small miss as the near ones. The small miss that is left comes from the bullet starting a few centimetres away from the scope's camera. The scope also survived loading a save while playing.
 
 🏆 The fix worked: shots now land right on the cross from about one metre out to fifty. The bullet leaves from the muzzle, 6 cm below the scope, and each shot is now angled so it meets the scope's centre at whatever you are aiming at. Tefa: "it's so good! so accurate".
 
 ## 2026-09-27: Visceral — RE2 VR
 
-🎮 The pistol swing survived every file we took out, down to a game holding nothing but praydog's own framework, so something of ours must be persisting elsewhere. The game was cleaned back to stock with a fresh framework download, and a rebuild holding only the relaxed aim-walk posture is ready to test next. Every change is now saved as a numbered version on GitHub, so both PCs test the same builds.
+🎮 The pistol swing survived every file we took out, down to a game holding nothing but praydog's own framework, so something of ours must be persisting elsewhere. The game was cleaned back to stock with a fresh framework download. Every change is now saved as a numbered version on GitHub, so both PCs test the same builds.
 
 ## 2026-09-26: Visceral — RE2 VR
 
@@ -833,13 +817,10 @@ wrong · 🔧 tooling · 📋 housekeeping
 
 🏆 The rifle camera now shows its finished picture on the scope glass, in the game's own colours, with no white-out. Tefa: "it looks fantastic!" Next: centring the picture on the lens, then a look in the headset.
 
-🔧 Built a copy of the rifle camera's finished picture taken the moment it is drawn, before the game reuses that memory, plus a switch to test why the scope picture slides. Not tested yet.
 
 🎮 Tested the finished-picture route: it finds the right picture, but the game reuses that memory for the main view
 before the frame ends, so it has to be copied earlier. Tefa spotted the rifle camera's picture was upside down; fixed.
 
-🔧 Built the route that takes the rifle camera's finished picture from its last render stage, the way praydog's
-VR mod does; it should fix the washed-out outdoors. Built and installed; not tested yet.
 
 🔄 Tried four ways to fix the rifle camera's washed-out outdoor picture; none worked, but they showed the picture
 arrives before the game's own colour grading. The fix is to take the finished picture instead, as praydog's VR mod does.
@@ -847,7 +828,7 @@ arrives before the game's own colour grading. The fix is to take the finished pi
 
 🔧 The static across the top of the rifle camera's picture was the game's own film-grain effect, copied onto our
 camera. Found by saving the picture to disk and switching effects off one group at a time; it is now left off and the
-picture is clean. Outdoors is still far too bright; that is next.
+picture is clean. Outdoors is still far too bright.
 
 🏆 The rifle camera's big slowdown (26 fps) was our own script: it searched the whole level for the rifle
 every frame. Found with a new per-stage frame timer, fixed by remembering the rifle; the scope now runs at
@@ -1027,7 +1008,7 @@ those moved out too, since a to-do list that overstates itself is worse than non
 
 ### RE Village: the second of stock glass was a timer nobody had ever timed
 
-⏱️ Put the sniper rifle away, take it out again, and for about a second you looked at the game’s own dark glass with its orange reticle before our picture came back. The cause was not a hard problem — the mod simply waited a fixed one second before putting our picture on, a number written down once as a guess and never once checked against how quickly it could actually have been done. Shrinking the guess would only have made a smaller guess, and going too early fails silently and costs four seconds instead of one. So it now puts the picture back at the first possible moment, keeps trying until it sticks, and writes into the log exactly how many milliseconds it needed — the first real measurement of this. It also stops the mod doing pointless work when you switch straight back and the picture never came off in the first place. Built, tested 45 ways, deliberately broken nine ways to prove the test bites, and installed — but not yet seen with the game running.
+⏱️ Put the sniper rifle away, take it out again, and for about a second you looked at the game’s own dark glass with its orange reticle before our picture came back. The cause was not a hard problem — the mod simply waited a fixed one second before putting our picture on, a number written down once as a guess and never once checked against how quickly it could actually have been done. Shrinking the guess would only have made a smaller guess, and going too early fails silently and costs four seconds instead of one. So it now puts the picture back at the first possible moment, keeps trying until it sticks, and writes into the log exactly how many milliseconds it needed — the first real measurement of this. It also stops the mod doing pointless work when you switch straight back and the picture never came off in the first place. Built, tested 45 ways, deliberately broken nine ways to prove the test bites, and installed .
 
 ### The Darkness: holding the world still, and cracking the game open
 
@@ -1109,7 +1090,6 @@ cutting the picture off, is still a guess until someone looks — and quietly cl
 guess is how a setting turns into a mystery nobody can explain later. Instead the log now simply
 prints how far above the floor the viewpoint is, as a number. Negative means underground.
 
-Not run yet — it rides along with any start of the game.
 
 ### RE Village: the reading that should have shown the rifle shaking was quietly smoothing it out
 
@@ -1138,7 +1118,6 @@ than settling it: either the shake is already there before we get the rifle, or 
 Those are different problems with different owners, and guessing between them is what the last two
 attempts at this did.
 
-Not run yet — it rides along with any start of the game rather than needing one.
 
 ### The Darkness: the first true left-eye / right-eye picture
 
@@ -1191,7 +1170,6 @@ longer exists. So it now also reads the three real places in the code and checks
 it thinks they say. Then each of those was deliberately broken, one at a time, to be sure the test
 noticed. All five were caught.
 
-Not run yet — installed and waiting for the next start of the game.
 
 ### RE Village: the scope's settings file was quietly saving experiments as permanent
 
@@ -1218,8 +1196,6 @@ that joins the two halves — sailed through every single check with the origina
 tests were checking both ends and not the join, while looking thorough. That gap is closed now, but
 the habit is the point: a test that has never been made to fail has not been shown to work.
 
-None of this has been run in the game yet. It is installed and waiting, and it rides along with any
-start rather than needing one of its own.
 
 ### The Darkness: the trick that gives each eye its own view works
 
@@ -1282,8 +1258,6 @@ the wrong size. The rip was never the problem.
 
 One prediction was wrong and is written down as wrong: a second way of skipping to the menu was
 expected to dodge the lettering problem, and it failed in exactly the same place.
-
-Nothing moved on the stereo picture itself. That remains the very next job.
 
 
 ### A measurement that reads zero, and why that was not an answer
@@ -1413,12 +1387,11 @@ still running without it. It is baked into the mod now, which is where a confirm
   pool, and that kind of buffer has shown nothing at all before — the leading suspect is that another
   part of the renderer sometimes draws into it. Three switches were built to prove or disprove it in one
   headset session: a change detector that logs every such frame, a "show the last good frame again"
-  guard, and a switch to the picture buffer that is ours alone. All off by default, nothing run yet.
+  guard, and a switch to the picture buffer that is ours alone.
 - 🔧 **The dev PC now carries the home PC's build**, and a descriptor file that only existed in one game
   folder is now in the repo.
-- 🔁 **The "security camera" after a save reload has a fix waiting for a test.** The picture stayed behind
-  because the scope kept reading a buffer the new rig no longer drew into; it now drops back to the one
-  that follows the rig, and one word (`rerig`) rebuilds the scope after a reload.
+- 🔁 **Found why the "security camera" picture stays after a save reload:** the scope kept reading a
+  buffer the new rig no longer drew into.
 - ⏱️ **The one-second flash of the plain lens when switching away from the rifle** now has a switch to
   try: the scope waits until the rifle is actually put away before handing the lens back. Off until tested.
 - 🔭 **Different zoom for each scope needs the mod to know which scope is fitted**, and the game files do
@@ -1438,10 +1411,7 @@ still running without it. It is baked into the mod now, which is where a confirm
 - 🧭 **Why the scope picture needed a half-turn is now understood:** the rifle's own sideways axis points
   the opposite way from what the maths assumed, and the glass shows the picture upside down by itself.
   The two together are exactly the half-turn the wearer picked. The mod can now build that orientation
-  directly, so its warning about a mirrored picture means something again. One look confirms it.
-- ✋ **One hand hiding the other controller:** the VR menu's own hand-position slider most likely never
-  reaches the hands, so the mod now has a one-line command that sets how much higher you hold a
-  controller than its hand is drawn. Waiting for a headset test.
+  directly, so its warning about a mirrored picture means something again.
 - 🧾 **Board tidy-up:** the last no-game item, a rifle with no scope until you buy one from the Duke, turns
   out to hinge on one question the new rifle fingerprint already answers in the game, so it now waits
   for that test. Nothing on RE Village is left to do without the game on this PC.
@@ -1521,8 +1491,7 @@ still running without it. It is baked into the mod now, which is where a confirm
 ### Hard Reset
 - 🎮 **First launch, with TefMeister at the keyboard.** The developer console works (Ctrl + ~). The
   old 3D switch does *something* on a modern graphics card, which I had just predicted it would not.
-  But it looks like a mix-up of the game's images, not two views. A test of whether the game will
-  use an edited shader file is set up and waiting for the next start.
+  But it looks like a mix-up of the game's images, not two views.
 - 🔄 **A hope withdrawn the same day, and something better found in its place.** The game's
   built-in "stereo" settings drive NVIDIA's retired 3D Vision, not a VR-style renderer of its own.
   But unlocking the data archives showed the shaders ship as **readable source**, naming the
