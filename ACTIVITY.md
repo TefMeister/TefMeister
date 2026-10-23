@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-24
+
+- 🌊 **Ocean theme:** day and night now take turns, three minutes each with a soft change between. Stars come out over the water at night and everything below goes darker; by day rare sunbeams reach down through the water. A 12-minute video plays the whole cycle twice with no visible join.
+
 ## 2026-10-23
 
 - 🥽 **Silent Hill 2:** our own C++ plugin now runs inside the game beside the Lua scripts, reads their settings, and can call the game's own functions by name (checked live: position, rotation, distance). The first step of the rewrite; the hands are designed and next.
