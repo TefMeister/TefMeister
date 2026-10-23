@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -490,8 +490,8 @@
       "developer": "Bloober Team (published by Konami); remake of Team Silent’s 2001 original",
       "engine": "Unreal Engine 5.1.1",
       "renderer": "DirectX 12 [reported]",
-      "stage": "C++ rewrite started 2026-10-23: sh2vr.dll (UEVR C++ plugin) runs beside jbusfield's Lua pack, reads its parameter files; hands and attachments are the next module. Bundled pack (jbusfield, LukasBlaster7, VynnGfx) plays in VR. Repo public.",
-      "updated": "2026-10-23"
+      "stage": "C++ rewrite under way: sh2vr.dll (UEVR C++ plugin) runs beside jbusfield's Lua pack; the IK arms are ported and verified in the headset (2026-10-24). Working on firing without the aim stance (native gate found at RequestManualFire). Bundled pack (jbusfield, LukasBlaster7, VynnGfx) plays in VR. Repo public.",
+      "updated": "2026-10-24"
     },
     {
       "repo": "the-darkness-vr",
