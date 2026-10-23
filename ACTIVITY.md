@@ -10,6 +10,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 - 🥽 **Hard Reset:** the running game now answers Claude live through a new game bridge: pictures of both eyes from inside the game, the head and hand poses, its log, keys and mouse while another window is in front, and console commands (`quit` closed it cleanly). First proof of the bridge on a real game.
 - 🧰 **Two new tools (private for now):** MCP Game Bridge³, the bridge above, built so any mod can carry it and grow it; and 0ut-0f-f0cus, a game out-of-focus tool that keeps a game playing and taking input behind other windows. Both pass their self-tests on 32- and 64-bit.
+- 🧩 **Lanes 0.83.0:** updates that could break a build (compilers, Visual Studio, Python, Blender, big library jumps) are now test-built first: our add-ons are built before and after, and the update is put back if one stops building. Archivers and small updates install as before.
 - 🧩 **Lanes 0.82.0:** setup now offers praydog's RE Engine MCP and elliotttate's UEVR-MCP, so Claude can look inside a running Resident Evil or Unreal Engine game and read its values live. New installs choose six built-in extras instead of getting them all.
 - 🧩 **Lanes 0.82.1:** the weekly tool check now ends with tick boxes, each update with a plain warning of what it could break.
 - 📋 **Account tidy-up:** the e-mail address is gone from every repo, release note and download; contact is through GitHub issues now.
