@@ -27,7 +27,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Our own C++ plugin now runs inside the game, the first step of the rewrite. | 10-23 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Our C++ plugin runs in the game and can call the game's own functions; the hands are next. | 10-23 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 
 ### 🔍 Early RE work
 
