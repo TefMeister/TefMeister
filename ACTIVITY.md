@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-24
 
+- 🔧 **Window View:** first real headset use. Windows opened later now show up in its list by themselves, and the mouse pointer is bigger and never gets lost between windows. Tefa: "this works really well now!"
 - 🧩 **Lanes 0.85.0:** a new rule for every session: use the tools we already have before doing anything by hand, write down what was learned, and add a small tool whenever the same thing gets done by hand twice.
 - 🥽 **Visceral RE2:** found why the world jumps sideways for a frame when the inventory closes: the game hands the camera back with the head's turn already in it, and the VR layer adds the head's turn once more. Read off the last headset run's log, 22 closes, all the same. The fix is built; the ladder start got a frame-by-frame probe and an on/off switch for our own view hold.
 - 🥽 **Resident Evil Village:** every gun's own reload sounds were heard and named by Claude alone, so each gun now has its own handling sounds. The quick-slot cross is redrawn as four holster spots (shoulders and hips) with their names, and the repo is public.
