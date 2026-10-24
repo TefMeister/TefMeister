@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-24
 
+- 🥽 **Visceral RE2:** found why the world jumps sideways for a frame when the inventory closes: the game hands the camera back with the head's turn already in it, and the VR layer adds the head's turn once more. Read off the last headset run's log, 22 closes, all the same. The fix is built; the ladder start got a frame-by-frame probe and an on/off switch for our own view hold.
 - 🥽 **Resident Evil Village:** every gun's own reload sounds were heard and named by Claude alone, so each gun now has its own handling sounds. The quick-slot cross is redrawn as four holster spots (shoulders and hips) with their names, and the repo is public.
 - 🥽 **Resident Evil Village:** Claude now gives itself every gun in the game and puts each in hand, with nobody at the PC. A survey recorded all 16 guns' moving parts and sounds, so the hand reloads can reach every gun. The music is muted too.
 - 🥽 **Resident Evil Village:** the guns' own handling sounds now play when the hand works them (slide, magazine, shotgun pump, rifle bolt), found by name in the game's sound bank. The whole pistol magazine drops out, and the left hand carries a new one in.
