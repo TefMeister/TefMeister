@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -289,6 +289,15 @@
       "engine": "RE Engine",
       "stage": "Finished. v1.1.5 (2026-10-10) confirmed in play: the scope works as it should; reloads no longer cancelled by the VR block gesture, the rifle-up lag gone, the scope sharp with DLSS off. Released on GitHub 2026-10-14 (v1.1.5).",
       "updated": "2026-10-09"
+    },
+    {
+      "repo": "visceral-re8-vr",
+      "game": "Resident Evil Village",
+      "year": 2021,
+      "developer": "Capcom",
+      "engine": "RE Engine",
+      "stage": "Work in progress, worn in the headset: racking, pumping and bolt work by hand, magazines and shells from a pouch, RE2-style holster spots, the quick slots on the left thumb rest and the right stick, one kept hold per gun; 2026-10-25: the game's own hand docking switched off while the grip is up, two hands on the pump gun; a hands-on magazine pull and the standing origin built, not yet worn; the body turn is an experiment behind a switch. Built on praydog's REFramework and Andyalpa's Village scripts, which he handed over. Repo public.",
+      "updated": "2026-10-25"
     },
     {
       "repo": "enslaved-vr",
