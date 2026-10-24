@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-24
 
+- 🥽 **Silent Hill 2:** found why the crosshair followed the head (the game's own one was never taken off the screen), and our plugin now removes it for good. The hand reloads were planned the Resident Evil Village way, gun by gun.
+- 🥽 **Visceral RE2:** found why the VR menu text looks squished, and hand poses made in EMV Engine can now go straight into the mod. The game's long-magazine pickup already has bullets in it, so those can be copied onto the magazines.
 - 🥽 **Ashes 2063:** found why every free left hand since September looked like a right hand: the game draws everything held in the left hand mirrored. A mirrored test hand showed up as a proper left hand, so the new relaxed left hand is built the other way round.
 - 🖥️ **Terminal themes:** every Claude theme now opens on the Desktop, instead of a system folder or the Steam folder. New themes come with the same setting.
 - 🏆 **The Darkness:** the game's hidden developer menu opens: one small hook gave the game's empty "cheat" command a body, and X on the main menu now shows it, with an Unlock all that opens every extra. The test PC's build caught up with the dev PC's and now drives itself from the title into the first level with no window in front.
