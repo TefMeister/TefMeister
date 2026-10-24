@@ -490,7 +490,7 @@
       "developer": "Bloober Team (published by Konami); remake of Team Silent’s 2001 original",
       "engine": "Unreal Engine 5.1.1",
       "renderer": "DirectX 12 [reported]",
-      "stage": "C++ rewrite under way: sh2vr.dll (UEVR C++ plugin) runs beside jbusfield's Lua pack; the IK arms are ported and verified in the headset (2026-10-24). Working on firing without the aim stance (native gate found at RequestManualFire). 2026-10-24: the game's crosshair removed for good; the RE8-style hand reloads designed, step 1 built. Bundled pack (jbusfield, LukasBlaster7, VynnGfx) plays in VR. Repo public.",
+      "stage": "C++ rewrite under way: sh2vr.dll (UEVR C++ plugin) runs beside jbusfield's Lua pack; the IK arms are ported and verified in the headset (2026-10-24). Firing without the aim stance: the gate is read from the exe (the aim byte and the weapon's own fire-ready check), two ways past it built, awaiting one run (2026-10-24). The finger poses, lost when the C++ arms took over, are ported. 2026-10-24: the game's crosshair removed for good; the RE8-style hand reloads designed, step 1 built. Bundled pack (jbusfield, LukasBlaster7, VynnGfx) plays in VR. Repo public.",
       "updated": "2026-10-24"
     },
     {
