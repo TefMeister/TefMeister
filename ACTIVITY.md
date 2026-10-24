@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-25
+
+- 🧩 **Lanes 0.86.0:** a privacy guard. Every commit on the PC is checked first, and one carrying the PC login, a home-folder path or the e-mail address is refused. 27 repos had picked up the home PC's login in notes and old scripts; all of them, and two old side branches, are clean now.
+
 ## 2026-10-24
 
 - 🔧 **Window View:** first real headset use. Windows opened later now show up in its list by themselves, and the mouse pointer is bigger and never gets lost between windows. Tefa: "this works really well now!"
