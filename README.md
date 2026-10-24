@@ -81,7 +81,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 10-24: [0.85.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.85.0) adds a rule: use every tool first, record what helps, grow the tools a little each run. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 10-25: [0.86.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.86.0) adds a privacy guard: no commit can carry your PC login, a home-folder path or your e-mail. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
