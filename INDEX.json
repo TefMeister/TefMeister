@@ -479,7 +479,7 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "Left hand 2026-10-24: the game draws everything held in the left hand mirrored [verified-live, n=1], which is why every free left hand looked like a right hand; a relaxed left hand built the other way round is ready to wear, the lantern's hand next, together in Blender. Full set 2026-10-19: all 21 weapons of Ashes 2063, Dead Man Walking, Afterglow and Hard Reset built in mixed cube sizes (whole, half and quarter cubes) from the game's own pictures with the new blender-cubekit forge, in Blender only, not yet in the game; hands, animations and export next. Carved wear 2026-10-18: scratches, chipped edges and pits cut into all six cube guns with 0.85 mm cubes (blender-cubekit carve_wear.py), new _carved copies awaiting Tefa's look in Blender, not yet in the game. Light: the held cube gun catches the game's real lights face by face, proven flat 2026-10-08 [verified-live, n=5 runs]; a metal shine map adds a moving sheen; headset confirmation pending. Before that: v0.1.1 released 2026-09-23; weapons being rebuilt in cubes with Tefa in Blender (shotgun with gloved hands, animated from the game; rifle, jackhammer and flamethrower first passes), the shotgun editing copy at 1.7 mm with wear and tear (2026-10-06)",
+      "stage": "All guns 2026-10-24: Episode 1's nine other weapons now in the game as still 3D models (flat check: all drawn). Left hand 2026-10-24: the game draws everything held in the left hand mirrored [verified-live, n=1], which is why every free left hand looked like a right hand; a relaxed left hand built the other way round is ready to wear, the lantern's hand next, together in Blender. Full set 2026-10-19: all 21 weapons of Ashes 2063, Dead Man Walking, Afterglow and Hard Reset built in mixed cube sizes (whole, half and quarter cubes) from the game's own pictures with the new blender-cubekit forge, in Blender only, not yet in the game; hands, animations and export next. Carved wear 2026-10-18: scratches, chipped edges and pits cut into all six cube guns with 0.85 mm cubes (blender-cubekit carve_wear.py), new _carved copies awaiting Tefa's look in Blender, not yet in the game. Light: the held cube gun catches the game's real lights face by face, proven flat 2026-10-08 [verified-live, n=5 runs]; a metal shine map adds a moving sheen; headset confirmation pending. Before that: v0.1.1 released 2026-09-23; weapons being rebuilt in cubes with Tefa in Blender (shotgun with gloved hands, animated from the game; rifle, jackhammer and flamethrower first passes), the shotgun editing copy at 1.7 mm with wear and tear (2026-10-06)",
       "source_of_truth": "ashes-2063-weapons/kit/",
       "updated": "2026-10-24"
     },
@@ -522,9 +522,9 @@
       "developer": "id Software; Brutal Doom by Sergeant_Mark_IV",
       "engine": "GZDoom (played through GZDoomVR)",
       "renderer": "OpenGL",
-      "stage": "First VR test build: the three cube guns in GZDoom VR over Brutal Doom, worn in the headset 2026-10-19 [verified-live, Tefa]. 2026-10-19: 26 more guns built as bold free designs in mixed cube sizes with the blender-cubekit forge (Blender only, not yet in the game).",
+      "stage": "All guns in the game 2026-10-24: the 25 newer forge guns go into Brutal Doom as still 3D models held in the hand (flat check: all drawn, no errors), beside the three animated ones; a relaxed free left hand built the other way round, because the game mirrors the left hand. First VR test build: the three cube guns in GZDoom VR over Brutal Doom, worn in the headset 2026-10-19 [verified-live, Tefa]. 2026-10-19: 26 more guns built as bold free designs in mixed cube sizes with the blender-cubekit forge (Blender only, not yet in the game).",
       "source_of_truth": "brutal-doom-3d-guns/tools/",
-      "updated": "2026-10-18"
+      "updated": "2026-10-24"
     }
   ],
   "notes_for_ai_readers": [
