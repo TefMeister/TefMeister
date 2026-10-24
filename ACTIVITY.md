@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-24
 
+- 🏆 **The Darkness:** the game's hidden developer menu opens: one small hook gave the game's empty "cheat" command a body, and X on the main menu now shows it, with an Unlock all that opens every extra. The test PC's build caught up with the dev PC's and now drives itself from the title into the first level with no window in front.
 - 🥽 **Silent Hill 2:** the arms moved into our C++ plugin and work in the headset: they follow the controllers, the gun sits in the right hand and bullets go where it points. Found why a lowered gun will not fire on request (the game's own code checks its aim state, not the answer scripts can change) and found the number that makes walking while aiming as fast as normal walking.
 - 🌊 **Ocean theme:** day and night now take turns, three minutes each with a soft change between. Stars come out over the water at night and everything below goes darker; by day rare sunbeams reach down through the water. A 12-minute video plays the whole cycle twice with no visible join.
 
