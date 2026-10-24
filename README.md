@@ -22,7 +22,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Worked on loading hand poses from EMV Engine and on bullets for the magazines. | 10-24 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on hand racking and the silent empty gun, taken over from RE2. | 10-19 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on bringing hand reloads and the guns' own sounds to every gun. | 10-24 | private for now |
+| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Unlocked and surveyed every gun in the game for hand reloads. | 10-24 | private for now |
 | **Ashes 2063** (2018) | GZDoom | 🥽 Worked on putting every 3D gun into the game, and the free left hand. | 10-24 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
