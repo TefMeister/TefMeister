@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-24
 
+- 🔧 **CubeKit 0.20.0:** adding and carving cubes now keep a model's colour pattern: a new cube takes the colour of the one it sits on, and a carve paints the cube underneath in the carved one's colour. Or pick one colour for both. The build brush follows the same choice.
 - 🥽 **Silent Hill 2:** found why the crosshair followed the head (the game's own one was never taken off the screen), and our plugin now removes it for good. The hand reloads were planned the Resident Evil Village way, gun by gun.
 - 🥽 **Visceral RE2:** found why the VR menu text looks squished, and hand poses made in EMV Engine can now go straight into the mod. The game's long-magazine pickup already has bullets in it, so those can be copied onto the magazines.
 - 🥽 **Ashes 2063:** found why every free left hand since September looked like a right hand: the game draws everything held in the left hand mirrored. A mirrored test hand showed up as a proper left hand, so the new relaxed left hand is built the other way round.
