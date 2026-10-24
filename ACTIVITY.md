@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-24
 
+- 🥽 **Resident Evil Village:** the guns' own handling sounds now play when the hand works them (slide, magazine, shotgun pump, rifle bolt), found by name in the game's sound bank. The whole pistol magazine drops out, and the left hand carries a new one in.
 - 🥽 **Silent Hill 2:** the gun fires with the gun lowered, no aim stance: the game's own shot call, called straight, fires a real round (proven on the simulator, ten shots emptied the pistol); the trigger now does that, and the old script's "trigger = aim + fire" rule is off. Why the gun would not fire before is found in the game's code: two switches checked before every shot. Also found: the arms had lost their finger poses when the C++ took them over; they are ported.
 - 🔧 **Brutal Doom and Ashes 2063:** every cube gun made so far is now in the games: 25 more in Brutal Doom and nine more in Ashes 2063, held still in the hand for now. All of them load and show as 3D models.
 - 🔧 **CubeKit 0.20.0:** adding and carving cubes now keep a model's colour pattern: a new cube takes the colour of the one it sits on, and a carve paints the cube underneath in the carved one's colour. Or pick one colour for both. The build brush follows the same choice.
