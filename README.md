@@ -25,7 +25,6 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Visceral — RE8 (Village) VR** | RE Engine | 🥽 The grab zones now show on the gun in the headset. | 10-25 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 Worked on putting every 3D gun into the game, and the free left hand. | 10-24 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
-| **Alan Wake** (2010) | Remedy engine | 🥽 First VR build released: head tracking works in the headset; jitter next. | 10-11 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 The gun now fires with the gun lowered, no aim stance; the hand reload is built and waits for the headset. | 10-24 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 
@@ -63,6 +62,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **DOOM** (2016) | id Tech 6 | ⏸ Paused: a DOOM VR mod already exists (KHARVOX) | 09-26 | [doom-2016-vr](https://github.com/TefMeister/doom-2016-vr) |
 | **Portal** (2007) | Source | ⏸ Paused: a Portal VR mod already exists (BowmanFox's portal1vr) | 09-26 | [portal-vr](https://github.com/TefMeister/portal-vr) |
 | **Prey** (2017) | CryEngine | ⏸ Paused: fholger is making a Prey VR mod | 09-26 | [prey-2017-vr](https://github.com/TefMeister/prey-2017-vr) |
+| **Alan Wake** (2010) | Remedy engine | ⏸ Paused: fholger released an Alan Wake VR mod | 10-25 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Borderlands GOTY Enhanced** (2009) | Unreal Engine 3 | ⏸ Paused: a VR mod already exists (Mastersellz's BL1GOTYVR) | 09-26 | [borderlands-goty-vr](https://github.com/TefMeister/borderlands-goty-vr) |
 
 ### 📦 Finished
