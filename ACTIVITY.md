@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-25
 
+- 🥽 **Visceral RE8:** found why the left hand jumped onto the rifle's forestock when reaching for the bolt: a stacked-hands gesture from the scope mod took it. Switched off. The front grip is now a zone the Grab Zones window can move.
 - 🔧 **Window View 1.5:** a left stick click hands the motion controllers to the windows: point with the right one to click and drag sliders, and either grip carries a window, one in each hand. The pointer is now drawn every headset frame, and windows are captured straight from the screen compositor, so sliders no longer trail behind. Windows can also stay put in the room instead of following the head. Tested on the simulator, including a game that uses its own controllers.
 - 🔧 **Hand Poser:** a bend-all slider per finger moves all its joints together, and each joint now shows live how it is turned as seen from the hand. Ticked sliders can be stepped with the controller buttons in Window View's controller mode, and a held grip repeats the steps.
 - 🔧 **Window View 1.3:** apps are added with an ADD AN APP button or by dragging the app or its shortcut onto the window, instead of picking from a list of every open window. An app that is not running is started, and its window joins the headset when it opens. Each row shows the app's own icon. The four helper apps now share one icon style and a Lanes-style background.
