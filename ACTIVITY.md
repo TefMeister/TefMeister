@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-25
 
+- 🔧 **Helper apps (Window View, Hand Poser, Grab Zones, Hand Freeze):** the windows are still now, with no moving light, scan lines or animated scenes, and redraw only when something changes. Each uses under 1 % of a processor core at rest, so the headset is no longer fed a fresh picture many times a second.
 - 🔧 **Hand Freeze v4:** a click of the right thumbstick now freezes or frees both hands while the app is open, and the game never sees that click, so Village no longer crouches. Proven with a new test program that presses the buttons itself.
 - 🥽 **Visceral RE8:** found why the left hand jumped onto the rifle's forestock when reaching for the bolt: a stacked-hands gesture from the scope mod took it. Switched off. The front grip is now a zone the Grab Zones window can move.
 - 🔧 **Window View 1.5:** a left stick click hands the motion controllers to the windows: point with the right one to click and drag sliders, and either grip carries a window, one in each hand. The pointer is now drawn every headset frame, and windows are captured straight from the screen compositor, so sliders no longer trail behind. Windows can also stay put in the room instead of following the head. Tested on the simulator, including a game that uses its own controllers.
