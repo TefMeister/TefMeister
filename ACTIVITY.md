@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-25
 
+- 🥽 **Silent Hill 2:** firing with the gun lowered works in the real headset, no aim stance needed. The hand reload ran too; its buttons clash with the game's, so a single button layout is next.
 - 📦 **Condemned 2 and Manhunt:** first VR builds released as work-in-progress pre-releases on each game's page, the same day each first ran in the real headset.
 - 🥽 **Condemned 2:** first run in the real headset, and it just works. Tefa played it for a while with the controller: "it's like playing a vr game with a controller". 47,100 headset frames, none dropped or failed.
 - 🥽 **Manhunt:** first run in the real headset. Head tracking works. The two eye pictures were pushed apart by a wrong sign in the lens maths; flipping it made it much better. A smaller gap is left for the dev PC.
