@@ -62,7 +62,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **DOOM** (2016) | id Tech 6 | ⏸ Paused: a DOOM VR mod already exists (KHARVOX) | 09-26 | [doom-2016-vr](https://github.com/TefMeister/doom-2016-vr) |
 | **Portal** (2007) | Source | ⏸ Paused: a Portal VR mod already exists (BowmanFox's portal1vr) | 09-26 | [portal-vr](https://github.com/TefMeister/portal-vr) |
 | **Prey** (2017) | CryEngine | ⏸ Paused: fholger is making a Prey VR mod | 09-26 | [prey-2017-vr](https://github.com/TefMeister/prey-2017-vr) |
-| **Alan Wake** (2010) | Remedy engine | ⏸ Paused: fholger released an Alan Wake VR mod | 10-25 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
+| **Alan Wake** (2010) | Remedy engine | ⏸ Paused: fholger is making an Alan Wake VR mod | 10-25 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Borderlands GOTY Enhanced** (2009) | Unreal Engine 3 | ⏸ Paused: a VR mod already exists (Mastersellz's BL1GOTYVR) | 09-26 | [borderlands-goty-vr](https://github.com/TefMeister/borderlands-goty-vr) |
 
 ### 📦 Finished
