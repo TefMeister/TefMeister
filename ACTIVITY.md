@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-25
 
-- 🔧 **Ashes 2063 and Brutal Doom:** darkness now hides the 3D guns. The engine had been drawing the held gun brighter than the room on purpose; a new setting gives it the room's own light, and lamps and fire still light it. Proven in a flat test run.
+- 🥽 **Ashes 2063 and Brutal Doom:** darkness now hides the 3D guns. The engine had been drawing the held gun brighter than the room on purpose; a new setting gives it the room's own light, and lamps and fire still light it. Tefa tried it in the headset: "it looks good".
 - 🥽 **The Darkness:** first run in a real headset, with Condemned 2's headset code carried over. It is in VR but still broken: the controls lag, the view swings in a curve when the head turns, and the eyes do not line up. Tefa: "it's now playable broken in VR :) very cool".
 - 🥽 **Silent Hill 2:** firing with the gun lowered works in the real headset, no aim stance needed. The hand reload ran too; its buttons clash with the game's, so a single button layout is next.
 - 📦 **Condemned 2 and Manhunt:** first VR builds released as work-in-progress pre-releases on each game's page, the same day each first ran in the real headset.
