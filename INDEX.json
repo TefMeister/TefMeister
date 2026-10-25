@@ -342,7 +342,7 @@
       "year": 2012,
       "developer": "Remedy Entertainment",
       "engine": "Remedy in-house (pre-Northlight)",
-      "stage": "First VR build released (2026-10-11): head tracking works in the headset; jitter and the world behind vanishing next.",
+      "stage": "PAUSED 2026-10-25 (user decision): fholger released Alan Wake VR (v1.0.0 2026-10-17, v1.1.0 2026-10-20; https://github.com/fholger/alanwake_vr). Before the pause: first VR build released 2026-10-11, head tracking works in the headset [verified-live 2026-10-11, n=1]; jitter and the world behind vanishing were next.",
       "renderer": "Direct3D 9"
     },
     {
