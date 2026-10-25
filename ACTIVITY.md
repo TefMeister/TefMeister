@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-25
 
+- 🥽 **Visceral RE8:** the grab zones now show on the gun in the headset. They had been made too late in each frame to be drawn. Hand Freeze's right stick click was worn and works.
 - 🔧 **Helper apps (Window View, Hand Poser, Grab Zones, Hand Freeze):** the windows are still now, with no moving light, scan lines or animated scenes, and redraw only when something changes. Each uses under 1 % of a processor core at rest, so the headset is no longer fed a fresh picture many times a second.
 - 🔧 **Hand Freeze v4:** a click of the right thumbstick now freezes or frees both hands while the app is open, and the game never sees that click, so Village no longer crouches. Proven with a new test program that presses the buttons itself.
 - 🥽 **Visceral RE8:** found why the left hand jumped onto the rifle's forestock when reaching for the bolt: a stacked-hands gesture from the scope mod took it. Switched off. The front grip is now a zone the Grab Zones window can move.
