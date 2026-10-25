@@ -27,6 +27,8 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 The gun now fires with the gun lowered, no aim stance; the hand reload is built and waits for the headset. | 10-24 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | 🥽 First real headset run: it plays like a VR game with a controller. | 10-25 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
+| **Manhunt** (2003) | RenderWare | 🥽 First real headset run: head tracking and 3D work; the eyes still sit a little too far apart. | 10-25 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 
 ### 🔍 Early RE work
 
@@ -36,7 +38,6 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | --- | --- | --- | --- | --- |
 | **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Worked on putting every 3D gun into the game. | 10-24 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
 | **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
-| **Manhunt** (2003) | RenderWare | 🔍 Worked on putting the HUD into both eyes. | 10-15 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Tidied the head-tilt log so it shows the game's real camera angle. | 10-15 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Got our own camera following the Prince in normal play. | 10-16 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
@@ -44,8 +45,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **The Witcher 2** (2011) | REDengine | 🔧 Turned the camera smoothly from outside the game, a first step to head tracking. | 10-16 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Worked on keeping the picture's shape in each eye of the headset. | 10-15 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🏆 Opened the game's hidden developer menu. | 10-24 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
-| **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⭐ Ran the game in the simulated headset: head tracking works and the view fits the headset. | 10-15 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
-| **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Worked on head tracking: the headset feed now runs inside the game. | 10-12 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
+| **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Head tracking worked in the real headset; the picture goes in next. | 10-25 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | 🔍 Tested the game's own 3D mode: it really draws each eye, and the camera is found. | 10-15 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on sending the picture to a headset, each eye with its own view. | 10-16 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 | **Tomb Raider** (2013) | Foundation | ⭐ Worked on how to switch on the game's own built-in 3D mode for VR. | 10-08 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |

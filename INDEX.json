@@ -243,7 +243,7 @@
       "year": 2003,
       "developer": "Rockstar North",
       "engine": "RenderWare",
-      "stage": "2026-10-15: the HUD is redrawn into both eyes (built, not yet run); the game already reaches the headset simulator with head tracking; next: check the HUD, then the real headset."
+      "stage": "2026-10-25: first real headset runs (home PC, Quest 3): head tracking and stereo work; the per-eye lens offset sign was wrong (fixed by a switch, much better); a smaller eye gap remains [verified-live 2026-10-25, n=1]."
     },
     {
       "repo": "doom-2016-vr",
@@ -434,7 +434,7 @@
       "developer": "Quantic Dream",
       "engine": "Quantic Dream engine",
       "renderer": "Direct3D 11",
-      "stage": "2026-10-12: the OpenXR head pose drives the free camera inside the game (simulator, dev PC); next: the real headset on the home PC, then stereo."
+      "stage": "2026-10-25: head tracking works in the real headset (home PC, Quest 3) [verified-live 2026-10-25, n=1]; no picture is sent to the headset yet, that is next, then stereo."
     },
     {
       "repo": "prey-2017-vr",
@@ -521,7 +521,7 @@
       "engine": "Lithtech Jupiter EX",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "Running on PC from a self-built recompile; in the game, headset output with head tracking and the headset's own view works on the OpenXR simulator; real headset not yet tried [verified-live 2026-10-15, n=1]",
+      "stage": "2026-10-25: first real headset run (home PC, Quest 3): it plays like a VR game with a controller; head tracking, the headset's own view, 47,100 frames with no draw errors [verified-live 2026-10-25, n=1]. Some visual faults to fix.",
       "updated": "2026-10-15"
     },
     {

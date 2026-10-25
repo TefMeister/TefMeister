@@ -8,6 +8,9 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-25
 
+- 🥽 **Condemned 2:** first run in the real headset, and it just works. Tefa played it for a while with the controller: "it's like playing a vr game with a controller". 47,100 headset frames, none dropped or failed.
+- 🥽 **Manhunt:** first run in the real headset. Head tracking works. The two eye pictures were pushed apart by a wrong sign in the lens maths; flipping it made it much better. A smaller gap is left for the dev PC.
+- 🔧 **Heavy Rain:** head tracking works in the real headset: turning the head turns the game's view. The picture itself is not sent to the headset yet; that is next.
 - 🥽 **Visceral RE8:** the grab zones now show on the gun in the headset. They had been made too late in each frame to be drawn. Hand Freeze's right stick click was worn and works.
 - 🔧 **Helper apps (Window View, Hand Poser, Grab Zones, Hand Freeze):** the windows are still now, with no moving light, scan lines or animated scenes, and redraw only when something changes. Each uses under 1 % of a processor core at rest, so the headset is no longer fed a fresh picture many times a second.
 - 🔧 **Hand Freeze v4:** a click of the right thumbstick now freezes or frees both hands while the app is open, and the game never sees that click, so Village no longer crouches. Proven with a new test program that presses the buttons itself.
