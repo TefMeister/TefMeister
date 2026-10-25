@@ -22,11 +22,11 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 Got the shadow fix working in the game; the menus now play by themselves. | 09-29 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Found why the world jumps for a frame when the inventory closes; the fix is built. | 10-24 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on hand racking and the silent empty gun, taken over from RE2. | 10-19 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 The grab zones now show on the gun in the headset. | 10-25 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
+| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on the right grip holding the gun, with no aim stance. | 10-25 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 Worked on putting every 3D gun into the game, and the free left hand. | 10-24 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 The gun now fires with the gun lowered, no aim stance; the hand reload is built and waits for the headset. | 10-24 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Firing with the gun lowered works in the headset; worked on the button layout. | 10-25 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | 🥽 First VR build released: it plays like a VR game with a controller. | 10-25 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Manhunt** (2003) | RenderWare | 🥽 First VR build released: head tracking and 3D work; the eyes still sit a little too far apart. | 10-25 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 
