@@ -296,7 +296,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Work in progress, worn in the headset: racking, pumping and bolt work by hand, magazines and shells from a pouch, RE2-style holster spots, the quick slots on the left thumb rest and the right stick, one kept hold per gun; 2026-10-25: the game's own hand docking switched off while the grip is up, two hands on the pump gun; the rifle's magazine comes out by hand (worn), the standing origin set by itself; the body turn is an experiment behind a switch; the magazine re-insert and the bolt grab zone fixed from the last run's log (unworn). Built on praydog's REFramework and Andyalpa's Village scripts, which he handed over. Repo public.",
+      "stage": "Work in progress, worn in the headset: racking, pumping and bolt work by hand, magazines and shells from a pouch, RE2-style holster spots, the quick slots on the left thumb rest and the right stick, one kept hold per gun; 2026-10-25: the game's own hand docking switched off while the grip is up, two hands on the pump gun; the rifle's magazine comes out by hand (worn), the standing origin set by itself; the body turn is an experiment behind a switch; the magazine re-insert and the bolt grab zone fixed from the last run's log; a Grab Zones window with sliders for every grab zone (unworn). Built on praydog's REFramework and Andyalpa's Village scripts, which he handed over. Repo public.",
       "updated": "2026-10-25"
     },
     {
