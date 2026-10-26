@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-26
 
+- 🧩 **Lanes 0.88.1:** the first full weekly check-up ran: 218 saved test reports read, 27 games researched, the shared library brought up to date. Gold Digger no longer crashes on unusual characters in a log, and stops marking clean "0 failed" lines as warnings.
 - 🥽 **Alice: Madness Returns:** the picture now goes to the headset through OpenXR, like Psychonauts. In the game, on the headset simulator: both eyes show, the depth check passes, and turning the head turns the view. Alice draws one eye per frame, so each headset picture is a left and right frame paired with one head pose. Next: the real headset.
 - 🧩 **Lanes 0.88.0:** every run's logs and jitter reports are now kept by themselves on labelled shelves (camera, guns, menus and so on) in the folder both PCs share. `/gd` reads them shelf by shelf, and `/fullscan` runs the whole weekly check-up in one go, ending with one tick list of every update, "Everything" first.
 - 🧩 **Lanes 0.87.0:** every Claude Code session can now start with Remote Control on, so it can be reached from the phone or the other PC. Lanes asks once on each PC and names the slash command either way.
