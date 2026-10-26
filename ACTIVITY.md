@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-26
+
+- 🧩 **Lanes 0.87.0:** every Claude Code session can now start with Remote Control on, so it can be reached from the phone or the other PC. Lanes asks once on each PC and names the slash command either way.
+
 ## 2026-10-25
 
 - 🥽 **Ashes 2063 and Brutal Doom:** darkness now hides the 3D guns. The engine had been drawing the held gun brighter than the room on purpose; a new setting gives it the room's own light, and lamps and fire still light it. Tefa tried it in the headset: "it looks good".
