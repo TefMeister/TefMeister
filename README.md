@@ -81,7 +81,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 10-26: [0.88.1](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.88.1): the first `/fullscan` ran, and Gold Digger now reads any log without crashing. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 10-26: [0.88.2](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.88.2): the first `/fullscan` ran; Gold Digger reads any log, and the update question asks "Everything" on its own. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
