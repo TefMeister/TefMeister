@@ -331,7 +331,7 @@
       "year": 2011,
       "developer": "Spicy Horse",
       "engine": "Unreal Engine 3",
-      "stage": "Stereo + 6DOF head tracking, v0.1.0-alpha public. 2026-10-26: OpenXR output built (off by default); left+right frames paired with one head pose; passed a no-game test on the OpenXR Simulator, not yet run in the game.",
+      "stage": "Stereo + 6DOF head tracking, v0.1.0-alpha public. 2026-10-26: OpenXR output built (off by default) and run in the game on the OpenXR Simulator: both eyes, stereo check PASS, head turn follows; left+right frames paired with one head pose. Real headset next.",
       "renderer": "Direct3D 9",
       "latest_release": "v0.1.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"

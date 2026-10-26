@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-26
 
-- 🥽 **Alice: Madness Returns:** the picture can now go to the headset through OpenXR, like Psychonauts. Alice draws one eye per frame, so each headset picture is a left and right frame paired, with one head pose for both. A test with no game, on the headset simulator, sent 151 pairs in 6 seconds, every one the right way round.
+- 🥽 **Alice: Madness Returns:** the picture now goes to the headset through OpenXR, like Psychonauts. In the game, on the headset simulator: both eyes show, the depth check passes, and turning the head turns the view. Alice draws one eye per frame, so each headset picture is a left and right frame paired with one head pose. Next: the real headset.
 - 🧩 **Lanes 0.87.0:** every Claude Code session can now start with Remote Control on, so it can be reached from the phone or the other PC. Lanes asks once on each PC and names the slash command either way.
 
 ## 2026-10-25
