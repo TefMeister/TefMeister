@@ -81,7 +81,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 10-26: [0.87.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.87.0) can start every session with Remote Control on, so a session can be reached from your phone or your other PC. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 10-26: [0.88.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.88.0) keeps every run's logs on labelled shelves and adds `/fullscan`, the weekly check-up in one go. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
