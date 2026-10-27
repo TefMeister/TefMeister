@@ -41,7 +41,6 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Tidied the head-tilt log so it shows the game's real camera angle. | 10-15 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Got our own camera following the Prince in normal play. | 10-16 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Evil Within** (2014) | id Tech 5 | 🔧 The fix for the first headset look is installed on the home PC and ready to try. | 10-16 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Turned the camera smoothly from outside the game, a first step to head tracking. | 10-16 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Worked on keeping the picture's shape in each eye of the headset. | 10-15 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🥽 First run in a real headset: in VR, still broken. | 10-25 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
@@ -63,6 +62,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Prey** (2017) | CryEngine | ⏸ Paused: fholger is making a Prey VR mod | 09-26 | [prey-2017-vr](https://github.com/TefMeister/prey-2017-vr) |
 | **Alan Wake** (2010) | Remedy engine | ⏸ Paused: fholger is making an Alan Wake VR mod | 10-25 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | ⏸ Paused: someone else is making a Deus Ex: Mankind Divided VR mod | 10-27 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
+| **The Evil Within** (2014) | id Tech 5 | ⏸ Paused: a VR mod is being worked on | 10-27 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
 | **Borderlands GOTY Enhanced** (2009) | Unreal Engine 3 | ⏸ Paused: a VR mod already exists (Mastersellz's BL1GOTYVR) | 09-26 | [borderlands-goty-vr](https://github.com/TefMeister/borderlands-goty-vr) |
 
 ### 📦 Finished

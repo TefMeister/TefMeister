@@ -211,7 +211,7 @@
       "engine": "id Tech 5 (STEM)",
       "renderer": "Direct3D 11",
       "injection": "proxy winmm.dll + MinHook",
-      "stage": "Two eyes and head tracking work in the headset simulator; the first real headset look (2026-10-11) failed, diagnosed 2026-10-15: a depth setting split far things into two pictures (fixed), and the world-not-turning cause is narrowed with a fix and a log check [inferred-static 2026-10-15]"
+      "stage": "Paused 2026-10-27: a VR mod is being worked on."
     },
     {
       "repo": "far-cry-2-vr",
