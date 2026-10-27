@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-27
 
+- 🧩 **Lanes 0.94.0:** new `/od`, Out of Date. It finds anything on our GitHub older than the work behind it: a download older than its program, a tool with no download, a page behind. Its first run found VR Bench's download three changes behind. The weekly full scan now runs it before the tool check.
 - ❄️ **Grip Zones (was Grab Zones):** the gun-grip sliders now have their own repo and download, ready to grow beyond Village.
 - ❄️ **Downloads for our own tools:** Hand Freeze v4 (the right-stick click), Window View v1.2, Hand Poser v0.1 (not yet tried in a game) and CubeKit 0.20.0 now have their own downloads, checked with checksums. The toolkit, the game control profiles, BeG0nE and the terminal themes each got a one-zip download link on their front page, so nobody needs Lanes to get them.
 - 🧩 **Lanes 0.93.0:** our own apps and libraries can now be added from Lanes as optional downloads, with tick boxes: Window View, Hand Poser, CubeKit, the toolkit, the game control profiles and more. The weekly check now spots a tool of ours that Lanes does not offer, and a connector in use that the skills page never names. The toolkit's skills and setup pages were brought up to date the same day.
