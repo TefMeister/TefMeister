@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-27
 
+- 🧩 **Lanes 0.90.0:** the BeG0nE test videos now clean up after themselves. A video is taken off the PC once the game is tested again on a later day, or after two weeks, and only after its jittery frames are cut out; the frames and reports stay. The automatic recording and the clean-up are now one optional pair.
 - 🧩 **Lanes 0.89.0:** new `/ch`, Code health. It saves a working copy of every tool first, then finds what can be tidied without changing how anything works, and the weekly `/fullscan` now runs it. The first pass found a Village grip fix that had never reached the copy Lanes ships, and brought it level; every test passed after the clean-up.
 - 🧩 **Lanes 0.88.3:** the second weekly check-up ran. The jitter reports can now cut out their jittery frames on the home PC (the video tool was installed but not found), and Gold Digger opens a saved report by the name its own list shows.
 
