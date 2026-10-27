@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-27
 
+- 🔧 **VR Bench 0.1.1:** a new download of the robot player. Its log now says in one line why a hand does or does not move, so a run where nothing happens explains itself. Built and its 51 tests pass; not yet tried in a game.
 - 🧩 **Lanes 0.94.0:** new `/od`, Out of Date. It finds anything on our GitHub older than the work behind it: a download older than its program, a tool with no download, a page behind. Its first run found VR Bench's download three changes behind. The weekly full scan now runs it before the tool check.
 - ❄️ **Grip Zones (was Grab Zones):** the gun-grip sliders now have their own repo and download, ready to grow beyond Village.
 - ❄️ **Downloads for our own tools:** Hand Freeze v4 (the right-stick click), Window View v1.2, Hand Poser v0.1 (not yet tried in a game) and CubeKit 0.20.0 now have their own downloads, checked with checksums. The toolkit, the game control profiles, BeG0nE and the terminal themes each got a one-zip download link on their front page, so nobody needs Lanes to get them.
