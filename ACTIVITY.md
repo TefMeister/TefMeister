@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-27
+
+- 🧩 **Lanes 0.88.3:** the second weekly check-up ran. The jitter reports can now cut out their jittery frames on the home PC (the video tool was installed but not found), and Gold Digger opens a saved report by the name its own list shows.
+
 ## 2026-10-26
 
 - 🧹 **Flickers BeG0nE (new):** a catcher for the single-frame flicker in Resident Evil 4's grass in VR, built as one REFramework plugin file. It keeps the last 72 pictures of each eye and saves them; a reader marks the frames that flash. On the headset simulator it found all fake flickers and nothing else. Next: the real grass on the home PC.
