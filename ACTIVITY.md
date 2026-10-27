@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-27
 
+- ❄️ **Grip Zones (was Grab Zones):** the gun-grip sliders now have their own repo and download, ready to grow beyond Village.
 - ❄️ **Downloads for our own tools:** Hand Freeze v4 (the right-stick click), Window View v1.2, Hand Poser v0.1 (not yet tried in a game) and CubeKit 0.20.0 now have their own downloads, checked with checksums. The toolkit, the game control profiles, BeG0nE and the terminal themes each got a one-zip download link on their front page, so nobody needs Lanes to get them.
 - 🧩 **Lanes 0.93.0:** our own apps and libraries can now be added from Lanes as optional downloads, with tick boxes: Window View, Hand Poser, CubeKit, the toolkit, the game control profiles and more. The weekly check now spots a tool of ours that Lanes does not offer, and a connector in use that the skills page never names. The toolkit's skills and setup pages were brought up to date the same day.
 - 🧩 **Lanes 0.92.0:** ten tools by elliotttate can now be added as optional downloads, each with a link to its maker: a recorder for the headset's own view, an in-headset frame-rate graph, an image sharpener, frame-inspection connectors and more. Downloads are checked against the maker's own checksums. The BeG0nE test recording now films the headset view when that recorder is installed.
