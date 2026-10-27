@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-27
 
+- 🧩 **Lanes 0.92.0:** ten tools by elliotttate can now be added as optional downloads, each with a link to its maker: a recorder for the headset's own view, an in-headset frame-rate graph, an image sharpener, frame-inspection connectors and more. Downloads are checked against the maker's own checksums. The BeG0nE test recording now films the headset view when that recorder is installed.
 - 🧩 **Lanes 0.91.0:** the weekly tool check now makes sure our toolkit page lists every tool and app we made, and flags one that has moved on since. The toolkit page itself was brought up to date: Hand Poser, Grab Zones, Window View, VR Bench, BeG0nE, Menu-o-matiC and a dozen small tools added, Hand Freeze brought up to v3.2.
 - 🧩 **Lanes 0.90.0:** the BeG0nE test videos now clean up after themselves. A video is taken off the PC once the game is tested again on a later day, or after two weeks, and only after its jittery frames are cut out; the frames and reports stay. The automatic recording and the clean-up are now one optional pair.
 - 🧩 **Lanes 0.89.0:** new `/ch`, Code health. It saves a working copy of every tool first, then finds what can be tidied without changing how anything works, and the weekly `/fullscan` now runs it. The first pass found a Village grip fix that had never reached the copy Lanes ships, and brought it level; every test passed after the clean-up.
