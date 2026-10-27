@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -470,7 +470,7 @@
       "developer": "Eidos-Montréal",
       "engine": "Dawn Engine",
       "renderer": "Direct3D 11 / Direct3D 12",
-      "stage": "2026-09-17: runs, and runs with our dxgi.dll, windowed on the home PC [verified-live 2026-09-17]. 2026-10-15: 64-bit, Direct3D 11, code packed at rest [inferred-static]. Dev PC windowed; the game's own side-by-side 3D draws a real picture per eye [measured 2026-10-15, n=1]; the camera finder (d3d11 proxy) found the camera-relative view-projection in vertex-shader buffers [verified-live 2026-10-15, n=1]."
+      "stage": "Paused 2026-10-27: someone else is making a Deus Ex: Mankind Divided VR mod. 2026-09-17: runs, and runs with our dxgi.dll, windowed on the home PC [verified-live 2026-09-17]. 2026-10-15: 64-bit, Direct3D 11, code packed at rest [inferred-static]. Dev PC windowed; the game's own side-by-side 3D draws a real picture per eye [measured 2026-10-15, n=1]; the camera finder (d3d11 proxy) found the camera-relative view-projection in vertex-shader buffers [verified-live 2026-10-15, n=1]."
     },
     {
       "repo": "bulletstorm-vr",
