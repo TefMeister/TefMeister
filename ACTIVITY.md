@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-27
 
+- 🧩 **Lanes 0.94.1:** `/od` ran on the home PC. It found eight paused games whose GitHub description still said "work in progress", and fixed them. It now reads each page as GitHub shows it, not an old copy on the PC.
 - 🔧 **VR Bench 0.1.1:** a new download of the robot player. Its log now says in one line why a hand does or does not move, so a run where nothing happens explains itself. Built and its 51 tests pass; not yet tried in a game.
 - 🧩 **Lanes 0.94.0:** new `/od`, Out of Date. It finds anything on our GitHub older than the work behind it: a download older than its program, a tool with no download, a page behind. Its first run found VR Bench's download three changes behind. The weekly full scan now runs it before the tool check.
 - ❄️ **Grip Zones (was Grab Zones):** the gun-grip sliders now have their own repo and download, ready to grow beyond Village.
