@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-28
 
+- 🔧 **Lanes 0.94.2:** found why project rows on this page fell behind (one PC's sessions never reach their end steps; nothing checked the rows) and fixed it: each session's closing box now names a row it left behind, and /od checks every row against the real work.
+- 🥽 **Visceral RE8:** the game's own idle pose, which moved the gun and hands after standing still, comes from REFramework's motion-controls timer; with it set to a day the pose stayed away in the headset.
 - ❄️ **Hand Poser:** one button per hand now adds the wrist and all five fingers, the long bone list folds away behind a button, and the docked left wrist (the one-night Dock Poser window) is a box inside it. Tried on a pretend game.
 - ❄️ **Gun Poser (new, in Grip Zones' download):** sliders that aim and move the gun in the right hand, for each gun or all. The Village mod already reads these numbers, so the game needed no change. Tried on a test folder.
 

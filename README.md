@@ -22,7 +22,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Found why the world jumps for a frame when the inventory closes; the fix is built. | 10-24 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on hand racking and the silent empty gun, taken over from RE2. | 10-19 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on the right grip holding the gun, with no aim stance. | 10-25 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
+| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on racking pistol slides, opening the revolver drum by hand, and switching off the game's idle pose. | 10-28 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 Worked on letting darkness hide the guns. | 10-25 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
@@ -81,7 +81,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 10-27: [0.94.1](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.94.1): /od keeps everything on GitHub as new as the work behind it, and now reads pages as GitHub shows them; 0.93.0 our own apps as optional downloads. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 10-28: [0.94.2](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.94.2): front-page rows can no longer fall behind unnoticed; 0.94.0 /od keeps everything on GitHub as new as the work behind it. | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
@@ -112,7 +112,7 @@ modders, human or AI, and as drop-in fixes for specific games.
 
 | Cure | What it removes | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Occlusion Drift BeG0nE** | In VR, a two-handed weapon's aim drifting because the front hand hides the back controller. The cure: hold the weapon with the left controller just above the right. First game: Resident Evil Village (REFramework). | 🔧 Worked on the Village grip, shipped inside the RE Village scope mod since v1.1.1 (finished at v1.1.5). | 10-02 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/occlusion-drift) |
+| **Occlusion Drift BeG0nE** | In VR, a two-handed weapon's aim drifting because the front hand hides the back controller. The cure: hold the weapon with the left controller just above the right. First game: Resident Evil Village (REFramework). | 🔧 Worked on the Village grip: a reload is no longer cancelled by the block gesture, and a grip now needs the hand near the gun. Shipped inside the RE Village scope mod. | 10-28 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/occlusion-drift) |
 | **Camera Jitter/Shake BeG0nE** | The stepped, jittery camera so many AI-written VR mods have. First find out why; then a tool for modders and a jitter-free camera for specific games. | 🔧 Built the ride-along: a mod logs when it reads the pose and writes the camera, and a background rider names the cause of any stepping and grows a jittery-versus-smooth knowledge base; Lanes starts it at every session. | 10-08 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/camera-jitter) |
 | **Ghost Hand BeG0nE** | In VR, the gaps between your real hand and the player's hand: lag, offset, jumps and lost tracking that make hand gestures like racking a slide miss. It records both controllers and the game's hands, then points at where they part. | 🔧 Built today: the recorder and its report maker, shipped in Lanes. First job: hand racking in RE2. | 10-12 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/ghost-hand) |
 | **Flickers BeG0nE** | In VR, parts of the picture flashing wrong for a single frame, like the grass in Resident Evil 4 with REFramework. It catches the flash and shows what it is, then shows the frame before in its place. | 🔧 Built the catcher and its reader as one REFramework plugin file; it found every fake flicker on the headset simulator. | 10-26 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/flickers) |
