@@ -510,7 +510,7 @@
       "engine": "Starbreeze in-house (Riddick lineage)",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "Stereo pair, head turn and head lag fixed on the OpenXR simulator (2026-10-28); motion-controlled hands: the controllers move the hands through the game's own hand IK (simulator, 2026-10-28, position only); next the controller's rotation, then a headset check",
+      "stage": "Stereo pair, head turn and head lag fixed on the OpenXR simulator (2026-10-28); motion-controlled hands: the hands follow the controllers' position and rotation through the game's own hand IK (simulator, 2026-10-28); next a headset run with the real controllers",
       "updated": "2026-10-28"
     },
     {
