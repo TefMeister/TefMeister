@@ -370,7 +370,7 @@
       "developer": "Kojima Productions",
       "engine": "Decima",
       "renderer": "Direct3D 12",
-      "stage": "live 2026-10-16: runs windowed 1280x720 (settings.cfg beside ds.exe), a d3dcompiler proxy of ours loads; ViewConstants layout decoded statically; a reported camera path on this exact build awaits a read-only logger"
+      "stage": "live 2026-10-16: runs windowed 1280x720 (settings.cfg beside ds.exe), a d3dcompiler proxy of ours loads; ViewConstants layout decoded statically; a read-only camera logger for the reported camera path is built (2026-10-28), not yet run"
     },
     {
       "repo": "hard-reset-vr",
