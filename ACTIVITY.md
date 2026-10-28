@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-28
 
+- 🔧 **Lanes 0.95.0:** a day of security and privacy tests. The privacy guard now catches more ways a home folder or e-mail can be written, checks every commit again before it goes to GitHub, and can search GitHub for personal details; the ones it found were cleaned. New: each session start says when a project's game moved, was updated or went missing.
 - 🔧 **Lanes 0.94.2:** found why project rows on this page fell behind (one PC's sessions never reach their end steps; nothing checked the rows) and fixed it: each session's closing box now names a row it left behind, and /od checks every row against the real work.
 - 🥽 **Visceral RE8:** the game's own idle pose, which moved the gun and hands after standing still, comes from REFramework's motion-controls timer; with it set to a day the pose stayed away in the headset.
 - ❄️ **Hand Poser:** one button per hand now adds the wrist and all five fingers, the long bone list folds away behind a button, and the docked left wrist (the one-night Dock Poser window) is a box inside it. Tried on a pretend game.
