@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -135,7 +135,7 @@
       "url": "https://github.com/TefMeister/lanes-plugin",
       "purpose": "A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. The Claude Code plugin these projects are worked with: named session lanes, a shared work board, claim guards, a naming rule that keeps personal names out of everything written, and an ideas inbox that sessions file automatically. Early version (public since 2026-09-24), still being built.",
       "licence": "MIT",
-      "stage": "0.94.1 (2026-10-27): /od reads pages as GitHub shows them; 0.94.0 (2026-10-27): new /od (Out of Date) checks that every download, page and description on GitHub is as new as the work behind it, run weekly before the tool check; 0.93.0 (2026-10-27): our own apps and libraries (Window View, Hand Poser, CubeKit, the toolkit, the control profiles and more) as optional downloads, and the weekly check now flags a tool or connector that Lanes or the skills page has not caught up with; 0.92.0: other makers' VR tools as optional downloads; 0.87.0 (2026-10-26): every session can start with Remote Control on, asked once on every PC; 0.86.1 (2026-10-25): a privacy guard refuses any commit or push carrying the PC login, a home-folder path or the e-mail; 0.85.0: a session-start rule to use every tool first, record what helps and grow the tools a little each run; every feature optional with a read-more link (0.84.0)."
+      "stage": "0.94.2 (2026-10-28): front-page rows can no longer fall behind unnoticed (a check in the close-out box and in /od; a warning when one PC's sessions never report their end); 0.94.1 (2026-10-27): /od reads pages as GitHub shows them; 0.94.0 (2026-10-27): new /od (Out of Date) checks that every download, page and description on GitHub is as new as the work behind it, run weekly before the tool check; 0.93.0 (2026-10-27): our own apps and libraries (Window View, Hand Poser, CubeKit, the toolkit, the control profiles and more) as optional downloads, and the weekly check now flags a tool or connector that Lanes or the skills page has not caught up with; 0.92.0: other makers' VR tools as optional downloads; 0.87.0 (2026-10-26): every session can start with Remote Control on, asked once on every PC; 0.86.1 (2026-10-25): a privacy guard refuses any commit or push carrying the PC login, a home-folder path or the e-mail; 0.85.0: a session-start rule to use every tool first, record what helps and grow the tools a little each run; every feature optional with a read-more link (0.84.0)."
     },
     {
       "name": "terminal-themes",
@@ -278,7 +278,7 @@
       "year": 2020,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Public work-in-progress release 0.1.0 (2026-10-11): Visceral RE2's movement and combat overhaul ported to RE3 on praydog's REFramework VR, started 2026-10-10. Slide rack and shotgun pump on a button, D-pad on the right stick click. 2026-10-15: a built-in check of the numbers and gun parts carried over from RE2, unrun.",
+      "stage": "Public work-in-progress release 0.1.0 (2026-10-11): Visceral RE2's movement and combat overhaul ported to RE3 on praydog's REFramework VR, started 2026-10-10. Slide rack and shotgun pump on a button, D-pad on the right stick click. 2026-10-15: a built-in check of the numbers and gun parts carried over from RE2, unrun. 2026-10-19: racking the slide by hand and a silent empty gun built, not yet worn. 2026-10-25: 0.2.0 packaged privately.",
       "updated": "2026-10-19"
     },
     {
@@ -296,7 +296,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Found why the left hand jumped onto the rifle's forestock, and made the front grip a movable zone (2026-10-25).",
+      "stage": "Worked on racking pistol slides from two hand spots, opening the revolver drum by hand, and Grip Zones redone around hand pairs; the game's idle pose that moved the gun turned out to be REFramework's motion-controls timer (2026-10-28).",
       "updated": "2026-10-25"
     },
     {
@@ -510,7 +510,7 @@
       "engine": "Starbreeze in-house (Riddick lineage)",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "Our own build plays real-time 3D [verified-live 2026-09-16] and produces a measured left/right stereo pair [verified-live 2026-09-18]. DECIDED 2026-09-18: geometry stereo, one eye per guest frame with the world held still for the second eye; depth reprojection is the named fallback. The eye offset lives in the camera (which is also where head tracking will go), and the world-freeze is built - the guest clock pin is verified engaging, though its on-screen effect is not yet confirmed. One world unit is about an inch, so half an IPD is 1.25 units. default.xex unpacks in 80 lines of Python, giving 45,101 readable strings and a 21,414-function index; the engine is Starbreeze XReality. Side-by-side composition built, and the freeze proven on screen [measured 2026-09-28, n=2 runs each way]. New blocker: the camera is built on a different thread from the frame end and not one-to-one, so the eye sometimes repeats [measured 2026-09-28, n=1]. Next: tie the eye to the drawn frame, then OpenXR. Nothing seen in a headset yet. Tefa's stated top VR want. The game and our port are now set up on the faster test machine, so the real frame rate can be measured there [verified-live 2026-09-20]. Home-PC frame rate measured 2026-09-21: ~180-285 fps in the opening car scene (two measures disagree; both far above what stereo needs). Each swap now knows its eye (2026-10-12). 2026-10-23: a remote-control layer for sessions (frame pictures, log, a virtual pad that works behind other windows) is built into the dev-PC build and works live: title to main menu driven behind another window, clean quit [verified-live 2026-10-23, n=1]. 2026-10-24: the retail developer menu opens through a hook on the empty cheat() command [verified-live 2026-10-24, n=3]; on the home PC the two halves of a stereo pair look in different directions, freeze on or off - open.",
+      "stage": "Our own build plays real-time 3D [verified-live 2026-09-16] and produces a measured left/right stereo pair [verified-live 2026-09-18]. DECIDED 2026-09-18: geometry stereo, one eye per guest frame with the world held still for the second eye; depth reprojection is the named fallback. The eye offset lives in the camera (which is also where head tracking will go), and the world-freeze is built - the guest clock pin is verified engaging, though its on-screen effect is not yet confirmed. One world unit is about an inch, so half an IPD is 1.25 units. default.xex unpacks in 80 lines of Python, giving 45,101 readable strings and a 21,414-function index; the engine is Starbreeze XReality. Side-by-side composition built, and the freeze proven on screen [measured 2026-09-28, n=2 runs each way]. New blocker: the camera is built on a different thread from the frame end and not one-to-one, so the eye sometimes repeats [measured 2026-09-28, n=1]. Next: tie the eye to the drawn frame, then OpenXR. Nothing seen in a headset yet. Tefa's stated top VR want. The game and our port are now set up on the faster test machine, so the real frame rate can be measured there [verified-live 2026-09-20]. Home-PC frame rate measured 2026-09-21: ~180-285 fps in the opening car scene (two measures disagree; both far above what stereo needs). Each swap now knows its eye (2026-10-12). 2026-10-23: a remote-control layer for sessions (frame pictures, log, a virtual pad that works behind other windows) is built into the dev-PC build and works live: title to main menu driven behind another window, clean quit [verified-live 2026-10-23, n=1]. 2026-10-24: the retail developer menu opens through a hook on the empty cheat() command [verified-live 2026-10-24, n=3]; on the home PC the two halves of a stereo pair look in different directions, freeze on or off - open. 2026-10-25: first run in a real headset; the picture reaches it, but head turning, the controls and the two eyes are still wrong.",
       "updated": "2026-10-24"
     },
     {
