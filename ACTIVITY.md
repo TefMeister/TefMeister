@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-28
 
-- ❄️ **Grip Zones v1.2:** a new download. Gun Poser has its own icon now (a machine gun with arrows going around it) and its own download line on the page.
+- ❄️ **Gun Poser v1.0:** its own page and download now, with its own icon (a machine gun with arrows going around it), to grow across many games. Grip Zones v1.3 no longer carries a copy of it.
 - 🥽 **Visceral RE2:** the neck can stay and the shadow can keep its head: a second, shadow-only copy of the player's own face mesh now follows the hidden head joint. On the way, a week-old fault fell: meshes we add only get their look from the game's own loaded mesh and material, never from ones we load ourselves. Whether the shadow shows is a headset question.
 - 🥽 **Visceral RE2:** the game's automatic brightness is switched off and stays off: the picture no longer drifts lighter or darker after turning between dark and bright views. A menu tick box brings the game's own back for comparing.
 - ❄️ **New downloads:** Window View v1.6, Hand Poser v0.2 and Grip Zones v1.1 (with Gun Poser), each saying which games it works with today. Hand Poser and Window View no longer say untested: both are in use in the headset.
