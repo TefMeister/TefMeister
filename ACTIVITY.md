@@ -6,6 +6,11 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-28
+
+- ❄️ **Hand Poser:** one button per hand now adds the wrist and all five fingers, the long bone list folds away behind a button, and the docked left wrist (the one-night Dock Poser window) is a box inside it. Tried on a pretend game.
+- ❄️ **Gun Poser (new, in Grip Zones' download):** sliders that aim and move the gun in the right hand, for each gun or all. The Village mod already reads these numbers, so the game needed no change. Tried on a test folder.
+
 ## 2026-10-27
 
 - 🧩 **Lanes 0.94.1:** `/od` ran on the home PC. It found eight paused games whose GitHub description still said "work in progress", and fixed them. It now reads each page as GitHub shows it, not an old copy on the PC.
