@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -261,7 +261,7 @@
       "developer": "Capcom",
       "engine": "RE Engine",
       "platform_note": "gameplay-layer mod on top of praydog's REFramework",
-      "stage": "SHIPPED on Nexus through v1.5.0; project closed and kept as frozen study material. Superseded by visceral-re2-vr, which mines it as a reference implementation"
+      "stage": "SHIPPED on Nexus through v1.5.0; project closed and kept as frozen study material. Superseded by visceral-re2-vr, which mines it as a reference implementation; 2026-10-29: the head shadow seen in the headset, the hair strand and the blue tint gone, contrast up"
     },
     {
       "repo": "visceral-re2-vr",
@@ -510,7 +510,7 @@
       "engine": "Starbreeze in-house (Riddick lineage)",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "Stereo pair, head turn and head lag fixed on the OpenXR simulator (2026-10-28); motion-controlled hands: the hands follow the controllers' position and rotation through the game's own hand IK (simulator, 2026-10-28); next a headset run with the real controllers",
+      "stage": "Stereo pair, head turn and head lag fixed on the OpenXR simulator (2026-10-28); motion-controlled hands: the hands follow the controllers' position and rotation through the game's own hand IK (simulator, 2026-10-28); next a headset run with the real controllers; 2026-10-29: the head turns the right way in the headset; the Quest controllers work the pad",
       "updated": "2026-10-28"
     },
     {
