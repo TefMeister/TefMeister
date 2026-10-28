@@ -9,7 +9,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-10-29
 
 - 🥽 **Visceral RE2:** worn: the head's shadow is back on the body (Leon and Claire, height tuned per character), the hair-like strand in the left eye was Leon's hair mesh and is hidden in play only, the blue tint in dark rooms was the game's per-area colour grading and is off ("looks much better, so much better"), contrast 1.2. The automatic brightness's limits are now pinned, since the earlier switch never reached the renderer.
-- 🥽 **The Darkness:** first headset run with the hands: the head turns the right way ("a big deal"); the Quest controllers now work the pad (A/B/X/Y, triggers, grips, sticks, menu), merged with the real pad. Found: Window View's controller mode had taken the game's hands; the hands were crossed; the stereo freeze made the walk lumpy.
+- 🥽 **The Darkness:** first headset run with the hands: the head turns the right way ("a big deal"); the Quest controllers now work the pad (A/B/X/Y, triggers, grips, sticks, menu), merged with the real pad. Found and fixed the same night: Window View's controller mode had taken the game's hands; the hands were crossed (uncrossed now); the stereo freeze made the walk lumpy (off now, the walk is normal).
 - ❄️ **Window View 1.7:** Window View itself, its own keyboard and Lanes can hang in the headset; holding the left stick 2 s shows or hides Window View; typing into Lanes from the headset works (Windows Terminal needed its own route).
 - ❄️ **Gun Poser v1.0** on its own page with its own icon; **Grip Zones v1.3** without it, sliders to a rifle's length; Village's zone spheres get colours (orange land point, white grip points).
 
