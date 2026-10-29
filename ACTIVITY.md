@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-29
 
+- 🥽 **Visceral RE8:** found the game's own body-turn rule (the part that turns Ethan toward the camera, with its own threshold and turn speed) and read its shipped numbers live; the mod now feeds it Tefa's deadzones instead of rewriting the skeleton, which had made a mess of the arms. Headset judgement next. The new Emporium options window is confirmed drawn in the game.
 - 🔧 **Silent Hill 2 Remake:** the left grip got its items too: at the left hip it holds the map open (let go and it closes), at the right hip it takes the syringe (used at the right wrist), at the right shoulder the drink (used at the mouth); proved on the simulator except the drink.
 - 🔧 **Silent Hill 2 Remake:** the weapons now live on the body: the right grip at the right hip draws the pistol, at the left hip the iron pipe (shoulders: shotgun, rifle), and letting go puts the weapon back, all through the game's own equip calls, proved on the headset simulator.
 - 🔧 **Silent Hill 2 Remake:** the game's own controller table was read live and is vanilla; one button layer now decides what the game sees, so a press can no longer do two things (the old "X racked the slide and dodged"). Proved on the headset simulator: the layer switches between play and menu buttons when the inventory or the pause menu opens, and the left trigger alone switches the flashlight.
