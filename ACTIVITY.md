@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-29
 
+- 🔧 **Brutal Doom 3D guns + Ashes 2063:** the gun builder can now leave the hands out, so each gun can be held by the new body's own hand; checked on the revolver: the hands drop out and the gun stays exactly where it was in the hand.
 - 🥽 **Psychonauts:** first run through OpenXR, on the pretend headset. Turning the camera with the head used to shred the picture (what Tefa saw in September); the cause was a depth value in the game's camera the mod overwrote. Fixed: the picture stays clean and turns with the head. The brain-menu "void" does not appear on the new route, even at the widest view.
 - 🥽 **Ashes 2063:** the player gets a body. The engine now works out a torso, both arms and both legs from the headset and the two controllers on every drawn frame (elbows and knees by two-bone IK, the chest following the head, the legs stepping with the player's speed), proven by 53 numeric checks and a clean engine build; a rough box body is packed for the first look. Later the same day it ran in the headset simulator: the arms reach the controllers, the knees bend when crouching and the legs step when walking, the right way round.
 - 🥽 **Visceral RE8:** the grip-zone spheres were drawing 3.5x too small (a wrong model measurement, different every run); cause found, fixed and proved flat with a ruler against the camera, the dotted-line beads are back.
