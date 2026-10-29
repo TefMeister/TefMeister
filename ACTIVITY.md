@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-29
 
+- 🔧 **Silent Hill 2 Remake:** the weapons now live on the body: the right grip at the right hip draws the pistol, at the left hip the iron pipe (shoulders: shotgun, rifle), and letting go puts the weapon back, all through the game's own equip calls, proved on the headset simulator.
 - 🔧 **Silent Hill 2 Remake:** the game's own controller table was read live and is vanilla; one button layer now decides what the game sees, so a press can no longer do two things (the old "X racked the slide and dodged"). Proved on the headset simulator: the layer switches between play and menu buttons when the inventory or the pause menu opens, and the left trigger alone switches the flashlight.
 - 🥽 **Visceral RE2:** the ladder-start flick has a cause: for three frames at the start of every climb the game's camera carries the head's turn twice, until our hold catches up and snaps it away (read from last night's frame log, seven climbs). The hold now takes the turn out at once. Also found why the main menu lost the save-game picture: a numpad key typed in any window while the game ran switched it off; the key is gone.
 - 🥽 **The Darkness:** your hands no longer move everyone else's: only the player's hands follow the controllers now (proved on the simulator; the player turned out to have two sets of hand controls, only one of them visible). New: a hand poser in the headset (hold B and Y) to line each hand up on purpose, saved for the next launch.
