@@ -23,7 +23,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Visceral — RE2 VR** | RE Engine | 🥽 Found the ladder-start flick: the head's turn counted twice for three frames; a fix is built. | 10-29 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on hand racking and the silent empty gun, taken over from RE2. | 10-19 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
 | **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on a new options menu dressed as the Duke's Emporium. | 10-29 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
-| **Ashes 2063** (2018) | GZDoom | 🥽 Worked on a live zoom scope for the battle rifle. | 10-29 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
+| **Ashes 2063** (2018) | GZDoom | 🥽 Worked on running another modder's VR add-ons, and on a body for the player. | 10-29 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Worked on the body layout: the right grip draws weapons from their spots, the left grip takes the map, syringe and drink. | 10-29 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
