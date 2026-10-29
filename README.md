@@ -18,7 +18,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **XIII** (2003) | Unreal Engine 2 | 🥽 The newest 3D build now starts with the real headset on the home PC. | 10-10 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
-| **Psychonauts** (2005) | Double Fine engine | 🥽 Moved the headset side to OpenXR, Hard Reset's way; its first run on the pretend headset is next. | 10-17 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
+| **Psychonauts** (2005) | Double Fine engine | 🥽 Fixed the head-turn glitch; the picture now turns with the head on the pretend headset. | 10-29 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Found the ladder-start flick: the head's turn counted twice for three frames; a fix is built. | 10-29 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on hand racking and the silent empty gun, taken over from RE2. | 10-19 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |

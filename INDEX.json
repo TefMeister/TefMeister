@@ -185,7 +185,7 @@
       "engine": "bespoke in-house",
       "renderer": "Direct3D 9",
       "injection": "proxy d3d9.dll",
-      "stage": "Stereo + 6DOF head tracking in a real headset (v0.1.8-alpha public, 2026-09-12). 2026-10-17: the headset side moved to OpenXR, Hard Reset's way; first run on the simulator next.",
+      "stage": "Stereo + 6DOF head tracking in a real headset (v0.1.8-alpha public, 2026-09-12). 2026-10-29: OpenXR runs on the simulator, and the head-follow glitch (a broken depth value in the camera) is fixed; next, wearing it.",
       "source_of_truth": "psychonauts-vr/dev-archive/tools/proxy-d3d9/",
       "latest_release": "v0.1.8-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
