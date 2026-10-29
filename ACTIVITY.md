@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-29
 
+- 🥽 **Visceral RE8 (Village):** the adapting light is held still and both eyes match in the headset (Tefa: "it works!"). Found live: the game's exposure number never moves, the adapted one lives on the graphics card, and under Single Frame Multipass the right eye's picture was drawn without it (the golden veil). One fixed exposure for both eyes plus the per-area colour grading off cured it.
 - 🥽 **Manhunt:** found why Tefa saw two Cashes a head apart in the headset: the setting that shifts each eye's picture for the lens also moved that eye about 18 cm toward the other one. Fixed and checked against the game's own camera maths; the up/down shift was the wrong way too and is fixed with it.
 - 🔧 **Brutal Doom 3D guns + Ashes 2063:** the gun builder can now leave the hands out, so each gun can be held by the new body's own hand; checked on the revolver: the hands drop out and the gun stays exactly where it was in the hand.
 - 🥽 **Psychonauts:** first run through OpenXR, on the pretend headset. Turning the camera with the head used to shred the picture (what Tefa saw in September); the cause was a depth value in the game's camera the mod overwrote. Fixed: the picture stays clean and turns with the head. The brain-menu "void" does not appear on the new route, even at the widest view.
