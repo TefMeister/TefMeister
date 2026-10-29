@@ -510,8 +510,8 @@
       "engine": "Starbreeze in-house (Riddick lineage)",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "Stereo pair, head turn and head lag fixed on the OpenXR simulator (2026-10-28); motion-controlled hands: the hands follow the controllers' position and rotation through the game's own hand IK (simulator, 2026-10-28); next a headset run with the real controllers; 2026-10-29: the head turns the right way in the headset; the Quest controllers work the pad",
-      "updated": "2026-10-28"
+      "stage": "First headset runs 2026-10-29: the head turns the right way, the Quest controllers work the pad, the hands follow the controllers. 2026-10-29 morning: only the player's hands are fed now, and a hand poser (B+Y in the headset) lines the hands up on purpose and saves it (simulator; headset next)",
+      "updated": "2026-10-29"
     },
     {
       "repo": "condemned-2-vr",

@@ -43,7 +43,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Prince of Persia** (2008) | Scimitar | 🔧 Got our own camera following the Prince in normal play. | 10-16 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **The Witcher 2** (2011) | REDengine | 🔧 Turned the camera smoothly from outside the game, a first step to head tracking. | 10-16 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Worked on keeping the picture's shape in each eye of the headset. | 10-15 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
-| **The Darkness** (2007) | Starbreeze engine | 🥽 The head turns the right way in the headset; the Quest controllers now work as the pad. | 10-29 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
+| **The Darkness** (2007) | Starbreeze engine | 🥽 Worked on the hands: only the player's move now, and a hand poser lines them up. | 10-29 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Head tracking worked in the real headset; the picture goes in next. | 10-25 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on sending the picture to a headset, each eye with its own view. | 10-16 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 | **Tomb Raider** (2013) | Foundation | ⭐ Worked on how to switch on the game's own built-in 3D mode for VR. | 10-08 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
