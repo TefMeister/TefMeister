@@ -22,7 +22,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Found the ladder-start flick: the head's turn counted twice for three frames; a fix is built. | 10-29 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on keeping the game's automatic brightness off, taken over from RE2. | 10-29 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 The adapting light is held still and both eyes now match in the headset. | 10-29 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
+| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Found and fixed why the hands sat low at some starts; the adapting light is held still and both eyes match. | 10-30 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 The player's body rig runs in the headset simulator: arms, torso and walking legs. | 10-29 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |

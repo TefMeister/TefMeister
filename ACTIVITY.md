@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-30
+
+- 🥽 **Visceral RE8 (Village):** the hands sitting low at some starts, a year-old REFramework oddity, has its cause: the VR script asks "is OpenXR loaded?" once at load, and at a cold start OpenXR comes up a tenth of a second later, so the old-runtime hand offsets stayed for the whole session. Our copy now re-asks until OpenXR is up. Tefa, cold start: "right from the start! awesome."
+
 ## 2026-10-29
 
 - 🥽 **Visceral RE8 (Village):** the adapting light is held still and both eyes match in the headset (Tefa: "it works!"). Found live: the game's exposure number never moves, the adapted one lives on the graphics card, and under Single Frame Multipass the right eye's picture was drawn without it (the golden veil). One fixed exposure for both eyes plus the per-area colour grading off cured it.
