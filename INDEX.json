@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -296,7 +296,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "The adapting light is held still and both eyes now match in the headset.",
+      "stage": "Found and fixed why the hands sat low at some starts; the adapting light is held still and both eyes match.",
       "updated": "2026-10-29"
     },
     {
