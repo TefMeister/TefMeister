@@ -296,8 +296,8 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Worked on racking pistol slides from two hand spots, opening the revolver drum by hand, and Grip Zones redone around hand pairs; the game's idle pose that moved the gun turned out to be REFramework's motion-controls timer (2026-10-28).",
-      "updated": "2026-10-25"
+      "stage": "2026-10-29: a new options window dressed as the Duke's Emporium (Comfort, Graphics, Settings), built, not seen in the game yet. Worked on racking pistol slides from two hand spots, opening the revolver drum by hand, and Grip Zones redone around hand pairs; the game's idle pose that moved the gun turned out to be REFramework's motion-controls timer (2026-10-28).",
+      "updated": "2026-10-29"
     },
     {
       "repo": "enslaved-vr",
