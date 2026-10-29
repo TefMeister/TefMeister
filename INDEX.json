@@ -434,7 +434,7 @@
       "developer": "Quantic Dream",
       "engine": "Quantic Dream engine",
       "renderer": "Direct3D 11",
-      "stage": "2026-10-25: head tracking works in the real headset (home PC, Quest 3) [verified-live 2026-10-25, n=1]; no picture is sent to the headset yet, that is next, then stereo."
+      "stage": "2026-10-29: the code that sends the game's picture to the headset is built and works outside the game (simulator) [measured 2026-10-29, n=1]; head tracking already works in the real headset [verified-live 2026-10-25, n=1]. Next: the picture in the game, then stereo."
     },
     {
       "repo": "prey-2017-vr",
