@@ -243,7 +243,7 @@
       "year": 2003,
       "developer": "Rockstar North",
       "engine": "RenderWare",
-      "stage": "2026-10-25: first VR build released (pre-release v0.1.0-first-vr); first real headset runs (home PC, Quest 3): head tracking and stereo work; the per-eye lens offset sign was wrong (fixed by a switch, much better); a smaller eye gap remains [verified-live 2026-10-25, n=1]."
+      "stage": "First VR build out; 2026-10-29 the cause of the remaining eye gap was found (the lens offset also moved each eye) and a fix built, not worn yet."
     },
     {
       "repo": "doom-2016-vr",
