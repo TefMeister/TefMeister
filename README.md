@@ -20,8 +20,8 @@ story is in each repo. Each game sits in the group that matches its status.
 | **XIII** (2003) | Unreal Engine 2 | 🥽 The newest 3D build now starts with the real headset on the home PC. | 10-10 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🥽 Fixed the head-turn glitch; the picture now turns with the head on the pretend headset. | 10-29 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
-| **Visceral — RE2 VR** | RE Engine | 🥽 Found the ladder-start flick: the head's turn counted twice for three frames; a fix is built. | 10-29 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
-| **Visceral — RE3 VR** | RE Engine | 🔧 The steady-light switch from RE2 is built in, waiting for its first run. | 10-30 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
+| **Visceral — RE2 VR** | RE Engine | 🥽 Set up to test the faster VR mode with both eyes the same brightness. | 10-30 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
+| **Visceral — RE3 VR** | RE Engine | 🔧 The steady light is in; the faster VR mode is switched on for its first look. | 10-30 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
 | **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Found and fixed why the hands sat low at some starts; the adapting light is held still and both eyes match. | 10-30 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 The player's body rig runs in the headset simulator: arms, torso and walking legs. | 10-29 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
