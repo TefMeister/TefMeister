@@ -287,7 +287,7 @@
       "year": 2023,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Started: small add-ons for Talemann's RE4 VR mod, which they require.",
+      "stage": "Found why the view snaps after a vault: Talemann's mod re-centres it.",
       "updated": "2026-10-30"
     },
     {
@@ -305,7 +305,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Worked on the grip zones: one list per gun, and the sphere shows for the zone being tuned.",
+      "stage": "Worked on magazines by hand and simpler grip zones; a clean rebuild of the mod is next.",
       "updated": "2026-10-30"
     },
     {

@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-10-31
+
+- 🔍 **Resident Evil 4:** found why the view snaps back after a vault: Talemann's VR mod re-centres it on the body when the vault ends. VR Grenades installed through Fluffy.
+
 ## 2026-10-30
 
 - 🪟 **Window View 1.9:** measured in Village with the headset on: waiting for each window picture cost the game frames; now it does not (59.5 to 62.5 fps). Carried windows no longer stick and jump, and a curved desk keeps them at the same distance.
