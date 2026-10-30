@@ -282,6 +282,15 @@
       "updated": "2026-10-19"
     },
     {
+      "repo": "visceral-re4-vr",
+      "game": "Resident Evil 4 (2023)",
+      "year": 2023,
+      "developer": "Capcom",
+      "engine": "RE Engine",
+      "stage": "Started: small add-ons for Talemann's RE4 VR mod, which they require.",
+      "updated": "2026-10-30"
+    },
+    {
       "repo": "re-village-scope-vr",
       "game": "Resident Evil Village",
       "year": 2021,
