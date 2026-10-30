@@ -243,7 +243,7 @@
       "year": 2003,
       "developer": "Rockstar North",
       "engine": "RenderWare",
-      "stage": "First VR build out; 2026-10-29 the cause of the remaining eye gap was found (the lens offset also moved each eye) and a fix built, not worn yet."
+      "stage": "First VR build out; eye-gap fix built, not worn yet. 2026-10-30: first person walks (flat), and the arm bones move the drawn arm."
     },
     {
       "repo": "doom-2016-vr",
