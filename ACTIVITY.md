@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-30
 
+- 🥽 **Manhunt:** first person worn for the first time. The view started a head's height above Cash; the cause was a reading taken before the headset was tracked, fixed while Tefa stayed in the headset. The view was then pulled back 30 cm to where it felt right.
 - 🥽 **Manhunt:** during a sneak kill the view now turns and moves with Cash's head: up as he throws it back, down to the body. One recorded run from launch to the kill, driven by the session.
 - 🥽 **Manhunt:** sneak kills now stay in first person instead of cutting to the cinematic camera; the tutorial hunter was executed from behind twice with the view in Cash's eyes.
 - 🥽 **Manhunt:** first person is now built into the mod as an on/off switch: it presses the look key itself once Cash is in control, and the view stays in his eyes while he walks and turns (checked on the monitor, twice).
