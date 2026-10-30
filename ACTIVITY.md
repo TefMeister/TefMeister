@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-30
 
+- 🥽 **Manhunt:** sneak kills now stay in first person instead of cutting to the cinematic camera; the tutorial hunter was executed from behind twice with the view in Cash's eyes.
 - 🥽 **Manhunt:** first person is now built into the mod as an on/off switch: it presses the look key itself once Cash is in control, and the view stays in his eyes while he walks and turns (checked on the monitor, twice).
 - 🥽 **Manhunt:** walked in first person for the first time: the game's own look view, kept on while Cash moves, turns and looks around. Cash's skeleton was read live too, and pushing one arm's bones moved the drawn arm, so his hands can be steered.
 - 🥽 **Visceral RE8 (Village):** the scope got a colour trim and contrast of its own, changed live while Tefa looked; outside, the world and the scope now match by eye.

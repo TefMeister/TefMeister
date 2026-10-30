@@ -28,7 +28,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Worked on the body layout: the right grip draws weapons from their spots, the left grip takes the map, syringe and drink. | 10-29 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | 🥽 First VR build released: it plays like a VR game with a controller. | 10-25 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
-| **Manhunt** (2003) | RenderWare | 🥽 First person is now a switch in the mod: a level starts in Cash's eyes. | 10-30 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
+| **Manhunt** (2003) | RenderWare | 🥽 Sneak kills now play out in first person, not as a cinematic. | 10-30 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 
 ### 🔍 Early RE work
 
