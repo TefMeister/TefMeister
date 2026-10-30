@@ -510,7 +510,7 @@
       "engine": "Starbreeze in-house (Riddick lineage)",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "First headset runs 2026-10-29: the head turns the right way, the Quest controllers work the pad, the hands follow the controllers. 2026-10-29 morning: only the player's hands are fed now, and a hand poser (B+Y in the headset) lines the hands up on purpose and saves it (simulator; headset next)",
+      "stage": "Playable in the headset with motion-controlled hands (2026-10-30); frame rate, brightness and hand tuning next.",
       "updated": "2026-10-29"
     },
     {
