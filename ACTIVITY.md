@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-30
 
+- 🥽 **Resident Evil games:** both eyes now get the same brightness in the faster VR mode (Single Frame Multipass) by holding each area's own light level; checked in the headset in RE7, and set up for RE2, RE3 and RE4.
 - 🥽 **The Darkness:** played in the headset with both hands following the controllers, clearing enemies (Tefa: "actually playing the game!"). The hands had stopped after a minute because the mod looked for the player too close to the camera; fixed.
 - 🥽 **Manhunt:** the sneak-kill camera confirmed in the headset: Tefa, "the kill cam works surprisingly well".
 - 🥽 **Manhunt:** first person worn for the first time. The view started a head's height above Cash; the cause was a reading taken before the headset was tracked, fixed while Tefa stayed in the headset. The view was then pulled back 30 cm to where it felt right.
