@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-30
 
+- 🥽 **Manhunt:** walked in first person for the first time: the game's own look view, kept on while Cash moves, turns and looks around. Cash's skeleton was read live too, and pushing one arm's bones moved the drawn arm, so his hands can be steered.
 - 🥽 **Visceral RE8 (Village):** the scope got a colour trim and contrast of its own, changed live while Tefa looked; outside, the world and the scope now match by eye.
 - 🥽 **Visceral RE8 (Village):** the hands sitting low at some starts, a year-old REFramework oddity, has its cause: the VR script asks "is OpenXR loaded?" once at load, and at a cold start OpenXR comes up a tenth of a second later, so the old-runtime hand offsets stayed for the whole session. Our copy now re-asks until OpenXR is up. Tefa, cold start: "right from the start! awesome."
 
