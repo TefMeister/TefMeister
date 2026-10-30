@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-30
 
+- 🪟 **Window View 1.9:** measured in Village with the headset on: waiting for each window picture cost the game frames; now it does not (59.5 to 62.5 fps). Carried windows no longer stick and jump, and a curved desk keeps them at the same distance.
+- 🎯 **Grip Zones:** one list of the gun's grip zones, each with an arrow that opens its sliders; in the game, only the open zone's sphere shows. Handguns got a magazine well.
 - 🥽 **Resident Evil Village:** found why the grip spheres came out tiny (every sphere was sized from the balloon) and why their colours never took (a wrong name for the material count). Fixed both.
 - 🥽 **Resident Evil games:** both eyes now get the same brightness in the faster VR mode (Single Frame Multipass) by holding each area's own light level; checked in the headset in RE7, and set up for RE2, RE3 and RE4.
 - 🥽 **The Darkness:** played in the headset with both hands following the controllers, clearing enemies (Tefa: "actually playing the game!"). The hands had stopped after a minute because the mod looked for the player too close to the camera; fixed.
