@@ -27,7 +27,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Ashes 2063** (2018) | GZDoom | 🥽 The player's body rig runs in the headset simulator: arms, torso and walking legs. | 10-29 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Worked on the body layout: two-handed guns and map, and the handgun reloads from the hip pouch. | 10-31 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Worked on the shotgun and rifle reloads by hand, the pump and bolt, and the medicine in the hand. | 10-31 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | 🥽 First VR build released: it plays like a VR game with a controller. | 10-25 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Manhunt** (2003) | RenderWare | 🥽 Worn in first person; the view now sits at Cash's eyes, 30 cm back, by itself. | 10-30 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 
