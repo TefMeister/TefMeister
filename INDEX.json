@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -508,8 +508,8 @@
       "developer": "Bloober Team (published by Konami); remake of Team Silent’s 2001 original",
       "engine": "Unreal Engine 5.1.1",
       "renderer": "DirectX 12 [reported]",
-      "stage": "2026-10-25: firing with the gun lowered works in the real headset [verified-live 2026-10-25, n=1]; the hand reload ran but its buttons clash with the game's; one button layout is next. C++ rewrite under way: sh2vr.dll (UEVR C++ plugin) runs beside jbusfield's Lua pack; the IK arms are ported and verified in the headset (2026-10-24). The gun fires with the gun lowered, no aim stance (the weapon's own fire called straight; proven on the OpenXR Simulator 2026-10-24); the pistol reload by hand (the RE8 recipe: slide and magazine) is built in C++ and waits for the headset. The finger poses, lost when the C++ arms took over, are ported. 2026-10-24: the game's crosshair removed for good; the RE8-style hand reloads designed, step 1 built. Bundled pack (jbusfield, LukasBlaster7, VynnGfx) plays in VR. Repo public.",
-      "updated": "2026-10-24"
+      "stage": "2026-10-31: weapons on the body (right grip in a spot draws or puts back; the gun stays in the hand), the map, syringe and drink on the left grip, one button layer on the vanilla pad; built and proven on the OpenXR Simulator, not yet worn; holding the right grip will show the ammo. 2026-10-25: firing with the gun lowered works in the real headset [verified-live 2026-10-25, n=1]; the hand reload ran but its buttons clash with the game's; one button layout is next. C++ rewrite under way: sh2vr.dll (UEVR C++ plugin) runs beside jbusfield's Lua pack; the IK arms are ported and verified in the headset (2026-10-24). The gun fires with the gun lowered, no aim stance (the weapon's own fire called straight; proven on the OpenXR Simulator 2026-10-24); the pistol reload by hand (the RE8 recipe: slide and magazine) is built in C++ and waits for the headset. The finger poses, lost when the C++ arms took over, are ported. 2026-10-24: the game's crosshair removed for good; the RE8-style hand reloads designed, step 1 built. Bundled pack (jbusfield, LukasBlaster7, VynnGfx) plays in VR. Repo public.",
+      "updated": "2026-10-31"
     },
     {
       "repo": "the-darkness-vr",

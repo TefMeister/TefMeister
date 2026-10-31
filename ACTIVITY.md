@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-31
 
+- 🥽 **Silent Hill 2:** found why the old controls were still mixing in: a fix from the 29th had been overwritten by a later install. Put back for good. Weapons now stay in the hand once drawn.
 - 🔍 **Resident Evil 4:** found why the view snaps back after a vault: Talemann's VR mod re-centres it on the body when the vault ends. VR Grenades installed through Fluffy.
 
 ## 2026-10-30
