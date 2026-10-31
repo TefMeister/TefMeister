@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-31
 
+- 🥽 **Resident Evil 2:** both eyes now get the same lighting in Single Frame Multipass, without DLSS (Tefa: "re2 works really well now!"). Packed as its own small mod for Fluffy Mod Manager. The magazine now comes out into the left hand.
 - 🥽 **Silent Hill 2:** shotgun shells now go in by hand, one at a time, from the hip (Tefa: "that looks good"). Found why the pistol magazine in the hand was invisible: the call that places it had always been refused.
 - 🥽 **Resident Evil Village:** rebuilt the mod from a clean game, one checked layer at a time, keeping only what worked. Found and fixed two crashes and the scope's flicker. Guns now behave like real ones: a round stays chambered when the magazine comes out. Rumble reworked (Tefa: "sooooooo satisfying").
 - 🥽 **Silent Hill 2:** found why the old controls were still mixing in: a fix from the 29th had been overwritten by a later install. Put back for good. Weapons now stay in the hand once drawn. Later: the shotgun, rifle and map can be held with both hands, built from praydog's original profile and proven on the robot headset. In the headset: the map now comes out of the hip into the left hand, and the handgun reloads by hand from the hip pouch.
