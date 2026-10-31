@@ -23,7 +23,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Visceral — RE2 VR** | RE Engine | 🥽 Set up to test the faster VR mode with both eyes the same brightness. | 10-30 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 The steady light is in; the faster VR mode is switched on for its first look. | 10-30 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
 | **Visceral — RE4 VR** | RE Engine | 🔍 Found why the view snaps after a vault: Talemann's mod re-centres it. | 10-31 | [visceral-re4-vr](https://github.com/TefMeister/visceral-re4-vr) |
-| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Planned a clean rebuild that keeps only the features proven in the headset. | 10-31 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
+| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Rebuilt from a clean game with only proven features; real-gun magazines and new rumble. | 10-31 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 The player's body rig runs in the headset simulator: arms, torso and walking legs. | 10-29 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
