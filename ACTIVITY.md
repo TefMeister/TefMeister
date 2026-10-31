@@ -9,7 +9,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-10-31
 
 - 🥽 **Resident Evil Village:** rebuilt the mod from a clean game, one checked layer at a time, keeping only what worked. Found and fixed two crashes and the scope's flicker. Guns now behave like real ones: a round stays chambered when the magazine comes out. Rumble reworked (Tefa: "sooooooo satisfying").
-- 🥽 **Silent Hill 2:** found why the old controls were still mixing in: a fix from the 29th had been overwritten by a later install. Put back for good. Weapons now stay in the hand once drawn. Later: the shotgun, rifle and map can be held with both hands, built from praydog's original profile and proven on the robot headset.
+- 🥽 **Silent Hill 2:** found why the old controls were still mixing in: a fix from the 29th had been overwritten by a later install. Put back for good. Weapons now stay in the hand once drawn. Later: the shotgun, rifle and map can be held with both hands, built from praydog's original profile and proven on the robot headset. In the headset: the map now comes out of the hip into the left hand, and the handgun reloads by hand from the hip pouch.
 - 🔍 **Resident Evil 4:** found why the view snaps back after a vault: Talemann's VR mod re-centres it on the body when the vault ends. VR Grenades installed through Fluffy.
 
 ## 2026-10-30
