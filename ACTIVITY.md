@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-10-31
 
+- 🖥️ **Terminal themes:** a still version of the green-monitor starburst look: no moving picture or rolling light, so the terminal stops redrawing every frame (it was using about a tenth of the processor sitting idle).
 - 🔍 **Resident Evil 4:** found why one eye looked pixelated: REFramework's DLSS gives each eye its own result, and the second eye's came out worse. With DLSS off both eyes match (Tefa: "image is the same now in both eyes!"). Plants missing in one eye remain.
 - 🥽 **Resident Evil 2:** both eyes now get the same lighting in Single Frame Multipass, without DLSS (Tefa: "re2 works really well now!"). Packed as its own small mod for Fluffy Mod Manager. The magazine now comes out into the left hand.
 - 🥽 **Silent Hill 2:** shotgun shells now go in by hand, one at a time, from the hip (Tefa: "that looks good"). Found why the pistol magazine in the hand was invisible: the call that places it had always been refused.
