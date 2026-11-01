@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-01
 
+- 🎮 **Visceral RE2, RE3 and Village:** after the first headset round, a magazine taken out now stays out across a weapon swap, a locked-back slide keeps its place, and the GM 79's barrel carries the left hand and the round when it opens.
 - 🧩 **Lanes (test build):** found why no Lanes safety check had ever stopped anything on Windows: the small launcher in front of them always answered "all fine". Fixed, and proven: a second /pd is now refused. A lock now stops Lanes being updated in the middle of a test, and six two-PC tests passed on the dev PC.
 - 🎮 **Visceral RE2:** the GM 79 grenade launcher now breaks open by hand: LG + LT on the front grip opens and closes it, an upward flick closes it, and rounds go in only while it is open. Every gun in RE2 and RE3 was then checked on the headset simulator.
 - 🎮 **Visceral RE2 and RE3:** Hand Poser now works in RE2, holding the left fingers only while the hand is on the gun. RE3 got the hammer click on an empty gun and keeps a needed rack across weapon swaps, both tested on the headset simulator.
