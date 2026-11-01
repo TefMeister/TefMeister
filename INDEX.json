@@ -540,9 +540,9 @@
       "developer": "id Software; Brutal Doom by Sergeant_Mark_IV",
       "engine": "GZDoom (played through GZDoomVR)",
       "renderer": "OpenGL",
-      "stage": "Darkness 2026-10-25: the engine now lets a dark room darken the held gun instead of keeping it brightened (setting vr_gun_darkness), built, not run yet. All guns in the game 2026-10-24: the 25 newer forge guns go into Brutal Doom as still 3D models held in the hand (flat check: all drawn, no errors), beside the three animated ones; a relaxed free left hand built the other way round, because the game mirrors the left hand. First VR test build: the three cube guns in GZDoom VR over Brutal Doom, worn in the headset 2026-10-19 [verified-live, Tefa]. 2026-10-19: 26 more guns built as bold free designs in mixed cube sizes with the blender-cubekit forge (Blender only, not yet in the game).",
+      "stage": "Weapons without hands 2026-10-29: the guns can now be exported without hands (the --no-hands switch), for the new body's own hands to dock on; re-doing them gun-only is next. Before that: a dark room darkens the held gun (vr_gun_darkness, 2026-10-25), and all the forge guns are in the game as 3D models (2026-10-24).",
       "source_of_truth": "brutal-doom-3d-guns/tools/",
-      "updated": "2026-10-25"
+      "updated": "2026-10-29"
     }
   ],
   "notes_for_ai_readers": [
