@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-01
+
+- 🥽 **Resident Evil Village:** the rifle's bolt can now be worked with the right hand while the left holds the front, like a real bolt rifle (Tefa: "this is really cool! it works"). Next try: LT on the front steadies the rifle, and the bolt can be racked any time.
+
 ## 2026-10-31
 
 - 🖥️ **Terminal themes:** a still version of the green-monitor starburst look: no moving picture or rolling light, so the terminal stops redrawing every frame (it was using about a tenth of the processor sitting idle).
