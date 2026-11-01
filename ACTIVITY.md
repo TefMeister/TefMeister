@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-01
 
+- 🎮 **Visceral RE2:** the first of Village's gun changes are in: an empty gun now gives a short hammer click, and a gun that needs racking still needs it after a weapon swap. Both tested on the headset simulator.
+- 🎮 **Visceral Village:** revolvers now load a round with each LT straight from the carried ammo; when the drum is full the next LT closes it.
 - 🧰 **Window View:** found why its typing test wrote "hello" into the Claude window: the app now puts the Lanes terminal in VR too, and the test clicked on it. The test now keeps that window out and stops before typing unless the keys can only reach its own Notepad.
 - 🧰 **Tools:** new downloads of Grip Zones (1.4), Hand Poser (0.3) and VR Bench (0.1.2), each with its tests passing. Hand poses now work without the app open; VR Bench answers the short button names Village uses.
 - 🔍 **Resident Evil 4:** the plants missing in one eye are a known REFramework bug on the build the VR mod uses (reported in 2024, not our scripts and not Talemann's mod). A small test is ready for the headset to tell which part of it is to blame.
