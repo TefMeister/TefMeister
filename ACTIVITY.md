@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-01
 
+- 🎮 **Visceral RE2:** the GM 79 grenade launcher now breaks open by hand: LG + LT on the front grip opens and closes it, an upward flick closes it, and rounds go in only while it is open. Every gun in RE2 and RE3 was then checked on the headset simulator.
 - 🎮 **Visceral RE2 and RE3:** Hand Poser now works in RE2, holding the left fingers only while the hand is on the gun. RE3 got the hammer click on an empty gun and keeps a needed rack across weapon swaps, both tested on the headset simulator.
 - 🎮 **Visceral RE2:** the first of Village's gun changes are in: an empty gun now gives a short hammer click, and a gun that needs racking still needs it after a weapon swap. Both tested on the headset simulator.
 - 🎮 **Visceral Village:** revolvers now load a round with each LT straight from the carried ammo; when the drum is full the next LT closes it.
