@@ -6,6 +6,12 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-02
+
+- 🎮 **Visceral Village:** the Wolfsbane revolver now loads by hand the way a real one does: B opens the loading cover, the left hand holds the gun, the right hand takes rounds from the hip and pushes them in one by one, LT turns the drum between them, and the cover shuts by itself when it is full (Tefa: "the reload system works and feels awesome!"). The ammo counter now counts the rounds as they go in.
+- 🎮 **Visceral Village:** the Wolfsbane can be fanned: palm on the hammer, RT held, each LT fires. Free hands now keep still with a slow natural finger sway, and Hand Poser shows one hand's sliders at a time.
+- 🧰 **Visceral Village:** the mod got its own read-only look into the running game's insides, since praydog's connector cannot run on this REFramework build. It found the ammo counter's refresh and the gun's shot timing in minutes.
+
 ## 2026-11-01
 
 - 🎮 **Visceral RE2, RE3 and Village:** after the first headset round, a magazine taken out now stays out across a weapon swap, a locked-back slide keeps its place, and the GM 79's barrel carries the left hand and the round when it opens.
