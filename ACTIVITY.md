@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-01
 
+- 🎮 **Visceral RE2 and RE3:** Hand Poser now works in RE2, holding the left fingers only while the hand is on the gun. RE3 got the hammer click on an empty gun and keeps a needed rack across weapon swaps, both tested on the headset simulator.
 - 🎮 **Visceral RE2:** the first of Village's gun changes are in: an empty gun now gives a short hammer click, and a gun that needs racking still needs it after a weapon swap. Both tested on the headset simulator.
 - 🎮 **Visceral Village:** revolvers now load a round with each LT straight from the carried ammo; when the drum is full the next LT closes it.
 - 🧰 **Window View:** found why its typing test wrote "hello" into the Claude window: the app now puts the Lanes terminal in VR too, and the test clicked on it. The test now keeps that window out and stops before typing unless the keys can only reach its own Notepad.
