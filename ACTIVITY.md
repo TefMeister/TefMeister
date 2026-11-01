@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-01
 
+- 🔍 **Resident Evil 4:** the plants missing in one eye are a known REFramework bug on the build the VR mod uses (reported in 2024, not our scripts and not Talemann's mod). A small test is ready for the headset to tell which part of it is to blame.
 - 🥽 **Resident Evil Village:** every gun's moving part now checked by hand without a headset: slides, pumps, bolts, charging handles, both revolver drums and the grenade launcher. Every gun got a rough finger pose to tune from.
 - 🥽 **Resident Evil Village:** finger poses now work in play without the Hand Poser app open, and on the rifle the left hand takes the bolt over the magazine when a rack is due. Pump, slide and both bolts checked by hand on the simulator.
 - 🥽 **Resident Evil Village:** every grip-zone sphere now shows (pump, slide, bolt, shell port, well): only the first ball made ever drew, so one ball now moves to whichever zone is open. Checked on four guns on the OpenXR Simulator, with no headset.
