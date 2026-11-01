@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-01
 
+- 🧰 **Window View:** found why its typing test wrote "hello" into the Claude window: the app now puts the Lanes terminal in VR too, and the test clicked on it. The test now keeps that window out and stops before typing unless the keys can only reach its own Notepad.
 - 🧰 **Tools:** new downloads of Grip Zones (1.4), Hand Poser (0.3) and VR Bench (0.1.2), each with its tests passing. Hand poses now work without the app open; VR Bench answers the short button names Village uses.
 - 🔍 **Resident Evil 4:** the plants missing in one eye are a known REFramework bug on the build the VR mod uses (reported in 2024, not our scripts and not Talemann's mod). A small test is ready for the headset to tell which part of it is to blame.
 - 🥽 **Resident Evil Village:** every gun's moving part now checked by hand without a headset: slides, pumps, bolts, charging handles, both revolver drums and the grenade launcher. Every gun got a rough finger pose to tune from.
