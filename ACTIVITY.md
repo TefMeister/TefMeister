@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-01
 
+- 🥽 **Resident Evil Village:** finger poses now work in play without the Hand Poser app open, and on the rifle the left hand takes the bolt over the magazine when a rack is due. Pump, slide and both bolts checked by hand on the simulator.
 - 🥽 **Resident Evil Village:** every grip-zone sphere now shows (pump, slide, bolt, shell port, well): only the first ball made ever drew, so one ball now moves to whichever zone is open. Checked on four guns on the OpenXR Simulator, with no headset.
 - 🥽 **Resident Evil Village:** found why the game froze on the OpenXR Simulator (the no-headset test screen): REFramework's Two Frame Sequential mode. On its normal setting it now runs there at 90 fps in both eyes, so headset-free tests are possible.
 - 🖥️ **Terminal themes:** a still version of the Lanes banner look too, with its own desktop shortcut: same screen, no rolling light, so the terminal stops redrawing every frame. Lanes will put this still look on by default from its next release, with the moving one as an option.
