@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -332,7 +332,7 @@
       "year": 2008,
       "developer": "Ubisoft Montreal",
       "engine": "Scimitar (the pre-2009 name of Anvil)",
-      "stage": "live 2026-10-16: the .forge archive is decoded and repacked; the shipped rule CR_Debug_1stPerson, repointed to install 'Parent Ground Cam', gives a normal follow camera in play, and control swaps show the holder field is honoured; windowed via our d3d9 proxy; launch to gameplay fully automated. Next: a camera with a first-person framing"
+      "stage": "live 2026-10-16: the .forge archive is decoded and repacked; the shipped rule CR_Debug_1stPerson, repointed to install 'Parent Ground Cam', gives a normal follow camera in play, and control swaps show the holder field is honoured; windowed via our d3d9 proxy; launch to gameplay fully automated. 2026-11-01: the follow camera's position curve found in data; a close-up camera aimed at the head is installed for the next flat test. Next: a camera with a first-person framing"
     },
     {
       "repo": "alice-madness-returns-vr",
