@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-01
 
+- 🥽 **Resident Evil Village:** found why the game froze on the OpenXR Simulator (the no-headset test screen): REFramework's Two Frame Sequential mode. On its normal setting it now runs there at 90 fps in both eyes, so headset-free tests are possible.
 - 🖥️ **Terminal themes:** a still version of the Lanes banner look too, with its own desktop shortcut: same screen, no rolling light, so the terminal stops redrawing every frame. Lanes will put this still look on by default from its next release, with the moving one as an option.
 - 🥽 **Resident Evil Village:** the rifle's bolt can now be worked with the right hand while the left holds the front, like a real bolt rifle (Tefa: "this is really cool! it works"). Next try: LT on the front steadies the rifle, and the bolt can be racked any time.
 
