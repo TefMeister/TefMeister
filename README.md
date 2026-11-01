@@ -22,7 +22,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Both eyes now get the same lighting; worked on the magazine as the left hand's grip. | 10-31 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Packed the same-light-in-both-eyes fix as its own small mod; Village-style reloads wait on RE2. | 10-31 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Visceral — RE4 VR** | RE Engine | 🔍 Found why one eye looked worse: DLSS; plants missing in one eye are next. | 10-31 | [visceral-re4-vr](https://github.com/TefMeister/visceral-re4-vr) |
+| **Visceral — RE4 VR** | RE Engine | 🔍 Worked on the plants missing in one eye: a lead in how both eyes are picked. | 11-01 | [visceral-re4-vr](https://github.com/TefMeister/visceral-re4-vr) |
 | **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on the grip-zone spheres: every one shows now, tested without a headset. | 11-01 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 The player's body rig runs in the headset simulator: arms, torso and walking legs. | 10-29 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
