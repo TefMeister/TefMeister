@@ -23,7 +23,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Visceral — RE2 VR** | RE Engine | 🥽 Worked on the grenade launcher opening by hand, and saved the next ideas to build. | 11-02 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on bringing Village's hammer click, rack memory and Hand Poser across. | 11-01 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
 | **Visceral — RE4 VR** | RE Engine | 🔍 Worked on the plants missing in one eye: a lead in how both eyes are picked. | 11-01 | [visceral-re4-vr](https://github.com/TefMeister/visceral-re4-vr) |
-| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on the Wolfsbane revolver: loaded round by round with the right hand, and fanned with the left. | 11-02 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
+| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on a performance recorder that logs every play session, to find out why the game gets unstable. | 11-02 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 Rebuilt all eleven Episode 1 weapons in fine, post-apocalyptic detail. | 11-02 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
