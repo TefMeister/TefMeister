@@ -8,6 +8,9 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-02
 
+- 🎮 **Visceral RE2 and RE3:** steadier hands while holding a gun, the same filter as Village, built into the VR layer. On the headset simulator it took out three quarters of a made-up tremor, and it switches itself off the moment the knife comes out. The game's own finger movements are recorded for every gun: 20 in RE2, 14 in RE3.
+- 🎮 **Visceral Village:** loading the W870 shotgun by hand now plays the game's own finger movement on the left hand as each shell goes in. A test in a window matched the original within half a degree.
+- 🧩 **Lanes (test build):** State-o-matiC now tells a frozen game from a paused or loading one: nothing on screen changes, nothing is read, the processor still burns, and it checks twice before saying so.
 - 🎮 **Visceral Village:** the game's own finger movements are now recorded for all sixteen guns in the game, holding each one and reloading it from empty, plus the knife's grip. These are what the docked VR hands will play next. A new performance recorder inside the game writes a line every two seconds, so the next crash or slowdown can be read afterwards.
 - 🧩 **Lanes 0.99.0 released:** everything tested on both PCs, then checked for leaks and lost work. The privacy guard now also reads files sent to GitHub and refuses skipping git's checks; the save light shows set-aside work (stashes); uninstalling keeps the private word lists.
 - 🧩 **Lanes (test build):** both PCs ran the test build through the two-PC test list and passed. Three more holes in the safety checks were closed: a /pd or /lm started by Claude itself, the manual-session lane, and input with a hidden marker at the start.
