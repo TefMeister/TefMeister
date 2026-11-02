@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-02
 
+- 🧩 **Lanes (test build):** both PCs ran the test build through the two-PC test list and passed. Three more holes in the safety checks were closed: a /pd or /lm started by Claude itself, the manual-session lane, and input with a hidden marker at the start.
 - 🧰 **Window View:** the fixed typing test now passes in full on 1.9: "hello" went into its own Notepad and nowhere else, and the window was dragged by its header. The picture tests for both kinds of game pass too, and the v1.9 download is up.
 - 🧩 **Lanes (test build):** both PCs ran the two-PC test together on the test build and every row passed. Four faults were found and fixed along the way: on the home PC, the start-up check wrongly said 38 projects were gone, and the save light could not see work left in the side folders. The safety checks no longer let things through when fed oddly formatted text, and reminders now name the PC as PC1 or PC2.
 - 🎮 **Ashes 2063:** all eleven Episode 1 weapons are rebuilt in fine detail from real photos mixed with the game's look, with a wasteland layer on top: tape, rags, rust, makeshift parts, a soda bottle as the flamethrower's fuel tank. Gun only, 1.5 times bigger, a fainter shine, all in the game.
