@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-02
 
+- 🧩 **Lanes (test build):** both PCs ran the two-PC test together on the test build and every row passed. Four faults were found and fixed along the way: on the home PC, the start-up check wrongly said 38 projects were gone, and the save light could not see work left in the side folders. The safety checks no longer let things through when fed oddly formatted text, and reminders now name the PC as PC1 or PC2.
 - 🎮 **Ashes 2063:** the guns are being rebuilt in fine detail from real photos mixed with the game's look, with a wasteland layer on top. The revolver and the flamethrower are done, the flamethrower with a used soda bottle as its fuel tank. They are gun only and 1.5 times bigger, with a fainter shine.
 - 🎮 **Visceral Village:** the Wolfsbane revolver now loads by hand the way a real one does: B opens the loading cover, the left hand holds the gun, the right hand takes rounds from the hip and pushes them in one by one, LT turns the drum between them, and the cover shuts by itself when it is full (Tefa: "the reload system works and feels awesome!"). The ammo counter now counts the rounds as they go in.
 - 🎮 **Visceral Village:** the Wolfsbane can be fanned: palm on the hammer, RT held, each LT fires. Free hands now keep still with a slow natural finger sway, and Hand Poser shows one hand's sliders at a time.
