@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -497,7 +497,7 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "Detailed, post-apocalyptic rebuilds of the guns started (revolver and flamethrower built, 1.5x bigger, gun only); body rig in the simulator.",
+      "stage": "Worked on a shotgun that looks like the game's own sprite but is 3D (built in Blender, not worn yet); detailed guns waiting to be worn.",
       "source_of_truth": "ashes-2063-weapons/kit/",
       "updated": "2026-10-25"
     },
