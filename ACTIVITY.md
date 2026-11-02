@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-02
 
-- 🎮 **Visceral Village:** the game's own finger movements are now recorded for every gun, holding it and reloading it from empty: twelve guns plus the knife's grip. These are what the docked VR hands will play next. A new performance recorder inside the game writes a line every two seconds, so the next crash or slowdown can be read afterwards.
+- 🎮 **Visceral Village:** the game's own finger movements are now recorded for all sixteen guns in the game, holding each one and reloading it from empty, plus the knife's grip. These are what the docked VR hands will play next. A new performance recorder inside the game writes a line every two seconds, so the next crash or slowdown can be read afterwards.
 - 🧩 **Lanes 0.99.0 released:** everything tested on both PCs, then checked for leaks and lost work. The privacy guard now also reads files sent to GitHub and refuses skipping git's checks; the save light shows set-aside work (stashes); uninstalling keeps the private word lists.
 - 🧩 **Lanes (test build):** both PCs ran the test build through the two-PC test list and passed. Three more holes in the safety checks were closed: a /pd or /lm started by Claude itself, the manual-session lane, and input with a hidden marker at the start.
 - 🧰 **Window View:** the fixed typing test now passes in full on 1.9: "hello" went into its own Notepad and nowhere else, and the window was dragged by its header. The picture tests for both kinds of game pass too, and the v1.9 download is up.
