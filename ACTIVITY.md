@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-02
 
+- 🎮 **Ashes 2063:** the detailed shotgun and sawed-off are reworked: bigger, rounder bodies, the handle grown into the body, a trigger guard with room for a finger. The sawed-off now looks like a Doom super shotgun, with red leather straps, criss-cross grip tape and rust in random patches. The in-game shine is calmer and uneven, no longer glassy.
 - 🎮 **Visceral Village, RE2 and RE3:** shotguns now load two shells at a time. One grab at the pouch takes two, the hand docks at the loading port, and LT pushes them in one after the other, each with the game's own finger movement. Tested in all three games on the headset simulator, with VR Bench playing the hands.
 - 🎮 **Visceral Village:** the holster spots no longer swing with a quick glance aside. They keep their own facing and only come round once you look more than 45 degrees away. The spots are also a bit bigger.
 - 🧩 **Lanes 0.99.1 released:** the privacy guard now reads pictures, programs and zips, not only text. A sweep with it found Blender's hidden folder paths in old Ashes pictures and downloads, and a PC name in the Village Scope downloads; all cleaned.
