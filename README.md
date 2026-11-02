@@ -29,7 +29,6 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Worked on holding the rifle steady in the left hand and racking its bolt with the right. | 11-01 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 | **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | 🥽 First VR build released: it plays like a VR game with a controller. | 10-25 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
-| **Manhunt** (2003) | RenderWare | 🥽 Worn in first person; the view now sits at Cash's eyes, 30 cm back, by itself. | 10-30 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 
 ### 🔍 Early RE work
 
@@ -61,6 +60,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **DOOM** (2016) | id Tech 6 | ⏸ Paused: a DOOM VR mod already exists (KHARVOX) | 09-26 | [doom-2016-vr](https://github.com/TefMeister/doom-2016-vr) |
 | **Portal** (2007) | Source | ⏸ Paused: a Portal VR mod already exists (BowmanFox's portal1vr) | 09-26 | [portal-vr](https://github.com/TefMeister/portal-vr) |
 | **Prey** (2017) | CryEngine | ⏸ Paused: fholger is making a Prey VR mod | 09-26 | [prey-2017-vr](https://github.com/TefMeister/prey-2017-vr) |
+| **Manhunt** (2003) | RenderWare | ⏸ Paused: someone else is making a Manhunt VR mod | 11-02 | [manhunt-2003-vr](https://github.com/TefMeister/manhunt-2003-vr) |
 | **Alan Wake** (2010) | Remedy engine | ⏸ Paused: fholger is making an Alan Wake VR mod | 10-25 | [alan-wake-vr](https://github.com/TefMeister/alan-wake-vr) |
 | **Deus Ex: Mankind Divided** (2016) | Dawn Engine | ⏸ Paused: someone else is making a Deus Ex: Mankind Divided VR mod | 10-27 | [deus-ex-mankind-divided-vr](https://github.com/TefMeister/deus-ex-mankind-divided-vr) |
 | **The Evil Within** (2014) | id Tech 5 | ⏸ Paused: a VR mod is being worked on | 10-27 | [the-evil-within-vr](https://github.com/TefMeister/the-evil-within-vr) |
