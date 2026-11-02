@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-02
 
+- 🧩 **Lanes 0.99.1 released:** the privacy guard now reads pictures, programs and zips, not only text. A sweep with it found Blender's hidden folder paths in old Ashes pictures and downloads, and a PC name in the Village Scope downloads; all cleaned.
 - 🎮 **Visceral RE2 and RE3:** steadier hands while holding a gun, the same filter as Village, built into the VR layer. On the headset simulator it took out three quarters of a made-up tremor, and it switches itself off the moment the knife comes out. The game's own finger movements are recorded for every gun: 20 in RE2, 14 in RE3.
 - 🎮 **Visceral Village:** loading the W870 shotgun by hand now plays the game's own finger movement on the left hand as each shell goes in. A test in a window matched the original within half a degree.
 - 🧩 **Lanes (test build):** State-o-matiC now tells a frozen game from a paused or loading one: nothing on screen changes, nothing is read, the processor still burns, and it checks twice before saying so.
