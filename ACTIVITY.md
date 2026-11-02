@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-02
 
+- 🎮 **Visceral Village, RE2 and RE3:** shotguns now load two shells at a time. One grab at the pouch takes two, the hand docks at the loading port, and LT pushes them in one after the other, each with the game's own finger movement. Tested in all three games on the headset simulator, with VR Bench playing the hands.
+- 🎮 **Visceral Village:** the holster spots no longer swing with a quick glance aside. They keep their own facing and only come round once you look more than 45 degrees away. The spots are also a bit bigger.
 - 🧩 **Lanes 0.99.1 released:** the privacy guard now reads pictures, programs and zips, not only text. A sweep with it found Blender's hidden folder paths in old Ashes pictures and downloads, and a PC name in the Village Scope downloads; all cleaned.
 - 🎮 **Visceral RE2 and RE3:** steadier hands while holding a gun, the same filter as Village, built into the VR layer. On the headset simulator it took out three quarters of a made-up tremor, and it switches itself off the moment the knife comes out. The game's own finger movements are recorded for every gun: 20 in RE2, 14 in RE3.
 - 🎮 **Visceral Village:** loading the W870 shotgun by hand now plays the game's own finger movement on the left hand as each shell goes in. A test in a window matched the original within half a degree.
