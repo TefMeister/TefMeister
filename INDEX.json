@@ -497,7 +497,7 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "Worked on a shotgun that looks like the game's own sprite but is 3D (built in Blender, not worn yet); detailed guns waiting to be worn.",
+      "stage": "Sprite-style shotgun picked as the look that fits the game; a small rounded cube version with leather straps is built; detailed guns waiting to be worn.",
       "source_of_truth": "ashes-2063-weapons/kit/",
       "updated": "2026-10-25"
     },

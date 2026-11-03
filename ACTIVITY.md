@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-03
+
+- 🎮 **Ashes 2063:** a shotgun built from the game's own picture, 3D but simple, picked in the headset as the style that fits the game best. It now has finer pixels, sits at the game's own size, and the pump slides on the game's timing. A second version is built in small rounded cubes, worn, with brown leather straps on the grip.
+
 ## 2026-11-02
 
 - 🧹 **Eye Difference BeG0nE (new):** a tool that finds what differs between the two eyes in VR: things drawn in one eye only, light, jagged edges, eyes out of line, and says which eye and where. It passed 16 checks on made-up eye pictures, including ones drawn ray by ray like a real headset. First job: the plants missing from one eye in Resident Evil 4.
