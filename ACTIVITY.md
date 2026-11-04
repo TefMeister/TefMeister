@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-04
 
+- ⏸ **Projects:** the work is narrowed to sixteen games, with RE8, The Darkness and Ashes 2063 first. Eight others are paused for now: XIII, Condemned 2, Brutal Doom, The Witcher 2, Metro Exodus, Tomb Raider, Death Stranding and Burnout Paradise.
 - 🧩 **Lanes:** the always-on collector is built and running on the home PC. Every launch of a project game, with or without a session, is now watched while it runs, and what it leaves behind (its load, memory, temperatures, hangs, the logs it wrote, crash dumps) is put on Gold Digger's shelves the moment it closes. On the test copy until the next tested release.
 - 🎮 **Village:** the Duke's shop screens answer to their names from a script, and the dark-red shop wall shows in gameplay on demand: it is a 3D object, which is why the real shop is visible in the headset. The first step to the Visceral options on the Duke's own screen.
 - 🧰 **Menu-o-matiC / State-o-matiC:** a mouse-wheel step (scripts reload through REFramework's overlay without a restart), and an idle game is no longer called frozen.

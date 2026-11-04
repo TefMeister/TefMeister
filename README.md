@@ -17,7 +17,6 @@ story is in each repo. Each game sits in the group that matches its status.
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **XIII** (2003) | Unreal Engine 2 | 🥽 The newest 3D build now starts with the real headset on the home PC. | 10-10 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
 | **Psychonauts** (2005) | Double Fine engine | 🥽 Fixed the head-turn glitch; the picture now turns with the head on the pretend headset. | 10-29 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Worked on shotgun loading by hand: two shells from the pouch, the hand docks at the loading port, LT puts them in. | 11-02 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
@@ -28,7 +27,6 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Worked on holding the rifle steady in the left hand and racking its bolt with the right. | 11-01 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
-| **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | 🥽 First VR build released: it plays like a VR game with a controller. | 10-25 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 
 ### 🔍 Early RE work
 
@@ -36,24 +34,26 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Brutal Doom** (Doom 1 and 2) | GZDoom | 🔧 Worked on the gun shine tool: an option for calmer, uneven shine (the guns themselves unchanged). | 11-02 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
 | **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Tidied the head-tilt log so it shows the game's real camera angle. | 10-15 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Found where the follow camera sets its distance and height. | 11-01 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Witcher 2** (2011) | REDengine | 🔧 Turned the camera smoothly from outside the game, a first step to head tracking. | 10-16 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
-| **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | 🔧 Worked on keeping the picture's shape in each eye of the headset. | 10-15 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
 | **The Darkness** (2007) | Starbreeze engine | 🥽 Played in the headset with your own hands for the first time. | 10-30 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Built the code that sends the game's picture to the headset. | 10-29 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on sending the picture to a headset, each eye with its own view. | 10-16 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
-| **Tomb Raider** (2013) | Foundation | ⭐ Worked on how to switch on the game's own built-in 3D mode for VR. | 10-08 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
-| **Death Stranding Director's Cut** (2022) | Decima | ⭐ Built a read-only camera logger, ready for its first run. | 10-28 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
-| **Burnout Paradise** (Remastered) | Criterion engine | 🏆 Worked on night driving: the headlights now get their per-eye fix at night. | 10-07 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 
 ### ⏸ Paused
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
+| **XIII** (2003) | Unreal Engine 2 | ⏸ Paused for now. | 11-04 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
+| **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⏸ Paused for now. | 11-04 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
+| **Brutal Doom** (Doom 1 and 2) | GZDoom | ⏸ Paused for now. | 11-04 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
+| **The Witcher 2** (2011) | REDengine | ⏸ Paused for now. | 11-04 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
+| **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | ⏸ Paused for now. | 11-04 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
+| **Tomb Raider** (2013) | Foundation | ⏸ Paused for now. | 11-04 | [tomb-raider-2013-vr](https://github.com/TefMeister/tomb-raider-2013-vr) |
+| **Death Stranding Director's Cut** (2022) | Decima | ⏸ Paused for now. | 11-04 | [death-stranding-vr](https://github.com/TefMeister/death-stranding-vr) |
+| **Burnout Paradise** (Remastered) | Criterion engine | ⏸ Paused for now. | 11-04 | [burnout-paradise-vr](https://github.com/TefMeister/burnout-paradise-vr) |
 | **Unreal Gold** (1998) | Unreal Engine 1 | ⏸ Paused: a VR mod already exists (Unreal Revived) | 09-26 | [unreal-gold-vr](https://github.com/TefMeister/unreal-gold-vr) |
 | **Far Cry 2** (2008) | Dunia | ⏸ Paused: another Far Cry 2 VR mod is in the works | 09-26 | [far-cry-2-vr](https://github.com/TefMeister/far-cry-2-vr) |
 | **Dead Space 2** (2011) | RenderWare-based | ⏸ Paused: chortdev is making a Dead Space trilogy VR mod | 09-26 | [dead-space-2-vr](https://github.com/TefMeister/dead-space-2-vr) |

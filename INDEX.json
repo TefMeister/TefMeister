@@ -198,7 +198,7 @@
       "engine": "Unreal Engine 2",
       "renderer": "Direct3D 8",
       "injection": "proxy D3DDrv.dll (Unreal render device)",
-      "stage": "True stereo works in a real headset over OpenXR [verified-live 2026-09-10, n=3]; early release v0.3.0-alpha. 2026-10-06: confirmed live that only the HUD is drawn flat on the screen; the headset test of the latest build is next.",
+      "stage": "Paused for now (2026-11-04). True stereo works in a real headset over OpenXR [verified-live 2026-09-10, n=3]; early release v0.3.0-alpha. 2026-10-06: confirmed live that only the HUD is drawn flat on the screen; the headset test of the latest build is next.",
       "warning": "As of 2026-09-01 the proxy SOURCE is in no repository [measured 2026-09-01, n=59 commits searched] - zero source files across this repo's whole history and none in staging. The only known copy is an unversioned folder on the home PC. Milestone 2 cannot be implemented until it is committed.",
       "latest_release": "v0.3.0-alpha",
       "release_status": "EARLY DEVELOPMENT pre-release, published 2026-09-13 - not ready for a playthrough; carries a motion-sickness caution"
@@ -360,7 +360,7 @@
       "year": 2008,
       "developer": "Criterion Games",
       "engine": "in-house",
-      "stage": "Eye shift on the dev PC: the car's dark patch moves with the car (2026-10-01); at night the headlights now get their per-eye fix (2026-10-07). Not in a headset yet."
+      "stage": "Paused for now (2026-11-04). Eye shift on the dev PC: the car's dark patch moves with the car (2026-10-01); at night the headlights now get their per-eye fix (2026-10-07). Not in a headset yet."
     },
     {
       "repo": "dead-space-2-vr",
@@ -379,7 +379,7 @@
       "developer": "Kojima Productions",
       "engine": "Decima",
       "renderer": "Direct3D 12",
-      "stage": "live 2026-10-16: runs windowed 1280x720 (settings.cfg beside ds.exe), a d3dcompiler proxy of ours loads; ViewConstants layout decoded statically; a read-only camera logger for the reported camera path is built (2026-10-28), not yet run"
+      "stage": "Paused for now (2026-11-04). live 2026-10-16: runs windowed 1280x720 (settings.cfg beside ds.exe), a d3dcompiler proxy of ours loads; ViewConstants layout decoded statically; a read-only camera logger for the reported camera path is built (2026-10-28), not yet run"
     },
     {
       "repo": "hard-reset-vr",
@@ -416,7 +416,7 @@
       "developer": "Crystal Dynamics",
       "engine": "Crystal Dynamics Foundation (internally 'cdc')",
       "renderer": "deferred Direct3D 11, resolved at runtime",
-      "stage": "Static: the game's own 3D mode is traced (2026-09-30): it draws the whole scene twice with an eye flag and sets each eye's projection in one function; woken by an AMD vendor ID or NVIDIA direct mode. Not launched yet. Not VR yet. 2026-10-08: the VR build will wake the game's NVIDIA 3D path with a stand-in nvapi.dll (built, self-tested, not yet run; the game has not been launched)."
+      "stage": "Paused for now (2026-11-04). Static: the game's own 3D mode is traced (2026-09-30): it draws the whole scene twice with an eye flag and sets each eye's projection in one function; woken by an AMD vendor ID or NVIDIA direct mode. Not launched yet. Not VR yet. 2026-10-08: the VR build will wake the game's NVIDIA 3D path with a stand-in nvapi.dll (built, self-tested, not yet run; the game has not been launched)."
     },
     {
       "repo": "witcher-2-vr",
@@ -425,7 +425,7 @@
       "developer": "CD Projekt Red",
       "engine": "REDengine",
       "renderer": "Direct3D 9",
-      "stage": "live 2026-10-16: runs windowed with a d3d9 proxy; our replacement base_scripts.dzip (DZIP table hash found) runs and reads the live camera; remote console on TCP 47000 runs exec commands"
+      "stage": "Paused for now (2026-11-04). live 2026-10-16: runs windowed with a d3d9 proxy; our replacement base_scripts.dzip (DZIP table hash found) runs and reads the live camera; remote console on TCP 47000 runs exec commands"
     },
     {
       "repo": "metro-exodus-vr",
@@ -434,7 +434,7 @@
       "developer": "4A Games",
       "engine": "4A Engine",
       "renderer": "Direct3D 12 (ray tracing always on)",
-      "stage": "2026-10-07: original 2019 edition on the dev PC, DirectX 11; alternate-frame two eyes working; the headset bridge sends a test picture to the OpenXR simulator at 60 fps [verified-live 2026-10-07, n=1]; 2026-10-08: the picture handover was rebuilt without the keyed mutex the game refuses (two ways, compile-verified, not run yet); 2026-10-12: head tracking built (the head pose turns the game's own view), tested without the game, off by default. 2026-10-15: the game's own picture reaches both eyes of the OpenXR simulator (the ring handover; the keyed-mutex way fails), and head tracking turns the view the right way [verified-live 2026-10-15, n=1]; build b006 also fixes where the head's standing height is taken from. Build b007 sends the game's own lens with every eye view, so the picture keeps its shape (not run yet)."
+      "stage": "Paused for now (2026-11-04). 2026-10-07: original 2019 edition on the dev PC, DirectX 11; alternate-frame two eyes working; the headset bridge sends a test picture to the OpenXR simulator at 60 fps [verified-live 2026-10-07, n=1]; 2026-10-08: the picture handover was rebuilt without the keyed mutex the game refuses (two ways, compile-verified, not run yet); 2026-10-12: head tracking built (the head pose turns the game's own view), tested without the game, off by default. 2026-10-15: the game's own picture reaches both eyes of the OpenXR simulator (the ring handover; the keyed-mutex way fails), and head tracking turns the view the right way [verified-live 2026-10-15, n=1]; build b006 also fixes where the head's standing height is taken from. Build b007 sends the game's own lens with every eye view, so the picture keeps its shape (not run yet)."
     },
     {
       "repo": "heavy-rain-vr",
@@ -530,7 +530,7 @@
       "engine": "Lithtech Jupiter EX",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "2026-10-25: first VR build released (pre-release v0.1.0-first-vr); first real headset run (home PC, Quest 3): it plays like a VR game with a controller; head tracking, the headset's own view, 47,100 frames with no draw errors [verified-live 2026-10-25, n=1]. Some visual faults to fix.",
+      "stage": "Paused for now (2026-11-04). 2026-10-25: first VR build released (pre-release v0.1.0-first-vr); first real headset run (home PC, Quest 3): it plays like a VR game with a controller; head tracking, the headset's own view, 47,100 frames with no draw errors [verified-live 2026-10-25, n=1]. Some visual faults to fix.",
       "updated": "2026-10-15"
     },
     {
@@ -540,7 +540,7 @@
       "developer": "id Software; Brutal Doom by Sergeant_Mark_IV",
       "engine": "GZDoom (played through GZDoomVR)",
       "renderer": "OpenGL",
-      "stage": "Weapons without hands 2026-10-29: the guns can now be exported without hands (the --no-hands switch), for the new body's own hands to dock on; re-doing them gun-only is next. Before that: a dark room darkens the held gun (vr_gun_darkness, 2026-10-25), and all the forge guns are in the game as 3D models (2026-10-24).",
+      "stage": "Paused for now (2026-11-04). Weapons without hands 2026-10-29: the guns can now be exported without hands (the --no-hands switch), for the new body's own hands to dock on; re-doing them gun-only is next. Before that: a dark room darkens the held gun (vr_gun_darkness, 2026-10-25), and all the forge guns are in the game as 3D models (2026-10-24).",
       "source_of_truth": "brutal-doom-3d-guns/tools/",
       "updated": "2026-10-29"
     }
