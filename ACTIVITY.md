@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-05
+
+- 🎮 **Ashes 2063:** second pass on every Episode 1 gun after wearing them: bigger cubes on the chunky parts with small ones on the curves, colours taken from the game's own pictures, taller trigger guards, a red-dot sight on the FAL, a big scope glass on the Junker Musket, a bulky jackhammer with a blunt rod and a reshaped crowbar.
+
 ## 2026-11-04
 
 - 🎮 **Village:** the game's own finger movements play on our hands for every gun: a round pushed in, a magazine pulled out, a new one pushed home, on the hand the game uses (the revolvers load with the right). Cut from the recorded takes, proven on the pretend headset: the fingers matched the game's movement to a tenth of a degree. The VR Options Emporium's three screens (switches, sliders, a table) also work on the Duke's own pages.
