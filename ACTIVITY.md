@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-04
 
+- 🎮 **Village:** the game's own finger movements play on our hands for every gun: a round pushed in, a magazine pulled out, a new one pushed home, on the hand the game uses (the revolvers load with the right). Cut from the recorded takes, proven on the pretend headset: the fingers matched the game's movement to a tenth of a degree. The VR Options Emporium's three screens (switches, sliders, a table) also work on the Duke's own pages.
 - 🎮 **Ashes 2063:** every Episode 1 weapon is rebuilt in a new, sharper cube look: bigger cubes, flat colours, carved details and round hollow barrels. Each gun moves its own parts to the game's animations (a sawn-off that breaks open, a revolver cylinder that swings out, slides, bolts and magazines) and kicks a little.
 - 🧩 **Two-PC setup:** the home PC now runs every game and does all the modding; the dev PC runs Lanes, our tools, the weekly full scan and research, and checks that both PCs save their work.
 - ⏸ **Projects:** the work is narrowed to sixteen games, with RE8, The Darkness and Ashes 2063 first. Eight others are paused for now: XIII, Condemned 2, Brutal Doom, The Witcher 2, Metro Exodus, Tomb Raider, Death Stranding and Burnout Paradise.
