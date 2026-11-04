@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-04
+
+- 🧩 **Lanes:** the always-on collector is built and running on the home PC. Every launch of a project game, with or without a session, is now watched while it runs, and what it leaves behind (its load, memory, temperatures, hangs, the logs it wrote, crash dumps) is put on Gold Digger's shelves the moment it closes. On the test copy until the next tested release.
+
 ## 2026-11-03
 
 - 🎮 **Ashes 2063:** a shotgun built from the game's own picture, 3D but simple, picked in the headset as the style that fits the game best. It now has finer pixels, sits at the game's own size, and the pump slides on the game's timing. A second version is built in small rounded cubes, worn, with brown leather straps on the grip.
