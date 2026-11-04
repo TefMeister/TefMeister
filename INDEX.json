@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -287,8 +287,8 @@
       "year": 2023,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Early RE work: a lead for the plants missing in one eye (both eyes picked from one shared switch); a test is ready.",
-      "updated": "2026-10-30"
+      "stage": "Restarted from scratch 2026-11-04: our own VR mod on the March REFramework, DLSS, Single Frame Multipass; nothing built yet.",
+      "updated": "2026-11-04"
     },
     {
       "repo": "re-village-scope-vr",

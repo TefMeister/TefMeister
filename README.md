@@ -22,7 +22,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Worked on shotgun loading by hand: two shells from the pouch, the hand docks at the loading port, LT puts them in. | 11-02 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on steadier hands for guns (never for the knife) and recorded the game's own finger movements for every gun. | 11-02 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Visceral — RE4 VR** | RE Engine | 🔍 Worked on the plants missing in one eye: a lead in how both eyes are picked. | 11-01 | [visceral-re4-vr](https://github.com/TefMeister/visceral-re4-vr) |
+| **Visceral — RE4 VR** | RE Engine | 🔍 Restarted from scratch as our own VR mod, planned around both eyes drawn in one frame. | 11-04 | [visceral-re4-vr](https://github.com/TefMeister/visceral-re4-vr) |
 | **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on loading by hand: two shotgun shells at a time, and holster spots that stay put while you look around. | 11-02 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 Worked on the sprite-style shotgun, now in small rounded cubes. | 11-03 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
