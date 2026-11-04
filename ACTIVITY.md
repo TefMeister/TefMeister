@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-04
 
+- 🧩 **Two-PC setup:** the home PC now runs every game and does all the modding; the dev PC runs Lanes, our tools, the weekly full scan and research, and checks that both PCs save their work.
 - ⏸ **Projects:** the work is narrowed to sixteen games, with RE8, The Darkness and Ashes 2063 first. Eight others are paused for now: XIII, Condemned 2, Brutal Doom, The Witcher 2, Metro Exodus, Tomb Raider, Death Stranding and Burnout Paradise.
 - 🧩 **Lanes:** the always-on collector is built and running on the home PC. Every launch of a project game, with or without a session, is now watched while it runs, and what it leaves behind (its load, memory, temperatures, hangs, the logs it wrote, crash dumps) is put on Gold Digger's shelves the moment it closes. On the test copy until the next tested release.
 - 🎮 **Village:** the Visceral Emporium is real: the Duke's own three-card shop screen comes up in gameplay by script, with our words on it (Comfort / Graphics / Settings and their mottos) in the game's own font, takes the controls, and closes cleanly. Found on the way: every shop screen answers to its name, and the shop wall is a 3D object, which is why the real shop shows in the headset.
