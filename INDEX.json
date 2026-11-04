@@ -497,9 +497,9 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "Sprite-style shotgun picked as the look that fits the game; a small rounded cube version with leather straps is built; detailed guns waiting to be worn.",
+      "stage": "Sprite-style shotgun in cubes picked as the look; a sharper version with bigger cubes, carved details, a hollow barrel and full animation is built and waiting to be worn.",
       "source_of_truth": "ashes-2063-weapons/kit/",
-      "updated": "2026-10-25"
+      "updated": "2026-11-04"
     },
     {
       "repo": "silent-hill-2-remake-vr",
