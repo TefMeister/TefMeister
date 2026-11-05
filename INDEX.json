@@ -269,7 +269,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Works in headset. Latest: the world stays visible behind an item pick-up (2026-11-05); manual reloads, racking by hand, menus over the live world.",
+      "stage": "Works in headset. Latest: the world stays visible behind an item pick-up, and the ladder-start fix measured right on the simulator (2026-11-05); manual reloads, racking by hand, menus over the live world.",
       "updated": "2026-10-31"
     },
     {

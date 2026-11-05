@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
+- 🎮 **RE2:** the ladder-start fix measured on the headset simulator: a camera-taking action started by script five times with the head turned, and the head's turn is taken out whole each time, leaving under five degrees. The check line in the log was fixed to report the real first error.
 - 🎮 **RE2:** the item pick-up screen no longer blanks the world: the game was switching whole scene folders off, and the mod switches them back on, so the room stays behind the item like in the inventory. Proven flat.
 - 🎮 **Silent Hill 2:** found the game's own spot for the left hand on the shotgun and rifle (on the shotgun's pump); while holding a long gun with both hands, our left hand now sits exactly there, whatever the wrist does. Proven on the pretend headset. The arms also use the forearm's own twist bone now.
 - 🧩 **Lanes:** the first full Gold Digger pass read everything the home PC sent (about 420 items, 13 games). It now throws away repeat copies by itself and shows only lines never seen before, and it turned up three real Village problems: the hand recorder logs the hand and controller in different places, three settings files load empty, and the scope runs without its patched helper.

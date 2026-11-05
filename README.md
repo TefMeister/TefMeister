@@ -19,7 +19,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | --- | --- | --- | --- | --- |
 | **Psychonauts** (2005) | Double Fine engine | 🥽 Fixed the head-turn glitch; the picture now turns with the head on the pretend headset. | 10-29 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
-| **Visceral — RE2 VR** | RE Engine | 🥽 Worked on the pick-up screen: the game world now stays visible behind an item you pick up. | 11-05 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
+| **Visceral — RE2 VR** | RE Engine | 🥽 Worked on the pick-up screen and the ladder start: the world stays visible behind an item, and the ladder fix measured right on the simulator. | 11-05 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🔧 Worked on steadier hands for guns (never for the knife) and recorded the game's own finger movements for every gun. | 11-02 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
 | **Visceral — RE4 VR** | RE Engine | 🔍 Restarted from scratch as our own VR mod, planned around both eyes drawn in one frame. | 11-04 | [visceral-re4-vr](https://github.com/TefMeister/visceral-re4-vr) |
 | **Visceral — RE8 (Village) VR** | RE Engine | 🥽 Worked on the magazines: one out of the gun now looks as full as its own rounds; every hand spot rests in the game's own finger pose. | 11-05 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
