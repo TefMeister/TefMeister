@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
+- 🧩 **Lanes:** the clash guard is built: two things that must not run at the same time (two full scans, two research runs on one game, two Lanes installs on one PC, two programs pressing keys into a game, two recordings) can no longer start together, on one PC or across both. The second one is told what is already running, and where. On the test copy until the next tested release.
 - 🎮 **Village:** the reloads checked on the headset simulator: the game's own finger movements play when a pistol magazine comes out and goes back in, and the W870 takes one shell per trigger press with its own finger movement. Hand smoothing switches off for the knife.
 - 🎮 **Village:** a magazine you let go of now flies, tumbles and lands on the floor as its own copy, and stays a while; the ammo count never changes. Seen working on the headset simulator; a landing sound comes next.
 - 🎮 **Ashes 2063:** second pass on every Episode 1 gun after wearing them: bigger cubes on the chunky parts with small ones on the curves, colours taken from the game's own pictures, taller trigger guards, a red-dot sight on the FAL, a big scope glass on the Junker Musket, a bulky jackhammer with a blunt rod and a reshaped crowbar.

@@ -82,7 +82,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Repo |
 | --- | --- | --- | --- |
-| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 11-04: the always-on collector: every game launch is watched and shelved for Gold Digger by itself (test copy; next release). Latest release [0.99.1](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.99.1). | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 11-05: the clash guard: things that must not run at the same time are kept apart, on one PC and across both (test copy; next release). Latest release [0.99.1](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.99.1). | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
