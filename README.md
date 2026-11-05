@@ -26,7 +26,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Ashes 2063** (2018) | GZDoom | 🥽 Reworked all Episode 1 guns with bigger mixed cubes and the game's own colours. | 11-05 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Worked on making the mod one package, UEVR included, with its own launcher. | 11-05 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Made the mod one package, UEVR included, with its own launcher; first version packed. | 11-05 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 
 ### 🔍 Early RE work
 
@@ -38,7 +38,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Tidied the head-tilt log so it shows the game's real camera angle. | 10-15 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Found where the follow camera sets its distance and height. | 11-01 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Darkness** (2007) | Starbreeze engine | 🥽 Worked on quieting the game's flood of log lines, for the frame-rate hunt. | 11-05 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
+| **The Darkness** (2007) | Starbreeze engine | 🥽 Quieted the game's flood of log lines, so the frame-rate numbers stay in the log. | 11-05 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Built the code that sends the game's picture to the headset. | 10-29 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on sending the picture to a headset, each eye with its own view. | 10-16 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 
