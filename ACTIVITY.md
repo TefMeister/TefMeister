@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
+- 🎮 **Village:** every gun and docked-hand spot now has the game's own resting finger pose, cut from the recorded animations (57 poses; Tefa's own tuned ones kept). The engine's angle order was measured live, so the poses land exactly.
 - 🎮 **Village:** a cause found for the worst stutter: while the Emporium's shop screens are open, our text on them fails hundreds of times a minute, and those minutes halve the frame rate. Found by Gold Digger in the logs the always-on collector kept.
 - 🧩 **Lanes:** the clash guard is built: two things that must not run at the same time (two full scans, two research runs on one game, two Lanes installs on one PC, two programs pressing keys into a game, two recordings) can no longer start together, on one PC or across both. The second one is told what is already running, and where. On the test copy until the next tested release.
 - 🎮 **Village:** the reloads checked on the headset simulator: the game's own finger movements play when a pistol magazine comes out and goes back in, and the W870 takes one shell per trigger press with its own finger movement. Hand smoothing switches off for the knife.
