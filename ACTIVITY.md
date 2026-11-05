@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
+- 🧩 **Lanes:** five faults from daily use fixed and tested (0.102.1, test copy): no more false "project missing" warnings, an upload is no longer held over another game's notes, other makers' programs pass the privacy guard, the right Lanes version reaches the other PC, and the end box counts only the session's own work. A shared fault list now tracks what is still broken.
 - 🧰 **Toolkit:** new tool that shows where a running game's threads wait, without ever freezing the game (it found the Silent Hill 2 frame-time cause). The save-record tool now writes the home folder as ~ by itself, so a record can never carry the login onto GitHub.
 - 🎮 **Silent Hill 2:** the frame-time wait found. Our own UEVR connector plugin was rewriting a file several times every frame; with it out, and UEVR's sync stage set to Early, the simulator's frame went from 19 ms to 11 ms (the 90 Hz cap). Headset check next.
 - 🎮 **RE2:** the ladder-start fix measured on the headset simulator: a camera-taking action started by script five times with the head turned, and the head's turn is taken out whole each time, leaving under five degrees. The check line in the log was fixed to report the real first error.
