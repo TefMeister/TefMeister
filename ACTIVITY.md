@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
+- 🧩 **Lanes:** Gold Digger tested end to end on the logs the home PC now sends: it holds up, and the cracks found were fixed (it reads frame-rate tables minute by minute and shows only the bad minutes; Ghost Hand flags impossible hand numbers instead of calling them good; two copies of a game started together get their own records). New: the session's taskbar button blinks when Claude finishes or needs an answer. On the test copy until the next tested release.
 - 🎮 **Village:** found how the game draws the rounds in a magazine (mesh parts switched by the gun's count) and made a magazine out of the gun look as full as its own rounds: a fresh one from the pouch shows full even in an empty gun, proven on the headset simulator.
 - 🎮 **Silent Hill 2:** the mod is now one package with its own launcher: one program installs it, sets the game's controls back to their defaults, starts the game and brings up VR, and takes it all out again cleanly. PureDark's AFW build of UEVR comes inside the zip, said openly on the project page. Packing and installing proven in a test folder.
 - 🎮 **Village:** every gun and docked-hand spot now has the game's own resting finger pose, cut from the recorded animations (57 poses; Tefa's own tuned ones kept). The engine's angle order was measured live, so the poses land exactly.
