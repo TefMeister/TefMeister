@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -305,7 +305,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "A magazine out of the gun looks as full as its own rounds, every hand spot rests in the game's own finger pose, and the game's own finger movements play on our hands for every gun; the VR Options Emporium is on the Duke's screens, waiting for its headset look (2026-11-05).",
+      "stage": "Scope picture now matches the world (it was tone-mapped twice); next the plugin hands the glass raw light.",
       "updated": "2026-11-02"
     },
     {

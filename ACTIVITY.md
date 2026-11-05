@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-06
+
+- 🎮 **Village (Visceral RE8):** the scope's picture was being tone-mapped twice (ours, then the game's on the lens material) and its camera was still auto-adjusting while the world's was held. Both settled live in the headset; the neon yarn, yellow paint and lava-orange snow are gone. Build b069.
+
 ## 2026-11-05
 
 - 🧩 **Lanes:** five faults from daily use fixed and tested (0.102.1, test copy): no more false "project missing" warnings, an upload is no longer held over another game's notes, other makers' programs pass the privacy guard, the right Lanes version reaches the other PC, and the end box counts only the session's own work. A shared fault list now tracks what is still broken.
