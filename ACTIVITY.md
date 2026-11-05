@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
-- 🎮 **Silent Hill 2:** our own launcher is built: one program installs the mod, sets the game's controls back to their defaults, starts the game and brings up VR, and takes it all out again cleanly. Install and removal proven in a test folder; the first run on the real game comes next.
+- 🎮 **Silent Hill 2:** the mod is now one package with its own launcher: one program installs it, sets the game's controls back to their defaults, starts the game and brings up VR, and takes it all out again cleanly. PureDark's AFW build of UEVR comes inside the zip, said openly on the project page. Packing and installing proven in a test folder.
 - 🎮 **Village:** every gun and docked-hand spot now has the game's own resting finger pose, cut from the recorded animations (57 poses; Tefa's own tuned ones kept). The engine's angle order was measured live, so the poses land exactly.
 - 🎮 **Village:** a cause found for the worst stutter: while the Emporium's shop screens are open, our text on them fails hundreds of times a minute, and those minutes halve the frame rate. Found by Gold Digger in the logs the always-on collector kept.
 - 🧩 **Lanes:** the clash guard is built: two things that must not run at the same time (two full scans, two research runs on one game, two Lanes installs on one PC, two programs pressing keys into a game, two recordings) can no longer start together, on one PC or across both. The second one is told what is already running, and where. On the test copy until the next tested release.
