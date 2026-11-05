@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
+- 🎮 **Silent Hill 2:** the frame-time wait found. Our own UEVR connector plugin was rewriting a file several times every frame; with it out, and UEVR's sync stage set to Early, the simulator's frame went from 19 ms to 11 ms (the 90 Hz cap). Headset check next.
 - 🎮 **RE2:** the ladder-start fix measured on the headset simulator: a camera-taking action started by script five times with the head turned, and the head's turn is taken out whole each time, leaving under five degrees. The check line in the log was fixed to report the real first error.
 - 🎮 **RE2:** the item pick-up screen no longer blanks the world: the game was switching whole scene folders off, and the mod switches them back on, so the room stays behind the item like in the inventory. Proven flat.
 - 🎮 **Silent Hill 2:** found the game's own spot for the left hand on the shotgun and rifle (on the shotgun's pump); while holding a long gun with both hands, our left hand now sits exactly there, whatever the wrist does. Proven on the pretend headset. The arms also use the forearm's own twist bone now.

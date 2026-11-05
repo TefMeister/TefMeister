@@ -508,8 +508,8 @@
       "developer": "Bloober Team (published by Konami); remake of Team Silent’s 2001 original",
       "engine": "Unreal Engine 5.1.1",
       "renderer": "DirectX 12 [reported]",
-      "stage": "2026-11-05: our own launcher built (installs the mod, resets the controls, starts the game, loads UEVR; install and removal proven in a test folder). 2026-10-31: weapons on the body, the map and the healing item by hand, two-handed long guns, the handgun reloaded from the hip pouch (worn); the shotgun and rifle reloads by hand, the pump and bolt, the empty-gun click and the medicine in the hand built the same evening, not yet worn.",
-      "updated": "2026-10-31"
+      "stage": "2026-11-05: the frame-time wait found (our own UEVR connector plugin rewrote a file every frame) and taken out; with UEVR's sync stage on Early the simulator frame went from 19 to 11 ms; headset check next. Same day: our own launcher built (installs the mod, resets the controls, starts the game, loads UEVR). 2026-10-31: weapons on the body, the map and the healing item by hand, two-handed long guns, the handgun reloaded from the hip pouch (worn).",
+      "updated": "2026-11-05"
     },
     {
       "repo": "the-darkness-vr",
