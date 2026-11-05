@@ -12,9 +12,6 @@ story of any project, open its repo and read `modding-notes/`.
 - 🎮 **Village:** the reloads checked on the headset simulator: the game's own finger movements play when a pistol magazine comes out and goes back in, and the W870 takes one shell per trigger press with its own finger movement. Hand smoothing switches off for the knife.
 - 🎮 **Village:** a magazine you let go of now flies, tumbles and lands on the floor as its own copy, and stays a while; the ammo count never changes. Seen working on the headset simulator; a landing sound comes next.
 - 🎮 **Ashes 2063:** second pass on every Episode 1 gun after wearing them: bigger cubes on the chunky parts with small ones on the curves, colours taken from the game's own pictures, taller trigger guards, a red-dot sight on the FAL, a big scope glass on the Junker Musket, a bulky jackhammer with a blunt rod and a reshaped crowbar.
-
-## 2026-11-05
-
 - 🎮 **Village:** every left-hand grab now checks the real hand (the controller), so a grab zone and the grab agree; the rifle's magazine hold lands on the magazine, confirmed in the headset. The game's finger movement for a shell no longer gets held still by Hand Poser.
 
 ## 2026-11-04
