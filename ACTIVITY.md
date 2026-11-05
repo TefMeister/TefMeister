@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
+- 🎮 **Village:** a magazine you let go of now flies, tumbles and lands on the floor as its own copy, and stays a while; the ammo count never changes. Seen working on the headset simulator; a landing sound comes next.
 - 🎮 **Ashes 2063:** second pass on every Episode 1 gun after wearing them: bigger cubes on the chunky parts with small ones on the curves, colours taken from the game's own pictures, taller trigger guards, a red-dot sight on the FAL, a big scope glass on the Junker Musket, a bulky jackhammer with a blunt rod and a reshaped crowbar.
 
 ## 2026-11-05
