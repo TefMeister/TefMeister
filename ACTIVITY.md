@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
+- 🎮 **Silent Hill 2:** found the game's own spot for the left hand on the shotgun and rifle (on the shotgun's pump); while holding a long gun with both hands, our left hand now sits exactly there, whatever the wrist does. Proven on the pretend headset. The arms also use the forearm's own twist bone now.
 - 🧩 **Lanes:** the first full Gold Digger pass read everything the home PC sent (about 420 items, 13 games). It now throws away repeat copies by itself and shows only lines never seen before, and it turned up three real Village problems: the hand recorder logs the hand and controller in different places, three settings files load empty, and the scope runs without its patched helper.
 - 🧩 **Lanes:** Gold Digger tested end to end on the logs the home PC now sends: it holds up, and the cracks found were fixed (it reads frame-rate tables minute by minute and shows only the bad minutes; Ghost Hand flags impossible hand numbers instead of calling them good; two copies of a game started together get their own records). New: the session's taskbar button blinks when Claude finishes or needs an answer. On the test copy until the next tested release.
 - 🎮 **Village:** found how the game draws the rounds in a magazine (mesh parts switched by the gun's count) and made a magazine out of the gun look as full as its own rounds: a fresh one from the pouch shows full even in an empty gun, proven on the headset simulator.
