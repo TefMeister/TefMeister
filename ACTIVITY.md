@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-05
 
+- 🎮 **Village:** found how the game draws the rounds in a magazine (mesh parts switched by the gun's count) and made a magazine out of the gun look as full as its own rounds: a fresh one from the pouch shows full even in an empty gun, proven on the headset simulator.
 - 🎮 **Silent Hill 2:** the mod is now one package with its own launcher: one program installs it, sets the game's controls back to their defaults, starts the game and brings up VR, and takes it all out again cleanly. PureDark's AFW build of UEVR comes inside the zip, said openly on the project page. Packing and installing proven in a test folder.
 - 🎮 **Village:** every gun and docked-hand spot now has the game's own resting finger pose, cut from the recorded animations (57 poses; Tefa's own tuned ones kept). The engine's angle order was measured live, so the poses land exactly.
 - 🎮 **Village:** a cause found for the worst stutter: while the Emporium's shop screens are open, our text on them fails hundreds of times a minute, and those minutes halve the frame rate. Found by Gold Digger in the logs the always-on collector kept.
