@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-06
 
+- 🎮 **The Darkness:** the jumping hands and gun in the headset traced to the game swapping between the player's two hand sets. Feeding both steadied them live; the frame rate is up too (about 58 a second).
 - 🎮 **Silent Hill 2:** a black picture in the real headset traced to the speed setting changed the night before (the test headset accepted it, Virtual Desktop refused every frame); set back, the picture returned. The 21 Sacraments patch is not what halves the frame rate.
 - 🎮 **Village (Visceral RE8):** the scope's picture was being tone-mapped twice (ours, then the game's on the lens material) and its camera was still auto-adjusting while the world's was held. Both settled live in the headset; the neon yarn, yellow paint and lava-orange snow are gone. Build b069.
 
