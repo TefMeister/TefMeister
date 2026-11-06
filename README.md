@@ -38,7 +38,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Tidied the head-tilt log so it shows the game's real camera angle. | 10-15 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Found where the follow camera sets its distance and height. | 11-01 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Darkness** (2007) | Starbreeze engine | 🥽 Fixed the jumping hands; a headset brightness dial, a switch for the flickering picture and a fix for the crash on quit are built, not tried yet. | 11-06 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
+| **The Darkness** (2007) | Starbreeze engine | 🥽 Found why the picture was too bright and pulsing (the game's own auto exposure) and switched it off; waiting for a headset check. | 11-06 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Built the code that sends the game's picture to the headset. | 10-29 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on sending the picture to a headset, each eye with its own view. | 10-16 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
 
