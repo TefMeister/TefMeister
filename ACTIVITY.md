@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-06
 
+- 🧩 **Lanes:** the second two-PC re-test passed most of its checks (locks given back across both PCs, game sessions refused on the tools PC, the end steps finishing after a window closes). What it still found is repaired in 0.104.0 (test copy): a lighter start-up, the end report no longer clashing with a live session, and the collector calling a run VR only when a headset was really in use.
 - 🧩 **Lanes:** the faults found in the day-long two-PC test are repaired and tested (0.103.0, test copy): the end-of-session steps now finish after the window closes, a lock left by a closed window is given back by itself, a PC set to run no games refuses game sessions, and the save check no longer trusts an old view of GitHub. A re-test on both PCs is next.
 - 🧰 **Toolkit + Lanes:** the test headset now refuses the same pictures a real one does (updated to its maker's newest release, 1.7.1), Lanes no longer treats a hand-installed copy as up to date, and a new tool reads a VR mod's log and says when the headset refused the frames, so a speed number from such a run is never believed.
 - 🎮 **The Darkness:** the jumping hands and gun in the headset traced to the game swapping between the player's two hand sets. Feeding both steadied them live; the frame rate is up too (about 58 a second).
