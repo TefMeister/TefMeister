@@ -6,6 +6,12 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-07
+
+- 🥽 **Visceral RE8 (Village):** the Wolfsbane revolver works by hand in the headset: the thumb lifts over the hammer before the loading cover opens, the left palm presses the hammer to fan it with the drum turning only then, and the spent cases come out one chamber at a time. Tefa: "hand on the hammer works, it's really cool to see how well it works!" The rifle scope too: "beautiful and crisp".
+- 🥽 **The Darkness:** first headset play with the brightness fix: "lighting look so good now and the framerate is much better", measured at 68 pictures a second per eye; "seeing the darkness powers in VR today was epic!"
+- 🥽 **Silent Hill 2:** the head and gun shadows work in the headset, and the hand now sits solid on the gun.
+
 ## 2026-11-06
 
 - 🥽 **The Darkness:** found why the headset picture was too bright and kept pulsing brighter: the game's own automatic exposure overshoots in our port (83 % white, pumping). Switched off it sits at a steady, properly dark 31 %, flipped back and forth on the pretend headset with the same result each time. The crash on quit was traced too (fix built, not yet tried).
