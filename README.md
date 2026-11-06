@@ -26,7 +26,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Ashes 2063** (2018) | GZDoom | 🥽 Worked on the pretend-headset test runner, so it runs on either PC. | 11-06 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
-| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Worn in the headset again: fixed a black picture and found why the left hand slides on the shotgun and rifle. | 11-06 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 The left hand's slide on the shotgun and rifle traced to a one-frame draw order and cured in code; installed, awaiting a headset look. | 11-06 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
 
 ### 🔍 Early RE work
 
