@@ -15,7 +15,7 @@ story of any project, open its repo and read `modding-notes/`.
 - 🧰 **Toolkit + Lanes:** the test headset now refuses the same pictures a real one does (updated to its maker's newest release, 1.7.1), Lanes no longer treats a hand-installed copy as up to date, and a new tool reads a VR mod's log and says when the headset refused the frames, so a speed number from such a run is never believed.
 - 🎮 **The Darkness:** the jumping hands and gun in the headset traced to the game swapping between the player's two hand sets. Feeding both steadied them live; the frame rate is up too (about 58 a second).
 - 🎮 **Silent Hill 2:** a black picture in the real headset traced to the speed setting changed the night before (the test headset accepted it, Virtual Desktop refused every frame); set back, the picture returned. The 21 Sacraments patch is not what halves the frame rate.
-- 🎮 **Village (Visceral RE8):** the scope's picture was being tone-mapped twice (ours, then the game's on the lens material) and its camera was still auto-adjusting while the world's was held. Both settled live in the headset; the neon yarn, yellow paint and lava-orange snow are gone. Build b069.
+- 🎮 **Village (Visceral RE8):** the scope's picture was being tone-mapped twice (ours, then the game's on the lens material) and its camera was still auto-adjusting while the world's was held. Both settled live in the headset; the neon yarn, yellow paint and lava-orange snow are gone. Build b069. Evening: the plugin now hands the glass the raw light through one brightness setting and nothing else, so the game's own curve does the rest; built and installed (b070), not yet worn.
 
 ## 2026-11-05
 
