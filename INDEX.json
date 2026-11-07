@@ -277,7 +277,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Works in headset. A clean rebuild is designed (2026-11-07): the body kept, Village's weapon code shared through a per-game layer, the game's own finger animations on our hands; building starts after Tefa's ticks.",
+      "stage": "Being rebuilt clean (2026-11-07): the old install saved, the game folder cleared; the new tree goes back in eight layers (the body kept, Village's weapon code shared through a per-game layer, the game's own finger animations).",
       "updated": "2026-11-07"
     },
     {
