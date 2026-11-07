@@ -177,11 +177,11 @@
     },
     {
       "name": "animation-timing-vr",
-      "visibility": "private",
+      "visibility": "public",
       "url": "https://github.com/TefMeister/animation-timing-vr",
       "purpose": "A desktop window plus one REFramework script: freeze, step, slow down and nudge the player's animations in RE Engine games, with keys per frame; with Visceral RE8 it holds the mod's finger movements on a frame, adds or removes frames, moves the whole hand on the gun and tunes the mod's named timings live. Sister of Hand Poser.",
       "licence": "MIT",
-      "stage": "Built 2026-11-07 on the dev PC, self-test and a stand-in game pass; not yet run on a real game. Private until it has."
+      "stage": "Built 2026-11-07 on the dev PC, self-test and a stand-in game pass; not yet run on a real game. Public from the first commit."
     }
   ],
   "projects": [
