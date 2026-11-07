@@ -277,7 +277,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Being rebuilt clean (2026-11-07): the old install saved, the game folder cleared; the new tree goes back in eight layers (the body kept, Village's weapon code shared through a per-game layer, the game's own finger animations).",
+      "stage": "Being rebuilt clean (2026-11-07): loader, body and gun code done and checked on the simulator (build b195), waiting for a headset pass; the GM 79 and revolvers by hand and the game's own finger animations come next.",
       "updated": "2026-11-07"
     },
     {
