@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-07
 
+- 🔍 **Animation & Timing:** a new window built and proven against a stand-in game: it freezes and steps the player's animation, turns joints on top of it with keys, and for Visceral RE8 holds a finger movement on a frame, adds or removes frames, moves the whole hand on the gun and tunes the mod's timings live. Village's plugin side compiled with it (a twenty-row timings table, editable clips). Its first real-game run is next, on the Wolfsbane's drum hand.
 - 🥽 **Visceral RE8 (Village):** the Wolfsbane revolver works by hand in the headset: the thumb lifts over the hammer before the loading cover opens, the left palm presses the hammer to fan it with the drum turning only then, and the spent cases come out one chamber at a time. Tefa: "hand on the hammer works, it's really cool to see how well it works!" The rifle scope too: "beautiful and crisp".
 - 🥽 **The Darkness:** first headset play with the brightness fix: "lighting look so good now and the framerate is much better", measured at 68 pictures a second per eye; "seeing the darkness powers in VR today was epic!"
 - 🥽 **Silent Hill 2:** the head and gun shadows work in the headset, and the hand now sits solid on the gun.
