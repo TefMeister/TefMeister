@@ -505,9 +505,9 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "Sprite-style shotgun in cubes picked as the look; a sharper version with bigger cubes, carved details, a hollow barrel and full animation is built and waiting to be worn.",
-      "source_of_truth": "ashes-2063-weapons/kit/",
-      "updated": "2026-11-04"
+      "stage": "The guns' look settled on 2026-11-07 (the smudge-cube shotgun, round 8): the game's own pictures on solid, square-cut cube shapes with carved scratches, matte; every gun from now on in it (sprite3d/smudge_kit.py), the JackHammer next.",
+      "source_of_truth": "ashes-2063-weapons/sprite3d/",
+      "updated": "2026-11-07"
     },
     {
       "repo": "silent-hill-2-remake-vr",
