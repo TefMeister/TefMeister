@@ -277,7 +277,7 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Being rebuilt clean (2026-11-07): loader, body and gun code done and checked on the simulator (build b195), waiting for a headset pass; the GM 79 and revolvers by hand and the game's own finger animations come next.",
+      "stage": "Rebuilt clean (2026-11-07) up to the guns (build b197), its gun code now shared with Visceral RE3: every reload path checked on the simulator, waiting for a headset pass; the GM 79 and revolvers by hand and the game's own finger animations come next.",
       "updated": "2026-11-07"
     },
     {
@@ -286,8 +286,8 @@
       "year": 2020,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Village's hammer click, rack memory and Hand Poser link brought across (2026-11-01).",
-      "updated": "2026-10-31"
+      "stage": "Rebuilt clean (2026-11-07) on the gun code it shares with Visceral RE2 and on RE2's newer REFramework patch (build b007): magazines, racking, the M3 and the CQBR by hand checked on the simulator, waiting for a headset pass; the MGL by hand next.",
+      "updated": "2026-11-07"
     },
     {
       "repo": "visceral-re4-vr",
