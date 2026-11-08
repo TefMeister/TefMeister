@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-08
 
+- 🥽 **Visceral — RE8 (Village) VR:** found the game's own "new gun" move and played it on demand for all 12 weapons, both hands and the gun's moving parts (slides, magazines, hammers, the Wolfsbane's loading gate), each recorded frame by frame with nobody at the keys; next it shows in front of the headset when a new gun is picked up.
 - ❄️ **Hand Poser, Grip Zones, Gun Poser, Animation & Timing:** the controller buttons step only the helper window clicked last, so several of them can hang in the headset at once without all moving together (built at home for three of them, on the dev PC for Hand Poser; self-tests pass).
 
 ## 2026-11-07
