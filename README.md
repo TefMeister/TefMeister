@@ -21,12 +21,12 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 Rebuilt clean up to the guns: the body as it worked, and the gun code rewritten neatly, every reload path tried on the simulator; a headset pass is next. | 11-07 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🥽 Rebuilt clean on the same gun code as RE2, with RE2's newer VR fixes: magazines, racking and the shotgun by hand all tried on the simulator; a headset pass is next. | 11-07 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Visceral — RE4 VR** | RE Engine | 🔍 Restarted from scratch as our own VR mod, planned around both eyes drawn in one frame. | 11-04 | [visceral-re4-vr](https://github.com/TefMeister/visceral-re4-vr) |
 | **Visceral — RE8 (Village) VR** | RE Engine | 🥽 The Wolfsbane loads by hand: the thumb lifts over the hammer before the cover opens, the palm presses the hammer to fan it, spent cases come out one per chamber; the rifle scope looks crisp in the headset. Next build: its timings and finger movements become tunable frame by frame from the new Animation & Timing window. | 11-07 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 The guns' look is settled: the game's own pictures in solid cubes, carved and scratched; the JackHammer is next in it. | 11-07 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Head and gun shadows work and the hand sits solid on the gun; next: shadows cast by the flashlight beam, the shotgun racked by hand, a two-handed shake. | 11-07 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
+| **The Darkness** (2007) | Starbreeze engine | 🥽 Played in the headset with the lighting fixed and the frame rate better (68 per second); the Darkness powers look great in VR; next: buttons, the menu in the world, a real headset view. | 11-07 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 
 ### 🔍 Early RE work
 
@@ -38,9 +38,9 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | **Mad Max** (2015) | Apex Engine | 🔧 Worked on driving with your head turned: the ground no longer goes missing on small turns. | 10-15 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Tidied the head-tilt log so it shows the game's real camera angle. | 10-15 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Found where the follow camera sets its distance and height. | 11-01 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
-| **The Darkness** (2007) | Starbreeze engine | 🥽 Played in the headset with the lighting fixed and the frame rate better (68 per second); the Darkness powers look great in VR; next: buttons, the menu in the world, a real headset view. | 11-07 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Built the code that sends the game's picture to the headset. | 10-29 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |
 | **Bulletstorm: Full Clip Edition** (2011) | Unreal Engine 3 | 🔍 Worked on sending the picture to a headset, each eye with its own view. | 10-16 | [bulletstorm-vr](https://github.com/TefMeister/bulletstorm-vr) |
+| **Visceral — RE4 VR** | RE Engine | 🔍 Restarted from scratch as our own VR mod, planned around both eyes drawn in one frame. | 11-04 | [visceral-re4-vr](https://github.com/TefMeister/visceral-re4-vr) |
 
 ### ⏸ Paused
 
@@ -80,17 +80,17 @@ each repo's notes say so.
 
 Tools for working with Claude Code itself, not tied to any one game.
 
-| Plugin | What it does | Where it stands | Repo |
-| --- | --- | --- | --- |
-| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 11-06: the audit's fixes built and tested (0.105.0, test copy): faded promises are now checked by the plugin itself, and every command checks faster. Latest release [0.99.1](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.99.1). | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| Plugin | What it does | Where it stands | Updated | Repo |
+| --- | --- | --- | --- | --- |
+| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 Several no-game sessions can now run at once, each on its own game, and two sessions can no longer edit the same game at the same time. Latest release [0.106.1](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.106.1). | 11-06 | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
 Pixel-style cube models for games, built in Blender by script.
 
-| Tool | What it does | Where it stands | Repo |
-| --- | --- | --- | --- |
-| **blender-cubekit** | A framework for making game models out of little cubes, like pixel art with depth: one cube size for everything, every number named, no lights, stop-motion animation, straight into the game. Comes with a Blender add-on (buttons and keys) and the write-ups on how it is done. The game models made with it stay in their own projects. | 🔧 10-24: adding and carving can keep a model's colour pattern, or use one chosen colour. | 10-24
+| Tool | What it does | Where it stands | Updated | Repo |
+| --- | --- | --- | --- | --- |
+| **blender-cubekit** | A framework for making game models out of little cubes, like pixel art with depth: one cube size for everything, every number named, no lights, stop-motion animation, straight into the game. Comes with a Blender add-on (buttons and keys) and the write-ups on how it is done. The game models made with it stay in their own projects. | 🔧 A one-zip download, no Lanes needed; adding and carving can keep a model's colour pattern, or use one chosen colour. | 10-27 | [blender-cubekit](https://github.com/TefMeister/blender-cubekit) |
 
 ## <img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/icons/flower-icon.png" alt="" height="28" align="top"> Terminal Themes
 
@@ -115,9 +115,9 @@ modders, human or AI, and as drop-in fixes for specific games.
 | --- | --- | --- | --- | --- |
 | **Occlusion Drift BeG0nE** | In VR, a two-handed weapon's aim drifting because the front hand hides the back controller. The cure: hold the weapon with the left controller just above the right. First game: Resident Evil Village (REFramework). | 🔧 Worked on the Village grip: a reload is no longer cancelled by the block gesture, and a grip now needs the hand near the gun. Shipped inside the RE Village scope mod. | 10-28 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/occlusion-drift) |
 | **Camera Jitter/Shake BeG0nE** | The stepped, jittery camera so many AI-written VR mods have. First find out why; then a tool for modders and a jitter-free camera for specific games. | 🔧 Built the ride-along: a mod logs when it reads the pose and writes the camera, and a background rider names the cause of any stepping and grows a jittery-versus-smooth knowledge base; Lanes starts it at every session. | 10-08 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/camera-jitter) |
-| **Ghost Hand BeG0nE** | In VR, the gaps between your real hand and the player's hand: lag, offset, jumps and lost tracking that make hand gestures like racking a slide miss. It records both controllers and the game's hands, then points at where they part. | 🔧 Built today: the recorder and its report maker, shipped in Lanes. First job: hand racking in RE2. | 10-12 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/ghost-hand) |
+| **Ghost Hand BeG0nE** | In VR, the gaps between your real hand and the player's hand: lag, offset, jumps and lost tracking that make hand gestures like racking a slide miss. It records both controllers and the game's hands, then points at where they part. | 🔧 In daily use: the recorder and its report maker ship in Lanes, and the background rider has filed over 400 reports. | 11-07 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/ghost-hand) |
 | **Flickers BeG0nE** | In VR, parts of the picture flashing wrong for a single frame, like the grass in Resident Evil 4 with REFramework. It catches the flash and shows what it is, then shows the frame before in its place. | 🔧 Built the catcher and its reader as one REFramework plugin file; it found every fake flicker on the headset simulator. | 10-26 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/flickers) |
-| **Eye Difference BeG0nE** | In VR, anything that differs between the left and the right eye: plants or objects drawn in one eye only, one eye darker or tinted, one eye more jagged, the eyes out of line. It reads the Flickers catcher's pictures, takes out the normal 3D shift between the eyes, and says what is left, which eye has it and where. | 🔧 Built today and tested on made-up eye pictures; first real job: Resident Evil 4's plants seen in one eye only. | 11-02 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/eye-difference) |
+| **Eye Difference BeG0nE** | In VR, anything that differs between the left and the right eye: plants or objects drawn in one eye only, one eye darker or tinted, one eye more jagged, the eyes out of line. It reads the Flickers catcher's pictures, takes out the normal 3D shift between the eyes, and says what is left, which eye has it and where. | 🔧 Built and tested on made-up eye pictures; first real job: Resident Evil 4's plants seen in one eye only. | 11-02 | [BeG0nE](https://github.com/TefMeister/BeG0nE/tree/main/eye-difference) |
 
 ## ❄️ VR helpers
 
@@ -129,8 +129,8 @@ Small programs that make working in a headset easier, for any game.
 | **VR Bench** | A robot player for VR games. With the OpenXR Simulator as the headset, it moves the head, both hands and every button by itself, takes a picture after each, and writes down what the game did, so VR work can be tested with nobody wearing anything. | 🔧 v0.1.2 out: answers the short button names some games use, such as Resident Evil Village's. | 11-01 | [vr-bench](https://github.com/TefMeister/vr-bench) |
 | **Window View** | A desktop app plus an OpenXR layer that hangs any open window in front of your eyes inside the game, like an in-game menu that turns with your head. Add as many as you like, set how see-through each is, drag them by their header, resize them by their corner. Page Up hands your mouse and keyboard to the floating windows (the game sees nothing and is played with the controllers); Page Down hands them back. | 🔧 v1.9 download is up: less lag, a curved desk, a keyboard in the headset; all its tests pass. | 11-02 | [window-view-vr](https://github.com/TefMeister/window-view-vr) |
 | **Hand Poser** | A compact window of sliders that poses the player's hands in RE Engine games: add any bone, turn it, see which bones move with it, undo, redo, and keep named pose builds. Meant to hang inside the headset through Window View while Hand Freeze holds the controllers. Inspired by alphaZomega's EMV Engine poser. | 🔧 Knows the Wolfsbane's right hand lifted over the hammer, so that pose can be saved too. | 11-07 | [hand-poser-vr](https://github.com/TefMeister/hand-poser-vr) |
-| **Animation & Timing** | Hand Poser's sister for things that move: freeze the player's animation, step it a frame at a time, slow it down, and turn any joint on top of it with keys that fade into each other; with Visceral RE8 it also holds the mod's finger movements on a frame, adds or removes frames, moves the whole hand on the gun, and tunes the mod's named timings live. Inspired by alphaZomega's EMV Engine. | 🔧 Built 11-07, not yet run on a real game. | 11-07 | [animation-timing-vr](https://github.com/TefMeister/animation-timing-vr) |
-| **Grip Zones** | A small window of sliders that moves and resizes every place the hand can grip a gun in VR: the magazine, the well, the slide, pump or bolt, the front grip. Each zone moves on the gun in the game at once, for one gun or all. Hangs inside the headset through Window View. Works with Visceral RE8 for now; more games as we mod them. | 🔧 Pump shotguns now list their front grip and the shell port. | 11-01 | [grip-zones-vr](https://github.com/TefMeister/grip-zones-vr) |
+| **Animation & Timing** | Hand Poser's sister for things that move: freeze the player's animation, step it a frame at a time, slow it down, and turn any joint on top of it with keys that fade into each other; with Visceral RE8 it also holds the mod's finger movements on a frame, adds or removes frames, moves the whole hand on the gun, and tunes the mod's named timings live. Inspired by alphaZomega's EMV Engine. | 🔧 New tick boxes copy a frame's whole hand onto the next or previous frame as you step; not yet run on a real game. | 11-08 | [animation-timing-vr](https://github.com/TefMeister/animation-timing-vr) |
+| **Grip Zones** | A small window of sliders that moves and resizes every place the hand can grip a gun in VR: the magazine, the well, the slide, pump or bolt, the front grip. Each zone moves on the gun in the game at once, for one gun or all. Hangs inside the headset through Window View. Works with Visceral RE8 for now; more games as we mod them. | 🔧 Pump shotguns list their shell port; the pump itself is their front handle. | 11-01 | [grip-zones-vr](https://github.com/TefMeister/grip-zones-vr) |
 | **Gun Poser** | A small window of sliders that aims and moves the gun in the right hand in VR: up or down, left or right, roll, and forward, up or sideways in the hand, for one gun or all. Hangs inside the headset through Window View. Works with Visceral RE8 for now; the idea is to make it work across many games. | 🔧 v1.0 download: its own page and icon; not yet tried in the headset. | 10-28 | [gun-poser-vr](https://github.com/TefMeister/gun-poser-vr) |
 
 ## 🤖 Automated navigation and movement
@@ -184,4 +184,4 @@ clutter. The full playbook text lives only in
 *All reverse-engineering here targets legitimate copies of each game (owned, or free from the official source) for personal,
 non-commercial modding. No original game assets or engine source are redistributed in any
 repo above. Corrections/removal requests from actual rights holders are honoured promptly —
-contact details are in each repo's `CONTRIBUTING.md`.*
+open an issue on the repo (each repo's `CONTRIBUTING.md` says how).*
