@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-08
+
+- ❄️ **Hand Poser, Grip Zones, Gun Poser, Animation & Timing:** the controller buttons step only the helper window clicked last, so several of them can hang in the headset at once without all moving together (built at home for three of them, on the dev PC for Hand Poser; self-tests pass).
+
 ## 2026-11-07
 
 - 🔍 **Visceral RE3:** rebuilt clean the same day on the very same gun code as RE2, so a fix in one now lands in both, and on RE2's newer VR layer, which keeps the left hand free while it carries a magazine (on RE3's old one the magazine could never reach the gun). On the simulator the G19's magazine went in by hand, the slide was racked by hand, the M3 took two shells and was pumped, and the CQBR's magazine was pulled out and put back.
