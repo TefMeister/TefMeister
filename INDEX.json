@@ -313,7 +313,7 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Scope picture matches the world (it was tone-mapped twice); the plugin now hands the glass raw light through one gain (b070), awaiting a headset look.",
+      "stage": "Hands change pose at set points on the gun, ease into the game's own grip near a grip spot, and the left arm stretches to stay on the gun (b085); checked on the OpenXR Simulator, awaiting a headset run.",
       "updated": "2026-11-08"
     },
     {
