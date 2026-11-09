@@ -277,8 +277,8 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "Rebuilt clean (2026-11-07) up to the guns (build b197), its gun code now shared with Visceral RE3: every reload path checked on the simulator, waiting for a headset pass; the GM 79 and revolvers by hand and the game's own finger animations come next.",
-      "updated": "2026-11-07"
+      "stage": "Clean rebuild up to the guns (b195+), now worn in the headset; Tefa's 2026-11-09 list: SLS 60 and Quickdraw Army revolver reloads, a black-screen hang on level / save changes, slides and the chamber round, a door, GM 79 opening, the pick-up screen brightening.",
+      "updated": "2026-11-09"
     },
     {
       "repo": "visceral-re3-vr",
