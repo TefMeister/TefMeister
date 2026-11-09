@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-09
 
+- 🥽 **Visceral — RE8 (Village) VR:** the gun noise that played when the left hand came near the gun was found: reaching for the gun started the game's block (Ethan raising his arms). Blocking now needs the left trigger on purpose, and its gun noise is gone.
 - 🥽 **Visceral — RE8 (Village) VR:** four more LEMI fixes worked in the headset the same morning: the left forearm and sleeve now twist with the wrist instead of staying frozen ("works really well now"), an empty pistol's slide stays locked back after a magazine goes in until it is racked, a pulled magazine moves only along the grip until it is out, and the first grab after a launch lands on the grip (the magazine's seat was only learned at the first eject).
 - 🥽 **Visceral — RE8 (Village) VR:** the LEMI pistol is "really really good now" (Tefa in the headset). The slide hand that landed far off the gun after the controllers slept is fixed (it was measuring the gun before the arms were placed); the gun hand keeps its firing grip; the slide's pose holds to the end of the rack; sleeping controllers lower the hands to the sides; Hand Freeze holds them; every helper window answers the right stick, Y, B, X and A.
 
