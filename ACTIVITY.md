@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-09
+
+- 🥽 **Visceral — RE8 (Village) VR:** the LEMI pistol is "really really good now" (Tefa in the headset). The slide hand that landed far off the gun after the controllers slept is fixed (it was measuring the gun before the arms were placed); the gun hand keeps its firing grip; the slide's pose holds to the end of the rack; sleeping controllers lower the hands to the sides; Hand Freeze holds them; every helper window answers the right stick, Y, B, X and A.
+
 ## 2026-11-08
 
 - 🥽 **Visceral — RE8 (Village) VR:** the hands now change pose by themselves at set points on the gun (the pump or bolt clicked at the back, a magazine in the hand), the left hand eases into the game's own grip as it nears a grip spot, the left arm stretches to keep the hand on the gun, and the trigger finger has a posing spot; all checked switching on the pretend headset, the look still to be judged in the real one.
