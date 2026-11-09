@@ -314,7 +314,7 @@
       "developer": "Capcom",
       "engine": "RE Engine",
       "stage": "Hands change pose at set points on the gun, ease into the game's own grip near a grip spot, and the left arm stretches to stay on the gun (b085); checked on the OpenXR Simulator, awaiting a headset run.",
-      "updated": "2026-11-08"
+      "updated": "2026-11-09"
     },
     {
       "repo": "enslaved-vr",
