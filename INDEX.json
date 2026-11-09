@@ -551,6 +551,17 @@
       "stage": "Paused for now (2026-11-04). Weapons without hands 2026-10-29: the guns can now be exported without hands (the --no-hands switch), for the new body's own hands to dock on; re-doing them gun-only is next. Before that: a dark room darkens the held gun (vr_gun_darkness, 2026-10-25), and all the forge guns are in the game as 3D models (2026-10-24).",
       "source_of_truth": "brutal-doom-3d-guns/tools/",
       "updated": "2026-10-29"
+    },
+    {
+      "repo": "ba-ttr-vr-bridge",
+      "game": "Tale of Two Wastelands (Fallout 3 + New Vegas) with the Begin Again modlist",
+      "year": 2010,
+      "developer": "Obsidian / Bethesda; TTW team; VR by KUPOkinz (TTWVR)",
+      "engine": "Gamebryo",
+      "renderer": "Direct3D 9 (TTWVR's own DXVK)",
+      "injection": "none of ours: MO2 profiles only, TTWVR is an xNVSE plugin",
+      "stage": "2026-11-09: rung 1 (TTW + the list's minimal profile + TTWVR 1.0.0) plays clean in a Quest 3; next, Begin Again's mod groups back one at a time.",
+      "source_of_truth": "ba-ttr-vr-bridge/tools/ (ladder.py, conflict_report.py, collect_run.py)"
     }
   ],
   "notes_for_ai_readers": [
