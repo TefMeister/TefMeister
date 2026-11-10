@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-10
 
+- 🔧 **Lanes 0.106.2:** Menu-o-matiC can be told the game's program, and then never sends a picture request or a key to another program's window with the game's name in its title (a chat thread called "Fallout 3/NV VR" was taken for the game once). Proven with two test windows, the wrong one in front.
 - 🥽 **The Darkness VR:** found why it runs slowly: the game draws every frame three times, in strips (the Xbox 360's way of fitting anti-aliasing into its video memory), and the port repeats all of it. Also built and proven on the pretend headset: the menu as a screen held in the room, walking where the head looks, the right stick no longer tilting the view, and gun poses that switch by themselves.
 - 🥽 **Visceral — RE8 (Village) VR:** the options board bug where B turned it back into the Duke's real shop was reproduced and fixed; a live question line into the running game was built and used for everything found that night.
 - 🥽 **Begin Again in TTWVR:** the rest of the ladder is built: Begin Again's mods go back in seven steps on top of the working VR base, and every step was checked to reach the main menu without a crash.
