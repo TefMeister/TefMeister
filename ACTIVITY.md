@@ -6,6 +6,12 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-10
+
+- 🥽 **The Darkness VR:** the game now builds each eye's whole view itself (108 by 109 degrees where it was an 86 by 55 strip), so the lights and scenery follow; menus keep their framed look. Proven on the pretend headset.
+- 🥽 **Visceral — RE8 (Village) VR:** the jittery free left hand was traced to our own code drawing it from an older controller reading every frame, and fixed; Ethan's body now stays put while you look around and comes round like Leon's (one game answer replaced, camera and arms untouched); the VR Options Emporium hangs in the village with no red wall. All proven on the pretend headset.
+- 🥽 **Visceral — RE2 / RE3 VR:** the in-world options book's first step: on X + A the officer's own notebook (RE2) and the UBCS binder (RE3) hang in the world in front of the player, and a page's picture can be swapped while it hangs there.
+
 ## 2026-11-09
 
 - 🥽 **Begin Again in TTWVR:** Tale of Two Wastelands runs in VR through KUPOkinz's TTWVR on top of the Begin Again list's own minimal setup; Tefa's first play: "insanely well done ... it just plays with the usual Bethesda jank". TTW needs more than TTWVR's guide lists (four more add-ons and the list's settings file).

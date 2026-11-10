@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-10",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -278,7 +278,8 @@
       "developer": "Capcom",
       "engine": "RE Engine",
       "stage": "Clean rebuild up to the guns (b195+), now worn in the headset; Tefa's 2026-11-09 list: SLS 60 and Quickdraw Army revolver reloads, a black-screen hang on level / save changes, slides and the chamber round, a door, GM 79 opening, the pick-up screen brightening.",
-      "updated": "2026-11-09"
+      "updated": "2026-11-09",
+      "stage_latest": "2026-11-10: b199, the in-world options book's first milestone (the officer's own notebook on X + A), simulator-proven, not worn."
     },
     {
       "repo": "visceral-re3-vr",
@@ -287,7 +288,8 @@
       "developer": "Capcom",
       "engine": "RE Engine",
       "stage": "Rebuilt clean (2026-11-07) on the gun code it shares with Visceral RE2 and on RE2's newer REFramework patch (build b007): magazines, racking, the M3 and the CQBR by hand checked on the simulator, waiting for a headset pass; the MGL by hand next.",
-      "updated": "2026-11-07"
+      "updated": "2026-11-07",
+      "stage_latest": "2026-11-10: b009, the in-world options book's first milestone (the UBCS binder on X + A), simulator-proven, not worn."
     },
     {
       "repo": "visceral-re4-vr",
@@ -314,7 +316,8 @@
       "developer": "Capcom",
       "engine": "RE Engine",
       "stage": "The LEMI by hand works in the headset (b095-b098). The gun noise near the gun was an accidental block: b100 makes the block need LT and a bare LG leave the hand free; b101 reports the left hand's grab area for per-gun hand poses (Hand Poser half built on the dev PC 2026-11-09, hand-poser-vr f173d96). Unworn.",
-      "updated": "2026-11-09"
+      "updated": "2026-11-09",
+      "stage_latest": "2026-11-10: b107-b109 (free left hand jitter fixed, the body turns like Leon's, the Emporium in the game world), simulator-proven, not worn."
     },
     {
       "repo": "enslaved-vr",
@@ -528,7 +531,8 @@
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
       "stage": "Playable in the headset with motion-controlled hands; 2026-11-06: the jumping hands fixed, frame rate up to ~58/s; the too-bright, pulsing picture traced to the game's own auto exposure and switched off (pretend headset); a brightness dial and a crash-on-quit fix built, waiting for a headset check; the full per-eye view next.",
-      "updated": "2026-11-06"
+      "updated": "2026-11-06",
+      "stage_latest": "2026-11-10: b018, the full headset view (the game builds each eye's whole field itself, levels only), simulator-proven, not worn."
     },
     {
       "repo": "condemned-2-vr",
