@@ -83,7 +83,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 Several no-game sessions can run at once, each on its own game; the menu driver can be held to the game's own program so keys never go to another window. Latest release [0.106.3](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.106.3). | 11-10 | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | A growing collection of tools, skills and programs for Claude Code, primarily meant for flat-to-VR video game modding. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 Checked part by part after a week on two PCs: the start-up reminders arrive again, the end-of-session box now also names the index, tool list and download a session's work left behind, and each PC's copies keep level with GitHub by themselves. Latest release [0.107.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.107.0). | 11-10 | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
@@ -91,7 +91,7 @@ Pixel-style cube models for games, built in Blender by script.
 
 | Tool | What it does | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **blender-cubekit** | A framework for making game models out of little cubes, like pixel art with depth: one cube size for everything, every number named, no lights, stop-motion animation, straight into the game. Comes with a Blender add-on (buttons and keys) and the write-ups on how it is done. The game models made with it stay in their own projects. | 🔧 A one-zip download, no Lanes needed; adding and carving can keep a model's colour pattern, or use one chosen colour. | 10-27 | [blender-cubekit](https://github.com/TefMeister/blender-cubekit) |
+| **blender-cubekit** | A framework for making game models out of little cubes, like pixel art with depth: one cube size for everything, every number named, no lights, stop-motion animation, straight into the game. Comes with a Blender add-on (buttons and keys) and the write-ups on how it is done. The game models made with it stay in their own projects. | 🔧 Lines drawn on a model (grooves, cracks, scratches, raised lines) no longer come out dotted; a one-zip download, no Lanes needed. | 11-10 | [blender-cubekit](https://github.com/TefMeister/blender-cubekit) |
 
 ## <img src="https://raw.githubusercontent.com/TefMeister/terminal-themes/main/icons/flower-icon.png" alt="" height="28" align="top"> Terminal Themes
 

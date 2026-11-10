@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-10
 
+- 🔧 **Lanes 0.107.0:** a part-by-part check after a week of two PCs in daily use found nine things that had quietly stopped working, and repaired them: the start-up reminders that never arrived on a slow PC, locks left on GitHub for three days, an update check that named the wrong version, and one PC's copies 50 projects behind GitHub. The end-of-session box now also says when the index, the tool list or a download was left older than the work.
+- 🔧 **blender-cubekit:** lines drawn on a model no longer come out as rows of dots (the line walk skipped a cell now and then); a test draws 320 lines and finds no gap.
 - 🔧 **Lanes 0.106.3:** VR Bench takes pictures from the newest OpenXR Simulator again and never starts a game beside a copy still closing; Menu-o-matiC's notes file for a game always lands in its routes folder. Three faults the home PC met running Tale of Two Wastelands in the simulator.
 - 🔧 **Lanes 0.106.2:** Menu-o-matiC can be told the game's program, and then never sends a picture request or a key to another program's window with the game's name in its title (a chat thread called "Fallout 3/NV VR" was taken for the game once). Proven with two test windows, the wrong one in front.
 - 🥽 **The Darkness VR:** found why it runs slowly: the game draws every frame three times, in strips (the Xbox 360's way of fitting anti-aliasing into its video memory), and the port repeats all of it. Also built and proven on the pretend headset: the menu as a screen held in the room, walking where the head looks, the right stick no longer tilting the view, and gun poses that switch by themselves.
