@@ -17,17 +17,17 @@ story is in each repo. Each game sits in the group that matches its status.
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Begin Again (Tale of Two Wastelands) in KUPOkinz's TTWVR** | Gamebryo (Fallout: New Vegas) | 🥽 We are only the middlemen: Tale of Two Wastelands with KUPOkinz's TTWVR now plays clean in the headset; next, Begin Again's mods go back on top one group at a time. | 11-09 | [ba-ttr-vr-bridge](https://github.com/TefMeister/ba-ttr-vr-bridge) |
+| **Begin Again (Tale of Two Wastelands) in KUPOkinz's TTWVR** | Gamebryo (Fallout: New Vegas) | 🥽 Tale of Two Wastelands with KUPOkinz's TTWVR plays clean in the headset; Begin Again's mods are staged back in seven steps, each checked to load, ready for the headset one step at a time. | 11-10 | [ba-ttr-vr-bridge](https://github.com/TefMeister/ba-ttr-vr-bridge) |
 | **Psychonauts** (2005) | Double Fine engine | 🥽 Fixed the head-turn glitch; the picture now turns with the head on the pretend headset. | 10-29 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 The in-world options book has its first step: the officer's own notebook hangs in the world on X + A (waiting to be worn). | 11-10 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
 | **Visceral — RE3 VR** | RE Engine | 🥽 The in-world options book has its first step: the game's own UBCS binder hangs in the world on X + A (waiting to be worn). | 11-10 | [visceral-re3-vr](https://github.com/TefMeister/visceral-re3-vr) |
-| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 The jittery free left hand's cause was found and fixed, Ethan's body now turns like Leon's, and the options board hangs in the game world; all three wait to be worn. | 11-10 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
+| **Visceral — RE8 (Village) VR** | RE Engine | 🥽 The jittery free left hand's cause was found and fixed, Ethan's body turns like Leon's, the options board hangs in the game world and its B-button bug is fixed; all waiting to be worn. | 11-10 | [visceral-re8-vr](https://github.com/TefMeister/visceral-re8-vr) |
 | **Ashes 2063** (2018) | GZDoom | 🥽 The guns' look is settled: the game's own pictures in solid cubes, carved and scratched; the JackHammer is next in it. It now also runs on the pretend headset on the home PC, for tests with nobody wearing one. | 11-08 | [ashes-2063-weapons](https://github.com/TefMeister/ashes-2063-weapons) |
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 Head and gun shadows work and the hand sits solid on the gun; next: shadows cast by the flashlight beam, the shotgun racked by hand, a two-handed shake. | 11-07 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
-| **The Darkness** (2007) | Starbreeze engine | 🥽 The game now draws each eye's whole view instead of a framed strip (proven on the pretend headset; waiting to be worn). | 11-10 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
+| **The Darkness** (2007) | Starbreeze engine | 🥽 The game now draws each eye's whole view, the menu is a screen in the room, walking follows the head and the gun poses switch by themselves; all waiting to be worn. Why it runs slowly was found: every frame is drawn three times. | 11-10 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 
 ### 🔍 Early RE work
 
