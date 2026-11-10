@@ -565,8 +565,8 @@
       "renderer": "Direct3D 9 (TTWVR's own DXVK)",
       "injection": "none of ours: MO2 profiles only, TTWVR is an xNVSE plugin",
       "stage": "2026-11-09: rung 1 (TTW + the list's minimal profile + TTWVR 1.0.0) plays clean in a Quest 3; next, Begin Again's mod groups back one at a time.",
-      "source_of_truth": "ba-ttr-vr-bridge/tools/ (ladder.py, conflict_report.py, collect_run.py)",
-      "stage_latest": "2026-11-10: rungs 2-8 built from the list's own groups and desk-checked flat; rung 2 is next in the headset."
+      "source_of_truth": "ba-ttr-vr-bridge/tools/ (ladder.py, ladder_groups.py, rung_flatcheck.py, rung_simcheck.py, conflict_report.py, collect_run.py)",
+      "stage_latest": "2026-11-10: rungs 2-8 built from the list's own groups, desk-checked flat and with TTWVR on in the OpenXR Simulator (all start, load a save, answer buttons; the simulator shows menus only); rung 2 is next in the headset."
     }
   ],
   "notes_for_ai_readers": [

@@ -17,7 +17,7 @@ story is in each repo. Each game sits in the group that matches its status.
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Begin Again (Tale of Two Wastelands) in KUPOkinz's TTWVR** | Gamebryo (Fallout: New Vegas) | 🥽 Tale of Two Wastelands with KUPOkinz's TTWVR plays clean in the headset; Begin Again's mods are staged back in seven steps, each checked to load, ready for the headset one step at a time. | 11-10 | [ba-ttr-vr-bridge](https://github.com/TefMeister/ba-ttr-vr-bridge) |
+| **Begin Again (Tale of Two Wastelands) in KUPOkinz's TTWVR** | Gamebryo (Fallout: New Vegas) | 🥽 Tale of Two Wastelands with KUPOkinz's TTWVR plays clean in the headset; Begin Again's mods are staged back in seven steps, each checked to start and load a save with the VR mod on (in a simulated headset), ready for the real headset one step at a time. | 11-10 | [ba-ttr-vr-bridge](https://github.com/TefMeister/ba-ttr-vr-bridge) |
 | **Psychonauts** (2005) | Double Fine engine | 🥽 Fixed the head-turn glitch; the picture now turns with the head on the pretend headset. | 10-29 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
 | **Visceral — RE2 VR** | RE Engine | 🥽 The in-world options book has its first step: the officer's own notebook hangs in the world on X + A (waiting to be worn). | 11-10 | [visceral-re2-vr](https://github.com/TefMeister/visceral-re2-vr) |
