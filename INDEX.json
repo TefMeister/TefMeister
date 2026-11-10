@@ -289,7 +289,7 @@
       "engine": "RE Engine",
       "stage": "Rebuilt clean (2026-11-07) on the gun code it shares with Visceral RE2 and on RE2's newer REFramework patch (build b007): magazines, racking, the M3 and the CQBR by hand checked on the simulator, waiting for a headset pass; the MGL by hand next.",
       "updated": "2026-11-07",
-      "stage_latest": "2026-11-10: b011, a second ammo pouch on the right hip and the MGL's mixed drum (different round kinds in one drum, fired in order), simulator-proven with robot hands, not worn; b009 the options book's first milestone."
+      "stage_latest": "2026-11-10: b012, a second ammo pouch on the right hip and the MGL's mixed drum (different round kinds in one drum, each in its own chamber, fired in drum order), simulator-proven with robot hands, not worn; b009 the options book's first milestone."
     },
     {
       "repo": "visceral-re4-vr",
