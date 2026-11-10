@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-10
 
+- 🥽 **The Darkness:** a trace of the graphics card, pass by pass, found two things eating each frame: a brightness check of ours that copied both eye pictures off the card, and the console's fast screen clear, which forced the card to redraw the whole depth picture about 18 times each. Both fixed: the heavy alley runs at 114 game frames a second against 73, the picture unchanged (pretend headset; waiting to be worn).
 - 🔧 **Lanes 0.107.0:** a part-by-part check after a week of two PCs in daily use found nine things that had quietly stopped working, and repaired them: the start-up reminders that never arrived on a slow PC, locks left on GitHub for three days, an update check that named the wrong version, and one PC's copies 50 projects behind GitHub. The end-of-session box now also says when the index, the tool list or a download was left older than the work.
 - 🔧 **blender-cubekit:** lines drawn on a model no longer come out as rows of dots (the line walk skipped a cell now and then); a test draws 320 lines and finds no gap.
 - 🔧 **Lanes 0.106.3:** VR Bench takes pictures from the newest OpenXR Simulator again and never starts a game beside a copy still closing; Menu-o-matiC's notes file for a game always lands in its routes folder. Three faults the home PC met running Tale of Two Wastelands in the simulator.
