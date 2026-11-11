@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-11
 
+- 🔧 **Lanes 0.109.0:** the Keeper's round starts by itself: when work arrives from the PC that builds, a window on the Keeper PC opens or wakes and does the filing, proven with a real hand-over (front page updated two minutes after the step was sent).
 - 🥽 **Village:** handguns can be reloaded with two magazines in the hand: a spare from the pouch is held beside the gun's own and swapped in with one trigger press, so the gun is never empty. It passed on the headset simulator and waits for a real headset try.
 - 🥽 **Village:** two shotgun shells now show in the hand for both pump shotguns, and the Wolfsbane shows every round of a grab (one at the fingertips, the rest in the palm); seen on the flat screen.
 - 🔧 **Lanes 0.108.0:** the Keeper, a new optional extra: one session builds and is left alone, and a second one (on another PC, or on the same PC) does every upload and keeps the GitHub pages right.
