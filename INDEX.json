@@ -508,9 +508,9 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "The guns' look settled on 2026-11-07 (the smudge-cube shotgun, round 8): the game's own pictures on solid, square-cut cube shapes with carved scratches, matte; every gun from now on in it (sprite3d/smudge_kit.py), the JackHammer next.",
+      "stage": "2026-11-11: the framey gun, round 2: only the weapon hand steps and glides (five steps a second in the test), guns only, plus the newest shotgun 30% smaller; waiting for the next wear. Earlier: the guns' look settled on 2026-11-07 (the smudge-cube shotgun, round 8): the game's own pictures on solid, square-cut cube shapes with carved scratches, matte; every gun from now on in it (sprite3d/smudge_kit.py), the JackHammer next.",
       "source_of_truth": "ashes-2063-weapons/sprite3d/",
-      "updated": "2026-11-07"
+      "updated": "2026-11-11"
     },
     {
       "repo": "silent-hill-2-remake-vr",
@@ -566,7 +566,7 @@
       "injection": "none of ours: MO2 profiles only, TTWVR is an xNVSE plugin",
       "stage": "2026-11-10: Tale of Two Wastelands with KUPOkinz's TTWVR plays clean in the headset; Begin Again's mods are staged back in seven steps, each checked to start and load a save with the VR mod on (in a simulated headset), ready for the real headset one step at a time. Earlier: 2026-11-09: rung 1 (TTW + the list's minimal profile + TTWVR 1.0.0) plays clean in a Quest 3; next, Begin Again's mod groups back one at a time.",
       "source_of_truth": "ba-ttr-vr-bridge/tools/ (ladder.py, ladder_groups.py, rung_flatcheck.py, rung_simcheck.py, conflict_report.py, collect_run.py)",
-      "stage_latest": "2026-11-11: first sight of the 3D world on a desk run in the OpenXR Simulator, as one frozen picture: TTWVR's stereo step runs fully, its eye pictures are written once at a pause change and never refreshed, so the per-frame eye copy is the missing piece (hypothesis: it needs shareable pictures the simulator does not give). Ruled out earlier the same day: Virtual Desktop's empty body memory (a real fault, not this one), the upscaler and the 4096 cap, a covered window, the auto-load, see-through pixels. Earlier: 2026-11-10: rungs 2-8 built and desk-checked; rung 2 is next in the headset.",
+      "stage_latest": "2026-11-11: on desk runs in the OpenXR Simulator every pause change gives one correct, head-tracked stereo picture, but ordinary frames never refresh the eye pictures (not the upscaler helper; the shareable pictures are the mod's own, so the fault is before its last copy). Ruled out earlier the same day: Virtual Desktop's empty body memory (a real fault, not this one), the 4096 cap, a covered window, the auto-load, see-through pixels. Earlier: 2026-11-10: rungs 2-8 built and desk-checked; rung 2 is next in the headset.",
       "updated": "2026-11-11"
     }
   ],

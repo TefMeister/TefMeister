@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-11
 
+- 🥽 **Ashes 2063:** the held gun can now step and glide like a game sprite (only the weapon hand, guns only, five steps a second in the test), and the newest shotgun is 30% smaller; waiting for the next headset try.
+- 🥽 **Begin Again in TTWVR:** on the pretend headset every pause change now gives one correct, head-tracked 3D picture; only the refresh on every frame is still missing.
 - 🥽 **Begin Again in TTWVR:** first sight of the 3D world on the pretend headset, as one frozen picture: the VR mod copies its eye pictures once and never again, so the copy it makes every frame is what is missing.
 - 🥽 **Begin Again in TTWVR:** on the pretend headset the game does draw the world (it shows on the VR mod's pause-menu panel); only the mod's two eye pictures stay empty while playing. Five more causes ruled out.
 - 🥽 **Begin Again in TTWVR:** one cause found: on a desk run the VR mod has no body because Virtual Desktop leaves an empty body record whenever it runs (with it quit, the body came back). The world in the pretend headset is still black, so the hunt moves to how the picture is made.
