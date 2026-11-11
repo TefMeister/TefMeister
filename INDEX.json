@@ -532,7 +532,7 @@
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
       "stage": "2026-11-10: The game now draws each eye's whole view, the menu is a screen in the room, walking follows the head and the gun poses switch by themselves; all waiting to be worn. Why it runs slowly was found: every frame is drawn three times. Earlier: Playable in the headset with motion-controlled hands; 2026-11-06: the jumping hands fixed, frame rate up to ~58/s; the too-bright, pulsing picture traced to the game's own auto exposure and switched off (pretend headset); a brightness dial and a crash-on-quit fix built, waiting for a headset check; the full per-eye view next.",
       "updated": "2026-11-10",
-      "stage_latest": "2026-11-10: b024, one pass a frame (the 360 renderer's anti-aliasing off) and the port-wide lock out of the game's 981 atomic steps: the alley 76 game frames/s against ~40 on the simulator (124 at the game's own size), not worn; the graphics card is the limit now; b018-b021 also unworn."
+      "stage_latest": "2026-11-10: b025, a trace of the graphics card pass by pass gave two fixes: the heavy alley runs at 114 game frames a second against 73 (and 40 a day earlier), not worn yet."
     },
     {
       "repo": "condemned-2-vr",
