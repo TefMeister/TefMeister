@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-11
 
+- 🔧 **Lanes 0.111.1:** checking GitHub for out-of-date pages by hand no longer holds up the uploads from the other PC; the check now steps aside as soon as it has finished looking.
 - 🥽 **Ashes 2063:** the held gun can now step and glide like a game sprite (only the weapon hand, guns only, five steps a second in the test), and the newest shotgun is 30% smaller; waiting for the next headset try.
 - 🥽 **Begin Again in TTWVR:** on the pretend headset every pause change now gives one correct, head-tracked 3D picture; only the refresh on every frame is still missing.
 - 🥽 **Begin Again in TTWVR:** first sight of the 3D world on the pretend headset, as one frozen picture: the VR mod copies its eye pictures once and never again, so the copy it makes every frame is what is missing.
