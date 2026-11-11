@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-11
 
+- 🥽 **Village:** two shotgun shells now show in the hand for both pump shotguns, and the Wolfsbane shows every round of a grab (one at the fingertips, the rest in the palm); seen on the flat screen.
 - 🔧 **Lanes 0.108.0:** the Keeper, a new optional extra: one session builds and is left alone, and a second one (on another PC, or on the same PC) does every upload and keeps the GitHub pages right.
 
 ## 2026-11-10

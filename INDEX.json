@@ -315,9 +315,9 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "2026-11-10: The jittery free left hand's cause was found and fixed, Ethan's body turns like Leon's, the options board hangs in the game world and its B-button bug is fixed; all waiting to be worn. Earlier: The LEMI by hand works in the headset (b095-b098). The gun noise near the gun was an accidental block: b100 makes the block need LT and a bare LG leave the hand free; b101 reports the left hand's grab area for per-gun hand poses (Hand Poser half built on the dev PC 2026-11-09, hand-poser-vr f173d96). Unworn.",
-      "updated": "2026-11-09",
-      "stage_latest": "2026-11-10: b107-b110 (free left hand jitter, body turn, Emporium in the world, Emporium B bug), simulator-proven, not worn."
+      "stage": "2026-11-11: Two shotgun shells show in the hand and the Wolfsbane shows every round of a grab (seen flat, not worn). 2026-11-10: The jittery free left hand's cause was found and fixed, Ethan's body turns like Leon's, the options board hangs in the game world and its B-button bug is fixed; all waiting to be worn. Earlier: The LEMI by hand works in the headset (b095-b098). The gun noise near the gun was an accidental block: b100 makes the block need LT and a bare LG leave the hand free; b101 reports the left hand's grab area for per-gun hand poses (Hand Poser half built on the dev PC 2026-11-09, hand-poser-vr f173d96). Unworn.",
+      "updated": "2026-11-11",
+      "stage_latest": "2026-11-11: b111-b112, two shotgun shells in the hand (both pump shotguns) and the Wolfsbane's whole grab drawn; seen on the flat screen, not worn."
     },
     {
       "repo": "enslaved-vr",
