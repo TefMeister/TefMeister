@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-11
 
+- 🥽 **Silent Hill 2:** the crosshair check no longer costs time at the main menu (it looked for the crosshair once a second even there; now only in play), and package 0.1.2 is packed with the setting that works on Virtual Desktop. Checked on the pretend headset, not worn yet.
 - 🥽 **Village:** the thumbsticks now drive the VR options menu, hand smoothing follows how the gun is held, and the game's own move when a new gun is picked up can be switched on as an option (off by default). Checked on the pretend headset, not worn yet.
 - 🔧 **Lanes 0.111.0:** the weekly full scan is much faster with the same findings: the check of which session wrote each file went from over nine minutes to six seconds on ten days of work, and the saved builds are no longer read as if they were source.
 - 🥽 **The Darkness:** the faster of the two ways of drawing the picture was checked in four more levels on the pretend headset: the same picture under both, and the faster one 37 to 68 percent quicker. Not worn yet.
