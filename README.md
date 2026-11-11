@@ -27,7 +27,7 @@ story is in each repo. Each game sits in the group that matches its status.
 | **Hard Reset** (2011) | Road Hog Engine | 🥽 The running game now answers Claude live: pictures, pose, log, keys, console. | 10-23 | [hard-reset-vr](https://github.com/TefMeister/hard-reset-vr) |
 | **Far Cry 3: Blood Dragon** (2013) | Dunia | 🥽 Head tracking built and its headset code tidied; first test next. | 10-15 | [far-cry-3-blood-dragon-vr](https://github.com/TefMeister/far-cry-3-blood-dragon-vr) |
 | **Silent Hill 2** (2024 remake) | Unreal Engine 5.1 | 🥽 The headset's 30 fps traced to two things: the game's upscaler had switched itself off, and the frame warp built into the VR layer had never been switched on. With both on the estimate is about 69 fps (waiting to be worn). Head and gun shadows work and the hand sits solid on the gun. | 11-10 | [silent-hill-2-remake-vr](https://github.com/TefMeister/silent-hill-2-remake-vr) |
-| **The Darkness** (2007) | Starbreeze engine | 🥽 A trace of the graphics card showed where each frame's time went, and two fixes came out of it: the heavy alley now runs at 114 game frames a second against 73 (and 40 a day earlier), waiting to be worn. The full headset view, head walking and the menu as a screen in the room are built too. | 11-10 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
+| **The Darkness** (2007) | Starbreeze engine | 🥽 The faster way of drawing the picture was checked in four more levels on the pretend headset: the picture is the same and it is 37 to 68 percent quicker. Earlier, a trace of the graphics card took the heavy alley to 114 game frames a second against 73. Waiting to be worn. | 11-11 | [the-darkness-vr](https://github.com/TefMeister/the-darkness-vr) |
 
 ### 🔍 Early RE work
 
