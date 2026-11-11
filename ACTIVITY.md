@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-12
+
+- 🥽 **Ashes 2063:** the shotgun was reshaped with Tefa over four rounds: a bulkier body, a rail under the barrel for the pump, shells twice the size and a shell port onto the barrel. The stepping "framey gun" was tried in the headset three times, felt bad at every setting, and is switched off.
+
 ## 2026-11-11
 
 - 🔧 **Lanes 0.111.1:** checking GitHub for out-of-date pages by hand no longer holds up the uploads from the other PC; the check now steps aside as soon as it has finished looking.

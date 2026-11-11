@@ -508,9 +508,9 @@
       "developer": "Vostyok (GZDoom total conversion)",
       "engine": "GZDoom (played through GZDoomVR 4.13.2.2)",
       "renderer": "OpenGL",
-      "stage": "2026-11-11: the framey gun, round 2: only the weapon hand steps and glides (five steps a second in the test), guns only, plus the newest shotgun 30% smaller; waiting for the next wear. Earlier: the guns' look settled on 2026-11-07 (the smudge-cube shotgun, round 8): the game's own pictures on solid, square-cut cube shapes with carved scratches, matte; every gun from now on in it (sprite3d/smudge_kit.py), the JackHammer next.",
+      "stage": "2026-11-12: the smudge-cube shotgun reshaped with Tefa, round 12 (a bulkier body level with the pump, a rail under the barrel, shells twice the size, a shell-sized port onto the barrel, the grip kept in the hand when the gun is scaled); waiting for the next wear. The framey gun (the held gun stepping and gliding like a sprite) felt bad at 10 and 5 steps a second over three wears and is switched off (the setting stays, off by default). Earlier: the guns' look settled on 2026-11-07 (the smudge-cube shotgun, round 8): the game's own pictures on solid, square-cut cube shapes with carved scratches, matte; every gun from now on in it (sprite3d/smudge_kit.py), the JackHammer next.",
       "source_of_truth": "ashes-2063-weapons/sprite3d/",
-      "updated": "2026-11-11"
+      "updated": "2026-11-12"
     },
     {
       "repo": "silent-hill-2-remake-vr",
