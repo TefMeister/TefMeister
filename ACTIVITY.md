@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-11
+
+- 🔧 **Lanes 0.108.0:** the Keeper, a new optional extra: one session builds and is left alone, and a second one (on another PC, or on the same PC) does every upload and keeps the GitHub pages right.
+
 ## 2026-11-10
 
 - 🥽 **The Darkness:** a trace of the graphics card, pass by pass, found two things eating each frame: a brightness check of ours that copied both eye pictures off the card, and the console's fast screen clear, which forced the card to redraw the whole depth picture about 18 times each. Both fixed: the heavy alley runs at 114 game frames a second against 73, the picture unchanged (pretend headset; waiting to be worn).
