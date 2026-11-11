@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -566,7 +566,8 @@
       "injection": "none of ours: MO2 profiles only, TTWVR is an xNVSE plugin",
       "stage": "2026-11-10: Tale of Two Wastelands with KUPOkinz's TTWVR plays clean in the headset; Begin Again's mods are staged back in seven steps, each checked to start and load a save with the VR mod on (in a simulated headset), ready for the real headset one step at a time. Earlier: 2026-11-09: rung 1 (TTW + the list's minimal profile + TTWVR 1.0.0) plays clean in a Quest 3; next, Begin Again's mod groups back one at a time.",
       "source_of_truth": "ba-ttr-vr-bridge/tools/ (ladder.py, ladder_groups.py, rung_flatcheck.py, rung_simcheck.py, conflict_report.py, collect_run.py)",
-      "stage_latest": "2026-11-11: why the OpenXR Simulator shows menus but no 3D world is narrowed: the simulator gives a valid head reading and a play space, and fresh eye pictures arrive every frame, so the mod's in-world part seems never to start; the run collector now keeps the simulator's log so one desk run of rung 1 can name the cause. Earlier: 2026-11-10: rungs 2-8 built from the list's own groups, desk-checked flat and with TTWVR on in the OpenXR Simulator; rung 2 is next in the headset."
+      "stage_latest": "2026-11-11 (later): two desk runs of rung 1 in the OpenXR Simulator ruled out refused requests and window focus: the session is healthy and no call is refused; the suspect for the missing 3D world is now Virtual Desktop's empty body memory. Earlier: 2026-11-11: the simulator gives a valid head reading and fresh eye pictures every frame, so the mod's in-world part seems never to start. 2026-11-10: rungs 2-8 built from the list's own groups, desk-checked flat and with TTWVR on in the OpenXR Simulator; rung 2 is next in the headset.",
+      "updated": "2026-11-11"
     }
   ],
   "notes_for_ai_readers": [

@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-11
 
+- 🥽 **Begin Again in TTWVR:** two desk runs on the pretend headset ruled out refused requests and window focus as the reason it shows menus but no 3D world; the suspect is now Virtual Desktop's empty body memory.
 - 🥽 **Begin Again in TTWVR:** why the pretend headset shows menus but no 3D world is narrowed: the simulator gives the mod everything it was suspected of withholding, so the mod's in-world part seems never to start; the run collector now keeps the simulator's own log, so the next desk run can name the cause.
 - 🥽 **Silent Hill 2:** the crosshair check no longer costs time at the main menu (it looked for the crosshair once a second even there; now only in play), and package 0.1.2 is packed with the setting that works on Virtual Desktop. Checked on the pretend headset, not worn yet.
 - 🥽 **Village:** the thumbsticks now drive the VR options menu, hand smoothing follows how the gun is held, and the game's own move when a new gun is picked up can be switched on as an option (off by default). Checked on the pretend headset, not worn yet.
