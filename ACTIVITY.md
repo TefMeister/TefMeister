@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-11
 
+- 🥽 **Village:** the thumbsticks now drive the VR options menu, hand smoothing follows how the gun is held, and the game's own move when a new gun is picked up can be switched on as an option (off by default). Checked on the pretend headset, not worn yet.
 - 🔧 **Lanes 0.111.0:** the weekly full scan is much faster with the same findings: the check of which session wrote each file went from over nine minutes to six seconds on ten days of work, and the saved builds are no longer read as if they were source.
 - 🥽 **The Darkness:** the faster of the two ways of drawing the picture was checked in four more levels on the pretend headset: the same picture under both, and the faster one 37 to 68 percent quicker. Not worn yet.
 - 🔧 **Lanes 0.110.0:** the weekly full scan goes first: other sessions on the PC finish their step, save and wait until it ends, and work handed over meanwhile waits at the Keeper. Programs now install through a one-time Windows task with administrator rights, so no Yes click is needed; set up on both PCs and proven with a test order.
