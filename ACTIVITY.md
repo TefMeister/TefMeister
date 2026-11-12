@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-12
 
-- 🥽 **Silent Hill 2 (remake):** cutscenes now play on a big flat screen that stays put, with James's head shown in them (pretend headset).
+- 🥽 **Silent Hill 2 (remake):** cutscenes now play as the game's own flat cutscenes on a big screen, and a crash at the opening cutscene with DLSS on is gone (build 8, pretend headset).
 - 🥽 **Condemned 2: Bloodshot:** back in work; the hands follow the motion controllers (build 4), the Quest controllers work as the gamepad and the main menu has a Quit line where Multiplayer was, all on the pretend headset.
 - 🥽 **The Darkness:** other people's hands no longer copy yours when you stand close (build 027), the main menu has a QUIT line in the game's own font (028), and the journal hangs in the room instead of following your head (029).
 - 🥽 **Visceral — RE8 (Village) VR:** the view stays yours when Ethan examines something (proven on the flat screen, built for VR).
