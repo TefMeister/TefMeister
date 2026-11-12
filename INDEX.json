@@ -317,7 +317,7 @@
       "engine": "RE Engine",
       "stage": "2026-11-12: A torch you hold in the left hand, out of the left shoulder spot (b116, simulator-checked). Earlier: 2026-11-11: Handgun accuracy by the hold and by standing, walking or running (b114), and reloading with two magazines in the hand (b113); both passed on the simulator, not worn. Two shotgun shells show in the hand and the Wolfsbane shows every round of a grab (seen flat, not worn). 2026-11-10: The jittery free left hand's cause was found and fixed, Ethan's body turns like Leon's, the options board hangs in the game world and its B-button bug is fixed; all waiting to be worn. Earlier: The LEMI by hand works in the headset (b095-b098). The gun noise near the gun was an accidental block: b100 makes the block need LT and a bare LG leave the hand free; b101 reports the left hand's grab area for per-gun hand poses (Hand Poser half built on the dev PC 2026-11-09, hand-poser-vr f173d96). Unworn.",
       "updated": "2026-11-11",
-      "stage_latest": "2026-11-12: b116, the torch you hold (left shoulder spot, beam from the fist through Andyalpa's HandLight code; no two-handed long gun and no block while it is out); checked on the simulator, not worn."
+      "stage_latest": "2026-11-12: b117, the view stays the player's when Ethan examines something (the game no longer takes the camera; proven flat, built for VR), on top of b116's torch held in the left hand; installed, waiting for the headset."
     },
     {
       "repo": "enslaved-vr",
