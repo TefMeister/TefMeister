@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-12
 
+- 🥽 **Begin Again in TTWVR:** the pretend headset now shows a live, moving picture on all eight steps, indoors and outdoors, and desk tests no longer need Virtual Desktop's streamer closed.
 - 🥽 **Begin Again in TTWVR:** with nobody in the headset, all eight steps of the ladder pass the pretend-headset check: the world drawn, both arms in place, the view following the head, no crash.
 - 🥽 **Ashes 2063:** the shotgun was reshaped with Tefa over four rounds: a bulkier body, a rail under the barrel for the pump, shells twice the size and a shell port onto the barrel. The stepping "framey gun" was tried in the headset three times, felt bad at every setting, and is switched off.
 
