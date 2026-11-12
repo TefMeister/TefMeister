@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-13
+
+- 🥽 **Silent Hill 2 (remake):** the crash at the opening cutscene and James's black eyes are cured, and ray tracing is on (build 13, pretend headset).
+
 ## 2026-11-12
 
 - 🥽 **Silent Hill 2 (remake):** cutscenes now play as the game's own flat cutscenes on a big screen, worn in the headset (build 8); a crash at the opening cutscene with DLSS on is still there.
