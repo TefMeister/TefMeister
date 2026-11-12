@@ -277,9 +277,9 @@
       "year": 2019,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "2026-11-10: The in-world options book has its first step: the officer's own notebook hangs in the world on X + A (waiting to be worn). Earlier: Clean rebuild up to the guns (b195+), now worn in the headset; Tefa's 2026-11-09 list: SLS 60 and Quickdraw Army revolver reloads, a black-screen hang on level / save changes, slides and the chamber round, a door, GM 79 opening, the pick-up screen brightening.",
+      "stage": "2026-11-12: Rounds in every handgun's magazine, and the M19's chamber round only while chambered (b204, not worn). Earlier: 2026-11-10: The in-world options book has its first step: the officer's own notebook hangs in the world on X + A (waiting to be worn). Earlier: Clean rebuild up to the guns (b195+), now worn in the headset; Tefa's 2026-11-09 list: SLS 60 and Quickdraw Army revolver reloads, a black-screen hang on level / save changes, slides and the chamber round, a door, GM 79 opening, the pick-up screen brightening.",
       "updated": "2026-11-09",
-      "stage_latest": "2026-11-10: b199, the in-world options book's first milestone (the officer's own notebook on X + A), simulator-proven, not worn."
+      "stage_latest": "2026-11-12: b202-b204, rounds in all handgun magazines and the M19's chamber round only while chambered; built, not worn."
     },
     {
       "repo": "visceral-re3-vr",
