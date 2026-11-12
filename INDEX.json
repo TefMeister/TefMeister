@@ -287,9 +287,9 @@
       "year": 2020,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "2026-11-10: The grenade launcher loads by hand: its drum swings open, takes four kinds of round chosen with the left trigger, and fires each in its chamber's turn (robot-tested, waiting to be worn); the in-world options book has its first step. Earlier: Rebuilt clean (2026-11-07) on the gun code it shares with Visceral RE2 and on RE2's newer REFramework patch (build b007): magazines, racking, the M3 and the CQBR by hand checked on the simulator, waiting for a headset pass; the MGL by hand next.",
+      "stage": "2026-11-12: Six holster spots and a torch in the left hand; Jill's chest lamp is gone in play (b018, simulator-checked). Earlier: 2026-11-10: The grenade launcher loads by hand: its drum swings open, takes four kinds of round chosen with the left trigger, and fires each in its chamber's turn (robot-tested, waiting to be worn); the in-world options book has its first step. Earlier: Rebuilt clean (2026-11-07) on the gun code it shares with Visceral RE2 and on RE2's newer REFramework patch (build b007): magazines, racking, the M3 and the CQBR by hand checked on the simulator, waiting for a headset pass; the MGL by hand next.",
       "updated": "2026-11-07",
-      "stage_latest": "2026-11-10: b016, the MGL loaded by hand from one pouch (the left trigger steps through its four kinds of round with the game's own HUD list, a colour per kind; the drum swings open, each round in its own chamber, spent cases tipped out, fired in drum order), simulator-proven with robot hands, not worn; b009 the options book's first milestone."
+      "stage_latest": "2026-11-12: b018, six holster spots (shared with RE2) and the torch in the left hand; Jill's chest lamp hidden in play, the beam from the left hand until our own torch model; checked on the simulator, not worn."
     },
     {
       "repo": "visceral-re4-vr",
@@ -315,9 +315,9 @@
       "year": 2021,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "2026-11-11: Handgun accuracy by the hold and by standing, walking or running (b114), and reloading with two magazines in the hand (b113); both passed on the simulator, not worn. Two shotgun shells show in the hand and the Wolfsbane shows every round of a grab (seen flat, not worn). 2026-11-10: The jittery free left hand's cause was found and fixed, Ethan's body turns like Leon's, the options board hangs in the game world and its B-button bug is fixed; all waiting to be worn. Earlier: The LEMI by hand works in the headset (b095-b098). The gun noise near the gun was an accidental block: b100 makes the block need LT and a bare LG leave the hand free; b101 reports the left hand's grab area for per-gun hand poses (Hand Poser half built on the dev PC 2026-11-09, hand-poser-vr f173d96). Unworn.",
+      "stage": "2026-11-12: A torch you hold in the left hand, out of the left shoulder spot (b116, simulator-checked). Earlier: 2026-11-11: Handgun accuracy by the hold and by standing, walking or running (b114), and reloading with two magazines in the hand (b113); both passed on the simulator, not worn. Two shotgun shells show in the hand and the Wolfsbane shows every round of a grab (seen flat, not worn). 2026-11-10: The jittery free left hand's cause was found and fixed, Ethan's body turns like Leon's, the options board hangs in the game world and its B-button bug is fixed; all waiting to be worn. Earlier: The LEMI by hand works in the headset (b095-b098). The gun noise near the gun was an accidental block: b100 makes the block need LT and a bare LG leave the hand free; b101 reports the left hand's grab area for per-gun hand poses (Hand Poser half built on the dev PC 2026-11-09, hand-poser-vr f173d96). Unworn.",
       "updated": "2026-11-11",
-      "stage_latest": "2026-11-11: b115, the sticks drive the VR options menu, hand smoothing by how the gun is held, and the game's own new-gun move as an option (off by default); checked on the headset simulator [measured 2026-11-11], not worn."
+      "stage_latest": "2026-11-12: b116, the torch you hold (left shoulder spot, beam from the fist through Andyalpa's HandLight code; no two-handed long gun and no block while it is out); checked on the simulator, not worn."
     },
     {
       "repo": "enslaved-vr",

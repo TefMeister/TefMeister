@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-12
 
+- 🥽 **Visceral — RE3 and RE8 (Village) VR:** a torch you hold in the left hand, with holster spots, works on the pretend headset in both; Jill's chest lamp is gone in play.
 - 🔧 **Lanes 0.113.0:** a PC switches off only once every session has finished and saved, Gold Digger reads crash dumps, the weekly full scan proves what it changed, and the Keeper can open its own window on the building PC.
 - 🥽 **Visceral — RE2 VR:** every handgun shows real rounds in its magazine; the M19's chamber round shows only when one is chambered (b202-b204), all six checked on the pretend headset (b205); six holster spots and a torch held in the left hand work on the pretend headset (b207).
 - 🔧 **Helper apps:** new versions built and tested: Window View 1.11 (typing goes to the Claude Code window you clicked in VR), Hand Poser 0.4 (ready and free poses, zones for both hands) and Grip Zones 1.5 (buttons step only the window clicked last).
