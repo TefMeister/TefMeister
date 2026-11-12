@@ -566,7 +566,7 @@
       "injection": "none of ours: MO2 profiles only, TTWVR is an xNVSE plugin",
       "stage": "2026-11-10: Tale of Two Wastelands with KUPOkinz's TTWVR plays clean in the headset; Begin Again's mods are staged back in seven steps, each checked to start and load a save with the VR mod on (in a simulated headset), ready for the real headset one step at a time. Earlier: 2026-11-09: rung 1 (TTW + the list's minimal profile + TTWVR 1.0.0) plays clean in a Quest 3; next, Begin Again's mod groups back one at a time.",
       "source_of_truth": "ba-ttr-vr-bridge/tools/ (ladder.py, ladder_groups.py, rung_flatcheck.py, rung_simcheck.py, conflict_report.py, collect_run.py)",
-      "stage_latest": "2026-11-12: a live picture in the OpenXR Simulator on all eight rungs, desk-checked inside and outside (no longer frozen between pause changes); desk runs no longer need the Virtual Desktop Streamer quit (bridge_desk, our own small add-on for the desk-test profiles); a Direct3D 11 probe for desk runs, off by default. Earlier the same day: the rewritten desk check passed all eight rungs with nobody in the headset. Earlier: 2026-11-10: rungs 2-8 built; rung 2 is next in the headset.",
+      "stage_latest": "2026-11-12: rung 8 split into three steps (08a, 08b, 08c), all passing in the OpenXR Simulator; the skeleton complaint needs both NVCS and Enhanced Movement out; the rung-5 crash read (a grabbed-weight hook); the dark bands are not the 4096 cap. Not worn.",
       "updated": "2026-11-11"
     }
   ],
