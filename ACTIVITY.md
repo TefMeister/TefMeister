@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-12
 
-- 🥽 **The Darkness:** other people's hands no longer copy yours when you stand close (build 027).
+- 🥽 **The Darkness:** other people's hands no longer copy yours when you stand close (build 027), and the game quits from its main menu with its own question page.
 - 🥽 **Visceral — RE8 (Village) VR:** the view stays yours when Ethan examines something (proven on the flat screen, built for VR).
 - 🥽 **Begin Again in TTWVR:** the eighth step of the ladder is now three smaller ones, all passing in the pretend headset; the skeleton complaint is traced to two mods; TTWVR's controls written down, and drawing a weapon from the shoulder works.
 - 🥽 **Visceral — RE3 and RE8 (Village) VR:** a torch you hold in the left hand, with holster spots, works on the pretend headset in both; Jill's chest lamp is gone in play.
