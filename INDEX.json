@@ -542,7 +542,7 @@
       "engine": "Lithtech Jupiter EX",
       "renderer": "Direct3D 12 via ReXGlue (Xenos GPU emulation)",
       "injection": "our own static recompilation of the Xbox 360 release - there has never been a PC version",
-      "stage": "Back in work (Tefa, 2026-11-12): hands that follow the motion controllers, then physical melee. Earlier: paused 2026-11-04 to 2026-11-12. 2026-10-25: first VR build released (pre-release v0.1.0-first-vr); first real headset run (home PC, Quest 3): it plays like a VR game with a controller; head tracking, the headset's own view, 47,100 frames with no draw errors [verified-live 2026-10-25, n=1]. Some visual faults to fix.", "stage_latest": "2026-11-12: a build tree on the Developer PC again (upstream 0.1.0, our files, The Darkness's motion-controller SDK); built, runs on the simulator with the controller profiles ready. Not worn.",
+      "stage": "Back in work (Tefa, 2026-11-12): hands that follow the motion controllers, then physical melee. Earlier: paused 2026-11-04 to 2026-11-12. 2026-10-25: first VR build released (pre-release v0.1.0-first-vr); first real headset run (home PC, Quest 3): it plays like a VR game with a controller; head tracking, the headset's own view, 47,100 frames with no draw errors [verified-live 2026-10-25, n=1]. Some visual faults to fix.", "stage_latest": "2026-11-12: b003, Quit on the main menu in Multiplayer's place; b002, the Quest controllers work as the pad (menus, walking, flashlight); both checked on the simulator, not worn. The build tree is back on the Developer PC (upstream 0.1.0, our files, The Darkness's motion-controller SDK).",
       "updated": "2026-11-12"
     },
     {
