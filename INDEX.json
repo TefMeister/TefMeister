@@ -279,7 +279,7 @@
       "engine": "RE Engine",
       "stage": "2026-11-12: Rounds in every handgun's magazine, and the M19's chamber round only while chambered (b204, not worn). Earlier: 2026-11-10: The in-world options book has its first step: the officer's own notebook hangs in the world on X + A (waiting to be worn). Earlier: Clean rebuild up to the guns (b195+), now worn in the headset; Tefa's 2026-11-09 list: SLS 60 and Quickdraw Army revolver reloads, a black-screen hang on level / save changes, slides and the chamber round, a door, GM 79 opening, the pick-up screen brightening.",
       "updated": "2026-11-09",
-      "stage_latest": "2026-11-12: b206 built, not installed: six holster spots (both hips, both shoulders, back left and right) and the torch in the left hand. Before it, b205: rounds in all handgun magazines and the M19's chamber round only while chambered, checked on the simulator; the options book no longer floods the log. Not worn."
+      "stage_latest": "2026-11-12: b207, six holster spots (both hips, both shoulders, back left and right) and the torch in the left hand work on the simulator (out, light, overhand flip, back), ready for the headset. Before it, b205: rounds in all handgun magazines and the M19's chamber round only while chambered, checked on the simulator; the options book no longer floods the log. Not worn."
     },
     {
       "repo": "visceral-re3-vr",
