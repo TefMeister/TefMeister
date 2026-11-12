@@ -17,6 +17,7 @@ story is in each repo. Each game sits in the group that matches its status.
 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
+| **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | 🥽 Back in work: it builds on the Developer PC again with the motion-controller kit and runs on the pretend headset, the first step towards hands that follow the controllers and real swings for melee. | 11-12 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Begin Again (Tale of Two Wastelands) in KUPOkinz's TTWVR** | Gamebryo (Fallout: New Vegas) | 🥽 Tale of Two Wastelands with KUPOkinz's TTWVR plays clean in the headset; Begin Again's mods are staged back in seven steps, each checked to start and load a save with the VR mod on (in a simulated headset), ready for the real headset one step at a time; with nobody in the headset, the pretend headset shows a live picture on every step; the eighth step is now three smaller ones, all passing, the skeleton complaint is traced to two mods, and drawing a weapon from the shoulder works there. | 11-12 | [ba-ttr-vr-bridge](https://github.com/TefMeister/ba-ttr-vr-bridge) |
 | **Psychonauts** (2005) | Double Fine engine | 🥽 Fixed the head-turn glitch; the picture now turns with the head on the pretend headset. | 10-29 | [psychonauts-vr](https://github.com/TefMeister/psychonauts-vr) |
 | **Alice: Madness Returns** (2011) | Unreal Engine 3 | 🥽 The picture now reaches the headset simulator through OpenXR. | 10-26 | [alice-madness-returns-vr](https://github.com/TefMeister/alice-madness-returns-vr) |
@@ -48,7 +49,6 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **XIII** (2003) | Unreal Engine 2 | ⏸ Paused for now. | 11-04 | [XIII2003-vr](https://github.com/TefMeister/XIII2003-vr) |
-| **Condemned 2: Bloodshot** (2008) | Xbox 360 static recompilation (ReXGlue) | ⏸ Paused for now. | 11-04 | [condemned-2-vr](https://github.com/TefMeister/condemned-2-vr) |
 | **Brutal Doom** (Doom 1 and 2) | GZDoom | ⏸ Paused for now. | 11-04 | [brutal-doom-3d-guns](https://github.com/TefMeister/brutal-doom-3d-guns) |
 | **The Witcher 2** (2011) | REDengine | ⏸ Paused for now. | 11-04 | [witcher-2-vr](https://github.com/TefMeister/witcher-2-vr) |
 | **Metro Exodus** (2019, and the Enhanced Edition) | 4A Engine | ⏸ Paused for now. | 11-04 | [metro-exodus-vr](https://github.com/TefMeister/metro-exodus-vr) |
