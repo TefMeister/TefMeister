@@ -9,7 +9,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-11-12
 
 - 🔧 **Lanes 0.113.0:** a PC switches off only once every session has finished and saved, Gold Digger reads crash dumps, the weekly full scan proves what it changed, and the Keeper can open its own window on the building PC.
-- 🥽 **Visceral — RE2 VR:** every handgun shows real rounds in its magazine; the M19's chamber round shows only when one is chambered (b202-b204), all six checked on the pretend headset (b205).
+- 🥽 **Visceral — RE2 VR:** every handgun shows real rounds in its magazine; the M19's chamber round shows only when one is chambered (b202-b204), all six checked on the pretend headset (b205); six holster spots and a torch held in the left hand built (b206).
 - 🔧 **Helper apps:** new versions built and tested: Window View 1.11 (typing goes to the Claude Code window you clicked in VR), Hand Poser 0.4 (ready and free poses, zones for both hands) and Grip Zones 1.5 (buttons step only the window clicked last).
 - 🥽 **Begin Again in TTWVR:** the pretend headset now shows a live, moving picture on all eight steps, indoors and outdoors, and desk tests no longer need Virtual Desktop's streamer closed.
 - 🥽 **Begin Again in TTWVR:** with nobody in the headset, all eight steps of the ladder pass the pretend-headset check: the world drawn, both arms in place, the view following the head, no crash.
