@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-13
 
-- 🥽 **Silent Hill 2 (remake):** the crash at the opening cutscene and James's black eyes are cured, and ray tracing is on (build 13, pretend headset).
+- 🥽 **Silent Hill 2 (remake):** the crash at the opening cutscene and James's black eyes are cured, and ray tracing is on with DLSS; worn, the frame rate holds and the 10-second dimming is gone (build 13).
 
 ## 2026-11-12
 
