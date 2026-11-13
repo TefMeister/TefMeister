@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-13
 
-- 🥽 **Silent Hill 2 (remake):** the frame warp now runs on the real headset, and the faint second picture in the right eye is gone with it (worn); it now switches itself on, and with DLSS Quality and ray tracing the game runs at about 62 fps on average.
+- 🥽 **Silent Hill 2 (remake):** the frame warp now runs on the real headset, and the faint second picture in the right eye is gone with it (worn); it now switches itself on, and with DLSS Quality and ray tracing the game runs at about 62 fps on average; walking around your room steps aside whenever the game steers James (build 18).
 - 🥽 **Silent Hill 2 (remake):** the crash at the opening cutscene and James's black eyes are cured, and ray tracing is on with DLSS; worn, the frame rate holds and the 10-second dimming is gone (build 13).
 
 ## 2026-11-12
