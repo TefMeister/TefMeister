@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-15
 
-- 🥽 **Visceral RE8 (Village):** with two magazines in the left hand, the spare goes in by bringing the hand to the gun, and the old one is thrown naturally.
+- 🥽 **Visceral RE8 (Village):** reloads now work the way Tefa laid them out: hold the left trigger, the magazine travels up the grip with the hand, a small push seats it; the same for a spare with two magazines in hand.
 
 ## 2026-11-14
 
