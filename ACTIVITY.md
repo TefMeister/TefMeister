@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-14
+
+- 🥽 **Silent Hill 2 (remake):** with the frame warp on, the hands and weapons no longer jump or double; our plugin redraws them itself on the made-up frames (worn: "this works well").
+
 ## 2026-11-13
 
 - 🥽 **Visceral — RE8 (Village) VR:** a spare magazine taken from the pouch now hangs under the gun and moves with the left hand, instead of following the view (pretend headset).
