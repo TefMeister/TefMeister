@@ -176,6 +176,13 @@
       "licence": "MIT"
     },
     {
+      "name": "window-view-vr",
+      "visibility": "public",
+      "url": "https://github.com/TefMeister/window-view-vr",
+      "purpose": "A desktop app plus an OpenXR layer that hangs any open desktop window in front of you inside an OpenXR game (D3D11/D3D12), used with the mouse and keyboard while the game keeps the controllers.",
+      "stage_latest": "2026-11-14: 1.12, the pointer keyboard types with both hands, lights the key, flashes and buzzes each press; tested end to end on the OpenXR Simulator (29 keys, none lost). In use in the headset since 2026-10-24."
+    },
+    {
       "name": "animation-timing-vr",
       "visibility": "public",
       "url": "https://github.com/TefMeister/animation-timing-vr",
