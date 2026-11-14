@@ -9,7 +9,7 @@ story of any project, open its repo and read `modding-notes/`.
 ## 2026-11-14
 
 - 🥽 **Visceral RE8 (Village):** holsters for playing seated: every holster can be moved and resized live from the new Holster Zones window, with a marker on the spot nearest each hand (build 120); a handgun magazine slides up the grip by itself at the well.
-- 🔧 **Helper apps:** Window View 1.13 (a laser pointer from each hand, both hands click on every window) and the new Holster Zones 1.0, plus fresh downloads of Gun Poser 1.1, Animation & Timing 0.2 (no more unreadable error box in VR) and Hand Poser 0.5 (four spare-magazine pose lines).
+- 🔧 **Helper apps:** Window View 1.13 (a laser pointer from each hand, both hands click on every window) and the new Holster Zones 1.0, plus fresh downloads of Gun Poser 1.1, Animation & Timing 0.3 (no more unreadable error box in VR, a wider window) and Hand Poser 0.6 (a box to move the magazine in the hand, a wider window).
 - 🥽 **The Darkness:** Tefa's Quest controller layout is designed, in the game, worn and tuned (build 031); the Darkness powers fire only while the Darkness is out (build 032), and the controls pass 17 of 17 on the pretend headset.
 - 🥽 **Begin Again (Tale of Two Wastelands) VR:** the crash at the start of the fifth step and up is found and fixed with a small mod of ours; 18 of 18 starts in the pretend headset. Worn test setups found the smudged picture, the blinking and the swimming skyline in VR: Begin Again's LOD Flicker Fix group of drawing add-ons (Tefa: "looks beautiful" without them).
 - 🔧 **Window View 1.12:** the pointer keyboard types with both hands, lights the key, flashes and buzzes each press; tested end to end on the pretend headset.
