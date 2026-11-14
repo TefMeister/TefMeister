@@ -8,8 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-14
 
-- 🥽 **The Darkness:** Tefa's Quest controller layout is designed, in the game, worn and tuned (build 031); picking a power works once Jackie has several.
-- 🥽 **Begin Again (Tale of Two Wastelands) VR:** the crash at the start of the fifth step and up is found and fixed with a small mod of ours; 18 of 18 starts in the pretend headset. Worn with DLSS off at 150%: the swimming far skyline and the soft picture do not come from DLSS or the drawing size.
+- 🥽 **The Darkness:** Tefa's Quest controller layout is designed, in the game, worn and tuned (build 031); the Darkness powers fire only while the Darkness is out (build 032), and the controls pass 17 of 17 on the pretend headset.
+- 🥽 **Begin Again (Tale of Two Wastelands) VR:** the crash at the start of the fifth step and up is found and fixed with a small mod of ours; 18 of 18 starts in the pretend headset. Worn with DLSS off and on: the swimming far skyline and the smudged bushes come from neither DLSS nor the drawing size (DLSS Quality is the clearer); two test setups are ready to find which drawing add-on causes them.
 - 🔧 **Window View 1.12:** the pointer keyboard types with both hands, lights the key, flashes and buzzes each press; tested end to end on the pretend headset.
 - 🔧 **Animation & Timing:** ran in a real game for the first time (Village, on the pretend headset); holding a frame, stepping and the keys reach the mod live.
 - 🥽 **Silent Hill 2 (remake):** with the frame warp on, the hands and weapons no longer jump or double; our plugin redraws them itself on the made-up frames (worn: "this works well").
