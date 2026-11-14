@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-14
 
+- 🔧 **Animation & Timing:** ran in a real game for the first time (Village, on the pretend headset); holding a frame, stepping and the keys reach the mod live.
 - 🥽 **Silent Hill 2 (remake):** with the frame warp on, the hands and weapons no longer jump or double; our plugin redraws them itself on the made-up frames (worn: "this works well").
 
 ## 2026-11-13
