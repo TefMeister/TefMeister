@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-14
 
+- 🥽 **The Darkness:** the Quest controller layout is designed with Tefa; its first step, the button mapping, is written and tested, not in the game yet.
 - 🥽 **Begin Again (Tale of Two Wastelands) VR:** the crash at the start of the fifth step and up is found and fixed with a small mod of ours; 18 of 18 starts in the pretend headset.
 - 🔧 **Window View 1.12:** the pointer keyboard types with both hands, lights the key, flashes and buzzes each press; tested end to end on the pretend headset.
 - 🔧 **Animation & Timing:** ran in a real game for the first time (Village, on the pretend headset); holding a frame, stepping and the keys reach the mod live.
