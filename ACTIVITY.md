@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-15
+
+- 🥽 **Visceral RE8 (Village):** with two magazines in the left hand, the spare goes in by bringing the hand to the gun, and the old one is thrown naturally.
+
 ## 2026-11-14
 
 - 🥽 **Visceral RE8 (Village):** holsters for playing seated: every holster can be moved and resized live from the new Holster Zones window, with a marker on the spot nearest each hand (build 120); a handgun magazine slides up the grip by itself at the well.
