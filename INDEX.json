@@ -180,7 +180,7 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/window-view-vr",
       "purpose": "A desktop app plus an OpenXR layer that hangs any open desktop window in front of you inside an OpenXR game (D3D11/D3D12), used with the mouse and keyboard while the game keeps the controllers.",
-      "stage_latest": "2026-11-14: 1.13, laser pointers (red right, blue left) and both hands click on every window (left trigger, right A/X), with the keyboard's flash and buzz; --selftest-keys 52 pass; the lasers not yet seen in a headset or the simulator. Download v1.13. Earlier: 2026-11-14: 1.12, the pointer keyboard types with both hands, lights the key, flashes and buzzes each press; tested end to end on the OpenXR Simulator (29 keys, none lost). In use in the headset since 2026-10-24."
+      "stage_latest": "2026-11-14: 1.14, X stays the left hand's right click while a helper holds the buttons; download v1.14. Earlier: 2026-11-14: 1.13, laser pointers (red right, blue left) and both hands click on every window (left trigger, right A/X), with the keyboard's flash and buzz; --selftest-keys 52 pass; the lasers not yet seen in a headset or the simulator. Download v1.13. Earlier: 2026-11-14: 1.12, the pointer keyboard types with both hands, lights the key, flashes and buzzes each press; tested end to end on the OpenXR Simulator (29 keys, none lost). In use in the headset since 2026-10-24."
     },
     {
       "name": "holster-zones-vr",
@@ -188,7 +188,7 @@
       "url": "https://github.com/TefMeister/holster-zones-vr",
       "purpose": "A desktop window that moves and resizes the holster spots on the body in VR (Visceral RE8): each spot shown as a sphere in the game, the hand's distance live, a SITTING offset for playing seated; hung in the headset through Window View. Sister of Grip Zones.",
       "licence": "MIT",
-      "stage_latest": "2026-11-14: 1.0 built by the Developer PC; errors go to a log instead of .NET's box; self-test passes; download v1.0. Not yet used in a headset."
+      "stage_latest": "2026-11-14: 1.1, the same controller buttons as every helper; download v1.1. Earlier: 1.0 built by the Developer PC; errors go to a log instead of .NET's box; self-test passes; download v1.0. Not yet used in a headset."
     },
     {
       "name": "animation-timing-vr",
