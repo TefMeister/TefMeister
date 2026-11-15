@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-16
 
-- 🥽 **Ashes 2063:** the Junker Musket in the cube look, round 1 (its open-shell barrel rebuilt round).
+- 🥽 **Ashes 2063:** the Junker Musket, the crowbar and the FAL in the cube look, round 1 each (the musket's open-shell barrel rebuilt round, the crowbar's ends single blades with a V-slot, the FAL's ejection port on the right and cocking handle on the left).
 
 ## 2026-11-15
 
