@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-16
+
+- 🥽 **Ashes 2063:** the Junker Musket in the cube look, round 1 (its open-shell barrel rebuilt round).
+
 ## 2026-11-15
 
 - 🥽 **Ashes 2063:** a new shotgun and a new Glock, made from Meshy models, turned into the smudge-cube look (gaps filled, the shell port on the right only); by round 3 the cubes come in mixed sizes, the shotgun's pump and grip are wood and its shell guard opens with the pump, and the Glock's grip is worn instead of rusty; both packed into the game and worn in the headset the same evening: "the guns felt amazing" (Tefa). Then Tefa's Stun Ram, round 1, in the same look, and a tool that gathers every weapon's reference pictures from the three Ashes games.
