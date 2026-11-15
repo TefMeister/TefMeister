@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-15
 
+- 🔧 **Lanes 0.116.0 and 0.117.0:** Lanes now updates itself with no question, and the weekly full scan also checks each PC's network safety and lists forgotten space on its drives (it never deletes anything); six faults from the Developer PC fixed, among them build copies cut off by long names and new projects that could not be handed over.
 - 🥽 **Visceral RE8 (Village):** reloads now work the way Tefa laid them out: hold the left trigger, the magazine travels up the grip with the hand, a small push seats it; the same for a spare with two magazines in hand.
 
 ## 2026-11-14

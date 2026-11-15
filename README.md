@@ -83,7 +83,7 @@ Tools for working with Claude Code itself, not tied to any one game.
 
 | Plugin | What it does | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
-| **Lanes** | A collection of tools for flat-to-VR AI modding with Claude: skills, helper programs and checks for Claude Code that take a flat-screen PC game into VR, from the first look inside the game to the build you wear in the headset. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 Two PCs with separate jobs: one builds, the Keeper uploads and keeps GitHub tidy, and can now open its own window on the building PC. A PC switches off only once every session there has finished and saved, and the weekly full scan proves what it changed. Latest release [0.115.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.115.0). | 11-14 | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
+| **Lanes** | A collection of tools for flat-to-VR AI modding with Claude: skills, helper programs and checks for Claude Code that take a flat-screen PC game into VR, from the first look inside the game to the build you wear in the headset. Optional and modular as much as possible, and it ships with a rule to not say "You're right!" :) | 🔧 Two PCs with separate jobs: one builds, the Keeper uploads and keeps GitHub tidy. Lanes now updates itself with no question, and the weekly full scan also checks the PC's network safety and finds forgotten space on its drives, deleting nothing. Latest release [0.117.0](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.117.0). | 11-15 | [lanes-plugin](https://github.com/TefMeister/lanes-plugin) |
 
 ## 🧊 Blender
 
