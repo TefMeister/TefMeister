@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-16
 
-- 🥽 **Visceral RE8 (Village) + Holster Zones:** fixes from the last headset try (build 136): the old magazine stays free after the spare seats, holster spots follow the body sooner, X backs out of a menu tab, and the ammo pouch gets a size slider in Holster Zones. Not yet worn.
+- 🥽 **Visceral RE8 (Village) + Holster Zones:** fixes from the last headset try (build 136): the old magazine stays free after the spare seats, holster spots follow the body sooner, X backs out of a menu tab, and the ammo pouch gets a size slider in Holster Zones; build 137 makes the torch beam wobble a little and settle when the grip flips. Not yet worn.
 - 🥽 **Silent Hill 2:** medicine by a tap (drink) or a hold (syringe), the back spots further apart, the pump only with the left trigger held (build 29, not yet worn).
 - 🥽 **Ashes 2063:** the Junker Musket, the crowbar, the FAL and the MQ11 machine pistol in the cube look, round 1 each (the musket's open-shell barrel rebuilt round, the crowbar's ends single blades with a V-slot, the FAL's ejection port on the right and cocking handle on the left, the MQ11's port on the right only). Then a heavy MQ11, built from two Meshy guns, and a silenced MQ11: eight Meshy guns converted in all. In the morning the lantern: 25% smaller, a square handle, the hand off it for now (not worn yet).
 
