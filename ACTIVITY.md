@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-16
 
+- 🥽 **Visceral RE2 + RE3:** one shared side step, the left stick's direction and a right stick click (RE2 build 213, RE3 build 23); in RE3 it replaces Jill's own roll. Checked on the pretend headset, not yet worn.
 - 🥽 **Visceral RE2:** cutscenes on a flat screen inside the headset, first version built into our REFramework patch and installed (build 212, not yet worn).
 - 🥽 **Visceral RE8 (Village) + Holster Zones:** fixes from the last headset try (build 136): the old magazine stays free after the spare seats, holster spots follow the body sooner, X backs out of a menu tab, and the ammo pouch gets a size slider in Holster Zones; build 137 makes the torch beam wobble a little and settle when the grip flips. Not yet worn.
 - 🥽 **Silent Hill 2:** medicine by a tap (drink) or a hold (syringe), the back spots further apart, the pump only with the left trigger held (build 29, not yet worn).
