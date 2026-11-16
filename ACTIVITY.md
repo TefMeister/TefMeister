@@ -8,7 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-16
 
-- 🥽 **Ashes 2063:** the Junker Musket, the crowbar, the FAL and the MQ11 machine pistol in the cube look, round 1 each (the musket's open-shell barrel rebuilt round, the crowbar's ends single blades with a V-slot, the FAL's ejection port on the right and cocking handle on the left, the MQ11's port on the right only). Then a heavy MQ11, built from two Meshy guns, and a silenced MQ11: eight Meshy guns converted in all.
+- 🥽 **Ashes 2063:** the Junker Musket, the crowbar, the FAL and the MQ11 machine pistol in the cube look, round 1 each (the musket's open-shell barrel rebuilt round, the crowbar's ends single blades with a V-slot, the FAL's ejection port on the right and cocking handle on the left, the MQ11's port on the right only). Then a heavy MQ11, built from two Meshy guns, and a silenced MQ11: eight Meshy guns converted in all. In the morning the lantern: 25% smaller, a square handle, the hand off it for now (not worn yet).
 
 ## 2026-11-15
 
