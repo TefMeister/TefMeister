@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-16
 
+- 🥽 **Ashes 2063:** the Meshy revolver reworked (the rust off, scuffs carved in, a curved trigger, a round trigger guard), and every Meshy gun packed into the game behind its own test launcher; not worn yet.
 - 🥽 **Visceral RE8 (Village):** the Duke's gate opened for real on the pretend headset, swung by hand to the angle the hand draws; not yet worn.
 - 🥽 **Visceral RE2 + RE3:** doors open by pushing them with the hand or the body, the game keeping its own loading and collisions (RE3 build 25, checked on the pretend headset; RE2 build 215). Not yet worn.
 - 🥽 **Visceral RE2 + RE3:** one shared side step, the left stick's direction and a right stick click (RE2 build 213, RE3 build 23); in RE3 it replaces Jill's own roll. Then in both, A only interacts and Y opens the inventory (RE2 build 214, RE3 build 24). Checked on the pretend headset, not yet worn.
