@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-16
 
+- 🥽 **Ashes 2063:** a slim sawn-off in the Meshy look, a coach-gun shape with its own hinge, and the revolver's sight black instead of orange; both in the game for the test run, not worn yet.
 - 🥽 **Ashes 2063:** Tefa's Meshy Stun Ram is in the game as the JackHammer, held by its rear handle, the ram head punching out; not worn yet.
 - 🥽 **Ashes 2063:** the Meshy revolver reworked (the rust off, scuffs carved in, a curved trigger, a round trigger guard), and every Meshy gun packed into the game behind its own test launcher; not worn yet.
 - 🥽 **Visceral RE8 (Village):** the Duke's gate opened for real on the pretend headset, swung by hand to the angle the hand draws; not yet worn.
