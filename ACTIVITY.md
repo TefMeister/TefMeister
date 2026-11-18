@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-18
 
+- 🥽 **Visceral RE8 (Village):** a gun near a wall turns away at the wrist instead of poking through, and the gun pushes doors open too (build 141); working on the pretend headset, not yet worn.
 - 📦 **Holster Zones:** v1.3 download out, with the ammo pouch's size slider (Village reads it from build 136).
 - 🥽 **Visceral RE8 (Village):** doors and gates pushed open by the hand or the body (RE2's door push on Village's doors), and the hands stop at walls; working on the pretend headset (build 139), not yet worn.
 
