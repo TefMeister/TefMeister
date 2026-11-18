@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-18
 
+- 📦 **Holster Zones:** v1.3 download out, with the ammo pouch's size slider (Village reads it from build 136).
 - 🥽 **Visceral RE8 (Village):** doors and gates pushed open by the hand (RE2's door push on Village's doors), and the hands stop at walls (build 138); built, not yet worn.
 
 ## 2026-11-16
