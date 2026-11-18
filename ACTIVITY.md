@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-19
+
+- 🥽 **Silent Hill 2:** worn in the headset: the gun and hands in the frame warp's made-up frames follow where the game drew them (build 32). Tefa: "it felt pretty damn good honestly!"
+
 ## 2026-11-18
 
 - 🥽 **Silent Hill 2:** the cause of the double gun on quicker moves found in our own hand pass; the frame warp's made-up frames now show the gun and hands where the game drew them, every frame matching on the pretend headset (builds 30 and 31, not yet worn).
