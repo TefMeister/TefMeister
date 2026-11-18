@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-18
 
+- 🥽 **Silent Hill 2:** the cause of the double gun on quicker moves found in our own hand pass; the frame warp's made-up frames now show the gun and hands where the game drew them (build 30, not yet run).
 - 🥽 **Visceral RE2 + RE3:** the hands stop at walls, a gun near a wall turns away at the wrist, and a gun pushes doors, as in Village (RE2 build 216, RE3 build 26); checked on the pretend headset, not yet worn.
 - 🥽 **Visceral RE8 (Village):** a gun near a wall turns away at the wrist instead of poking through, and the gun pushes doors open too (build 141); working on the pretend headset, not yet worn.
 - 📦 **Holster Zones:** v1.3 download out, with the ammo pouch's size slider (Village reads it from build 136).
