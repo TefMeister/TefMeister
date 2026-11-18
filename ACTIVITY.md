@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-18
+
+- 🥽 **Visceral RE8 (Village):** doors and gates pushed open by the hand (RE2's door push on Village's doors), and the hands stop at walls (build 138); built, not yet worn.
+
 ## 2026-11-16
 
 - 🥽 **Ashes 2063:** a slim sawn-off in the Meshy look, a coach-gun shape with its own hinge, and the revolver's sight black instead of orange; both in the game for the test run, not worn yet.
