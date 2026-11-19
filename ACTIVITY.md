@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-19
 
+- 🔍 **Atomic Fork VR:** the smooth-sky mod takes the rings out of the sky in the flat game at its stronger setting (Tefa's screenshot); the line in the water is not cured yet.
 - 🔍 **Atomic Fork VR:** the rings in the sky are cured on the pretend headset with a fine grain added in the game's brightness step; test copy V waits to be worn.
 - 📦 **Atomic Fork VR** (until today the Begin Again TTWVR bridge): renamed, now a fork of the Begin Again modlist and A Tale of Two Realities v1.0, not affiliated with either.
 - 🔍 **Fallout (Tale of Two Wastelands VR):** the rings in the sky are made in the game's own picture, not by the VR mod (two cures at the VR mod's end ruled out), and the water line is where the near and far water meet.
