@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-19
 
+- 📦 **Atomic Fork VR** (until today the Begin Again TTWVR bridge): renamed, now a fork of the Begin Again modlist and A Tale of Two Realities v1.0, not affiliated with either.
 - 🔍 **Fallout (Tale of Two Wastelands VR):** the rings in the sky are made in the game's own picture, not by the VR mod (two cures at the VR mod's end ruled out), and the water line is where the near and far water meet.
 - 🔍 **Fallout (Tale of Two Wastelands VR):** found what test A changes: Begin Again's LOD Flicker Fix turns the picture's depth back to front; test G is built for the headset, and the water line and the sky's rings are measured on the pretend headset.
 - 🥽 **The Darkness:** QUIT is now the bottom line of the main menu (build 034, on the pretend headset, not yet worn).
