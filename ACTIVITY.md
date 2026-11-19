@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-19
 
+- 🥽 **Visceral RE2:** the left hand now holds the pump shotgun's fore-end from below (build 217, on the pretend headset, not yet worn).
 - 🥽 **Visceral RE8 (Village):** the fingertips stop at walls too, and a hand reaching round a corner is no longer stopped (build 144, on the pretend headset, not yet worn).
 - 🥽 **Visceral RE8 (Village):** doors now open when your hand reaches them, not as you walk near, and the door's sound comes with the touch (build 143, on the pretend headset, not yet worn). Worn before it: the hands stop at walls, still finicky (build 142).
 - 🥽 **Silent Hill 2:** worn in the headset: the gun and hands in the frame warp's made-up frames follow where the game drew them (build 32). Tefa: "it felt pretty damn good honestly!"
