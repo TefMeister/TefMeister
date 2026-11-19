@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-19
 
+- 🔍 **Fallout (Tale of Two Wastelands VR):** found what test A changes: Begin Again's LOD Flicker Fix turns the picture's depth back to front; test G is built for the headset, and the water line and the sky's rings are measured on the pretend headset.
 - 🥽 **The Darkness:** QUIT is now the bottom line of the main menu (build 034, on the pretend headset, not yet worn).
 - 🥽 **Silent Hill 2:** the two-handed long gun no longer curls up by itself (cause found and cured on the pretend headset), and the hands keep their last good move in the frame warp's made-up frames (build 33, not yet worn).
 - 🥽 **Visceral RE3:** the left hand now holds the M3 shotgun's pump from below, with RE2's hold shared (build 27, on the pretend headset, not yet worn).
