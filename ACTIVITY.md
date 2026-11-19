@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-19
 
+- 🔍 **Visceral RE4:** steps 4 and 5 of the plan proved on our own base (build 2): no sign that the game checks its own code for changes, and our hook counts every frame the game draws.
 - 🔍 **Visceral RE4:** our own base took its first steps: the game runs with our file in, and our look-only probe read the engine's full list of parts while it ran.
 - 🔍 **Visceral RE4:** the game's own program read without starting it (it carries the engine's own VR parts); Tefa said yes to the ten-step plan for our own base, with one-pass stereo and DLSS from the start.
 - 🔍 **Atomic Fork VR:** the smooth-sky mod takes the rings out of the sky in the flat game at its stronger setting (Tefa's screenshot); the line in the water is not cured yet.
