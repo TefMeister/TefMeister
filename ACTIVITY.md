@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-20
+
+- 🔍 **Atomic Fork VR:** the source modlist's name is taken out of the fork itself, and the main menu and the mod manager now wear the Atomic Fork VR colours.
+
 ## 2026-11-19
 
 - 🔍 **Atomic Fork VR:** the main menu has its own look now: a worn yellow title row, the menu on the left in our own font, and the ATOMIC FORK VR logo when the mod manager starts.
