@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-19
 
+- 🔍 **Atomic Fork VR:** the main menu now shows Tefa's Atomic Fork VR picture and plays no music (our own mod, proven on the flat game).
 - 🔍 **Visceral RE4:** our own live connector built into the base (build 4) and the two-eye design on paper; neither has run in the game yet.
 - 🔍 **Visceral RE4:** steps 6 and 7 of the plan proved on our own base (build 3): our code moves the camera on the flat screen, and the engine's own VR part switches on from a start-up setting without a crash.
 - 🔍 **Visceral RE4:** steps 4 and 5 of the plan proved on our own base (build 2): no sign that the game checks its own code for changes, and our hook counts every frame the game draws.
