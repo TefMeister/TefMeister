@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-19
 
+- 🔍 **Visceral RE4:** steps 6 and 7 of the plan proved on our own base (build 3): our code moves the camera on the flat screen, and the engine's own VR part switches on from a start-up setting without a crash.
 - 🔍 **Visceral RE4:** steps 4 and 5 of the plan proved on our own base (build 2): no sign that the game checks its own code for changes, and our hook counts every frame the game draws.
 - 🔍 **Visceral RE4:** our own base took its first steps: the game runs with our file in, and our look-only probe read the engine's full list of parts while it ran.
 - 🔍 **Visceral RE4:** the game's own program read without starting it (it carries the engine's own VR parts); Tefa said yes to the ten-step plan for our own base, with one-pass stereo and DLSS from the start.
