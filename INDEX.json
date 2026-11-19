@@ -313,8 +313,8 @@
       "year": 2023,
       "developer": "Capcom",
       "engine": "RE Engine",
-      "stage": "2026-11-18: no REFramework (Tefa): built from the ground up in our own native code, using what REFramework taught us in the other RE mods; first person first, then the Village features. Nothing built yet. Earlier: restarted from scratch 2026-11-04.",
-      "updated": "2026-11-18"
+      "stage": "2026-11-19: the exe read statically (the type list is readable on disk; it carries the engine's own VR parts); the ten-step plan for our own base agreed by Tefa, Single Frame Multipass and DLSS from the start; next the first live session (runs as shipped, our logging file, the live type-list dump). Earlier: 2026-11-18: no REFramework (Tefa): built from the ground up in our own native code, using what REFramework taught us in the other RE mods; first person first, then the Village features. Nothing built yet. Earlier: restarted from scratch 2026-11-04.",
+      "updated": "2026-11-19"
     },
     {
       "repo": "re-village-scope-vr",

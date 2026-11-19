@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-19
 
+- 🔍 **Visceral RE4:** the game's own program read without starting it (it carries the engine's own VR parts); Tefa said yes to the ten-step plan for our own base, with one-pass stereo and DLSS from the start.
 - 🔍 **Atomic Fork VR:** the smooth-sky mod takes the rings out of the sky in the flat game at its stronger setting (Tefa's screenshot); the line in the water is not cured yet.
 - 🔍 **Atomic Fork VR:** the rings in the sky are cured on the pretend headset with a fine grain added in the game's brightness step; test copy V waits to be worn.
 - 📦 **Atomic Fork VR** (until today the Begin Again TTWVR bridge): renamed, now a fork of the Begin Again modlist and A Tale of Two Realities v1.0, not affiliated with either.
