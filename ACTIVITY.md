@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-20
 
+- 🔍 **Atomic Fork VR:** the main menu is photographed in a true 16:9 picture, and the menu without the highlight box is seen working in the game.
 - 🔍 **Atomic Fork VR:** the source modlist's name is taken out of the fork itself, and the main menu and the mod manager now wear the Atomic Fork VR colours.
 
 ## 2026-11-19
