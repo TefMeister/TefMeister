@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-20
 
+- 🔍 **Atomic Fork VR:** days now pass 30 % slower, with dawn and dusk slower still (works on the desk); the faint sky rings left are the video recording's, not the game's.
 - 🔍 **Atomic Fork VR:** the line across the lakes is cured on the desk, in the flat game and the pretend headset: the near water now fades into the far water's real look.
 - 🔍 **Atomic Fork VR:** the main menu is photographed in a true 16:9 picture, and the menu without the highlight box is seen working in the game.
 - 🔍 **Atomic Fork VR:** the source modlist's name is taken out of the fork itself, and the main menu and the mod manager now wear the Atomic Fork VR colours.
