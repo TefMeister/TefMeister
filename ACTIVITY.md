@@ -6,6 +6,9 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-21
+
+- 📦 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!** (earlier Atomic Fork VR): now Tefa's own list under its own name and repo, built upon SpringHeelJon's Begin Again as credits only.
 ## 2026-11-20
 
 - 📦 **Atomic Fork VR:** the list now has its own full copy under a new name, IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!, with Tefa's poster as the mod manager's look.
@@ -28,7 +31,7 @@ story of any project, open its repo and read `modding-notes/`.
 - 🔍 **Visceral RE4:** the game's own program read without starting it (it carries the engine's own VR parts); Tefa said yes to the ten-step plan for our own base, with one-pass stereo and DLSS from the start.
 - 🔍 **Atomic Fork VR:** the smooth-sky mod takes the rings out of the sky in the flat game at its stronger setting (Tefa's screenshot); the line in the water is not cured yet.
 - 🔍 **Atomic Fork VR:** the rings in the sky are cured on the pretend headset with a fine grain added in the game's brightness step; test copy V waits to be worn.
-- 📦 **Atomic Fork VR** (until today the TTWVR bridge): renamed, now a fork of the Begin Again modlist and A Tale of Two Realities v1.0, not affiliated with either.
+- 📦 **Atomic Fork VR** (until today the TTWVR bridge): renamed.
 - 🔍 **Fallout (Tale of Two Wastelands VR):** the rings in the sky are made in the game's own picture, not by the VR mod (two cures at the VR mod's end ruled out), and the water line is where the near and far water meet.
 - 🔍 **Fallout (Tale of Two Wastelands VR):** found what test A changes: the source list's LOD Flicker Fix turns the picture's depth back to front; test G is built for the headset, and the water line and the sky's rings are measured on the pretend headset.
 - 🥽 **The Darkness:** QUIT is now the bottom line of the main menu (build 034, on the pretend headset, not yet worn).
