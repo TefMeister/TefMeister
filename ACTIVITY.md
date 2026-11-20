@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-20
 
+- 🔍 **Atomic Fork VR:** the black line across the lakes was a hairline gap where the near and far water meet; the far water now overlaps the near water and the line is gone on the desk.
 - 🔍 **Atomic Fork VR:** days now pass 30 % slower, with dawn and dusk slower still (works on the desk); the faint sky rings left are the video recording's, not the game's.
 - 🔍 **Atomic Fork VR:** the main menu is photographed in a true 16:9 picture, and the menu without the highlight box is seen working in the game.
 - 🔍 **Atomic Fork VR:** the source modlist's name is taken out of the fork itself, and the main menu and the mod manager now wear the Atomic Fork VR colours.
