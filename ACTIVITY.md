@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-21
 
+- 📦 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!:** the main menu's words now stand in one row along the bottom, moved with the game's own keys, and the saves came along with the new name.
 - 📦 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!:** Tefa's new main menu picture is in, in the vivid Two Wastelands mood.
 - 📦 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!** (earlier Atomic Fork VR): now Tefa's own list under its own name and repo, built upon SpringHeelJon's Begin Again as credits only.
 ## 2026-11-20
