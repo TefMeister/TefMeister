@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-20
 
+- 🥽 **Visceral RE4:** the right eye's first run gave the first side-by-side stereo picture from our own code, and the connector now finds the player, the gun and its weapon while the game runs.
+- 🔍 **Visceral RE4:** Tefa's kept ideas are checked against the game: most look doable; the sideways kick and casings that never vanish are hard.
 - 🔍 **Visceral RE4:** our own live connector ran in the game for the first time: the engine's picture layers are as planned, a cutscene uses two scenes at once, and settings can be read live.
 - 🔍 **Atomic Fork VR:** the black line across the lakes was a hairline gap where the near and far water meet; the far water now overlaps the near water and the line is gone on the desk.
 - 🔍 **Atomic Fork VR:** days now pass 30 % slower, with dawn and dusk slower still (works on the desk); the faint sky rings left are the video recording's, not the game's.
