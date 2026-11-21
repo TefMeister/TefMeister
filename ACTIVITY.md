@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-21
 
+- 🥽 **Silent Hill 2 / The Optimizer:** its first whole run in a real game, on the pretend headset, start to finish with nobody at the PC: seven save slots launched, walked into play, measured and closed by the game's own quit, the saves put back; the first run's ten faults fixed in 0.1.1
 - 🧰 **The Optimizer 0.1.0:** a new app that finds the best-looking settings a VR game can hold at 72 frames a second, with an AI agent doing the whole tour; built and proven against a pretend game, its first real game is next.
 - 🔧 **Lanes 0.120 to 0.121.1:** Lanes runs on one PC with three roles; setup can install everything recommended by itself; the uninstall takes off everything it put on; and every fault the new-user test PC found on its first day is fixed, from setup to the first full scan.
 - 🔍 **Silent Hill 2:** the new settings tuner's first run found that changing DLSS's size while playing rebuilds it in this game, so the tuner's live safety check has to change.
