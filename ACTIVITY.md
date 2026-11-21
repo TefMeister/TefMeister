@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-21
 
+- 🧰 **The Optimizer 0.1.0:** a new app that finds the best-looking settings a VR game can hold at 72 frames a second, with an AI agent doing the whole tour; built and proven against a pretend game, its first real game is next.
+- 🔧 **Lanes 0.120 to 0.121.1:** Lanes runs on one PC with three roles; setup can install everything recommended by itself; the uninstall takes off everything it put on; and every fault the new-user test PC found on its first day is fixed, from setup to the first full scan.
 - 🔍 **Silent Hill 2:** the new settings tuner's first run found that changing DLSS's size while playing rebuilds it in this game, so the tuner's live safety check has to change.
 - 🔧 **Lanes 0.118 to 0.119.1:** faults the building PC reports are fixed by the Keeper without waiting; a session can no longer switch the PC off around the end steps; a fresh window can take over the next job.
 - 🔍 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!:** found how the VR mod drives menus (a pretend game pad, no pointer); Left now steps back along the menu row.
