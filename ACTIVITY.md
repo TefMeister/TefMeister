@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-21
 
+- 🔍 **Silent Hill 2:** the new settings tuner's first run found that changing DLSS's size while playing rebuilds it in this game, so the tuner's live safety check has to change.
 - 🔧 **Lanes 0.118 to 0.119.1:** faults the building PC reports are fixed by the Keeper without waiting; a session can no longer switch the PC off around the end steps; a fresh window can take over the next job.
 - 🔍 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!:** found how the VR mod drives menus (a pretend game pad, no pointer); Left now steps back along the menu row.
 - 📦 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!:** the main menu's words now stand in one row along the bottom, moved with the game's own keys, and the saves came along with the new name.
