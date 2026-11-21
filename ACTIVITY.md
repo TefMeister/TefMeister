@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-22
+
+- 🔍 **Silent Hill 2 / Window View:** the occasional crash a few seconds after starting Silent Hill 2 in VR traced, very likely, to Window View's headset layer: 12 of 12 starts clean with it off, 8 crashes in 19 with it on
+
 ## 2026-11-21
 
 - 🔍 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!:** the game's own program can now be read as source code, so any spot named in a crash or a log is looked up by name.
