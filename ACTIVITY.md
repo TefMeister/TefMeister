@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-22
 
+- 📦 **Silent Hill 2:** the town's fog and light are back: one of our own speed settings had been switching the fog off (seen on the pretend headset; next, worn).
+- 📦 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!:** the main menu's Right key now walks the row too (proven on the keyboard).
 - 🥽 **Silent Hill 2:** the start crash is cured in the mod itself (it switches the injector's "ghosting fix" on once the picture is up: no crash in 20 starts, real headset included), and with ray tracing off the game holds 72 frames a second at three measured places; worn the same afternoon: "super smooth".
 - 🔍 **The Optimizer / Silent Hill 2:** its first run in the real headset tuned the game by itself: four small setting changes took two places in the town from about 67 to a steady 72 frames a second on average, with no late frame; what is left is the processor.
 - 🥽 **Silent Hill 2:** the start crash is cured on the pretend headset: with the injector's "ghosting fix" off, 20 starts in a row ran clean (3 of 11 crashed with it on).
