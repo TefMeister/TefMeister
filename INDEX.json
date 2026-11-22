@@ -205,8 +205,8 @@
       "url": "https://github.com/TefMeister/the-optimizer",
       "purpose": "The Optimizer: an app that finds the best-looking settings a PC VR game can hold at 72 frames a second. You pick the game; an AI agent launches it, visits its heaviest spots, measures and tunes, then leaves the best settings in place. Built and tested with Claude Code; other AI agents that can use MCP tools should work but are untested.",
       "licence": "MIT",
-      "stage": "0.1.0 (pre-release) built 2026-11-21 on the Build PC: window, MCP toolbox, job file, tuning engine (grown out of Lanes' Tune-o-matiC, without its live guard), the first game pack (Silent Hill 2); every part's tests pass and two whole runs by Claude Code against a pretend game passed. Not yet run in a real game.",
-      "updated": "2026-11-21"
+      "stage": "0.1.1 (pre-release): its first real game, Silent Hill 2, toured end to end on the pretend headset 2026-11-21; 2026-11-22: that game's occasional start crash is UEVR's, not ours (the tour retries it); the real-headset run is next.",
+      "updated": "2026-11-22"
     }
   ],
   "projects": [
