@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-22
 
+- 📦 **Silent Hill 2:** build 44 cleans the fine lines beside moving hands in the new warp mode and smooths the fog's contour-like bands on both eyes; installed, waiting for the headset.
 - 🥽 **Silent Hill 2:** a milestone build: with the frame warp in its "both" mode the jitter around James is gone in the headset (Tefa: "this is unbelievably good!"); James's hair no longer shadows the walls, and 72 frames a second hold on the real headset.
 - 📦 **Silent Hill 2:** the town's fog and light are back: one of our own speed settings had been switching the fog off (seen on the pretend headset; next, worn).
 - 📦 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!:** the main menu's Right key now walks the row too (proven on the keyboard).
