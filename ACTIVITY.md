@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-22
 
+- 📦 **IT NEVER GETS OLD WHEN SOMETHING BLOWS UP IN VR!:** the main menu now wears Tefa's new poster with a retro pixel look, seen working in the game.
 - 🔍 **Silent Hill 2 / Window View:** the occasional crash a few seconds after starting Silent Hill 2 in VR traced, very likely, to Window View's headset layer: 12 of 12 starts clean with it off, 8 crashes in 19 with it on
 
 ## 2026-11-21
