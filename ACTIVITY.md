@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-23
 
+- 🥽 **Resident Evil Village:** on the long guns a grip press between the magazine and the bolt no longer does nothing, and every long gun's trigger finger sits on its trigger (build 157, robot hands on the real headset lying on the desk).
+- 🥽 **Resident Evil 2 and 3:** the trigger finger bends as the trigger is pulled, and both games now tell the Hand Poser window the gun and what the left hand is doing, ready for hand poses per gun (builds 218 and 29, robot hands).
 - 🥽 **Resident Evil Village:** when two grab spots on a gun sit close together the left hand takes the nearer one, and the grenade launcher's latch lever turns with the thumb's flick (builds 155 and 156, robot hands on the real headset lying on the desk).
 - 🧰 **Holster Zones:** the SITTING switch can be set from outside the window.
 - 🥽 **Resident Evil Village:** the grenade launcher works by hand as Tefa designed it (a thumb-flicked latch, a hand-moved barrel, the spent round falling out by gravity), and the trigger finger bends as the trigger is pulled (builds 152 and 153, robot hands on the real headset lying on the desk).
