@@ -8,6 +8,9 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-23
 
+- 🥽 **Resident Evil Village:** the hand stays put when the magazine is released and follows the pull as it comes out, the grenade launcher takes its next round early, and every gun now passes its check by robot hands (builds 148 to 150).
+- 🥽 **Resident Evil 3:** the grenade launcher's drum swings out to the left, as it should (build 28), and every by-hand gun passes its check by robot hands on the real headset lying on the desk.
+- 🧰 **Hand Poser:** the window can be driven from outside, docked wrist included, and a pistol's magazine pose follows how far the magazine is pulled.
 - 🥽 **Resident Evil Village:** an empty F2 rifle can be reloaded again, the SYG-12 shotgun's charging handle can be taken, and the revolvers' grab spots sit where the hand really is (build 147, robot hands on the real headset lying on the desk).
 - 🥽 **Resident Evil Village:** the old magazine no longer flies out of a still hand when it is let go (build 145), and every gun was checked once by robot hands on the real headset lying on the desk; the Handcannon's drum and hammer do not answer the robot hand yet.
 
