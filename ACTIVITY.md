@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-23
+
+- 🥽 **Resident Evil Village:** the old magazine no longer flies out of a still hand when it is let go (build 145), and every gun was checked once by robot hands on the real headset lying on the desk; the Handcannon's drum and hammer do not answer the robot hand yet.
+
 ## 2026-11-22
 
 - 🥽 **Silent Hill 2:** in the headset the see-through lines beside James's hands in the new warp mode are nearly gone, and so are the fog's contour lines (Tefa, trying build 45 with live changes; build 46 bakes them in).
