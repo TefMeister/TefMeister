@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-23
 
+- 🥽 **Resident Evil 2 and 3 / Hand Poser:** one hand pose per reload step can now serve every gun, made once in Hand Poser; RE2's W-870 shotgun ran its five steps by robot hands (builds 219 and 30).
 - 🥽 **Resident Evil Village:** on the long guns a grip press between the magazine and the bolt no longer does nothing, and every long gun's trigger finger sits on its trigger (build 157, robot hands on the real headset lying on the desk).
 - 🥽 **Resident Evil 2 and 3:** the trigger finger bends as the trigger is pulled, and both games now tell the Hand Poser window the gun and what the left hand is doing, ready for hand poses per gun (builds 218 and 29, robot hands).
 - 🥽 **Resident Evil Village:** when two grab spots on a gun sit close together the left hand takes the nearer one, and the grenade launcher's latch lever turns with the thumb's flick (builds 155 and 156, robot hands on the real headset lying on the desk).
