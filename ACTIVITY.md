@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-23
 
+- 🥽 **Resident Evil Village:** an empty F2 rifle can be reloaded again, the SYG-12 shotgun's charging handle can be taken, and the revolvers' grab spots sit where the hand really is (build 147, robot hands on the real headset lying on the desk).
 - 🥽 **Resident Evil Village:** the old magazine no longer flies out of a still hand when it is let go (build 145), and every gun was checked once by robot hands on the real headset lying on the desk; the Handcannon's drum and hammer do not answer the robot hand yet.
 
 ## 2026-11-22
