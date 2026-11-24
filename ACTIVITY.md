@@ -8,11 +8,14 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-24
 
+- 🧰 **Hand Poser:** the left stick picks a slider and A ticks it, and the window fits without scrolling.
 - 🥽 **Hard Reset:** cyborg VR hands made in Blender (gunmetal plates, cyan light lines, 15 finger joints), and in the game their fingers now open and close with the controller's trigger and grip
 - 🔧 **Mad Max:** the build that makes fog, shadows and the sky follow your head held up while driving with the head turned both ways: no false shadow edits, the car stayed whole
 
 ## 2026-11-23
 
+- 🥽 **Resident Evil 3:** the grenade launcher's drum opens and closes by hand, swung round its hinge from the drum or the front grip (builds 31 and 32, robot hands).
+- 🥽 **Resident Evil 2:** Claire's Matilda magazine is carried in the palm (build 220).
 - 🥽 **Resident Evil 2 and 3 / Hand Poser:** one hand pose per reload step can now serve every gun, made once in Hand Poser; RE2's W-870 shotgun ran its five steps by robot hands (builds 219 and 30).
 - 🥽 **Resident Evil Village:** on the long guns a grip press between the magazine and the bolt no longer does nothing, and every long gun's trigger finger sits on its trigger (build 157, robot hands on the real headset lying on the desk).
 - 🥽 **Resident Evil 2 and 3:** the trigger finger bends as the trigger is pulled, and both games now tell the Hand Poser window the gun and what the left hand is doing, ready for hand poses per gun (builds 218 and 29, robot hands).
