@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-24
 
+- 🥽 **Visceral RE8:** the LEMI's magazine holds still under Hand Freeze and steps frame by frame in Animation & Timing, so the fingers can be tuned all the way out (worn); Animation & Timing picks movements from numbered boxes now.
 - 🧰 **Window View and the helper apps:** a held window now tilts and turns on the right stick, and Grip Zones, Holster Zones, Gun Poser and Animation & Timing got Hand Poser's controller buttons (built and checked on pretend controllers).
 - 🧰 **Hand Poser:** the left stick picks a slider and A ticks it, and the window fits without scrolling.
 - 🥽 **Hard Reset:** cyborg VR hands made in Blender (gunmetal plates, cyan light lines, 15 finger joints), and in the game their fingers now open and close with the controller's trigger and grip
