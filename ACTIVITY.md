@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-24
 
+- 🧰 **Window View and the helper apps:** a held window now tilts and turns on the right stick, and Grip Zones, Holster Zones, Gun Poser and Animation & Timing got Hand Poser's controller buttons (built and checked on pretend controllers).
 - 🧰 **Hand Poser:** the left stick picks a slider and A ticks it, and the window fits without scrolling.
 - 🥽 **Hard Reset:** cyborg VR hands made in Blender (gunmetal plates, cyan light lines, 15 finger joints), and in the game their fingers now open and close with the controller's trigger and grip
 - 🔧 **Mad Max:** the build that makes fog, shadows and the sky follow your head held up while driving with the head turned both ways: no false shadow edits, the car stayed whole
