@@ -8,6 +8,8 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-25
 
+- 🥽 **Resident Evil Village:** with two magazines in hand the new one goes half way in by itself and a small push seats it, no left trigger needed, and a hand holding a magazine no longer docks on the gun (build 162, not yet worn); Hand Poser has the matching spot, the old magazine in the palm.
+- 🧰 **Hand Freeze and Window View:** Hand Freeze v6 is one page, its freeze buttons beside the gun's hand spots, and Window View's pointers come out while the hands are frozen; Window View 1.17 keeps a carried window within reach and brings a lost one back straight ahead (not yet worn).
 - 🧰 **Hand Freeze, Window View and Hand Poser:** Hand Freeze v5 has a SPOTS tab: turn a picture of the gun, click a numbered hand spot and both frozen hands go there in the game; Window View 1.16 lets those given poses through (checked on the pretend headset, not yet worn).
 - 🧰 **The helper apps:** Hand Poser, Grip Zones, Holster Zones, Gun Poser and Animation & Timing now share one look and one controller layout; the left stick reaches every button and box, not only the sliders, so a frame can be picked, held and stepped without pointing (built and checked on pretend controllers).
 
