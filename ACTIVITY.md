@@ -6,6 +6,11 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-24
+
+- 🥽 **Hard Reset:** cyborg VR hands made in Blender (gunmetal plates, cyan light lines, 15 finger joints), and in the game their fingers now open and close with the controller's trigger and grip
+- 🔧 **Mad Max:** the build that makes fog, shadows and the sky follow your head held up while driving with the head turned both ways: no false shadow edits, the car stayed whole
+
 ## 2026-11-23
 
 - 🥽 **Resident Evil 2 and 3 / Hand Poser:** one hand pose per reload step can now serve every gun, made once in Hand Poser; RE2's W-870 shotgun ran its five steps by robot hands (builds 219 and 30).
