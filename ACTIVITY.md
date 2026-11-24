@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-25
 
+- 🧰 **Hand Freeze, Window View and Hand Poser:** Hand Freeze v5 has a SPOTS tab: turn a picture of the gun, click a numbered hand spot and both frozen hands go there in the game; Window View 1.16 lets those given poses through (checked on the pretend headset, not yet worn).
 - 🧰 **The helper apps:** Hand Poser, Grip Zones, Holster Zones, Gun Poser and Animation & Timing now share one look and one controller layout; the left stick reaches every button and box, not only the sliders, so a frame can be picked, held and stepped without pointing (built and checked on pretend controllers).
 
 ## 2026-11-24

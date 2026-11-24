@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "about": {
     "purpose": "Machine-readable index of this GitHub account. Written for AI assistants (any vendor) and for people arriving cold, so neither has to infer the layout from repo names.",
     "account": "TefMeister",
@@ -180,7 +180,21 @@
       "visibility": "public",
       "url": "https://github.com/TefMeister/window-view-vr",
       "purpose": "A desktop app plus an OpenXR layer that hangs any open desktop window in front of you inside an OpenXR game (D3D11/D3D12), used with the mouse and keyboard while the game keeps the controllers.",
-      "stage_latest": "2026-11-14: 1.14, X stays the left hand's right click while a helper holds the buttons; download v1.14. Earlier: 2026-11-14: 1.13, laser pointers (red right, blue left) and both hands click on every window (left trigger, right A/X), with the keyboard's flash and buzz; --selftest-keys 52 pass; the lasers not yet seen in a headset or the simulator. Download v1.13. Earlier: 2026-11-14: 1.12, the pointer keyboard types with both hands, lights the key, flashes and buzzes each press; tested end to end on the OpenXR Simulator (29 keys, none lost). In use in the headset since 2026-10-24."
+      "stage_latest": "2026-11-25: 1.16, a hand that Hand Freeze holds is left to Hand Freeze, so its given pose and buttons reach the game while the pointers are out (pretend headset only). 1.15: a held window tilts and turns on the right stick; 1.14: farther/closer and bigger/smaller on the left stick, LT picks a section in a helper. Download still v1.14. Earlier: 2026-11-14: 1.14, X stays the left hand's right click while a helper holds the buttons; download v1.14. Earlier: 2026-11-14: 1.13, laser pointers (red right, blue left) and both hands click on every window (left trigger, right A/X), with the keyboard's flash and buzz; --selftest-keys 52 pass; the lasers not yet seen in a headset or the simulator. Download v1.13. Earlier: 2026-11-14: 1.12, the pointer keyboard types with both hands, lights the key, flashes and buzzes each press; tested end to end on the OpenXR Simulator (29 keys, none lost). In use in the headset since 2026-10-24."
+    },
+    {
+      "name": "hand-freeze-vr",
+      "visibility": "public",
+      "url": "https://github.com/TefMeister/hand-freeze-vr",
+      "purpose": "A desktop app plus an OpenXR layer that holds the VR controllers still in any OpenXR game (left, right or both) while the game runs, so hand poses can be tuned with the mouse.",
+      "stage_latest": "2026-11-25: v5, the helper family's look with FREEZE and SPOTS tabs: a turnable gun picture with the numbered hand spots, a click puts both frozen hands on the spot (needs Window View 1.16; not yet worn). Download still v4 (the right stick click freezes or frees both hands)."
+    },
+    {
+      "name": "hand-poser-vr",
+      "visibility": "public",
+      "url": "https://github.com/TefMeister/hand-poser-vr",
+      "purpose": "A compact window of sliders that poses the player's hands in RE Engine games and The Darkness, per gun and per hand zone; hung in the headset through Window View while Hand Freeze holds the controllers.",
+      "stage_latest": "2026-11-25: the numbered spot buttons moved to Hand Freeze's SPOTS tab; X undo, Y redo, B unticks a section; one look and one controller layout shared by the five helper windows. Used daily in Village; download still v0.9."
     },
     {
       "name": "holster-zones-vr",
