@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-25
+
+- 🧰 **The helper apps:** Hand Poser, Grip Zones, Holster Zones, Gun Poser and Animation & Timing now share one look and one controller layout; the left stick reaches every button and box, not only the sliders, so a frame can be picked, held and stepped without pointing (built and checked on pretend controllers).
+
 ## 2026-11-24
 
 - 🥽 **Visceral RE8:** the LEMI's magazine holds still under Hand Freeze and steps frame by frame in Animation & Timing, so the fingers can be tuned all the way out (worn); Animation & Timing picks movements from numbered boxes now.
