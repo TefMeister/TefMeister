@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-25
 
+- 🥽 **Resident Evil Village:** the GM 79's spent shell is our own model (the game's case, scorched inside) with a worn coloured band on every round, gold explosive and blue flash; the first build drew nothing, the fix was found and checked in the flat game from behind other windows (builds 171 to 173, not yet worn).
 - 🥽 **Resident Evil Village:** the GM 79 grenade launcher can be held on top ahead of its hinge, its front grip only holds it, and the spent shell is pulled out by hand (build 170, checked by robot hands, not yet worn); Hand Poser has the matching spots 23 to 26.
 - 🥽 **Resident Evil Village:** the magazine stays in the hand on its way into the grip, the W870 steers with the hand on its pump, and the GM 79's front grip and round-loading spot are fixed (builds 168 and 169, checked by robot hands, not yet worn).
 - 🥽 **Resident Evil Village:** one left-trigger press swaps the two magazines in the palm, the hand keeps its pull-out pose until then, the LEMI's slide runs home instead of jumping shut and the ammo pouch sits at the left hip holster spot (builds 163, 164 and 167, not yet worn); Hand Poser has the matching spot 22 and Hand Freeze 6.1 keeps Window View's pointers moving while the hands are frozen.
