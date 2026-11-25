@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-25
 
+- 🥽 **Resident Evil Village:** a glitch where Duke froze on his lift and moving platforms went wrong was traced to our own mod (it set the hands' joints at the last moment before drawing) and fixed, proven in the flat game with a before / after check (build 177, not yet worn); the GM 79 got a live grenade you pull out by hand, an ammo change and a latch that shuts by itself (builds 174 to 176).
 - 🥽 **Silent Hill 2:** the crash when the game is started again after a run is fixed: the mod now puts the injector's settings file back to safe start values as it loads (build 47, checked offline, not yet worn).
 - 🔧 **Resident Evil games, The Darkness, Tale of Two Wastelands:** the robot tools can now drive a game from behind other windows, with a pretend game pad and pictures of the game's own window, so the session no longer takes the mouse, keyboard or front window.
 - 🥽 **Resident Evil Village:** the GM 79's spent shell is our own model (the game's case, scorched inside) with a worn coloured band on every round, gold explosive and blue flash; the first build drew nothing, the fix was found and checked in the flat game from behind other windows (builds 171 to 173, not yet worn).
