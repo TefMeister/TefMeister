@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-26
+
+- 🥽 **Resident Evil Village:** the from-zero rebuild was worn for the first time and the body made right in one sitting: Ethan's body no longer turns glued to the headset (it waits 25 degrees, then turns to where you look), walking follows your head, he takes small steps under you instead of sliding, the hips sit under your neck instead of hanging on your eyes, hands stay where they were when a controller falls asleep, and Rose is carried without swinging (measured: hand travel 6 cm down to 0).
+
 ## 2026-11-25
 
 - 🥽 **Resident Evil Village:** a glitch where Duke froze on his lift and moving platforms went wrong was traced to our own mod (it set the hands' joints at the last moment before drawing) and fixed, proven in the flat game with a before / after check (build 177, not yet worn); the GM 79 got a live grenade you pull out by hand, an ammo change and a latch that shuts by itself (builds 174 to 176).
