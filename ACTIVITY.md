@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-27
+
+- 🥽 **Resident Evil Village:** the view no longer flickers after a jump, a climb or a vault (the camera's one-picture jump is measured and glided out); the small hand jolt when you stop from a run is narrowed down but not fixed yet.
+
 ## 2026-11-26
 
 - 🥽 **Resident Evil Village:** the cause of Ethan's legs stepping unevenly while walking was found and is held off by switching off the game's ground adjustment; the hands now stay on the controllers when you stop from a run, and the body hold works both ways (not yet worn).
