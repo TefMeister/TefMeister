@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-26
 
+- 🥽 **Resident Evil Village:** the cause of Ethan's legs stepping unevenly while walking was found and is held off by switching off the game's ground adjustment; the hands now stay on the controllers when you stop from a run, and the body hold works both ways (not yet worn).
 - 🥽 **Resident Evil Village:** doors open by hand in the headset: a hand on a shut door opens it, the door follows the hand and the body, the hinge creaks while it moves and it swings shut behind you; nothing opens from afar any more, except while Ethan carries Rose. Doors the game treats differently (one that swings by itself) open the game's own way once you are close. Also found by measuring: the VR layer briefly thinks a cutscene runs whenever Ethan stops from a run and lets go of his body, which is why it dived under the eyes; most of that is fixed.
 - 🥽 **Resident Evil Village:** the from-zero rebuild was worn for the first time and the body made right in one sitting: Ethan's body no longer turns glued to the headset (it waits 25 degrees, then turns to where you look), walking follows your head, he takes small steps under you instead of sliding, the hips sit under your neck instead of hanging on your eyes, hands stay where they were when a controller falls asleep, and Rose is carried without swinging (measured: hand travel 6 cm down to 0).
 
