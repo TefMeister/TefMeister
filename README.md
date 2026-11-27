@@ -37,7 +37,7 @@ Reverse engineering: taking the game apart to find its camera and drawing code, 
 | Game | Engine | Where it stands | Updated | Repo |
 | --- | --- | --- | --- | --- |
 | **Prototype** (2009) | Titanium | 🏆 Connected the headset to the head turn; tested without the game. | 10-14 | [prototype-vr](https://github.com/TefMeister/prototype-vr) |
-| **Mad Max** (2015) | Apex Engine | 🔧 Shadows, fog and the car stay right while driving with your head turned. | 11-24 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
+| **Mad Max** (2015) | Apex Engine | 🔧 Shadows, fog and the car stay right while driving with your head turned; first person on foot and controller hands built, not yet seen in the game. | 11-27 | [mad-max-vr](https://github.com/TefMeister/mad-max-vr) |
 | **Enslaved: Odyssey to the West** | Unreal Engine 3 | 🔧 Tidied the head-tilt log so it shows the game's real camera angle. | 10-15 | [enslaved-vr](https://github.com/TefMeister/enslaved-vr) |
 | **Prince of Persia** (2008) | Scimitar | 🔧 Found where the follow camera sets its distance and height. | 11-01 | [prince-of-persia-2008-vr](https://github.com/TefMeister/prince-of-persia-2008-vr) |
 | **Heavy Rain** (2010) | Quantic Dream engine | ⭐ Built the code that sends the game's picture to the headset. | 10-29 | [heavy-rain-vr](https://github.com/TefMeister/heavy-rain-vr) |

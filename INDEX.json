@@ -374,7 +374,8 @@
       "developer": "Avalanche Studios",
       "engine": "Apex (Avalanche)",
       "renderer": "Direct3D 11",
-      "stage": "2026-10-15: a head pose turns the world, lighting and shadows on the monitor; per-eye shift works while driving; the game's own picture reaches both eyes of the OpenXR simulator and turns with the head, the Steam overlay clash is fixed, and the cockpit blur is switched off [verified-live 2026-10-15, n=1]. Driving with the head turned loses the ground on that side; an eye lens narrower than a widened game view keeps it whole on small turns [verified-live 2026-10-15, n=1]. 2026-11-24: the head-pass build holds while driving with the head turned 25 degrees each way, car whole [verified-live 2026-11-24, n=1]."
+      "stage": "2026-10-15: a head pose turns the world, lighting and shadows on the monitor; per-eye shift works while driving; the game's own picture reaches both eyes of the OpenXR simulator and turns with the head, the Steam overlay clash is fixed, and the cockpit blur is switched off [verified-live 2026-10-15, n=1]. Driving with the head turned loses the ground on that side; an eye lens narrower than a widened game view keeps it whole on small turns [verified-live 2026-10-15, n=1]. 2026-11-24: the head-pass build holds while driving with the head turned 25 degrees each way, car whole [verified-live 2026-11-24, n=1].; 2026-11-27: Max's world position read live from the game; first person on foot and our own controller hands built and tested in code, not yet seen in the game",
+      "updated": "2026-11-27"
     },
     {
       "repo": "prince-of-persia-2008-vr",
