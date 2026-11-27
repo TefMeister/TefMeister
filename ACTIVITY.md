@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-27
 
+- 🥽 **Hard Reset:** the mod now reads which gun and which of its 5 morphs is in hand, all 10 morphs can be unlocked for testing, and the hands take a different hold for each.
 - 🥽 **Resident Evil Village:** the hands no longer pull back when you stop from a run: worn in the headset and gone (the game's sprint level is now put down the moment the stick is let go).
 - 🥽 **Resident Evil Village:** the view no longer flickers after a jump, a climb or a vault (the camera's one-picture jump is measured and glided out); the small hand jolt when you stop from a run is narrowed down but not fixed yet.
 
