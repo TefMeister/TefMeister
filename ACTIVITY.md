@@ -6,6 +6,10 @@ A short, dated line whenever the work moved forward, newest first: something tha
 found, a piece built and proven, a release. Work still waiting for its test stays on the boards. For the full
 story of any project, open its repo and read `modding-notes/`.
 
+## 2026-11-28
+
+- 🥽 **The Darkness:** the frame rate is back up, worn in the headset (two test builds had shipped the slow way of drawing), and the cause of the eyes disagreeing is proven by wearing it both ways: the two eyes showed two different game moments.
+
 ## 2026-11-27
 
 - 🥽 **Hard Reset:** the mod now reads which gun and which of its 5 morphs is in hand, all 10 morphs can be unlocked for testing, and the hands take a different hold for each.
