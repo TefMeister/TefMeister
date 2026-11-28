@@ -8,6 +8,7 @@ story of any project, open its repo and read `modding-notes/`.
 
 ## 2026-11-28
 
+- 🔧 **Lanes 0.125.2:** the full scan can come round once a month instead of weekly, and each test session now reads its own game's run logs right after it, so a month of logs never piles up. [Release](https://github.com/TefMeister/lanes-plugin/releases/tag/v0.125.2)
 - 🥽 **The Darkness:** the frame rate is back up, worn in the headset (two test builds had shipped the slow way of drawing), and the cause of the eyes disagreeing is proven by wearing it both ways: the two eyes showed two different game moments.
 
 ## 2026-11-27
